@@ -120,7 +120,7 @@ return [
     |
     */
 
-    'log' => env('APP_LOG', 'single'),
+    'log' => env('APP_LOG', 'daily'),
 
     'log_level' => env('APP_LOG_LEVEL', 'debug'),
 
@@ -179,9 +179,13 @@ return [
 
         // Backpack service provider
         Backpack\Base\BaseServiceProvider::class,
-
         Backpack\CRUD\CrudServiceProvider::class,
 
+        //DebugBar
+        Barryvdh\Debugbar\ServiceProvider::class,
+
+        //LogViewer
+        Arcanedev\LogViewer\LogViewerServiceProvider::class,
     ],
 
     /*
@@ -231,6 +235,8 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
 
+        //Debugbar
+        'Debugbar' => Barryvdh\Debugbar\Facade::class,
     ],
 
 ];
