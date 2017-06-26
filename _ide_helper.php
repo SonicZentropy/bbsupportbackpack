@@ -12103,327 +12103,6 @@ namespace Barryvdh\Debugbar {
  
 }
 
-namespace Prologue\Alerts\Facades { 
-
-    class Alert {
-        
-        /**
-         * Store the messages in the current session.
-         *
-         * @return \Prologue\Alerts\AlertsMessageBag 
-         * @static 
-         */ 
-        public static function flash()
-        {
-            return \Prologue\Alerts\AlertsMessageBag::flash();
-        }
-        
-        /**
-         * Returns the alert levels from the config.
-         *
-         * @return array 
-         * @static 
-         */ 
-        public static function getLevels()
-        {
-            return \Prologue\Alerts\AlertsMessageBag::getLevels();
-        }
-        
-        /**
-         * Returns the Illuminate Session Store.
-         *
-         * @return \Illuminate\Session\Store 
-         * @static 
-         */ 
-        public static function getSession()
-        {
-            return \Prologue\Alerts\AlertsMessageBag::getSession();
-        }
-        
-        /**
-         * Returns the Illuminate Config Repository.
-         *
-         * @return \Illuminate\Config\Repository 
-         * @static 
-         */ 
-        public static function getConfig()
-        {
-            return \Prologue\Alerts\AlertsMessageBag::getConfig();
-        }
-        
-        /**
-         * Get the keys present in the message bag.
-         *
-         * @return array 
-         * @static 
-         */ 
-        public static function keys()
-        {
-            //Method inherited from \Illuminate\Support\MessageBag            
-            return \Prologue\Alerts\AlertsMessageBag::keys();
-        }
-        
-        /**
-         * Add a message to the bag.
-         *
-         * @param string $key
-         * @param string $message
-         * @return $this 
-         * @static 
-         */ 
-        public static function add($key, $message)
-        {
-            //Method inherited from \Illuminate\Support\MessageBag            
-            return \Prologue\Alerts\AlertsMessageBag::add($key, $message);
-        }
-        
-        /**
-         * Merge a new array of messages into the bag.
-         *
-         * @param \Illuminate\Contracts\Support\MessageProvider|array $messages
-         * @return $this 
-         * @static 
-         */ 
-        public static function merge($messages)
-        {
-            //Method inherited from \Illuminate\Support\MessageBag            
-            return \Prologue\Alerts\AlertsMessageBag::merge($messages);
-        }
-        
-        /**
-         * Determine if messages exist for all of the given keys.
-         *
-         * @param array|string $key
-         * @return bool 
-         * @static 
-         */ 
-        public static function has($key)
-        {
-            //Method inherited from \Illuminate\Support\MessageBag            
-            return \Prologue\Alerts\AlertsMessageBag::has($key);
-        }
-        
-        /**
-         * Determine if messages exist for any of the given keys.
-         *
-         * @param array|string $keys
-         * @return bool 
-         * @static 
-         */ 
-        public static function hasAny($keys = array())
-        {
-            //Method inherited from \Illuminate\Support\MessageBag            
-            return \Prologue\Alerts\AlertsMessageBag::hasAny($keys);
-        }
-        
-        /**
-         * Get the first message from the bag for a given key.
-         *
-         * @param string $key
-         * @param string $format
-         * @return string 
-         * @static 
-         */ 
-        public static function first($key = null, $format = null)
-        {
-            //Method inherited from \Illuminate\Support\MessageBag            
-            return \Prologue\Alerts\AlertsMessageBag::first($key, $format);
-        }
-        
-        /**
-         * Get all of the messages from the bag for a given key.
-         *
-         * @param string $key
-         * @param string $format
-         * @return array 
-         * @static 
-         */ 
-        public static function get($key, $format = null)
-        {
-            //Method inherited from \Illuminate\Support\MessageBag            
-            return \Prologue\Alerts\AlertsMessageBag::get($key, $format);
-        }
-        
-        /**
-         * Get all of the messages for every key in the bag.
-         *
-         * @param string $format
-         * @return array 
-         * @static 
-         */ 
-        public static function all($format = null)
-        {
-            //Method inherited from \Illuminate\Support\MessageBag            
-            return \Prologue\Alerts\AlertsMessageBag::all($format);
-        }
-        
-        /**
-         * Get all of the unique messages for every key in the bag.
-         *
-         * @param string $format
-         * @return array 
-         * @static 
-         */ 
-        public static function unique($format = null)
-        {
-            //Method inherited from \Illuminate\Support\MessageBag            
-            return \Prologue\Alerts\AlertsMessageBag::unique($format);
-        }
-        
-        /**
-         * Get the raw messages in the container.
-         *
-         * @return array 
-         * @static 
-         */ 
-        public static function messages()
-        {
-            //Method inherited from \Illuminate\Support\MessageBag            
-            return \Prologue\Alerts\AlertsMessageBag::messages();
-        }
-        
-        /**
-         * Get the raw messages in the container.
-         *
-         * @return array 
-         * @static 
-         */ 
-        public static function getMessages()
-        {
-            //Method inherited from \Illuminate\Support\MessageBag            
-            return \Prologue\Alerts\AlertsMessageBag::getMessages();
-        }
-        
-        /**
-         * Get the messages for the instance.
-         *
-         * @return \Illuminate\Support\MessageBag 
-         * @static 
-         */ 
-        public static function getMessageBag()
-        {
-            //Method inherited from \Illuminate\Support\MessageBag            
-            return \Prologue\Alerts\AlertsMessageBag::getMessageBag();
-        }
-        
-        /**
-         * Get the default message format.
-         *
-         * @return string 
-         * @static 
-         */ 
-        public static function getFormat()
-        {
-            //Method inherited from \Illuminate\Support\MessageBag            
-            return \Prologue\Alerts\AlertsMessageBag::getFormat();
-        }
-        
-        /**
-         * Set the default message format.
-         *
-         * @param string $format
-         * @return \Illuminate\Support\MessageBag 
-         * @static 
-         */ 
-        public static function setFormat($format = ':message')
-        {
-            //Method inherited from \Illuminate\Support\MessageBag            
-            return \Prologue\Alerts\AlertsMessageBag::setFormat($format);
-        }
-        
-        /**
-         * Determine if the message bag has any messages.
-         *
-         * @return bool 
-         * @static 
-         */ 
-        public static function isEmpty()
-        {
-            //Method inherited from \Illuminate\Support\MessageBag            
-            return \Prologue\Alerts\AlertsMessageBag::isEmpty();
-        }
-        
-        /**
-         * Determine if the message bag has any messages.
-         *
-         * @return bool 
-         * @static 
-         */ 
-        public static function any()
-        {
-            //Method inherited from \Illuminate\Support\MessageBag            
-            return \Prologue\Alerts\AlertsMessageBag::any();
-        }
-        
-        /**
-         * Get the number of messages in the container.
-         *
-         * @return int 
-         * @static 
-         */ 
-        public static function count()
-        {
-            //Method inherited from \Illuminate\Support\MessageBag            
-            return \Prologue\Alerts\AlertsMessageBag::count();
-        }
-        
-        /**
-         * Get the instance as an array.
-         *
-         * @return array 
-         * @static 
-         */ 
-        public static function toArray()
-        {
-            //Method inherited from \Illuminate\Support\MessageBag            
-            return \Prologue\Alerts\AlertsMessageBag::toArray();
-        }
-        
-        /**
-         * Convert the object into something JSON serializable.
-         *
-         * @return array 
-         * @static 
-         */ 
-        public static function jsonSerialize()
-        {
-            //Method inherited from \Illuminate\Support\MessageBag            
-            return \Prologue\Alerts\AlertsMessageBag::jsonSerialize();
-        }
-        
-        /**
-         * Convert the object to its JSON representation.
-         *
-         * @param int $options
-         * @return string 
-         * @static 
-         */ 
-        public static function toJson($options = 0)
-        {
-            //Method inherited from \Illuminate\Support\MessageBag            
-            return \Prologue\Alerts\AlertsMessageBag::toJson($options);
-        }
-         
-    }
- 
-}
-
-namespace Jenssegers\Date { 
-
-    class Date {
-         
-    }
- 
-}
-
-namespace Backpack\CRUD { 
-
-    class CrudServiceProvider {
-         
-    }
- 
-}
-
 namespace Collective\Html { 
 
     class FormFacade {
@@ -13419,6 +13098,710 @@ namespace Collective\Html {
         {
             return \Collective\Html\HtmlBuilder::componentCall($method, $parameters);
         }
+         
+    }
+
+    class HtmlFacade {
+        
+        /**
+         * Convert an HTML string to entities.
+         *
+         * @param string $value
+         * @return string 
+         * @static 
+         */ 
+        public static function entities($value)
+        {
+            return \Collective\Html\HtmlBuilder::entities($value);
+        }
+        
+        /**
+         * Convert entities to HTML characters.
+         *
+         * @param string $value
+         * @return string 
+         * @static 
+         */ 
+        public static function decode($value)
+        {
+            return \Collective\Html\HtmlBuilder::decode($value);
+        }
+        
+        /**
+         * Generate a link to a JavaScript file.
+         *
+         * @param string $url
+         * @param array $attributes
+         * @param bool $secure
+         * @return \Illuminate\Support\HtmlString 
+         * @static 
+         */ 
+        public static function script($url, $attributes = array(), $secure = null)
+        {
+            return \Collective\Html\HtmlBuilder::script($url, $attributes, $secure);
+        }
+        
+        /**
+         * Generate a link to a CSS file.
+         *
+         * @param string $url
+         * @param array $attributes
+         * @param bool $secure
+         * @return \Illuminate\Support\HtmlString 
+         * @static 
+         */ 
+        public static function style($url, $attributes = array(), $secure = null)
+        {
+            return \Collective\Html\HtmlBuilder::style($url, $attributes, $secure);
+        }
+        
+        /**
+         * Generate an HTML image element.
+         *
+         * @param string $url
+         * @param string $alt
+         * @param array $attributes
+         * @param bool $secure
+         * @return \Illuminate\Support\HtmlString 
+         * @static 
+         */ 
+        public static function image($url, $alt = null, $attributes = array(), $secure = null)
+        {
+            return \Collective\Html\HtmlBuilder::image($url, $alt, $attributes, $secure);
+        }
+        
+        /**
+         * Generate a link to a Favicon file.
+         *
+         * @param string $url
+         * @param array $attributes
+         * @param bool $secure
+         * @return \Illuminate\Support\HtmlString 
+         * @static 
+         */ 
+        public static function favicon($url, $attributes = array(), $secure = null)
+        {
+            return \Collective\Html\HtmlBuilder::favicon($url, $attributes, $secure);
+        }
+        
+        /**
+         * Generate a HTML link.
+         *
+         * @param string $url
+         * @param string $title
+         * @param array $attributes
+         * @param bool $secure
+         * @param bool $escape
+         * @return \Illuminate\Support\HtmlString 
+         * @static 
+         */ 
+        public static function link($url, $title = null, $attributes = array(), $secure = null, $escape = true)
+        {
+            return \Collective\Html\HtmlBuilder::link($url, $title, $attributes, $secure, $escape);
+        }
+        
+        /**
+         * Generate a HTTPS HTML link.
+         *
+         * @param string $url
+         * @param string $title
+         * @param array $attributes
+         * @return \Illuminate\Support\HtmlString 
+         * @static 
+         */ 
+        public static function secureLink($url, $title = null, $attributes = array())
+        {
+            return \Collective\Html\HtmlBuilder::secureLink($url, $title, $attributes);
+        }
+        
+        /**
+         * Generate a HTML link to an asset.
+         *
+         * @param string $url
+         * @param string $title
+         * @param array $attributes
+         * @param bool $secure
+         * @return \Illuminate\Support\HtmlString 
+         * @static 
+         */ 
+        public static function linkAsset($url, $title = null, $attributes = array(), $secure = null)
+        {
+            return \Collective\Html\HtmlBuilder::linkAsset($url, $title, $attributes, $secure);
+        }
+        
+        /**
+         * Generate a HTTPS HTML link to an asset.
+         *
+         * @param string $url
+         * @param string $title
+         * @param array $attributes
+         * @return \Illuminate\Support\HtmlString 
+         * @static 
+         */ 
+        public static function linkSecureAsset($url, $title = null, $attributes = array())
+        {
+            return \Collective\Html\HtmlBuilder::linkSecureAsset($url, $title, $attributes);
+        }
+        
+        /**
+         * Generate a HTML link to a named route.
+         *
+         * @param string $name
+         * @param string $title
+         * @param array $parameters
+         * @param array $attributes
+         * @return \Illuminate\Support\HtmlString 
+         * @static 
+         */ 
+        public static function linkRoute($name, $title = null, $parameters = array(), $attributes = array())
+        {
+            return \Collective\Html\HtmlBuilder::linkRoute($name, $title, $parameters, $attributes);
+        }
+        
+        /**
+         * Generate a HTML link to a controller action.
+         *
+         * @param string $action
+         * @param string $title
+         * @param array $parameters
+         * @param array $attributes
+         * @return \Illuminate\Support\HtmlString 
+         * @static 
+         */ 
+        public static function linkAction($action, $title = null, $parameters = array(), $attributes = array())
+        {
+            return \Collective\Html\HtmlBuilder::linkAction($action, $title, $parameters, $attributes);
+        }
+        
+        /**
+         * Generate a HTML link to an email address.
+         *
+         * @param string $email
+         * @param string $title
+         * @param array $attributes
+         * @param bool $escape
+         * @return \Illuminate\Support\HtmlString 
+         * @static 
+         */ 
+        public static function mailto($email, $title = null, $attributes = array(), $escape = true)
+        {
+            return \Collective\Html\HtmlBuilder::mailto($email, $title, $attributes, $escape);
+        }
+        
+        /**
+         * Obfuscate an e-mail address to prevent spam-bots from sniffing it.
+         *
+         * @param string $email
+         * @return string 
+         * @static 
+         */ 
+        public static function email($email)
+        {
+            return \Collective\Html\HtmlBuilder::email($email);
+        }
+        
+        /**
+         * Generates non-breaking space entities based on number supplied.
+         *
+         * @param int $num
+         * @return string 
+         * @static 
+         */ 
+        public static function nbsp($num = 1)
+        {
+            return \Collective\Html\HtmlBuilder::nbsp($num);
+        }
+        
+        /**
+         * Generate an ordered list of items.
+         *
+         * @param array $list
+         * @param array $attributes
+         * @return \Illuminate\Support\HtmlString|string 
+         * @static 
+         */ 
+        public static function ol($list, $attributes = array())
+        {
+            return \Collective\Html\HtmlBuilder::ol($list, $attributes);
+        }
+        
+        /**
+         * Generate an un-ordered list of items.
+         *
+         * @param array $list
+         * @param array $attributes
+         * @return \Illuminate\Support\HtmlString|string 
+         * @static 
+         */ 
+        public static function ul($list, $attributes = array())
+        {
+            return \Collective\Html\HtmlBuilder::ul($list, $attributes);
+        }
+        
+        /**
+         * Generate a description list of items.
+         *
+         * @param array $list
+         * @param array $attributes
+         * @return \Illuminate\Support\HtmlString 
+         * @static 
+         */ 
+        public static function dl($list, $attributes = array())
+        {
+            return \Collective\Html\HtmlBuilder::dl($list, $attributes);
+        }
+        
+        /**
+         * Build an HTML attribute string from an array.
+         *
+         * @param array $attributes
+         * @return string 
+         * @static 
+         */ 
+        public static function attributes($attributes)
+        {
+            return \Collective\Html\HtmlBuilder::attributes($attributes);
+        }
+        
+        /**
+         * Obfuscate a string to prevent spam-bots from sniffing it.
+         *
+         * @param string $value
+         * @return string 
+         * @static 
+         */ 
+        public static function obfuscate($value)
+        {
+            return \Collective\Html\HtmlBuilder::obfuscate($value);
+        }
+        
+        /**
+         * Generate a meta tag.
+         *
+         * @param string $name
+         * @param string $content
+         * @param array $attributes
+         * @return \Illuminate\Support\HtmlString 
+         * @static 
+         */ 
+        public static function meta($name, $content, $attributes = array())
+        {
+            return \Collective\Html\HtmlBuilder::meta($name, $content, $attributes);
+        }
+        
+        /**
+         * Generate an html tag.
+         *
+         * @param string $tag
+         * @param mixed $content
+         * @param array $attributes
+         * @return \Illuminate\Support\HtmlString 
+         * @static 
+         */ 
+        public static function tag($tag, $content, $attributes = array())
+        {
+            return \Collective\Html\HtmlBuilder::tag($tag, $content, $attributes);
+        }
+        
+        /**
+         * Register a custom macro.
+         *
+         * @param string $name
+         * @param callable $macro
+         * @return void 
+         * @static 
+         */ 
+        public static function macro($name, $macro)
+        {
+            \Collective\Html\HtmlBuilder::macro($name, $macro);
+        }
+        
+        /**
+         * Checks if macro is registered.
+         *
+         * @param string $name
+         * @return bool 
+         * @static 
+         */ 
+        public static function hasMacro($name)
+        {
+            return \Collective\Html\HtmlBuilder::hasMacro($name);
+        }
+        
+        /**
+         * Dynamically handle calls to the class.
+         *
+         * @param string $method
+         * @param array $parameters
+         * @return mixed 
+         * @throws \BadMethodCallException
+         * @static 
+         */ 
+        public static function macroCall($method, $parameters)
+        {
+            return \Collective\Html\HtmlBuilder::macroCall($method, $parameters);
+        }
+        
+        /**
+         * Register a custom component.
+         *
+         * @param $name
+         * @param $view
+         * @param array $signature
+         * @return void 
+         * @static 
+         */ 
+        public static function component($name, $view, $signature)
+        {
+            \Collective\Html\HtmlBuilder::component($name, $view, $signature);
+        }
+        
+        /**
+         * Check if a component is registered.
+         *
+         * @param $name
+         * @return bool 
+         * @static 
+         */ 
+        public static function hasComponent($name)
+        {
+            return \Collective\Html\HtmlBuilder::hasComponent($name);
+        }
+        
+        /**
+         * Dynamically handle calls to the class.
+         *
+         * @param string $method
+         * @param array $parameters
+         * @return \Illuminate\Contracts\View\View|mixed 
+         * @throws \BadMethodCallException
+         * @static 
+         */ 
+        public static function componentCall($method, $parameters)
+        {
+            return \Collective\Html\HtmlBuilder::componentCall($method, $parameters);
+        }
+         
+    }
+ 
+}
+
+namespace Prologue\Alerts\Facades { 
+
+    class Alert {
+        
+        /**
+         * Store the messages in the current session.
+         *
+         * @return \Prologue\Alerts\AlertsMessageBag 
+         * @static 
+         */ 
+        public static function flash()
+        {
+            return \Prologue\Alerts\AlertsMessageBag::flash();
+        }
+        
+        /**
+         * Returns the alert levels from the config.
+         *
+         * @return array 
+         * @static 
+         */ 
+        public static function getLevels()
+        {
+            return \Prologue\Alerts\AlertsMessageBag::getLevels();
+        }
+        
+        /**
+         * Returns the Illuminate Session Store.
+         *
+         * @return \Illuminate\Session\Store 
+         * @static 
+         */ 
+        public static function getSession()
+        {
+            return \Prologue\Alerts\AlertsMessageBag::getSession();
+        }
+        
+        /**
+         * Returns the Illuminate Config Repository.
+         *
+         * @return \Illuminate\Config\Repository 
+         * @static 
+         */ 
+        public static function getConfig()
+        {
+            return \Prologue\Alerts\AlertsMessageBag::getConfig();
+        }
+        
+        /**
+         * Get the keys present in the message bag.
+         *
+         * @return array 
+         * @static 
+         */ 
+        public static function keys()
+        {
+            //Method inherited from \Illuminate\Support\MessageBag            
+            return \Prologue\Alerts\AlertsMessageBag::keys();
+        }
+        
+        /**
+         * Add a message to the bag.
+         *
+         * @param string $key
+         * @param string $message
+         * @return $this 
+         * @static 
+         */ 
+        public static function add($key, $message)
+        {
+            //Method inherited from \Illuminate\Support\MessageBag            
+            return \Prologue\Alerts\AlertsMessageBag::add($key, $message);
+        }
+        
+        /**
+         * Merge a new array of messages into the bag.
+         *
+         * @param \Illuminate\Contracts\Support\MessageProvider|array $messages
+         * @return $this 
+         * @static 
+         */ 
+        public static function merge($messages)
+        {
+            //Method inherited from \Illuminate\Support\MessageBag            
+            return \Prologue\Alerts\AlertsMessageBag::merge($messages);
+        }
+        
+        /**
+         * Determine if messages exist for all of the given keys.
+         *
+         * @param array|string $key
+         * @return bool 
+         * @static 
+         */ 
+        public static function has($key)
+        {
+            //Method inherited from \Illuminate\Support\MessageBag            
+            return \Prologue\Alerts\AlertsMessageBag::has($key);
+        }
+        
+        /**
+         * Determine if messages exist for any of the given keys.
+         *
+         * @param array|string $keys
+         * @return bool 
+         * @static 
+         */ 
+        public static function hasAny($keys = array())
+        {
+            //Method inherited from \Illuminate\Support\MessageBag            
+            return \Prologue\Alerts\AlertsMessageBag::hasAny($keys);
+        }
+        
+        /**
+         * Get the first message from the bag for a given key.
+         *
+         * @param string $key
+         * @param string $format
+         * @return string 
+         * @static 
+         */ 
+        public static function first($key = null, $format = null)
+        {
+            //Method inherited from \Illuminate\Support\MessageBag            
+            return \Prologue\Alerts\AlertsMessageBag::first($key, $format);
+        }
+        
+        /**
+         * Get all of the messages from the bag for a given key.
+         *
+         * @param string $key
+         * @param string $format
+         * @return array 
+         * @static 
+         */ 
+        public static function get($key, $format = null)
+        {
+            //Method inherited from \Illuminate\Support\MessageBag            
+            return \Prologue\Alerts\AlertsMessageBag::get($key, $format);
+        }
+        
+        /**
+         * Get all of the messages for every key in the bag.
+         *
+         * @param string $format
+         * @return array 
+         * @static 
+         */ 
+        public static function all($format = null)
+        {
+            //Method inherited from \Illuminate\Support\MessageBag            
+            return \Prologue\Alerts\AlertsMessageBag::all($format);
+        }
+        
+        /**
+         * Get all of the unique messages for every key in the bag.
+         *
+         * @param string $format
+         * @return array 
+         * @static 
+         */ 
+        public static function unique($format = null)
+        {
+            //Method inherited from \Illuminate\Support\MessageBag            
+            return \Prologue\Alerts\AlertsMessageBag::unique($format);
+        }
+        
+        /**
+         * Get the raw messages in the container.
+         *
+         * @return array 
+         * @static 
+         */ 
+        public static function messages()
+        {
+            //Method inherited from \Illuminate\Support\MessageBag            
+            return \Prologue\Alerts\AlertsMessageBag::messages();
+        }
+        
+        /**
+         * Get the raw messages in the container.
+         *
+         * @return array 
+         * @static 
+         */ 
+        public static function getMessages()
+        {
+            //Method inherited from \Illuminate\Support\MessageBag            
+            return \Prologue\Alerts\AlertsMessageBag::getMessages();
+        }
+        
+        /**
+         * Get the messages for the instance.
+         *
+         * @return \Illuminate\Support\MessageBag 
+         * @static 
+         */ 
+        public static function getMessageBag()
+        {
+            //Method inherited from \Illuminate\Support\MessageBag            
+            return \Prologue\Alerts\AlertsMessageBag::getMessageBag();
+        }
+        
+        /**
+         * Get the default message format.
+         *
+         * @return string 
+         * @static 
+         */ 
+        public static function getFormat()
+        {
+            //Method inherited from \Illuminate\Support\MessageBag            
+            return \Prologue\Alerts\AlertsMessageBag::getFormat();
+        }
+        
+        /**
+         * Set the default message format.
+         *
+         * @param string $format
+         * @return \Illuminate\Support\MessageBag 
+         * @static 
+         */ 
+        public static function setFormat($format = ':message')
+        {
+            //Method inherited from \Illuminate\Support\MessageBag            
+            return \Prologue\Alerts\AlertsMessageBag::setFormat($format);
+        }
+        
+        /**
+         * Determine if the message bag has any messages.
+         *
+         * @return bool 
+         * @static 
+         */ 
+        public static function isEmpty()
+        {
+            //Method inherited from \Illuminate\Support\MessageBag            
+            return \Prologue\Alerts\AlertsMessageBag::isEmpty();
+        }
+        
+        /**
+         * Determine if the message bag has any messages.
+         *
+         * @return bool 
+         * @static 
+         */ 
+        public static function any()
+        {
+            //Method inherited from \Illuminate\Support\MessageBag            
+            return \Prologue\Alerts\AlertsMessageBag::any();
+        }
+        
+        /**
+         * Get the number of messages in the container.
+         *
+         * @return int 
+         * @static 
+         */ 
+        public static function count()
+        {
+            //Method inherited from \Illuminate\Support\MessageBag            
+            return \Prologue\Alerts\AlertsMessageBag::count();
+        }
+        
+        /**
+         * Get the instance as an array.
+         *
+         * @return array 
+         * @static 
+         */ 
+        public static function toArray()
+        {
+            //Method inherited from \Illuminate\Support\MessageBag            
+            return \Prologue\Alerts\AlertsMessageBag::toArray();
+        }
+        
+        /**
+         * Convert the object into something JSON serializable.
+         *
+         * @return array 
+         * @static 
+         */ 
+        public static function jsonSerialize()
+        {
+            //Method inherited from \Illuminate\Support\MessageBag            
+            return \Prologue\Alerts\AlertsMessageBag::jsonSerialize();
+        }
+        
+        /**
+         * Convert the object to its JSON representation.
+         *
+         * @param int $options
+         * @return string 
+         * @static 
+         */ 
+        public static function toJson($options = 0)
+        {
+            //Method inherited from \Illuminate\Support\MessageBag            
+            return \Prologue\Alerts\AlertsMessageBag::toJson($options);
+        }
+         
+    }
+ 
+}
+
+namespace Jenssegers\Date { 
+
+    class Date {
+         
+    }
+ 
+}
+
+namespace Backpack\CRUD { 
+
+    class CrudServiceProvider {
          
     }
  
@@ -15793,15 +16176,17 @@ namespace  {
 
     class Debugbar extends \Barryvdh\Debugbar\Facade {}
 
+    class Form extends \Collective\Html\FormFacade {}
+
+    class Html extends \Collective\Html\HtmlFacade {}
+
+    class HTML extends \Collective\Html\HtmlFacade {}
+
     class Alert extends \Prologue\Alerts\Facades\Alert {}
 
     class Date extends \Jenssegers\Date\Date {}
 
     class CRUD extends \Backpack\CRUD\CrudServiceProvider {}
-
-    class Form extends \Collective\Html\FormFacade {}
-
-    class Html extends \Collective\Html\HtmlFacade {}
 
     class Image extends \Intervention\Image\Facades\Image {}
 

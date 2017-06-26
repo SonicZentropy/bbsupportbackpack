@@ -15,24 +15,55 @@ class TrainingSessionCrudController extends CrudController
         $this->crud->setRoute("admin/session");
         $this->crud->setEntityNameStrings('session', 'sessions');
 
+        $this->crud->setCreateView('admin/createSession');
 
-        //$this->crud->addColumn([
-        //    'name' => 'first_session',
-        //    'label' => 'First Session',
-        //]);
-//
-        //$this->crud->addColumn([
-        //    'name' => 'second_session',
-        //    'label' => 'Second Session'
-        //]);
+        $this->crud->addColumn([
+            'name' => 'first_session',
+            'label' => 'First Session',
+        ]);
 
-        $this->crud->setFromDb();
+        $this->crud->addColumn([
+            'name' => 'second_session',
+            'label' => 'Second Session'
+        ]);
 
-        //$this->crud->addField([
-        //    //'first_session' => 'first_session',
-        //    'name' => "first_session",
-        //    'label' => "First Session"
-        //], 'both');
+        $this->crud->addColumn([
+            'name' => 'training_type',
+            'label' => 'Training Type'
+        ]);
+
+        $this->crud->addColumn([
+            'name' => 'number_enrolled',
+            'label' => 'Enrolled Count'
+        ]);
+
+        $this->crud->addColumn([
+            'name' => 'title',
+            'label' => 'Training Title'
+        ]);
+
+        //$this->crud->setFromDb();
+
+        $this->crud->addField([
+            //'first_session' => 'first_session',
+            'name' => "first_session",
+            'label' => "First Session",
+            'type' => 'datetime_picker',
+            'datetime_picker_options' => [
+                'format' => 'DD/MM/YYYY HH:mm',
+            ]
+        ], 'both');
+
+        $this->crud->addField([
+            //'first_session' => 'first_session',
+            'name' => "second_session",
+            'label' => "Second Session",
+            'type' => 'datetime_picker',
+            'datetime_picker_options' => [
+                'format' => 'DD/MM/YYYY HH:mm',
+                'language' => 'en'
+            ]
+        ], 'both');
     }
 
     public function store(StoreRequest $request) {

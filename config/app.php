@@ -185,10 +185,13 @@ return [
         Barryvdh\Debugbar\ServiceProvider::class,
 
         //IDE Helper
-        //Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
+        Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
 
         //LogViewer
         Arcanedev\LogViewer\LogViewerServiceProvider::class,
+
+        //HTML
+        Collective\Html\HtmlServiceProvider::class,
     ],
 
     /*
@@ -240,6 +243,11 @@ return [
 
         //Debugbar
         'Debugbar' => Barryvdh\Debugbar\Facade::class,
+
+        //HTML
+        'Form' => Collective\Html\FormFacade::class,
+        'Html' => Collective\Html\HtmlFacade::class,
+        'HTML' => Collective\Html\HtmlFacade::class,
     ],
 
 ];

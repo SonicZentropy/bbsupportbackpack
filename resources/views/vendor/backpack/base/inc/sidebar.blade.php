@@ -21,6 +21,7 @@
           <!-- ================================================ -->
           <li><a href="{{ url(config('backpack.base.route_prefix', 'admin').'/dashboard') }}"><i class="fa fa-dashboard"></i> <span>{{ trans('backpack::base.dashboard') }}</span></a></li>
             <li><a href="{{ url('admin/session') }}"><i class="fa fa-tag"></i> <span>Manage Sessions</span></a></li>
+            <li><a href="{{ url('admin/user') }}"><i class="fa fa-tag"></i> <span>Manage Users</span></a></li>
 
           <!-- ======================================= -->
           <li class="header">{{ trans('backpack::base.user') }}</li>

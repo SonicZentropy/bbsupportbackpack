@@ -8,5 +8,6 @@ Route::group([
 
 ], function() {
     CRUD::resource('session', 'TrainingSessionCrudController');
+    CRUD::resource('user', 'UserCrudController');
 
 });

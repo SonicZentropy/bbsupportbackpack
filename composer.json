@@ -12,7 +12,8 @@
         "barryvdh/laravel-debugbar": "^2.4",
         "doctrine/dbal": "^2.5",
         "laravel/framework": "5.4.*",
-        "laravel/tinker": "~1.0"
+        "laravel/tinker": "~1.0",
+        "laravelcollective/html": "^5.4"
     },
     "require-dev": {
         "backpack/generators": "^1.1",
@@ -29,7 +30,10 @@
         ],
         "psr-4": {
             "App\\": "app/"
-        }
+        },
+        "files": [
+          "app/Utils/PTCHelpers.php"
+        ]
     },
     "autoload-dev": {
         "psr-4": {

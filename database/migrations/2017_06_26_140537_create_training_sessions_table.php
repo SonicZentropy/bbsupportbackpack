@@ -17,7 +17,8 @@ class CreateTrainingSessionsTable extends Migration
             $table->increments('id');
             $table->dateTime('first_session');
             $table->dateTime('second_session');
-            $table->integer('training_type')->default('0');
+            //$table->integer('training_type')->default('0');
+            $table->enum('training_type', array('basic', 'online', 'hybrid'))->default('basic');
             $table->integer('number_enrolled')->default(0);
             $table->string('title');
             $table->timestamps();

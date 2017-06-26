@@ -2,6 +2,7 @@
 
 namespace App\Models;
 
+use Backpack\CRUD\CrudTrait;
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Backpack\Base\app\Notifications\ResetPasswordNotification as ResetPasswordNotification;
@@ -9,14 +10,14 @@ use Backpack\Base\app\Notifications\ResetPasswordNotification as ResetPasswordNo
 class User extends Authenticatable
 {
     use Notifiable;
-
+    use CrudTrait;
     /**
      * The attributes that are mass assignable.
      *
      * @var array
      */
     protected $fillable = [
-        'name', 'email', 'password',
+        'name', 'email', 'password', 'institution', 'personal_id', 'isAdmin'
     ];
 
     /**
@@ -38,4 +39,13 @@ class User extends Authenticatable
     {
         $this->notify(new ResetPasswordNotification($token));
     }
+
+    public function registrations() {
+        return $this->hasMany(TrainingRegistration::class );
+    }
+
+    public function trainings() {
+        return $this->belongsToMany(TrainingSession::class, 'trainings_users', 'user_id', 'training_id');
+    }
+
 }
