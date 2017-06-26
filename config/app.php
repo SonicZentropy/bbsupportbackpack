@@ -184,6 +184,9 @@ return [
         //DebugBar
         Barryvdh\Debugbar\ServiceProvider::class,
 
+        //IDE Helper
+        //Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
+
         //LogViewer
         Arcanedev\LogViewer\LogViewerServiceProvider::class,
     ],
