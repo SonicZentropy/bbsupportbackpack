@@ -27,7 +27,7 @@ class CreateTrainingRegistrationsTable extends Migration
             $table->boolean('has_been_reminded')->default(false);
             $table->boolean('has_been_reminded_second_id')->default(false);
             $table->integer('training_session_id')->unsigned();
-            $table->foreign('training_session_id')->references('id')->on('trainings');
+            $table->foreign('training_session_id')->references('id')->on('training_sessions');
             $table->integer('registered_user_id')->unsigned();
             $table->foreign('registered_user_id')->references('id')->on('users');
             $table->timestamps();
