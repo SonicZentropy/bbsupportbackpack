@@ -72,11 +72,11 @@
                 <div class="col-sm-12 allmargins-ten">
                     <div class="boldtext">How do you plan to use Blackboard as part of your course?</div>
 
-                    {{Form::radio('course_type',  '1', true)}}I am teaching a classroom course and will use it as a
-                    supplemental shell<br/>
-                    {{Form::radio('course_type', '2')}}I am teaching a hybrid course<br/>
-                    {{Form::radio('course_type', '3')}}I am teaching an online course<br/>
-                    {{Form::radio('course_type', '4')}}I am not sure<br/>
+                    {{Form::radio('course_type',  'basic', true)}}I am teaching a classroom course and will use it as a
+                    supplemental shell.<br/>
+                    {{Form::radio('course_type', 'hybrid')}}I am teaching a hybrid course.<br/>
+                    {{Form::radio('course_type', 'online')}}I am teaching an online course.<br/>
+                    {{Form::radio('course_type', 'unknown')}}I am not sure.<br/>
 
                 </div>
                 <div class="col-sm-12 allmargins-ten">

@@ -8,7 +8,7 @@ use App\Http\Requests\TrainingSessionCrudRequest as StoreRequest;
 use App\Http\Requests\TrainingSessionCrudRequest as UpdateRequest;
 //use App\Http\Controllers\Controller;
 
-class TrainingSessionCrudController extends CrudController
+class SingleSessionCrudController extends CrudController
 {
     public function setup() {
         $this->crud->setModel("App\Models\TrainingSession");
@@ -16,8 +16,6 @@ class TrainingSessionCrudController extends CrudController
         $this->crud->setEntityNameStrings('session', 'sessions');
 
         $this->crud->setCreateView('admin/createSession');
-
-        $this->crud->addButtonFromView('line', 'session_registrations', 'session_registrations', 'beginning');
 
         $this->crud->addColumn([
             'name' => 'first_session',

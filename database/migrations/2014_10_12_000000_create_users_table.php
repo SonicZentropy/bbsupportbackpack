@@ -18,9 +18,10 @@ class CreateUsersTable extends Migration
             $table->string('name');
             $table->string('email');
             $table->string('password');
-            $table->string('institution');
+            $table->string('institution')->default('UAPTC');
             $table->string('personal_id')->unique();
-            $table->boolean('isAdmin');
+            $table->boolean('isAdmin')->default(false);
+            $table->boolean('certified')->default(false);
             $table->rememberToken();
             $table->timestamps();
         });

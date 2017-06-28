@@ -22,10 +22,13 @@ class CreateTrainingRegistrationsTable extends Migration
             //$table->string('email')->default("test@gmail.com");
             $table->string('courses_taught')->default("None"); // This probably needs to link to a db later
             $table->boolean('laptop')->default(true);
-            $table->integer('course_type')->default(1);
+            $table->enum('course_type', array('basic', 'online', 'hybrid', 'unknown'))->default('basic');
             $table->boolean('accommodations')->default(false);
             $table->boolean('has_been_reminded')->default(false);
             $table->boolean('has_been_reminded_second_id')->default(false);
+            $table->boolean('attended_first')->default(false);
+            $table->boolean('attended_second')->default(false);
+            $table->boolean('completed_certification')->default(false);
             $table->integer('training_session_id')->unsigned();
             $table->foreign('training_session_id')->references('id')->on('training_sessions');
             $table->integer('registered_user_id')->unsigned();

@@ -19,8 +19,8 @@ class TrainingRegistrationCrudController extends CrudController
         |--------------------------------------------------------------------------
         */
         $this->crud->setModel('App\Models\TrainingRegistration');
-        $this->crud->setRoute(config('backpack.base.route_prefix') . '/trainingregistration');
-        $this->crud->setEntityNameStrings('trainingregistration', 'training_registrations');
+        $this->crud->setRoute(config('backpack.base.route_prefix') . '/registrations');
+        $this->crud->setEntityNameStrings('registration', 'registrations');
 
         /*
         |--------------------------------------------------------------------------
@@ -28,7 +28,72 @@ class TrainingRegistrationCrudController extends CrudController
         |--------------------------------------------------------------------------
         */
 
-        $this->crud->setFromDb();
+        //$this->crud->setFromDb();
+
+
+        $this->crud->addColumn([
+            'name' => 'registered_user_id',
+            'label' => 'Name',
+            'type' => 'select',
+            'entity' => 'user',
+            'attribute' => "name",
+            'model' => "App\Models\User",
+        ]);
+
+        $this->crud->addColumn([
+            'name' => 'registered_user_id',
+            'label' => 'User ID',
+            'type' => 'select',
+            'entity' => 'user',
+            'attribute' => "personal_id",
+            'model' => "App\Models\User",
+        ]);
+
+        $this->crud->addColumn([
+            'name' => 'training_session_id',
+            'label' => 'Session 1 Date',
+            'type' => 'select',
+            'entity' => 'training',
+            'attribute' => "first_session",
+            'model' => "App\Models\TrainingSession",
+        ]);
+
+        $this->crud->addColumn([
+            'name' => 'training_session_id',
+            'label' => 'Session 2 Date',
+            'type' => 'select',
+            'entity' => 'training',
+            'attribute' => "second_session",
+            'model' => "App\Models\TrainingSession",
+        ]);
+
+        $this->crud->addColumn([
+            'name' => 'training_session_id',
+            'label' => 'Training Type',
+            'type' => 'select',
+            'entity' => 'training',
+            'attribute' => "training_type",
+            'model' => "App\Models\TrainingSession",
+        ]);
+
+        $this->crud->addColumn([
+            'name' => 'accommodations',
+            'label' => 'Needs Accommodations'
+        ]);
+
+        $this->crud->addColumn([
+            'name' => 'laptop',
+            'label' => 'Will Bring Laptop'
+        ]);
+
+        $this->crud->addColumn([
+            'name' => 'registered_user_id',
+            'label' => 'User ID',
+            'type' => 'select',
+            'entity' => 'user',
+            'attribute' => "personal_id",
+            'model' => "App\Models\User",
+        ]);
 
         // ------ CRUD FIELDS
         // $this->crud->addField($options, 'update/create/both');

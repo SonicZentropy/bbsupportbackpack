@@ -2,15 +2,22 @@
 
 namespace App\Models;
 
+use Backpack\CRUD\CrudTrait;
 use Illuminate\Database\Eloquent\Model;
 
 class TrainingRegistration extends Model
 {
 
+    use CrudTrait;
+
     public function chosenTraining()
     {
         //$one = $this->hasOne(Training::class);
         return TrainingSession::where('id', $this->training_session_id)->first();
+    }
+
+    public function training() {
+        return $this->belongsTo(TrainingSession::class, 'training_session_id');
     }
 
     public function user() {

@@ -16,7 +16,6 @@ class UsersTableSeeder extends Seeder
             'email' => 'cbailey@pulaskitech.edu',
             'password' => bcrypt('kckckc'),
             'isAdmin' => 1,
-            'institution' => 'UAPTC',
             'personal_id' => ' 116004734',
 
         ]);
@@ -25,7 +24,6 @@ class UsersTableSeeder extends Seeder
             'email' => 'tpatterson@pulaskitech.edu',
             'password' => bcrypt('password'),
             'isAdmin' => 1,
-            'institution' => 'UAPTC',
             'personal_id' => ' 787005383',
         ]);
         \DB::table('users')->insert([
@@ -33,7 +31,6 @@ class UsersTableSeeder extends Seeder
             'email' => 'jcwilliams@pulaskitech.edu',
             'password' => bcrypt('password'),
             'isAdmin' => 1,
-            'institution' => 'UAPTC',
             'personal_id' => '485007588',
         ]);
 
@@ -41,8 +38,6 @@ class UsersTableSeeder extends Seeder
             'name' => 'Test User',
             'email' => 'ofs@pulaskitech.edu',
             'password' => bcrypt('kc'),
-            'isAdmin' => 0,
-            'institution' => 'UAPTC',
             'personal_id' => '123456789',
         ]);
     }

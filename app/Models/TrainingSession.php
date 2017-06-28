@@ -16,4 +16,8 @@ class TrainingSession extends Model
     public function users() {
         return $this->belongsToMany(User::class, 'trainings_users', 'training_id', 'user_id');
     }
+
+    public function registrations() {
+        return $this->belongsToMany(TrainingRegistration::class, 'training_registrations', 'training_session_id', 'registered_user_id');
+    }
 }
