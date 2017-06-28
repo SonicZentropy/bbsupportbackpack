@@ -65,6 +65,14 @@
     text-align:center;
 }
 
+.leftalign {
+    text-align:left;
+}
+
+.leftpadding-thirty {
+    padding-left:30px;
+}
+
 .allmargins-ten {
     padding-left:30px;
     padding-right:30px;

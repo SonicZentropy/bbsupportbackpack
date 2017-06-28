@@ -21,7 +21,7 @@ class TrainingRegistrationCrudController extends CrudController
         $this->crud->setModel('App\Models\TrainingRegistration');
         $this->crud->setRoute(config('backpack.base.route_prefix') . '/registrations');
         $this->crud->setEntityNameStrings('registration', 'registrations');
-
+        $this->crud->setEditView('admin/editRegistration');
         /*
         |--------------------------------------------------------------------------
         | BASIC CRUD INFORMATION
@@ -110,19 +110,21 @@ class TrainingRegistrationCrudController extends CrudController
         //$this->crud->addField([
         //    'name' => 'registered_user_id',
         //    'label' => 'Name',
-        //    'type' => 'select',
+        //    'type' => 'select2',
         //    'entity' => 'user',
         //    'attribute' => "name",
         //    'model' => "App\Models\User",
+        //    'attributes' => ['disabled' => 'disabled'],
         //]);
-//
+
         //$this->crud->addField([
         //    'name' => 'registered_user_id',
         //    'label' => 'User ID',
-        //    'type' => 'select',
+        //    'type' => 'select2',
         //    'entity' => 'user',
         //    'attribute' => "personal_id",
         //    'model' => "App\Models\User",
+        //    'attributes' => ['disabled' => 'disabled', 'name' => 'id'],
         //]);
 //
         //$this->crud->addField([
@@ -146,7 +148,7 @@ class TrainingRegistrationCrudController extends CrudController
         $this->crud->addField([
             'name' => 'attended_first',
             'label' => 'Attended 1',
-            'type' => 'checkbox'
+            'type' => 'checkbox',
         ]);
 
         $this->crud->addField([

@@ -25,4 +25,16 @@ class TrainingRegistration extends Model
     public function user() {
         return $this->belongsTo(User::class, 'registered_user_id');
     }
+
+    public function GetRelatedUser() {
+        return $this->user()->get()->first();
+    }
+
+    public function GetRelatedUserPersonalID() : string {
+        return $this->GetRelatedUser()->personal_id;
+    }
+
+    public function GetRelatedUserName() : string {
+        return $this->GetRelatedUser()->name;
+    }
 }
