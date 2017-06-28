@@ -78,22 +78,89 @@ class TrainingRegistrationCrudController extends CrudController
 
         $this->crud->addColumn([
             'name' => 'accommodations',
-            'label' => 'Needs Accommodations'
+            'label' => 'Needs Accommodations',
+            'type' => 'check'
         ]);
 
         $this->crud->addColumn([
             'name' => 'laptop',
-            'label' => 'Will Bring Laptop'
+            'label' => 'Will Bring Laptop',
+            'type' => 'check'
         ]);
 
         $this->crud->addColumn([
-            'name' => 'registered_user_id',
-            'label' => 'User ID',
-            'type' => 'select',
-            'entity' => 'user',
-            'attribute' => "personal_id",
-            'model' => "App\Models\User",
+            'name' => 'attended_first',
+            'label' => 'Attended 1',
+            'type' => 'check'
         ]);
+
+        $this->crud->addColumn([
+            'name' => 'attended_second',
+            'label' => 'Attended 2',
+            'type' => 'check'
+        ]);
+
+        $this->crud->addColumn([
+            'name' => 'completed_certification',
+            'label' => 'Completed',
+            'type' => 'check'
+        ]);
+
+        // FIELDS
+        //$this->crud->addField([
+        //    'name' => 'registered_user_id',
+        //    'label' => 'Name',
+        //    'type' => 'select',
+        //    'entity' => 'user',
+        //    'attribute' => "name",
+        //    'model' => "App\Models\User",
+        //]);
+//
+        //$this->crud->addField([
+        //    'name' => 'registered_user_id',
+        //    'label' => 'User ID',
+        //    'type' => 'select',
+        //    'entity' => 'user',
+        //    'attribute' => "personal_id",
+        //    'model' => "App\Models\User",
+        //]);
+//
+        //$this->crud->addField([
+        //    'name' => 'training_session_id',
+        //    'label' => 'Session 1 Date',
+        //    'type' => 'select',
+        //    'entity' => 'training',
+        //    'attribute' => "first_session",
+        //    'model' => "App\Models\TrainingSession",
+        //]);
+//
+        //$this->crud->addField([
+        //    'name' => 'training_session_id',
+        //    'label' => 'Session 2 Date',
+        //    'type' => 'select',
+        //    'entity' => 'training',
+        //    'attribute' => "second_session",
+        //    'model' => "App\Models\TrainingSession",
+        //]);
+
+        $this->crud->addField([
+            'name' => 'attended_first',
+            'label' => 'Attended 1',
+            'type' => 'checkbox'
+        ]);
+
+        $this->crud->addField([
+            'name' => 'attended_second',
+            'label' => 'Attended 2',
+            'type' => 'checkbox'
+        ]);
+
+        $this->crud->addField([
+            'name' => 'completed_certification',
+            'label' => 'Completed',
+            'type' => 'checkbox'
+        ]);
+
 
         // ------ CRUD FIELDS
         // $this->crud->addField($options, 'update/create/both');
@@ -141,7 +208,7 @@ class TrainingRegistrationCrudController extends CrudController
         // Please note the drawbacks of this though:
         // - 1-n and n-n columns are not searchable
         // - date and datetime columns won't be sortable anymore
-        // $this->crud->enableAjaxTable();
+         $this->crud->enableAjaxTable();
 
         // ------ DATATABLE EXPORT BUTTONS
         // Show export to PDF, CSV, XLS and Print buttons on the table view.

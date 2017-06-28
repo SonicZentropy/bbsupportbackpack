@@ -9,7 +9,7 @@ class TrainingUser extends Model
 {
     use CrudTrait;
 
-
+    protected $guarded = [];
 
     public function getUser() {
         //Column not found: 1054 Unknown column 'users.trainings_users_id' in 'where clause'

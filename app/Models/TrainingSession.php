@@ -9,7 +9,8 @@ class TrainingSession extends Model
 {
     use CrudTrait;
 
-    protected $fillable = ['id', 'first_session', 'second_session', 'training_type', 'number_enrolled', 'title', 'created_at', 'updated_at'];
+    //protected $fillable = ['id', 'first_session', 'second_session', 'training_type', 'number_enrolled', 'title', 'created_at', 'updated_at'];
+    protected $guarded = [];
     public $timestamps = true;
 
 

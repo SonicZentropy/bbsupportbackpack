@@ -10,6 +10,8 @@ class TrainingRegistration extends Model
 
     use CrudTrait;
 
+    protected $guarded = [];
+
     public function chosenTraining()
     {
         //$one = $this->hasOne(Training::class);
