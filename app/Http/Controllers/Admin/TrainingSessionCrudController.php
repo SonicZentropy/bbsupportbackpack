@@ -17,7 +17,7 @@ class TrainingSessionCrudController extends CrudController
 
         $this->crud->setCreateView('admin/createSession');
 
-        $this->crud->addButtonFromView('line', 'session_registrations', 'session_registrations', 'beginning');
+        //$this->crud->addButtonFromView('line', 'session_registrations', 'session_registrations', 'beginning');
 
         $this->crud->addColumn([
             'name' => 'first_session',
