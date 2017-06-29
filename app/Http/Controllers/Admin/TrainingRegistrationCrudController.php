@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\Admin;
 
+use App\Models\TrainingSession;
 use Backpack\CRUD\app\Http\Controllers\CrudController;
 
 // VALIDATION: change the requests to match your own file names if you need form validation
@@ -22,6 +23,23 @@ class TrainingRegistrationCrudController extends CrudController
         $this->crud->setRoute(config('backpack.base.route_prefix') . '/registrations');
         $this->crud->setEntityNameStrings('registration', 'registrations');
         $this->crud->setEditView('admin/editRegistration');
+
+        $this->crud->addFilter([
+            'type' => 'dropdown',
+            'name' => 'OfSession',
+            'label' => 'By Session'
+        ], function() { //values
+            return TrainingSession::all()->pluck('first_session', 'id')->toArray();
+        },
+
+        function($value) {
+            $this->crud->addClause('where', 'training_session_id', $value);
+        }
+
+        //function($value) { // if the filter is active
+            // $this->crud->addClause('where', 'status', $value);
+
+        );
         /*
         |--------------------------------------------------------------------------
         | BASIC CRUD INFORMATION

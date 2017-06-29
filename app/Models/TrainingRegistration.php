@@ -37,4 +37,8 @@ class TrainingRegistration extends Model
     public function GetRelatedUserName() : string {
         return $this->GetRelatedUser()->name;
     }
+
+    public function scopeOfSession($query) {
+        return $query->where('training_session_id', '1');
+    }
 }
