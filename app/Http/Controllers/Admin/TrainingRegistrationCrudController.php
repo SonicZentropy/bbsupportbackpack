@@ -24,22 +24,40 @@ class TrainingRegistrationCrudController extends CrudController
         $this->crud->setEntityNameStrings('registration', 'registrations');
         $this->crud->setEditView('admin/editRegistration');
 
+        //Filter for choosing particular sessions
         $this->crud->addFilter([
             'type' => 'dropdown',
             'name' => 'OfSession',
             'label' => 'By Session'
-        ], function() { //values
-            return TrainingSession::all()->pluck('first_session', 'id')->toArray();
-        },
-
-        function($value) {
-            $this->crud->addClause('where', 'training_session_id', $value);
-        }
-
-        //function($value) { // if the filter is active
-            // $this->crud->addClause('where', 'status', $value);
-
+            ],
+            function() { //values
+                return TrainingSession::all()->pluck('first_session', 'id')->toArray();
+            },
+            function($value) {
+                $this->crud->addClause('where', 'training_session_id', $value);
+            }
         );
+
+        //Filter for sessions by date
+        $this->crud->addFilter([
+            'type' => 'dropdown',
+            'name' => 'ByDate',
+            'label' => 'By Date'
+            ],
+            [
+                1 => 'Completed',
+                2 => 'Current',
+                3 => 'Future'
+            ],
+            function($value) {
+                $this->crud->addClause('date', $value);
+            }
+
+            );
+
+
+
+
         /*
         |--------------------------------------------------------------------------
         | BASIC CRUD INFORMATION

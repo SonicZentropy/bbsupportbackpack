@@ -11,9 +11,6 @@ Route::group([
     CRUD::resource('user', 'UserCrudController');
     CRUD::resource('registrations', 'TrainingRegistrationCrudController');
 
-    Route::group(['prefix' => 'session/{training_session_id}'], function()
-    {
-        CRUD::resource('registrations', 'SingleSessionCrudController');
-    });
+
 
 });

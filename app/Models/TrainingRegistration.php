@@ -3,6 +3,7 @@
 namespace App\Models;
 
 use Backpack\CRUD\CrudTrait;
+use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Model;
 
 class TrainingRegistration extends Model
@@ -38,7 +39,34 @@ class TrainingRegistration extends Model
         return $this->GetRelatedUser()->name;
     }
 
-    public function scopeOfSession($query) {
-        return $query->where('training_session_id', '1');
+    public function scopeDate($query, $value) {
+        if ($value == 1)
+            return $this->GetCompletedTrainings($query);
+        elseif($value == 2)
+            return $this->GetCurrentTrainings($query);
+        else
+            return $this->GetFutureTrainings($query);
+
+
     }
+
+    private function GetCompletedTrainings($query) {
+        return $query->whereHas('training', function($q) {
+            $q->whereDate('second_session', '<', Carbon::today()->toDateTimeString());
+        });
+    }
+
+    private function GetCurrentTrainings($query) {
+        return $query->whereHas('training', function($q) {
+            $q->whereDate('first_session', '<', Carbon::today()->toDateTimeString())
+              ->whereDate('second_session', '>', Carbon::today()->toDateTimeString());
+        });
+    }
+
+    private function GetFutureTrainings($query) {
+        return $query->whereHas('training', function($q) {
+            $q->whereDate('first_session', '>', Carbon::today()->toDateTimeString());
+        });
+    }
+
 }
