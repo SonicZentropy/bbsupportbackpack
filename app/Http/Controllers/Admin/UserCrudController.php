@@ -29,7 +29,48 @@ class UserCrudController extends CrudController
         |--------------------------------------------------------------------------
         */
 
-        $this->crud->setFromDb();
+        //$this->crud->setFromDb();
+        $this->crud->addColumn([
+            'name' => 'name',
+            'label' => 'Name'
+        ]);
+
+        $this->crud->addColumn([
+            'name' => 'personal_id',
+            'label' => 'ID'
+        ]);
+
+        $this->crud->addColumn([
+            'name' => 'email',
+            'label' => 'Email'
+        ]);
+
+        $this->crud->addColumn([
+            'name' => 'certified',
+            'label' => 'Certified',
+            'type' => 'check'
+        ]);
+
+        $this->crud->addField([
+            'name' => 'name',
+            'label' => 'Name'
+        ]);
+
+        $this->crud->addField([
+            'name' => 'personal_id',
+            'label' => 'ID'
+        ]);
+
+        $this->crud->addField([
+            'name' => 'email',
+            'label' => 'Email'
+        ]);
+
+        $this->crud->addField([
+            'name' => 'certified',
+            'label' => 'Certified',
+            'type' => 'checkbox'
+        ]);
 
         // ------ CRUD FIELDS
         // $this->crud->addField($options, 'update/create/both');
@@ -77,7 +118,7 @@ class UserCrudController extends CrudController
         // Please note the drawbacks of this though:
         // - 1-n and n-n columns are not searchable
         // - date and datetime columns won't be sortable anymore
-        // $this->crud->enableAjaxTable();
+        $this->crud->enableAjaxTable();
 
         // ------ DATATABLE EXPORT BUTTONS
         // Show export to PDF, CSV, XLS and Print buttons on the table view.
@@ -97,7 +138,7 @@ class UserCrudController extends CrudController
         // $this->crud->with(); // eager load relationships
         // $this->crud->orderBy();
         // $this->crud->groupBy();
-        // $this->crud->limit();
+         //$this->crud->limit(25);
     }
 
     public function store(StoreRequest $request)

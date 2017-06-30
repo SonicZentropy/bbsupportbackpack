@@ -22,11 +22,13 @@ class TrainingSessionCrudController extends CrudController
         $this->crud->addColumn([
             'name' => 'first_session',
             'label' => 'First Session',
+            'type' => 'datetext'
         ]);
 
         $this->crud->addColumn([
             'name' => 'second_session',
-            'label' => 'Second Session'
+            'label' => 'Second Session',
+            'type' => 'datetext'
         ]);
 
         $this->crud->addColumn([
@@ -47,12 +49,23 @@ class TrainingSessionCrudController extends CrudController
         //$this->crud->setFromDb();
 
         $this->crud->addField([
+            'name' => 'title',
+            'label' => 'Training Title'
+        ]);
+
+        $this->crud->addField([
+            'name' => 'training_type',
+            'label' => 'Training Type',
+            'type' => 'enum'
+        ]);
+
+        $this->crud->addField([
             //'first_session' => 'first_session',
             'name' => "first_session",
             'label' => "First Session",
             'type' => 'datetime_picker',
             'datetime_picker_options' => [
-                'format' => 'DD/MM/YYYY HH:mm',
+                'format' => 'MM/DD/YYYY HH:mm',
             ]
         ], 'both');
 
@@ -62,10 +75,12 @@ class TrainingSessionCrudController extends CrudController
             'label' => "Second Session",
             'type' => 'datetime_picker',
             'datetime_picker_options' => [
-                'format' => 'DD/MM/YYYY HH:mm',
+                'format' => 'MM/DD/YYYY HH:mm',
                 'language' => 'en'
             ]
         ], 'both');
+
+
     }
 
     public function store(StoreRequest $request) {

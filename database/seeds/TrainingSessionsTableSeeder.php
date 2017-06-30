@@ -12,11 +12,17 @@ class TrainingSessionsTableSeeder extends Seeder
     public function run()
     {
         DB::table('training_sessions')->insert([
-            'first_session' => '2200-01-01 08:00:00',
+            'first_session' => '2000-01-01 08:00:00',
+            'second_session' => '2000-01-07 00:00:00',
+            'training_type' => 'basic',
+            'title' => 'Old Training',
+            'id' => '1',
+        ]);
+        DB::table('training_sessions')->insert([
+            'first_session' => '2000-01-01 08:00:00',
             'second_session' => '2300-01-01 00:00:00',
             'training_type' => 'online',
             'title' => 'Online Training',
-            'id' => '1',
         ]);
         DB::table('training_sessions')->insert([
             'first_session' => '2017-05-05 08:00:00',

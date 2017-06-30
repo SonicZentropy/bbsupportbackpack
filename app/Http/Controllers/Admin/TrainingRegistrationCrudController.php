@@ -88,7 +88,7 @@ class TrainingRegistrationCrudController extends CrudController
         $this->crud->addColumn([
             'name' => 'training_session_id',
             'label' => 'Session 1 Date',
-            'type' => 'select',
+            'type' => 'selectdate',
             'entity' => 'training',
             'attribute' => "first_session",
             'model' => "App\Models\TrainingSession",
@@ -97,7 +97,7 @@ class TrainingRegistrationCrudController extends CrudController
         $this->crud->addColumn([
             'name' => 'training_session_id',
             'label' => 'Session 2 Date',
-            'type' => 'select',
+            'type' => 'selectdate',
             'entity' => 'training',
             'attribute' => "second_session",
             'model' => "App\Models\TrainingSession",
@@ -246,7 +246,7 @@ class TrainingRegistrationCrudController extends CrudController
         // Please note the drawbacks of this though:
         // - 1-n and n-n columns are not searchable
         // - date and datetime columns won't be sortable anymore
-        // $this->crud->enableAjaxTable();
+         $this->crud->enableAjaxTable();
 
         // ------ DATATABLE EXPORT BUTTONS
         // Show export to PDF, CSV, XLS and Print buttons on the table view.
