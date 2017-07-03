@@ -93,9 +93,9 @@ class TrainingRegistrationController extends Controller
 
     private function CreateRegistration(Request $request) {
         $reg = new TrainingRegistration();
-        //$reg->name = $request->name;
-        //$reg->personal_id = $request->personal_id;
-        //$reg->email = $request->email;
+        $reg->name = $request->name;
+        $reg->personal_id = $request->personal_id;
+        $reg->email = $request->email;
         $reg->courses_taught = $request->courses_taught;
         $reg->course_type = $request->course_type;
         //$laptop = $request->laptop;

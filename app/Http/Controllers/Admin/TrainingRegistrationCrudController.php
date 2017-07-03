@@ -67,22 +67,38 @@ class TrainingRegistrationCrudController extends CrudController
         //$this->crud->setFromDb();
 
 
+        //$this->crud->addColumn([
+        //    'name' => 'registered_user_id',
+        //    'label' => 'Name',
+        //    'type' => 'select',
+        //    'entity' => 'user',
+        //    'attribute' => "name",
+        //    'model' => "App\Models\User",
+        //]);
+//
+        //$this->crud->addColumn([
+        //    'name' => 'registered_user_id',
+        //    'label' => 'User ID',
+        //    'type' => 'select',
+        //    'entity' => 'user',
+        //    'attribute' => "personal_id",
+        //    'model' => "App\Models\User",
+        //]);
+
+
         $this->crud->addColumn([
-            'name' => 'registered_user_id',
+            'name' => 'name',
             'label' => 'Name',
-            'type' => 'select',
-            'entity' => 'user',
-            'attribute' => "name",
-            'model' => "App\Models\User",
         ]);
 
         $this->crud->addColumn([
-            'name' => 'registered_user_id',
-            'label' => 'User ID',
-            'type' => 'select',
-            'entity' => 'user',
-            'attribute' => "personal_id",
-            'model' => "App\Models\User",
+            'name' => 'personal_id',
+            'label' => 'ID',
+        ]);
+
+        $this->crud->addColumn([
+            'name' => 'email',
+            'label' => 'Email',
         ]);
 
         $this->crud->addColumn([

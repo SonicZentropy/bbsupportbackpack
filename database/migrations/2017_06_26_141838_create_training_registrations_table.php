@@ -16,10 +16,11 @@ class CreateTrainingRegistrationsTable extends Migration
         Schema::create('training_registrations', function (Blueprint $table) {
             $empty = "UAPTC";
             $table->increments('id')->unique();
-            //$table->string('name');
+            $table->string('name')->default('testname');
             //$table->string('institution')->default($empty);
-            //$table->integer('personal_id')->default(101010);
-            //$table->string('email')->default("test@gmail.com");
+            $table->bigInteger('personal_id')->default('101010');
+
+            $table->string('email')->default("test@gmail.com");
             $table->string('courses_taught')->default("None"); // This probably needs to link to a db later
             $table->boolean('laptop')->default(true);
             $table->enum('course_type', array('basic', 'online', 'hybrid', 'unknown'))->default('basic');

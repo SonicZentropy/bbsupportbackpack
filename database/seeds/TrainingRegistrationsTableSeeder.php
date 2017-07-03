@@ -12,6 +12,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
     public function run()
     {
         DB::table('training_registrations')->insert([
+            'name' => 'Test',
+            'personal_id' => '1234567890',
+            'email' => 'test@gmail.com',
             'courses_taught' => 'some stuff',
             'course_type' => 'basic',
             'training_session_id' => '7',
@@ -19,6 +22,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
         ]);
 
         DB::table('training_registrations')->insert([
+            'name' => 'Test2',
+            'personal_id' => '9876543210',
+            'email' => 'test2@gmail.com',
             'courses_taught' => 'other stuff',
             'course_type' => 'online',
             'training_session_id' => '6',
@@ -47,6 +53,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
         ]);
 
         DB::table('training_registrations')->insert([
+            'name' => 'Robin Macagni',
+            'email' => 'rmacagni@pulaskitech.edu',
+            'personal_id' => '101005354',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -56,6 +65,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '101005354')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Martha Carle',
+            'email' => 'mcarle@pulaskitech.edu',
+            'personal_id' => '102006013',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -65,6 +77,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '102006013')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Shirley Powell',
+            'email' => 'spowell@pulaskitech.edu',
+            'personal_id' => '104007643',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -74,6 +89,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '104007643')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Lisa Smithee',
+            'email' => 'lsmithee@pulaskitech.edu',
+            'personal_id' => '105000754',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -83,6 +101,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '105000754')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Paul Woods',
+            'email' => 'pwoods@pulaskitech.edu',
+            'personal_id' => '105003809',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -92,6 +113,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '105003809')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Oscar DeLong',
+            'email' => 'odelong@pulaskitech.edu',
+            'personal_id' => '108001365',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -101,6 +125,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '108001365')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Shirley Yaw',
+            'email' => 'syaw@pulaskitech.edu',
+            'personal_id' => '109004464',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -110,6 +137,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '109004464')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Shannon Avra',
+            'email' => 'savra@pulaskitech.edu',
+            'personal_id' => '110004936',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -119,6 +149,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '110004936')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Cheryl Chapman',
+            'email' => 'cchapman@pulaskitech.edu',
+            'personal_id' => '112009045',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -128,6 +161,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '112009045')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Abigail Perrine',
+            'email' => 'aperrine@pulaskitech.edu',
+            'personal_id' => '113007767',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -137,6 +173,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '113007767')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Barry McVinney',
+            'email' => 'bmcvinney@pulaskitech.edu',
+            'personal_id' => '114001209',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -146,6 +185,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '114001209')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Alex Chalupka',
+            'email' => 'achalupka@pulaskitech.edu',
+            'personal_id' => '117002251',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -155,6 +197,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '117002251')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Sharrone Cox',
+            'email' => 'scox@pulaskitech.edu',
+            'personal_id' => '119003725',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -164,6 +209,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '119003725')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Julia Ramey',
+            'email' => 'jramey@pulaskitech.edu',
+            'personal_id' => '119007354',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -173,6 +221,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '119007354')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Jesse Poff',
+            'email' => 'jpoff@pulaskitech.edu',
+            'personal_id' => '121006792',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -182,6 +233,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '121006792')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Ben Rains',
+            'email' => 'brains@pulaskitech.edu',
+            'personal_id' => '121007865',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -191,6 +245,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '121007865')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Casson Brock',
+            'email' => 'cbrock@pulaskitech.edu',
+            'personal_id' => '122008412',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -200,6 +257,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '122008412')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Jane Doe',
+            'email' => 'jdoe@pulaskitech.edu',
+            'personal_id' => '123001234',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -209,6 +269,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '123001234')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Tamisha Doublin',
+            'email' => 'tdoublin@pulaskitech.edu',
+            'personal_id' => '126004481',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -218,6 +281,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '126004481')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Chris Paradis',
+            'email' => 'cparadis@pulaskitech.edu',
+            'personal_id' => '127004109',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -227,6 +293,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '127004109')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Carla  J. Moody',
+            'email' => 'cmoody@pulaskitech.edu',
+            'personal_id' => '129007389',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -236,6 +305,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '129007389')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Nicolette Smith',
+            'email' => 'nsmith@pulaskitech.edu',
+            'personal_id' => '133007962',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -245,6 +317,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '133007962')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'David Durr',
+            'email' => 'ddurr@pulaskitech.edu',
+            'personal_id' => '133007995',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -254,6 +329,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '133007995')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Neil Mitchell',
+            'email' => 'nmitchell@pulaskitech.edu',
+            'personal_id' => '135002802',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -263,6 +341,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '135002802')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Leslie Lovenstein',
+            'email' => 'llovenstein@pulaskitech.edu',
+            'personal_id' => '135008665',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -272,6 +353,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '135008665')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Sherry Bowman',
+            'email' => 'sbowman@pulaskitech.edu',
+            'personal_id' => '136000170',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -281,6 +365,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '136000170')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Caroline Elmore',
+            'email' => 'celmore@pulaskitech.edu',
+            'personal_id' => '136004717',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -290,6 +377,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '136004717')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Natalie Rollins',
+            'email' => 'nrollins@pulaskitech.edu',
+            'personal_id' => '137006175',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -299,6 +389,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '137006175')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Paul Bennett',
+            'email' => 'pbennett@pulaskitech.edu',
+            'personal_id' => '139007397',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -308,6 +401,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '139007397')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Larhonda Jackson',
+            'email' => 'ljackson@pulaskitech.edu',
+            'personal_id' => '143005563',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -317,6 +413,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '143005563')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Patricia Martinez',
+            'email' => 'pmartinez@pulaskitech.edu',
+            'personal_id' => '144006035',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -326,6 +425,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '144006035')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Clayton Ruff',
+            'email' => 'cruff@pulaskitech.edu',
+            'personal_id' => '143008980',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -335,6 +437,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '143008980')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Lynn Strong',
+            'email' => 'lstrong@pulaskitech.edu',
+            'personal_id' => '149003360',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -344,6 +449,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '149003360')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Larry Taylor',
+            'email' => 'ltaylor@pulaskitech.edu',
+            'personal_id' => '149003684',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -353,6 +461,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '149003684')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Martha Kubin',
+            'email' => 'mkubin@pulaskitech.edu',
+            'personal_id' => '151003894',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -362,6 +473,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '151003894')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Dennis Welch',
+            'email' => 'dwelch@pulaskitech.edu',
+            'personal_id' => '151006519',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -371,6 +485,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '151006519')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Rebecca Nelson',
+            'email' => 'rnelson@pulaskitech.edu',
+            'personal_id' => '152004114',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -380,6 +497,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '152004114')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Cheryl Reinhart',
+            'email' => 'creinhart@pulaskitech.edu',
+            'personal_id' => '152008238',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -389,6 +509,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '152008238')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Dioneedra Irvin',
+            'email' => 'dirvin@pulaskitech.edu',
+            'personal_id' => '153000665',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -398,6 +521,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '153000665')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Jeffrey Walker',
+            'email' => 'jwalker@pulaskitech.edu',
+            'personal_id' => '154000886',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -407,6 +533,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '154000886')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Cynthia Randolph',
+            'email' => 'crandolph@pulaskitech.edu',
+            'personal_id' => '156008167',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -416,6 +545,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '156008167')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Elizabeth Clyburn',
+            'email' => 'eclyburn@pulaskitech.edu',
+            'personal_id' => '156008453',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -425,6 +557,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '156008453')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Leslie Cloer',
+            'email' => 'lcloer@pulaskitech.edu',
+            'personal_id' => '159006869',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -434,6 +569,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '159006869')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Osmonetta McRae',
+            'email' => 'omcrae@pulaskitech.edu',
+            'personal_id' => '160007624',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -443,6 +581,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '160007624')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'George T. Davis ',
+            'email' => 'gdavis @pulaskitech.edu',
+            'personal_id' => '160005617',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -452,6 +593,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '160005617')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Joanna Ewing',
+            'email' => 'jewing@pulaskitech.edu',
+            'personal_id' => '160009826',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -461,6 +605,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '160009826')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Cheri Courtright',
+            'email' => 'ccourtright@pulaskitech.edu',
+            'personal_id' => '161005514',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -470,6 +617,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '161005514')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Jayson Malik',
+            'email' => 'jmalik@pulaskitech.edu',
+            'personal_id' => '162002971',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -479,6 +629,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '162002971')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Roy Minton',
+            'email' => 'rminton@pulaskitech.edu',
+            'personal_id' => '162003773',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -488,6 +641,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '162003773')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Mischel Elliott',
+            'email' => 'melliott@pulaskitech.edu',
+            'personal_id' => '165001026',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -497,6 +653,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '165001026')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Randall Robertson',
+            'email' => 'rrobertson@pulaskitech.edu',
+            'personal_id' => '166001702',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -506,6 +665,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '166001702')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Alan Pogue',
+            'email' => 'apogue@pulaskitech.edu',
+            'personal_id' => '166002708',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -515,6 +677,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '166002708')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Terence Cox',
+            'email' => 'tcox@pulaskitech.edu',
+            'personal_id' => '167005242',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -524,6 +689,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '167005242')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Starlett Mack',
+            'email' => 'smack@pulaskitech.edu',
+            'personal_id' => '169004248',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -533,6 +701,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '169004248')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Nykela Jackson',
+            'email' => 'njackson@pulaskitech.edu',
+            'personal_id' => '171006446',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -542,6 +713,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '171006446')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Tiffany Smith',
+            'email' => 'tsmith@pulaskitech.edu',
+            'personal_id' => '173002226',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -551,6 +725,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '173002226')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Ernesto Velazquez',
+            'email' => 'evelazquez@pulaskitech.edu',
+            'personal_id' => '179000476',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -560,6 +737,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '179000476')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Kenneth Lipsmeyer',
+            'email' => 'klipsmeyer@pulaskitech.edu',
+            'personal_id' => '180006454',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -569,6 +749,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '180006454')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Kelley Cowley',
+            'email' => 'kcowley@pulaskitech.edu',
+            'personal_id' => '184001853',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -578,6 +761,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '184001853')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'William Wyngaard',
+            'email' => 'wwyngaard@pulaskitech.edu',
+            'personal_id' => '184007212',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -587,6 +773,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '184007212')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Shelley Oberste-Hanson',
+            'email' => 'soberste-hanson@pulaskitech.edu',
+            'personal_id' => '185004988',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -596,6 +785,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '185004988')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Logan Oliver',
+            'email' => 'loliver@pulaskitech.edu',
+            'personal_id' => '187005687',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -605,6 +797,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '187005687')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Don Kuonen',
+            'email' => 'dkuonen@pulaskitech.edu',
+            'personal_id' => '189008266',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -614,6 +809,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '189008266')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Lindsay Ratliff-Kullenberg',
+            'email' => 'lratliff-kullenberg@pulaskitech.edu',
+            'personal_id' => '190003477',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -623,6 +821,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '190003477')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Michael Milligan',
+            'email' => 'mmilligan@pulaskitech.edu',
+            'personal_id' => '190008645',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -632,6 +833,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '190008645')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Jimmy Brooks',
+            'email' => 'jbrooks@pulaskitech.edu',
+            'personal_id' => '190008938',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -641,6 +845,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '190008938')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Emily Norman',
+            'email' => 'enorman@pulaskitech.edu',
+            'personal_id' => '194003650',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -650,6 +857,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '194003650')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Mary Olm',
+            'email' => 'molm@pulaskitech.edu',
+            'personal_id' => '196004149',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -659,6 +869,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '196004149')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Laura Govia',
+            'email' => 'lgovia@pulaskitech.edu',
+            'personal_id' => '196008422',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -668,6 +881,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '196008422')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Amy Baldwin',
+            'email' => 'abaldwin@pulaskitech.edu',
+            'personal_id' => '198009979',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -677,6 +893,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '198009979')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Jonathan Purkiss',
+            'email' => 'jpurkiss@pulaskitech.edu',
+            'personal_id' => '199001576',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -686,6 +905,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '199001576')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Francine Leon',
+            'email' => 'fleon@pulaskitech.edu',
+            'personal_id' => '205004420',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -695,6 +917,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '205004420')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Karin HodginJones',
+            'email' => 'khodginjones@pulaskitech.edu',
+            'personal_id' => '206006464',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -704,6 +929,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '206006464')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Nancy Reedy',
+            'email' => 'nreedy@pulaskitech.edu',
+            'personal_id' => '208006810',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -713,6 +941,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '208006810')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Deana Nall',
+            'email' => 'dnall@pulaskitech.edu',
+            'personal_id' => '209002691',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -722,6 +953,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '209002691')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Elivia Wafford',
+            'email' => 'ewafford@pulaskitech.edu',
+            'personal_id' => '210003589',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -731,6 +965,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '210003589')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Constance Meadors',
+            'email' => 'cmeadors@pulaskitech.edu',
+            'personal_id' => '210006647',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -740,6 +977,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '210006647')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Karren Lee',
+            'email' => 'klee@pulaskitech.edu',
+            'personal_id' => '211002028',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -749,6 +989,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '211002028')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Shirley Kelley',
+            'email' => 'skelley@pulaskitech.edu',
+            'personal_id' => '212009158',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -758,6 +1001,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '212009158')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'James Becker',
+            'email' => 'jbecker@pulaskitech.edu',
+            'personal_id' => '213009954',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -767,6 +1013,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '213009954')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Ruth Reavis',
+            'email' => 'rreavis@pulaskitech.edu',
+            'personal_id' => '214008372',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -776,6 +1025,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '214008372')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Shannon Vaughn',
+            'email' => 'svaughn@pulaskitech.edu',
+            'personal_id' => '215003842',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -785,6 +1037,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '215003842')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Christopher Phillips',
+            'email' => 'cphillips@pulaskitech.edu',
+            'personal_id' => '216007542',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -794,6 +1049,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '216007542')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Julianne Nelson',
+            'email' => 'jnelson@pulaskitech.edu',
+            'personal_id' => '217001351',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -803,6 +1061,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '217001351')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'George Lauster',
+            'email' => 'glauster@pulaskitech.edu',
+            'personal_id' => '218004419',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -812,6 +1073,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '218004419')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Jeanne E. Williams',
+            'email' => 'jwilliams@pulaskitech.edu',
+            'personal_id' => '219004498',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -821,6 +1085,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '219004498')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Dale Harris',
+            'email' => 'dharris@pulaskitech.edu',
+            'personal_id' => '220004314',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -830,6 +1097,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '220004314')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Marcus Montgomery',
+            'email' => 'mmontgomery@pulaskitech.edu',
+            'personal_id' => '220007929',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -839,6 +1109,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '220007929')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Bill Peery',
+            'email' => 'bpeery@pulaskitech.edu',
+            'personal_id' => '221003501',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -848,6 +1121,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '221003501')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Carlton Coleman',
+            'email' => 'ccoleman@pulaskitech.edu',
+            'personal_id' => '221007264',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -857,6 +1133,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '221007264')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Lydia Hart',
+            'email' => 'lhart@pulaskitech.edu',
+            'personal_id' => '223004965',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -866,6 +1145,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '223004965')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Heather Solano',
+            'email' => 'hsolano@pulaskitech.edu',
+            'personal_id' => '223005584',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -875,6 +1157,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '223005584')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Sabrina Waters',
+            'email' => 'swaters@pulaskitech.edu',
+            'personal_id' => '226005530',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -884,6 +1169,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '226005530')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Paula Long',
+            'email' => 'plong@pulaskitech.edu',
+            'personal_id' => '226005815',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -893,6 +1181,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '226005815')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Laura Iverson',
+            'email' => 'liverson@pulaskitech.edu',
+            'personal_id' => '226009531',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -902,6 +1193,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '226009531')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Joan Dudley',
+            'email' => 'jdudley@pulaskitech.edu',
+            'personal_id' => '229007082',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -911,6 +1205,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '229007082')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Brenda Bradley',
+            'email' => 'bbradley@pulaskitech.edu',
+            'personal_id' => '231006655',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -920,6 +1217,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '231006655')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Mary Bishop',
+            'email' => 'mbishop@pulaskitech.edu',
+            'personal_id' => '233005717',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -929,6 +1229,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '233005717')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Dianne McKinney',
+            'email' => 'dmckinney@pulaskitech.edu',
+            'personal_id' => '235000382',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -938,6 +1241,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '235000382')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Maribeth Anders',
+            'email' => 'manders@pulaskitech.edu',
+            'personal_id' => '235000427',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -947,6 +1253,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '235000427')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'K. Aurora Adney',
+            'email' => 'kadney@pulaskitech.edu',
+            'personal_id' => '235003770',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -956,6 +1265,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '235003770')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Scott Warrior',
+            'email' => 'swarrior@pulaskitech.edu',
+            'personal_id' => '236001904',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -965,6 +1277,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '236001904')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Sarah Clements',
+            'email' => 'sclements@pulaskitech.edu',
+            'personal_id' => '237000874',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -974,6 +1289,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '237000874')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Michelle Harris',
+            'email' => 'mharris@pulaskitech.edu',
+            'personal_id' => '240006061',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -983,6 +1301,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '240006061')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Chad Smith',
+            'email' => 'csmith@pulaskitech.edu',
+            'personal_id' => '241001300',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -992,6 +1313,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '241001300')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Mike Dahly',
+            'email' => 'mdahly@pulaskitech.edu',
+            'personal_id' => '241002377',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -1001,6 +1325,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '241002377')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Christal GravettCarrington',
+            'email' => 'cgravettcarrington@pulaskitech.edu',
+            'personal_id' => '242007840',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -1010,6 +1337,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '242007840')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Dorothy Martin',
+            'email' => 'dmartin@pulaskitech.edu',
+            'personal_id' => '244008285',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -1019,6 +1349,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '244008285')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Ruth Goff',
+            'email' => 'rgoff@pulaskitech.edu',
+            'personal_id' => '245006568',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -1028,6 +1361,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '245006568')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Howard Nesmith',
+            'email' => 'hnesmith@pulaskitech.edu',
+            'personal_id' => '246005158',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -1037,6 +1373,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '246005158')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Yolanda Mitchell',
+            'email' => 'ymitchell@pulaskitech.edu',
+            'personal_id' => '248004109',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -1046,6 +1385,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '248004109')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Tarlease Jones',
+            'email' => 'tjones@pulaskitech.edu',
+            'personal_id' => '248008859',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -1055,6 +1397,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '248008859')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'William (Jay) Adkins',
+            'email' => 'wadkins@pulaskitech.edu',
+            'personal_id' => '249003878',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -1064,6 +1409,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '249003878')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Cynthia Fehrenbach',
+            'email' => 'cfehrenbach@pulaskitech.edu',
+            'personal_id' => '249003980',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -1073,6 +1421,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '249003980')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Mary Kate  Terrell',
+            'email' => 'm terrell@pulaskitech.edu',
+            'personal_id' => '249008291',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -1082,6 +1433,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '249008291')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Laura Goadrich',
+            'email' => 'lgoadrich@pulaskitech.edu',
+            'personal_id' => '250008690',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -1091,6 +1445,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '250008690')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Terry Brown',
+            'email' => 'tbrown@pulaskitech.edu',
+            'personal_id' => '252008069',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -1100,6 +1457,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '252008069')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Meenakshi Budhraja',
+            'email' => 'mbudhraja@pulaskitech.edu',
+            'personal_id' => '255001700',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -1109,6 +1469,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '255001700')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Mike McMillan',
+            'email' => 'mmcmillan@pulaskitech.edu',
+            'personal_id' => '255002080',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -1118,6 +1481,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '255002080')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Paula Morell',
+            'email' => 'pmorell@pulaskitech.edu',
+            'personal_id' => '255009824',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -1127,6 +1493,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '255009824')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Shannon Wilcox',
+            'email' => 'swilcox@pulaskitech.edu',
+            'personal_id' => '256006000',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -1136,6 +1505,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '256006000')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Jason Bass',
+            'email' => 'jbass@pulaskitech.edu',
+            'personal_id' => '258008355',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -1145,6 +1517,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '258008355')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Michael Loya',
+            'email' => 'mloya@pulaskitech.edu',
+            'personal_id' => '261009750',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -1154,6 +1529,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '261009750')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Pat Pierce',
+            'email' => 'ppierce@pulaskitech.edu',
+            'personal_id' => '267003845',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -1163,6 +1541,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '267003845')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Don Gundolf',
+            'email' => 'dgundolf@pulaskitech.edu',
+            'personal_id' => '269008542',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -1172,6 +1553,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '269008542')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Robert Moritz',
+            'email' => 'rmoritz@pulaskitech.edu',
+            'personal_id' => '275004097',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -1181,6 +1565,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '275004097')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Robert Habimana',
+            'email' => 'rhabimana@pulaskitech.edu',
+            'personal_id' => '275005308',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -1190,6 +1577,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '275005308')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Deborah Desjardin',
+            'email' => 'ddesjardin@pulaskitech.edu',
+            'personal_id' => '277006400',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -1199,6 +1589,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '277006400')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Vondra Armstrong',
+            'email' => 'varmstrong@pulaskitech.edu',
+            'personal_id' => '277007345',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -1208,6 +1601,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '277007345')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Renee Bennett',
+            'email' => 'rbennett@pulaskitech.edu',
+            'personal_id' => '278008077',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -1217,6 +1613,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '278008077')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Amanda Bishop',
+            'email' => 'abishop@pulaskitech.edu',
+            'personal_id' => '279004746',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -1226,6 +1625,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '279004746')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Matthew Chase',
+            'email' => 'mchase@pulaskitech.edu',
+            'personal_id' => '280007461',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -1235,6 +1637,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '280007461')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Gary Winkler',
+            'email' => 'gwinkler@pulaskitech.edu',
+            'personal_id' => '284009395',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -1244,6 +1649,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '284009395')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Ginny Wood',
+            'email' => 'gwood@pulaskitech.edu',
+            'personal_id' => '285000374',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -1253,6 +1661,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '285000374')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Jesse Gatewood',
+            'email' => 'jgatewood@pulaskitech.edu',
+            'personal_id' => '285009052',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -1262,6 +1673,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '285009052')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Staci Hufhines-McHenry',
+            'email' => 'shufhines-mchenry@pulaskitech.edu',
+            'personal_id' => '285009142',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -1271,6 +1685,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '285009142')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'John Morgan',
+            'email' => 'jmorgan@pulaskitech.edu',
+            'personal_id' => '286003791',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -1280,6 +1697,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '286003791')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'David Carpenter',
+            'email' => 'dcarpenter@pulaskitech.edu',
+            'personal_id' => '287006833',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -1289,6 +1709,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '287006833')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Rebecca Hobby',
+            'email' => 'rhobby@pulaskitech.edu',
+            'personal_id' => '288001433',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -1298,6 +1721,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '288001433')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Jason  Choate',
+            'email' => 'j choate@pulaskitech.edu',
+            'personal_id' => '289006774',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -1307,6 +1733,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '289006774')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Tammy Richardson',
+            'email' => 'trichardson@pulaskitech.edu',
+            'personal_id' => '291002387',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -1316,6 +1745,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '291002387')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Beata Lovelace',
+            'email' => 'blovelace@pulaskitech.edu',
+            'personal_id' => '291006232',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -1325,6 +1757,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '291006232')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Susan Dollar',
+            'email' => 'sdollar@pulaskitech.edu',
+            'personal_id' => '293005978',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -1334,6 +1769,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '293005978')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Angela Langston',
+            'email' => 'alangston@pulaskitech.edu',
+            'personal_id' => '296009718',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -1343,6 +1781,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '296009718')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Kathryn Young',
+            'email' => 'kyoung@pulaskitech.edu',
+            'personal_id' => '303004394',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -1352,6 +1793,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '303004394')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Joe Jansen',
+            'email' => 'jjansen@pulaskitech.edu',
+            'personal_id' => '308007100',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -1361,6 +1805,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '308007100')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Debra Mcindoe',
+            'email' => 'dmcindoe@pulaskitech.edu',
+            'personal_id' => '311000390',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -1370,6 +1817,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '311000390')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Doris Pierce',
+            'email' => 'dpierce@pulaskitech.edu',
+            'personal_id' => '311004765',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -1379,6 +1829,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '311004765')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'H. Oscar Hirby',
+            'email' => 'hhirby@pulaskitech.edu',
+            'personal_id' => '312007629',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -1388,6 +1841,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '312007629')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Sofia Gonzalez',
+            'email' => 'sgonzalez@pulaskitech.edu',
+            'personal_id' => '312007700',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -1397,6 +1853,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '312007700')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Valerie Duckery',
+            'email' => 'vduckery@pulaskitech.edu',
+            'personal_id' => '314005149',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -1406,6 +1865,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '314005149')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Derek Moore',
+            'email' => 'dmoore@pulaskitech.edu',
+            'personal_id' => '315004204',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -1415,6 +1877,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '315004204')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Richard Moss',
+            'email' => 'rmoss@pulaskitech.edu',
+            'personal_id' => '318003799',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -1424,6 +1889,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '318003799')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Robert Clark',
+            'email' => 'rclark@pulaskitech.edu',
+            'personal_id' => '319003169',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -1433,6 +1901,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '319003169')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Valerie JohnsonFranks',
+            'email' => 'vjohnsonfranks@pulaskitech.edu',
+            'personal_id' => '320009364',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -1442,6 +1913,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '320009364')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'James Johnson',
+            'email' => 'jjohnson@pulaskitech.edu',
+            'personal_id' => '322007946',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -1451,6 +1925,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '322007946')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Tammy Whitfield',
+            'email' => 'twhitfield@pulaskitech.edu',
+            'personal_id' => '324007905',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -1460,6 +1937,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '324007905')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Jolie Mosley',
+            'email' => 'jmosley@pulaskitech.edu',
+            'personal_id' => '325002233',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -1469,6 +1949,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '325002233')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Billy Parchman',
+            'email' => 'bparchman@pulaskitech.edu',
+            'personal_id' => '326003387',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -1478,6 +1961,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '326003387')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Charles Cole',
+            'email' => 'ccole@pulaskitech.edu',
+            'personal_id' => '327001267',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -1487,6 +1973,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '327001267')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Brad Pierce',
+            'email' => 'bpierce@pulaskitech.edu',
+            'personal_id' => '328001189',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -1496,6 +1985,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '328001189')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Meredith Lemons',
+            'email' => 'mlemons@pulaskitech.edu',
+            'personal_id' => '328004744',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -1505,6 +1997,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '328004744')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Robert  D. Coates',
+            'email' => 'rcoates@pulaskitech.edu',
+            'personal_id' => '328008338',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -1514,6 +2009,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '328008338')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Susan Gernenz-Taylor',
+            'email' => 'sgernenz-taylor@pulaskitech.edu',
+            'personal_id' => '329002288',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -1523,6 +2021,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '329002288')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Roni Bowman',
+            'email' => 'rbowman@pulaskitech.edu',
+            'personal_id' => '329005414',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -1532,6 +2033,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '329005414')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Michael Slater',
+            'email' => 'mslater@pulaskitech.edu',
+            'personal_id' => '330006482',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -1541,6 +2045,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '330006482')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Wendy Davis',
+            'email' => 'wdavis@pulaskitech.edu',
+            'personal_id' => '333001803',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -1550,6 +2057,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '333001803')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Bob Glidewell',
+            'email' => 'bglidewell@pulaskitech.edu',
+            'personal_id' => '336001719',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -1559,6 +2069,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '336001719')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Daniel Egbe',
+            'email' => 'degbe@pulaskitech.edu',
+            'personal_id' => '336005034',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -1568,6 +2081,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '336005034')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Carl Mike Daily',
+            'email' => 'cdaily@pulaskitech.edu',
+            'personal_id' => '336008868',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -1577,6 +2093,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '336008868')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Timothy Bennett',
+            'email' => 'tbennett@pulaskitech.edu',
+            'personal_id' => '338008316',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -1586,6 +2105,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '338008316')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Pam Cicirello',
+            'email' => 'pcicirello@pulaskitech.edu',
+            'personal_id' => '338009780',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -1595,6 +2117,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '338009780')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Nicole Holcomb',
+            'email' => 'nholcomb@pulaskitech.edu',
+            'personal_id' => '340009216',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -1604,6 +2129,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '340009216')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Christin Hankins',
+            'email' => 'chankins@pulaskitech.edu',
+            'personal_id' => '341009085',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -1613,6 +2141,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '341009085')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'John Farrell',
+            'email' => 'jfarrell@pulaskitech.edu',
+            'personal_id' => '341009489',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -1622,6 +2153,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '341009489')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Lindsey Maestri',
+            'email' => 'lmaestri@pulaskitech.edu',
+            'personal_id' => '342009376',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -1631,6 +2165,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '342009376')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'William Strigel',
+            'email' => 'wstrigel@pulaskitech.edu',
+            'personal_id' => '347007208',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -1640,6 +2177,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '347007208')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Jennifer Boccarossa',
+            'email' => 'jboccarossa@pulaskitech.edu',
+            'personal_id' => '348002404',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -1649,6 +2189,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '348002404')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Cynthia  East-Malik',
+            'email' => 'ceast-malik@pulaskitech.edu',
+            'personal_id' => '350009538',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -1658,6 +2201,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '350009538')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Jacqueline Griffin',
+            'email' => 'jgriffin@pulaskitech.edu',
+            'personal_id' => '351005486',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -1667,6 +2213,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '351005486')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Casey Griffith',
+            'email' => 'cgriffith@pulaskitech.edu',
+            'personal_id' => '352002877',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -1676,6 +2225,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '352002877')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Macaiah Tillman',
+            'email' => 'mtillman@pulaskitech.edu',
+            'personal_id' => '352009058',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -1685,6 +2237,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '352009058')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Olivia Powers',
+            'email' => 'opowers@pulaskitech.edu',
+            'personal_id' => '353001581',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -1694,6 +2249,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '353001581')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Julia Crow',
+            'email' => 'jcrow@pulaskitech.edu',
+            'personal_id' => '353003365',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -1703,6 +2261,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '353003365')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Neil Furqueron',
+            'email' => 'nfurqueron@pulaskitech.edu',
+            'personal_id' => '361000978',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -1712,6 +2273,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '361000978')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Ron Skidgel',
+            'email' => 'rskidgel@pulaskitech.edu',
+            'personal_id' => '363006805',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -1721,6 +2285,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '363006805')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Benjamin Pecock',
+            'email' => 'bpecock@pulaskitech.edu',
+            'personal_id' => '365009380',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -1730,6 +2297,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '365009380')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Lori Jones',
+            'email' => 'ljones@pulaskitech.edu',
+            'personal_id' => '367009719',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -1739,6 +2309,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '367009719')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Darrellyn Williams',
+            'email' => 'dwilliams@pulaskitech.edu',
+            'personal_id' => '369004470',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -1748,6 +2321,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '369004470')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Benjamin AndersonBauer',
+            'email' => 'bandersonbauer@pulaskitech.edu',
+            'personal_id' => '371006397',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -1757,6 +2333,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '371006397')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Andre Robinson',
+            'email' => 'arobinson@pulaskitech.edu',
+            'personal_id' => '373005417',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -1766,6 +2345,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '373005417')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Wayne Floyd',
+            'email' => 'wfloyd@pulaskitech.edu',
+            'personal_id' => '374004521',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -1775,6 +2357,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '374004521')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'James Layton',
+            'email' => 'jlayton@pulaskitech.edu',
+            'personal_id' => '378003215',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -1784,6 +2369,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '378003215')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Sandra Harrington',
+            'email' => 'sharrington@pulaskitech.edu',
+            'personal_id' => '378008796',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -1793,6 +2381,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '378008796')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Cynthia Beck',
+            'email' => 'cbeck@pulaskitech.edu',
+            'personal_id' => '379003381',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -1802,6 +2393,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '379003381')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Moluwa Matute',
+            'email' => 'mmatute@pulaskitech.edu',
+            'personal_id' => '379006754',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -1811,6 +2405,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '379006754')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Jeffrey Skrdlant',
+            'email' => 'jskrdlant@pulaskitech.edu',
+            'personal_id' => '380003734',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -1820,6 +2417,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '380003734')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Deborah Germany',
+            'email' => 'dgermany@pulaskitech.edu',
+            'personal_id' => '381001431',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -1829,6 +2429,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '381001431')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Alex Carraway',
+            'email' => 'acarraway@pulaskitech.edu',
+            'personal_id' => '381002349',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -1838,6 +2441,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '381002349')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Barbara Williams',
+            'email' => 'bwilliams@pulaskitech.edu',
+            'personal_id' => '382002650',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -1847,6 +2453,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '382002650')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Jennifer Ingram',
+            'email' => 'jingram@pulaskitech.edu',
+            'personal_id' => '382009527',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -1856,6 +2465,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '382009527')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Jordan Oroark',
+            'email' => 'joroark@pulaskitech.edu',
+            'personal_id' => '385006827',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -1865,6 +2477,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '385006827')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Veronica Stewart',
+            'email' => 'vstewart@pulaskitech.edu',
+            'personal_id' => '385007501',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -1874,6 +2489,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '385007501')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Matthew McKay',
+            'email' => 'mmckay@pulaskitech.edu',
+            'personal_id' => '386009607',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -1883,6 +2501,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '386009607')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Ebony Conley',
+            'email' => 'econley@pulaskitech.edu',
+            'personal_id' => '387002090',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -1892,6 +2513,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '387002090')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Deena Martin',
+            'email' => 'dmartin@pulaskitech.edu',
+            'personal_id' => '388001873',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -1901,6 +2525,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '388001873')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Karen Tate',
+            'email' => 'ktate@pulaskitech.edu',
+            'personal_id' => '389002852',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -1910,6 +2537,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '389002852')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Gloria Maddox-Powell',
+            'email' => 'gmaddox-powell@pulaskitech.edu',
+            'personal_id' => '391009899',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -1919,6 +2549,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '391009899')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Norma (Jean) Vowell',
+            'email' => 'nvowell@pulaskitech.edu',
+            'personal_id' => '395001150',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -1928,6 +2561,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '395001150')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Jessica Walker',
+            'email' => 'jwalker@pulaskitech.edu',
+            'personal_id' => '397003066',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -1937,6 +2573,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '397003066')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Erika Martin',
+            'email' => 'emartin@pulaskitech.edu',
+            'personal_id' => '397004212',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -1946,6 +2585,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '397004212')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Sherry Clay',
+            'email' => 'sclay@pulaskitech.edu',
+            'personal_id' => '398001340',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -1955,6 +2597,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '398001340')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Christina Oberste',
+            'email' => 'coberste@pulaskitech.edu',
+            'personal_id' => '401004897',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -1964,6 +2609,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '401004897')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Meredith McMillan',
+            'email' => 'mmcmillan@pulaskitech.edu',
+            'personal_id' => '401007671',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -1973,6 +2621,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '401007671')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Meghan MacKrell',
+            'email' => 'mmackrell@pulaskitech.edu',
+            'personal_id' => '403001456',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -1982,6 +2633,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '403001456')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Sherlyn Harris',
+            'email' => 'sharris@pulaskitech.edu',
+            'personal_id' => '404006456',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -1991,6 +2645,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '404006456')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Danny Martin',
+            'email' => 'dmartin@pulaskitech.edu',
+            'personal_id' => '405000455',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -2000,6 +2657,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '405000455')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Phyllis Felton',
+            'email' => 'pfelton@pulaskitech.edu',
+            'personal_id' => '405003210',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -2009,6 +2669,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '405003210')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Stephen Mackey',
+            'email' => 'smackey@pulaskitech.edu',
+            'personal_id' => '406003356',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -2018,6 +2681,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '406003356')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Colby Gunter',
+            'email' => 'cgunter@pulaskitech.edu',
+            'personal_id' => '406003404',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -2027,6 +2693,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '406003404')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Mohamad Nawaz',
+            'email' => 'mnawaz@pulaskitech.edu',
+            'personal_id' => '409003500',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -2036,6 +2705,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '409003500')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Kimberly Gilbert',
+            'email' => 'kgilbert@pulaskitech.edu',
+            'personal_id' => '411007029',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -2045,6 +2717,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '411007029')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Elizabeth Sims',
+            'email' => 'esims@pulaskitech.edu',
+            'personal_id' => '411007687',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -2054,6 +2729,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '411007687')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Jennifer Aunspaugh',
+            'email' => 'jaunspaugh@pulaskitech.edu',
+            'personal_id' => '411009566',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -2063,6 +2741,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '411009566')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Jason Walker',
+            'email' => 'jwalker@pulaskitech.edu',
+            'personal_id' => '412002873',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -2072,6 +2753,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '412002873')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Anne Virden',
+            'email' => 'avirden@pulaskitech.edu',
+            'personal_id' => '414004966',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -2081,6 +2765,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '414004966')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Candace Pierce',
+            'email' => 'cpierce@pulaskitech.edu',
+            'personal_id' => '414008210',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -2090,6 +2777,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '414008210')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Alisa Williams',
+            'email' => 'awilliams@pulaskitech.edu',
+            'personal_id' => '415001155',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -2099,6 +2789,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '415001155')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'M. Paige Redd',
+            'email' => 'mredd@pulaskitech.edu',
+            'personal_id' => '416007347',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -2108,6 +2801,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '416007347')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Kellye Mashburn',
+            'email' => 'kmashburn@pulaskitech.edu',
+            'personal_id' => '417002792',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -2117,6 +2813,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '417002792')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Sheila Glasscock',
+            'email' => 'sglasscock@pulaskitech.edu',
+            'personal_id' => '418007123',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -2126,6 +2825,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '418007123')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Stephen Paul',
+            'email' => 'spaul@pulaskitech.edu',
+            'personal_id' => '418008254',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -2135,6 +2837,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '418008254')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Stacy Fortney',
+            'email' => 'sfortney@pulaskitech.edu',
+            'personal_id' => '420007231',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -2144,6 +2849,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '420007231')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Jacqueline Wright',
+            'email' => 'jwright@pulaskitech.edu',
+            'personal_id' => '423005923',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -2153,6 +2861,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '423005923')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Casey Rockwell',
+            'email' => 'crockwell@pulaskitech.edu',
+            'personal_id' => '425003026',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -2162,6 +2873,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '425003026')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Sandy Longhorn',
+            'email' => 'slonghorn@pulaskitech.edu',
+            'personal_id' => '427001556',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -2171,6 +2885,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '427001556')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'James Pasley',
+            'email' => 'jpasley@pulaskitech.edu',
+            'personal_id' => '428002605',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -2180,6 +2897,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '428002605')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'A. Elizabeth Reves',
+            'email' => 'areves@pulaskitech.edu',
+            'personal_id' => '428003640',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -2189,6 +2909,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '428003640')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Jana Porter',
+            'email' => 'jporter@pulaskitech.edu',
+            'personal_id' => '428006908',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -2198,6 +2921,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '428006908')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Aaron Baldwin',
+            'email' => 'abaldwin@pulaskitech.edu',
+            'personal_id' => '429007391',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -2207,6 +2933,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '429007391')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Janine Tiner',
+            'email' => 'jtiner@pulaskitech.edu',
+            'personal_id' => '429009489',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -2216,6 +2945,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '429009489')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Austin Lovenstein',
+            'email' => 'alovenstein@pulaskitech.edu',
+            'personal_id' => '430006194',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -2225,6 +2957,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '430006194')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'J. Michelle Palmer',
+            'email' => 'jpalmer@pulaskitech.edu',
+            'personal_id' => '431004487',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -2234,6 +2969,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '431004487')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Geoff Thiers',
+            'email' => 'gthiers@pulaskitech.edu',
+            'personal_id' => '432007801',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -2243,6 +2981,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '432007801')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Mandie Smith',
+            'email' => 'msmith@pulaskitech.edu',
+            'personal_id' => '433000355',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -2252,6 +2993,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '433000355')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Letrishe Hence',
+            'email' => 'lhence@pulaskitech.edu',
+            'personal_id' => '434004080',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -2261,6 +3005,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '434004080')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Werner Trieschmann',
+            'email' => 'wtrieschmann@pulaskitech.edu',
+            'personal_id' => '437004924',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -2270,6 +3017,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '437004924')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Jason Jewell',
+            'email' => 'jjewell@pulaskitech.edu',
+            'personal_id' => '437007434',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -2279,6 +3029,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '437007434')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Gloria Reyes',
+            'email' => 'greyes@pulaskitech.edu',
+            'personal_id' => '441008120',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -2288,6 +3041,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '441008120')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Robert Best',
+            'email' => 'rbest@pulaskitech.edu',
+            'personal_id' => '441008889',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -2297,6 +3053,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '441008889')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Harold Daigle',
+            'email' => 'hdaigle@pulaskitech.edu',
+            'personal_id' => '443005497',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -2306,6 +3065,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '443005497')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Tracie Rushing',
+            'email' => 'trushing@pulaskitech.edu',
+            'personal_id' => '444004137',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -2315,6 +3077,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '444004137')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Aubrey Pangle',
+            'email' => 'apangle@pulaskitech.edu',
+            'personal_id' => '447003876',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -2324,6 +3089,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '447003876')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'David Warren',
+            'email' => 'dwarren@pulaskitech.edu',
+            'personal_id' => '449008400',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -2333,6 +3101,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '449008400')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Paula Watson',
+            'email' => 'pwatson@pulaskitech.edu',
+            'personal_id' => '449009347',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -2342,6 +3113,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '449009347')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Terry Allmon',
+            'email' => 'tallmon@pulaskitech.edu',
+            'personal_id' => '451006015',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -2351,6 +3125,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '451006015')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Jennifer Martslolf',
+            'email' => 'jmartslolf@pulaskitech.edu',
+            'personal_id' => '452003910',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -2360,6 +3137,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '452003910')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Susanne Ashby',
+            'email' => 'sashby@pulaskitech.edu',
+            'personal_id' => '452007483',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -2369,6 +3149,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '452007483')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Natalie Molineaux',
+            'email' => 'nmolineaux@pulaskitech.edu',
+            'personal_id' => '455001221',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -2378,6 +3161,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '455001221')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Dana Curry',
+            'email' => 'dcurry@pulaskitech.edu',
+            'personal_id' => '458002441',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -2387,6 +3173,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '458002441')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Ashley Embry',
+            'email' => 'aembry@pulaskitech.edu',
+            'personal_id' => '459003626',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -2396,6 +3185,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '459003626')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Devin McKnight',
+            'email' => 'dmcknight@pulaskitech.edu',
+            'personal_id' => '459003875',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -2405,6 +3197,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '459003875')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Amanda Armstrong',
+            'email' => 'aarmstrong@pulaskitech.edu',
+            'personal_id' => '459008292',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -2414,6 +3209,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '459008292')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Dalana Nugent',
+            'email' => 'dnugent@pulaskitech.edu',
+            'personal_id' => '459008700',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -2423,6 +3221,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '459008700')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Allen Loibner',
+            'email' => 'aloibner@pulaskitech.edu',
+            'personal_id' => '460002978',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -2432,6 +3233,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '460002978')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Michael Hostetler',
+            'email' => 'mhostetler@pulaskitech.edu',
+            'personal_id' => '461003088',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -2441,6 +3245,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '461003088')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Donna Jean Rausch',
+            'email' => 'drausch@pulaskitech.edu',
+            'personal_id' => '465003535',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -2450,6 +3257,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '465003535')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Michele Alice French',
+            'email' => 'mfrench@pulaskitech.edu',
+            'personal_id' => '466006426',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -2459,6 +3269,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '466006426')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Sonya Russ',
+            'email' => 'sruss@pulaskitech.edu',
+            'personal_id' => '467003413',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -2468,6 +3281,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '467003413')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Gary Gaines',
+            'email' => 'ggaines@pulaskitech.edu',
+            'personal_id' => '471004513',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -2477,6 +3293,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '471004513')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Rick Babic',
+            'email' => 'rbabic@pulaskitech.edu',
+            'personal_id' => '474003797',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -2486,6 +3305,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '474003797')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Sarah Nixon',
+            'email' => 'snixon@pulaskitech.edu',
+            'personal_id' => '481009263',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -2495,6 +3317,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '481009263')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'John Galbraith',
+            'email' => 'jgalbraith@pulaskitech.edu',
+            'personal_id' => '482000879',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -2504,6 +3329,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '482000879')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Jessica Scharbor',
+            'email' => 'jscharbor@pulaskitech.edu',
+            'personal_id' => '482003917',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -2513,6 +3341,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '482003917')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Jason Hancock',
+            'email' => 'jhancock@pulaskitech.edu',
+            'personal_id' => '483007242',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -2522,6 +3353,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '483007242')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Kristen Holloway',
+            'email' => 'kholloway@pulaskitech.edu',
+            'personal_id' => '484008428',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -2531,6 +3365,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '484008428')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Jason K. Green',
+            'email' => 'jgreen@pulaskitech.edu',
+            'personal_id' => '485004685',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -2540,6 +3377,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '485004685')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Jasmine Williams',
+            'email' => 'jwilliams@pulaskitech.edu',
+            'personal_id' => '485007588',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -2549,6 +3389,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '485007588')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Laura Campbell',
+            'email' => 'lcampbell@pulaskitech.edu',
+            'personal_id' => '486004916',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -2558,6 +3401,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '486004916')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Ashia Muhammad',
+            'email' => 'amuhammad@pulaskitech.edu',
+            'personal_id' => '487001905',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -2567,6 +3413,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '487001905')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Amie Csege',
+            'email' => 'acsege@pulaskitech.edu',
+            'personal_id' => '489001986',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -2576,6 +3425,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '489001986')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'William Stoval',
+            'email' => 'wstoval@pulaskitech.edu',
+            'personal_id' => '492004991',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -2585,6 +3437,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '492004991')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Susan Williamson',
+            'email' => 'swilliamson@pulaskitech.edu',
+            'personal_id' => '497007673',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -2594,6 +3449,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '497007673')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Kenneth (Kent) Douglas',
+            'email' => 'kdouglas@pulaskitech.edu',
+            'personal_id' => '498006833',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -2603,6 +3461,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '498006833')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Kathryn Evans',
+            'email' => 'kevans@pulaskitech.edu',
+            'personal_id' => '501009803',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -2612,6 +3473,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '501009803')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Angela Peace',
+            'email' => 'apeace@pulaskitech.edu',
+            'personal_id' => '505008055',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -2621,6 +3485,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '505008055')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Trude Puckett',
+            'email' => 'tpuckett@pulaskitech.edu',
+            'personal_id' => '508005076',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -2630,6 +3497,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '508005076')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Mayo Johnson',
+            'email' => 'mjohnson@pulaskitech.edu',
+            'personal_id' => '509003889',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -2639,6 +3509,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '509003889')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Terry Mercing',
+            'email' => 'tmercing@pulaskitech.edu',
+            'personal_id' => '512007290',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -2648,6 +3521,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '512007290')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Stephanie Williams',
+            'email' => 'swilliams@pulaskitech.edu',
+            'personal_id' => '516002301',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -2657,6 +3533,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '516002301')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Alisa Brown',
+            'email' => 'abrown@pulaskitech.edu',
+            'personal_id' => '518006218',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -2666,6 +3545,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '518006218')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Beverly Smith',
+            'email' => 'bsmith@pulaskitech.edu',
+            'personal_id' => '519009007',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -2675,6 +3557,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '519009007')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Mindy Hodges',
+            'email' => 'mhodges@pulaskitech.edu',
+            'personal_id' => '520003466',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -2684,6 +3569,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '520003466')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Teri Cox',
+            'email' => 'tcox@pulaskitech.edu',
+            'personal_id' => '521007106',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -2693,6 +3581,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '521007106')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Jimmy Davis',
+            'email' => 'jdavis@pulaskitech.edu',
+            'personal_id' => '522001344',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -2702,6 +3593,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '522001344')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Samantha White',
+            'email' => 'swhite@pulaskitech.edu',
+            'personal_id' => '523000700',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -2711,6 +3605,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '523000700')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Bonnie Faupel',
+            'email' => 'bfaupel@pulaskitech.edu',
+            'personal_id' => '525000115',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -2720,6 +3617,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '525000115')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Beth Miller',
+            'email' => 'bmiller@pulaskitech.edu',
+            'personal_id' => '529006429',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -2729,6 +3629,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '529006429')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Zachary Perrine',
+            'email' => 'zperrine@pulaskitech.edu',
+            'personal_id' => '529008311',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -2738,6 +3641,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '529008311')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Melissa Douglas',
+            'email' => 'mdouglas@pulaskitech.edu',
+            'personal_id' => '531002765',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -2747,6 +3653,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '531002765')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Phillip Harris',
+            'email' => 'pharris@pulaskitech.edu',
+            'personal_id' => '531007939',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -2756,6 +3665,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '531007939')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Cheryl Moody',
+            'email' => 'cmoody@pulaskitech.edu',
+            'personal_id' => '535009547',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -2765,6 +3677,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '535009547')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Julie Wright-Locke',
+            'email' => 'jwright-locke@pulaskitech.edu',
+            'personal_id' => '539006314',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -2774,6 +3689,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '539006314')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Kimberly Kwee',
+            'email' => 'kkwee@pulaskitech.edu',
+            'personal_id' => '541002650',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -2783,6 +3701,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '541002650')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Carmen Scanlon',
+            'email' => 'cscanlon@pulaskitech.edu',
+            'personal_id' => '541003679',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -2792,6 +3713,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '541003679')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Samuel Gregory',
+            'email' => 'sgregory@pulaskitech.edu',
+            'personal_id' => '541006430',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -2801,6 +3725,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '541006430')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Jerry Armstrong',
+            'email' => 'jarmstrong@pulaskitech.edu',
+            'personal_id' => '544000692',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -2810,6 +3737,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '544000692')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Lara Crane',
+            'email' => 'lcrane@pulaskitech.edu',
+            'personal_id' => '548006156',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -2819,6 +3749,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '548006156')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Samantha Staggs',
+            'email' => 'sstaggs@pulaskitech.edu',
+            'personal_id' => '549006674',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -2828,6 +3761,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '549006674')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Ashlyn Dugan',
+            'email' => 'adugan@pulaskitech.edu',
+            'personal_id' => '549006859',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -2837,6 +3773,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '549006859')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Tracy Pennington',
+            'email' => 'tpennington@pulaskitech.edu',
+            'personal_id' => '554000538',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -2846,6 +3785,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '554000538')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Annie  D. Robinson',
+            'email' => 'arobinson@pulaskitech.edu',
+            'personal_id' => '554007486',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -2855,6 +3797,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '554007486')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Nicole Smith',
+            'email' => 'nsmith@pulaskitech.edu',
+            'personal_id' => '554008661',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -2864,6 +3809,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '554008661')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Thomas Price',
+            'email' => 'tprice@pulaskitech.edu',
+            'personal_id' => '555009273',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -2873,6 +3821,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '555009273')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Tommy Bennett',
+            'email' => 'tbennett@pulaskitech.edu',
+            'personal_id' => '558003626',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -2882,6 +3833,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '558003626')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'DeAnna Davis',
+            'email' => 'ddavis@pulaskitech.edu',
+            'personal_id' => '561007513',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -2891,6 +3845,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '561007513')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Laura Austin',
+            'email' => 'laustin@pulaskitech.edu',
+            'personal_id' => '562001405',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -2900,6 +3857,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '562001405')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Marilyn Harris',
+            'email' => 'mharris@pulaskitech.edu',
+            'personal_id' => '564006220',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -2909,6 +3869,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '564006220')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Primo Voisin',
+            'email' => 'pvoisin@pulaskitech.edu',
+            'personal_id' => '569003891',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -2918,6 +3881,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '569003891')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Kristin Wagner',
+            'email' => 'kwagner@pulaskitech.edu',
+            'personal_id' => '569008954',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -2927,6 +3893,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '569008954')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Karen Shaw',
+            'email' => 'kshaw@pulaskitech.edu',
+            'personal_id' => '570007673',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -2936,6 +3905,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '570007673')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'James Mcafee',
+            'email' => 'jmcafee@pulaskitech.edu',
+            'personal_id' => '574008779',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -2945,6 +3917,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '574008779')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Heather Barnett',
+            'email' => 'hbarnett@pulaskitech.edu',
+            'personal_id' => '577005139',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -2954,6 +3929,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '577005139')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Weeda Jones',
+            'email' => 'wjones@pulaskitech.edu',
+            'personal_id' => '577006173',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -2963,6 +3941,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '577006173')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Amanda Linn',
+            'email' => 'alinn@pulaskitech.edu',
+            'personal_id' => '577007513',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -2972,6 +3953,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '577007513')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Melisa Quesenberry',
+            'email' => 'mquesenberry@pulaskitech.edu',
+            'personal_id' => '578006417',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -2981,6 +3965,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '578006417')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Shannon Clowney',
+            'email' => 'sclowney@pulaskitech.edu',
+            'personal_id' => '578008384',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -2990,6 +3977,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '578008384')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Rebecca Stone',
+            'email' => 'rstone@pulaskitech.edu',
+            'personal_id' => '579000371',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -2999,6 +3989,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '579000371')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Jennifer Gilley',
+            'email' => 'jgilley@pulaskitech.edu',
+            'personal_id' => '579008433',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -3008,6 +4001,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '579008433')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Joe McAfee',
+            'email' => 'jmcafee@pulaskitech.edu',
+            'personal_id' => '581005203',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -3017,6 +4013,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '581005203')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Jennifer Kilmore',
+            'email' => 'jkilmore@pulaskitech.edu',
+            'personal_id' => '584002107',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -3026,6 +4025,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '584002107')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Rachael Rice',
+            'email' => 'rrice@pulaskitech.edu',
+            'personal_id' => '584007572',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -3035,6 +4037,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '584007572')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Madhu Reniguntala',
+            'email' => 'mreniguntala@pulaskitech.edu',
+            'personal_id' => '588009451',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -3044,6 +4049,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '588009451')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Faysal Ahmed',
+            'email' => 'fahmed@pulaskitech.edu',
+            'personal_id' => '592006311',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -3053,6 +4061,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '592006311')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'David Cullipher',
+            'email' => 'dcullipher@pulaskitech.edu',
+            'personal_id' => '596000194',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -3062,6 +4073,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '596000194')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Jacob Standley',
+            'email' => 'jstandley@pulaskitech.edu',
+            'personal_id' => '597007455',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -3071,6 +4085,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '597007455')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Neal Farris',
+            'email' => 'nfarris@pulaskitech.edu',
+            'personal_id' => '602000956',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -3080,6 +4097,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '602000956')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Ian Thomas',
+            'email' => 'ithomas@pulaskitech.edu',
+            'personal_id' => '602001620',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -3089,6 +4109,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '602001620')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Anna Mitchell',
+            'email' => 'amitchell@pulaskitech.edu',
+            'personal_id' => '606001567',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -3098,6 +4121,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '606001567')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Don Spitler',
+            'email' => 'dspitler@pulaskitech.edu',
+            'personal_id' => '608004323',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -3107,6 +4133,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '608004323')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Angie Macri',
+            'email' => 'amacri@pulaskitech.edu',
+            'personal_id' => '608008354',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -3116,6 +4145,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '608008354')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Paul Wiltz',
+            'email' => 'pwiltz@pulaskitech.edu',
+            'personal_id' => '610001420',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -3125,6 +4157,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '610001420')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Josh Weaver',
+            'email' => 'jweaver@pulaskitech.edu',
+            'personal_id' => '610001674',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -3134,6 +4169,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '610001674')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Amanda Doyle',
+            'email' => 'adoyle@pulaskitech.edu',
+            'personal_id' => '610009236',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -3143,6 +4181,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '610009236')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Kevin Baer',
+            'email' => 'kbaer@pulaskitech.edu',
+            'personal_id' => '611001587',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -3152,6 +4193,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '611001587')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Heather Murski',
+            'email' => 'hmurski@pulaskitech.edu',
+            'personal_id' => '613004012',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -3161,6 +4205,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '613004012')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'William Roark',
+            'email' => 'wroark@pulaskitech.edu',
+            'personal_id' => '614007511',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -3170,6 +4217,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '614007511')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Sandra Kirkpatrick',
+            'email' => 'skirkpatrick@pulaskitech.edu',
+            'personal_id' => '615001683',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -3179,6 +4229,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '615001683')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Deborah Huber',
+            'email' => 'dhuber@pulaskitech.edu',
+            'personal_id' => '615002567',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -3188,6 +4241,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '615002567')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'J. Allan Holloway',
+            'email' => 'jholloway@pulaskitech.edu',
+            'personal_id' => '616009117',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -3197,6 +4253,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '616009117')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Patricia Covington',
+            'email' => 'pcovington@pulaskitech.edu',
+            'personal_id' => '617009030',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -3206,6 +4265,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '617009030')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Todd Gold',
+            'email' => 'tgold@pulaskitech.edu',
+            'personal_id' => '618002384',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -3215,6 +4277,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '618002384')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Lisa Fisher',
+            'email' => 'lfisher@pulaskitech.edu',
+            'personal_id' => '620003509',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -3224,6 +4289,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '620003509')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Nicki Feldman',
+            'email' => 'nfeldman@pulaskitech.edu',
+            'personal_id' => '620006903',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -3233,6 +4301,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '620006903')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Stephanie Pierce',
+            'email' => 'spierce@pulaskitech.edu',
+            'personal_id' => '621009962',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -3242,6 +4313,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '621009962')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Terry Ballard',
+            'email' => 'tballard@pulaskitech.edu',
+            'personal_id' => '622000365',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -3251,6 +4325,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '622000365')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Ralph Schultz',
+            'email' => 'rschultz@pulaskitech.edu',
+            'personal_id' => '623002742',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -3260,6 +4337,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '623002742')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Daryl Swinson',
+            'email' => 'dswinson@pulaskitech.edu',
+            'personal_id' => '623008819',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -3269,6 +4349,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '623008819')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Matt Bradke',
+            'email' => 'mbradke@pulaskitech.edu',
+            'personal_id' => '629005445',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -3278,6 +4361,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '629005445')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Erin Dail',
+            'email' => 'edail@pulaskitech.edu',
+            'personal_id' => '631002998',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -3287,6 +4373,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '631002998')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Raymond Williams',
+            'email' => 'rwilliams@pulaskitech.edu',
+            'personal_id' => '631006916',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -3296,6 +4385,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '631006916')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Amber Strain',
+            'email' => 'astrain@pulaskitech.edu',
+            'personal_id' => '632000313',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -3305,6 +4397,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '632000313')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Patricia M. Reid',
+            'email' => 'preid@pulaskitech.edu',
+            'personal_id' => '632004627',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -3314,6 +4409,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '632004627')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Holly Bass',
+            'email' => 'hbass@pulaskitech.edu',
+            'personal_id' => '632004943',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -3323,6 +4421,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '632004943')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Sarah Johnson',
+            'email' => 'sjohnson@pulaskitech.edu',
+            'personal_id' => '635001325',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -3332,6 +4433,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '635001325')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'William Byrd',
+            'email' => 'wbyrd@pulaskitech.edu',
+            'personal_id' => '635002560',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -3341,6 +4445,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '635002560')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Aiwei Borengasser',
+            'email' => 'aborengasser@pulaskitech.edu',
+            'personal_id' => '637006811',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -3350,6 +4457,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '637006811')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Barbara  Wilborn',
+            'email' => 'bwilborn@pulaskitech.edu',
+            'personal_id' => '638002974',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -3359,6 +4469,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '638002974')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Teresa Upshaw Wallent',
+            'email' => 'tupshaw wallent@pulaskitech.edu',
+            'personal_id' => '639006732',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -3368,6 +4481,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '639006732')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Chelsey Moore',
+            'email' => 'cmoore@pulaskitech.edu',
+            'personal_id' => '640004314',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -3377,6 +4493,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '640004314')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Janet Bayless',
+            'email' => 'jbayless@pulaskitech.edu',
+            'personal_id' => '641001578',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -3386,6 +4505,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '641001578')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Constance Hurd',
+            'email' => 'churd@pulaskitech.edu',
+            'personal_id' => '642001802',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -3395,6 +4517,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '642001802')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Michael Julian',
+            'email' => 'mjulian@pulaskitech.edu',
+            'personal_id' => '644008794',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -3404,6 +4529,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '644008794')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Johnnie Green',
+            'email' => 'jgreen@pulaskitech.edu',
+            'personal_id' => '645001124',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -3413,6 +4541,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '645001124')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'John Price',
+            'email' => 'jprice@pulaskitech.edu',
+            'personal_id' => '645002774',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -3422,6 +4553,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '645002774')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Terry Johnson',
+            'email' => 'tjohnson@pulaskitech.edu',
+            'personal_id' => '646001139',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -3431,6 +4565,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '646001139')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Terrill Beckerman',
+            'email' => 'tbeckerman@pulaskitech.edu',
+            'personal_id' => '646003951',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -3440,6 +4577,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '646003951')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Carolyn Jennings',
+            'email' => 'cjennings@pulaskitech.edu',
+            'personal_id' => '647009109',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -3449,6 +4589,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '647009109')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Floyd Ross',
+            'email' => 'fross@pulaskitech.edu',
+            'personal_id' => '648005455',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -3458,6 +4601,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '648005455')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'L. Crecy Ragan',
+            'email' => 'lragan@pulaskitech.edu',
+            'personal_id' => '649003446',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -3467,6 +4613,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '649003446')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Mark Barnes',
+            'email' => 'mbarnes@pulaskitech.edu',
+            'personal_id' => '650006754',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -3476,6 +4625,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '650006754')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Jonathan Childs',
+            'email' => 'jchilds@pulaskitech.edu',
+            'personal_id' => '651008784',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -3485,6 +4637,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '651008784')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Joanna Newkirk',
+            'email' => 'jnewkirk@pulaskitech.edu',
+            'personal_id' => '652008431',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -3494,6 +4649,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '652008431')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'LaShundra Watson',
+            'email' => 'lwatson@pulaskitech.edu',
+            'personal_id' => '652008438',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -3503,6 +4661,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '652008438')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Jamie Ables',
+            'email' => 'jables@pulaskitech.edu',
+            'personal_id' => '655004158',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -3512,6 +4673,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '655004158')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Darin Archer',
+            'email' => 'darcher@pulaskitech.edu',
+            'personal_id' => '656009435',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -3521,6 +4685,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '656009435')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Cynthia Fletcher',
+            'email' => 'cfletcher@pulaskitech.edu',
+            'personal_id' => '659005162',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -3530,6 +4697,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '659005162')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'M. Katie Davis',
+            'email' => 'mdavis@pulaskitech.edu',
+            'personal_id' => '664001468',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -3539,6 +4709,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '664001468')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Debbie Schlesinger',
+            'email' => 'dschlesinger@pulaskitech.edu',
+            'personal_id' => '665007163',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -3548,6 +4721,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '665007163')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Amy Ballard',
+            'email' => 'aballard@pulaskitech.edu',
+            'personal_id' => '669000216',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -3557,6 +4733,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '669000216')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'DeAndre Smith',
+            'email' => 'dsmith@pulaskitech.edu',
+            'personal_id' => '669002045',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -3566,6 +4745,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '669002045')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Nick Reeves',
+            'email' => 'nreeves@pulaskitech.edu',
+            'personal_id' => '669005078',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -3575,6 +4757,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '669005078')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Tasha Ward-Henderson',
+            'email' => 'tward-henderson@pulaskitech.edu',
+            'personal_id' => '672008103',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -3584,6 +4769,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '672008103')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Jesse Holcomb',
+            'email' => 'jholcomb@pulaskitech.edu',
+            'personal_id' => '673001613',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -3593,6 +4781,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '673001613')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Jeseph Elliott',
+            'email' => 'jelliott@pulaskitech.edu',
+            'personal_id' => '675005518',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -3602,6 +4793,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '675005518')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Cindy Beckett',
+            'email' => 'cbeckett@pulaskitech.edu',
+            'personal_id' => '676004245',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -3611,6 +4805,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '676004245')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Jessica Otto',
+            'email' => 'jotto@pulaskitech.edu',
+            'personal_id' => '679007700',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -3620,6 +4817,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '679007700')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Jessica Sahene',
+            'email' => 'jsahene@pulaskitech.edu',
+            'personal_id' => '680001492',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -3629,6 +4829,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '680001492')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Martha Eschleman',
+            'email' => 'meschleman@pulaskitech.edu',
+            'personal_id' => '680007336',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -3638,6 +4841,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '680007336')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Joe Schneider',
+            'email' => 'jschneider@pulaskitech.edu',
+            'personal_id' => '682002850',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -3647,6 +4853,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '682002850')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'John E. Marshall',
+            'email' => 'jmarshall@pulaskitech.edu',
+            'personal_id' => '682007464',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -3656,6 +4865,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '682007464')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Rebecca Sterling',
+            'email' => 'rsterling@pulaskitech.edu',
+            'personal_id' => '683009509',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -3665,6 +4877,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '683009509')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Bonnie Kenney',
+            'email' => 'bkenney@pulaskitech.edu',
+            'personal_id' => '685004891',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -3674,6 +4889,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '685004891')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Cynthia Beckett',
+            'email' => 'cbeckett@pulaskitech.edu',
+            'personal_id' => '686005687',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -3683,6 +4901,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '686005687')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Kirsten Heintz',
+            'email' => 'kheintz@pulaskitech.edu',
+            'personal_id' => '689001967',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -3692,6 +4913,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '689001967')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Monty Self',
+            'email' => 'mself@pulaskitech.edu',
+            'personal_id' => '690006195',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -3701,6 +4925,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '690006195')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Jennifer Stewart',
+            'email' => 'jstewart@pulaskitech.edu',
+            'personal_id' => '696003148',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -3710,6 +4937,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '696003148')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Edward Hale',
+            'email' => 'ehale@pulaskitech.edu',
+            'personal_id' => '698003578',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -3719,6 +4949,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '698003578')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Sherrie Ray-Trevino',
+            'email' => 'sray-trevino@pulaskitech.edu',
+            'personal_id' => '703006801',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -3728,6 +4961,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '703006801')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Carol Parker',
+            'email' => 'cparker@pulaskitech.edu',
+            'personal_id' => '704006973',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -3737,6 +4973,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '704006973')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Janine Armstrong',
+            'email' => 'jarmstrong@pulaskitech.edu',
+            'personal_id' => '705001866',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -3746,6 +4985,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '705001866')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'William Lindsey',
+            'email' => 'wlindsey@pulaskitech.edu',
+            'personal_id' => '705003835',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -3755,6 +4997,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '705003835')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Melissa Potter',
+            'email' => 'mpotter@pulaskitech.edu',
+            'personal_id' => '707001321',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -3764,6 +5009,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '707001321')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Margery Wage',
+            'email' => 'mwage@pulaskitech.edu',
+            'personal_id' => '708004088',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -3773,6 +5021,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '708004088')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Joseph John',
+            'email' => 'jjohn@pulaskitech.edu',
+            'personal_id' => '709008772',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -3782,6 +5033,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '709008772')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Siobhan Bartley',
+            'email' => 'sbartley@pulaskitech.edu',
+            'personal_id' => '709009906',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -3791,6 +5045,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '709009906')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Thomas Russell',
+            'email' => 'trussell@pulaskitech.edu',
+            'personal_id' => '714004486',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -3800,6 +5057,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '714004486')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Robert Dixon',
+            'email' => 'rdixon@pulaskitech.edu',
+            'personal_id' => '714006004',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -3809,6 +5069,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '714006004')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Kay Shuttleworth',
+            'email' => 'kshuttleworth@pulaskitech.edu',
+            'personal_id' => '718005154',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -3818,6 +5081,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '718005154')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Jennifer Knetig',
+            'email' => 'jknetig@pulaskitech.edu',
+            'personal_id' => '718009713',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -3827,6 +5093,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '718009713')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Dieterick Govan',
+            'email' => 'dgovan@pulaskitech.edu',
+            'personal_id' => '719002104',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -3836,6 +5105,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '719002104')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Ashley Wyatt',
+            'email' => 'awyatt@pulaskitech.edu',
+            'personal_id' => '720004027',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -3845,6 +5117,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '720004027')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Keith Hearnsberger',
+            'email' => 'khearnsberger@pulaskitech.edu',
+            'personal_id' => '721006513',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -3854,6 +5129,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '721006513')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Sonjia Michaels',
+            'email' => 'smichaels@pulaskitech.edu',
+            'personal_id' => '721006981',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -3863,6 +5141,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '721006981')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Rebecca Chism',
+            'email' => 'rchism@pulaskitech.edu',
+            'personal_id' => '722004904',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -3872,6 +5153,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '722004904')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Keiona Middleton',
+            'email' => 'kmiddleton@pulaskitech.edu',
+            'personal_id' => '723000846',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -3881,6 +5165,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '723000846')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Joey Cole',
+            'email' => 'jcole@pulaskitech.edu',
+            'personal_id' => '723006559',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -3890,6 +5177,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '723006559')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Mary Walla',
+            'email' => 'mwalla@pulaskitech.edu',
+            'personal_id' => '724002800',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -3899,6 +5189,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '724002800')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Cathy Underwood',
+            'email' => 'cunderwood@pulaskitech.edu',
+            'personal_id' => '724005283',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -3908,6 +5201,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '724005283')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Marilyn Barlow',
+            'email' => 'mbarlow@pulaskitech.edu',
+            'personal_id' => '728002370',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -3917,6 +5213,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '728002370')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Tom Hunt',
+            'email' => 'thunt@pulaskitech.edu',
+            'personal_id' => '729001373',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -3926,6 +5225,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '729001373')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Robert Rands',
+            'email' => 'rrands@pulaskitech.edu',
+            'personal_id' => '729002034',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -3935,6 +5237,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '729002034')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Rhonda Carroll',
+            'email' => 'rcarroll@pulaskitech.edu',
+            'personal_id' => '729007370',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -3944,6 +5249,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '729007370')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Courtney Dycus',
+            'email' => 'cdycus@pulaskitech.edu',
+            'personal_id' => '729007801',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -3953,6 +5261,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '729007801')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Jamie Ryan',
+            'email' => 'jryan@pulaskitech.edu',
+            'personal_id' => '730002635',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -3962,6 +5273,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '730002635')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Tatiana Ryckman',
+            'email' => 'tryckman@pulaskitech.edu',
+            'personal_id' => '732006443',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -3971,6 +5285,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '732006443')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'George Balogh',
+            'email' => 'gbalogh@pulaskitech.edu',
+            'personal_id' => '732009017',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -3980,6 +5297,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '732009017')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Linda Ducrot',
+            'email' => 'lducrot@pulaskitech.edu',
+            'personal_id' => '733001383',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -3989,6 +5309,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '733001383')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Earl Davis',
+            'email' => 'edavis@pulaskitech.edu',
+            'personal_id' => '735007044',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -3998,6 +5321,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '735007044')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Alandrea Kilpatrick',
+            'email' => 'akilpatrick@pulaskitech.edu',
+            'personal_id' => '736003203',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -4007,6 +5333,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '736003203')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Adrian Correa',
+            'email' => 'acorrea@pulaskitech.edu',
+            'personal_id' => '736006138',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -4016,6 +5345,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '736006138')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'James Vinson',
+            'email' => 'jvinson@pulaskitech.edu',
+            'personal_id' => '737000653',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -4025,6 +5357,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '737000653')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Brenda Aycock',
+            'email' => 'baycock@pulaskitech.edu',
+            'personal_id' => '738004251',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -4034,6 +5369,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '738004251')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Anissa Ford',
+            'email' => 'aford@pulaskitech.edu',
+            'personal_id' => '738005234',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -4043,6 +5381,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '738005234')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Craig Jones',
+            'email' => 'cjones@pulaskitech.edu',
+            'personal_id' => '739000581',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -4052,6 +5393,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '739000581')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Miriam Karanja',
+            'email' => 'mkaranja@pulaskitech.edu',
+            'personal_id' => '740001267',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -4061,6 +5405,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '740001267')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Shelley Farmer ',
+            'email' => 'sfarmer @pulaskitech.edu',
+            'personal_id' => '741004797',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -4070,6 +5417,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '741004797')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Regena Bishop',
+            'email' => 'rbishop@pulaskitech.edu',
+            'personal_id' => '742000627',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -4079,6 +5429,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '742000627')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Tammie Deaton',
+            'email' => 'tdeaton@pulaskitech.edu',
+            'personal_id' => '742008883',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -4088,6 +5441,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '742008883')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Gabrielle Haulmark',
+            'email' => 'ghaulmark@pulaskitech.edu',
+            'personal_id' => '743000886',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -4097,6 +5453,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '743000886')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Lisa Lamoureux',
+            'email' => 'llamoureux@pulaskitech.edu',
+            'personal_id' => '743002901',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -4106,6 +5465,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '743002901')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Tachelle Nettles',
+            'email' => 'tnettles@pulaskitech.edu',
+            'personal_id' => '744007723',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -4115,6 +5477,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '744007723')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Mike Pridmore',
+            'email' => 'mpridmore@pulaskitech.edu',
+            'personal_id' => '745008024',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -4124,6 +5489,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '745008024')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Jean Swillum',
+            'email' => 'jswillum@pulaskitech.edu',
+            'personal_id' => '746006808',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -4133,6 +5501,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '746006808')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Jay Sprigg',
+            'email' => 'jsprigg@pulaskitech.edu',
+            'personal_id' => '747009097',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -4142,6 +5513,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '747009097')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'George Simonof',
+            'email' => 'gsimonof@pulaskitech.edu',
+            'personal_id' => '748004893',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -4151,6 +5525,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '748004893')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Gregory Heintz',
+            'email' => 'gheintz@pulaskitech.edu',
+            'personal_id' => '748005457',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -4160,6 +5537,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '748005457')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Dustin Johnson',
+            'email' => 'djohnson@pulaskitech.edu',
+            'personal_id' => '748000839',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -4169,6 +5549,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '748000839')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Daniel Hoskins',
+            'email' => 'dhoskins@pulaskitech.edu',
+            'personal_id' => '749002201',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -4178,6 +5561,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '749002201')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Lisa TwillieWoodruff',
+            'email' => 'ltwilliewoodruff@pulaskitech.edu',
+            'personal_id' => '750003862',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -4187,6 +5573,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '750003862')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Rhonda Troillett',
+            'email' => 'rtroillett@pulaskitech.edu',
+            'personal_id' => '750004487',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -4196,6 +5585,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '750004487')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Helen Snyder',
+            'email' => 'hsnyder@pulaskitech.edu',
+            'personal_id' => '751002538',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -4205,6 +5597,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '751002538')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Lacee Werdehausen',
+            'email' => 'lwerdehausen@pulaskitech.edu',
+            'personal_id' => '755008775',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -4214,6 +5609,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '755008775')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Matthew Franks',
+            'email' => 'mfranks@pulaskitech.edu',
+            'personal_id' => '756004452',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -4223,6 +5621,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '756004452')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Theresa Allred',
+            'email' => 'tallred@pulaskitech.edu',
+            'personal_id' => '757008237',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -4232,6 +5633,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '757008237')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Stella Bowers',
+            'email' => 'sbowers@pulaskitech.edu',
+            'personal_id' => '761003395',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -4241,6 +5645,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '761003395')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Brannon Runions',
+            'email' => 'brunions@pulaskitech.edu',
+            'personal_id' => '762005847',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -4250,6 +5657,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '762005847')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Suzanne Reed',
+            'email' => 'sreed@pulaskitech.edu',
+            'personal_id' => '766002715',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -4259,6 +5669,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '766002715')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Jaafar Alazzawi',
+            'email' => 'jalazzawi@pulaskitech.edu',
+            'personal_id' => '766004952',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -4268,6 +5681,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '766004952')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Doug Ford',
+            'email' => 'dford@pulaskitech.edu',
+            'personal_id' => '767003155',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -4277,6 +5693,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '767003155')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Tyrrell Schneider',
+            'email' => 'tschneider@pulaskitech.edu',
+            'personal_id' => '768007135',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -4286,6 +5705,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '768007135')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Terry Hunkapiller',
+            'email' => 'thunkapiller@pulaskitech.edu',
+            'personal_id' => '771006452',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -4295,6 +5717,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '771006452')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Allan Lemmon',
+            'email' => 'alemmon@pulaskitech.edu',
+            'personal_id' => '773000377',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -4304,6 +5729,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '773000377')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Stephanie Sheppard',
+            'email' => 'ssheppard@pulaskitech.edu',
+            'personal_id' => '773007057',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -4313,6 +5741,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '773007057')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Traci Johnston',
+            'email' => 'tjohnston@pulaskitech.edu',
+            'personal_id' => '774002757',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -4322,6 +5753,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '774002757')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Sarah Buford',
+            'email' => 'sbuford@pulaskitech.edu',
+            'personal_id' => '774004561',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -4331,6 +5765,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '774004561')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Denise Hammett',
+            'email' => 'dhammett@pulaskitech.edu',
+            'personal_id' => '778000844',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -4340,6 +5777,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '778000844')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Denies Matlock',
+            'email' => 'dmatlock@pulaskitech.edu',
+            'personal_id' => '779002781',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -4349,6 +5789,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '779002781')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Calvin White',
+            'email' => 'cwhite@pulaskitech.edu',
+            'personal_id' => '781002203',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -4358,6 +5801,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '781002203')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Eugene Rathfon',
+            'email' => 'erathfon@pulaskitech.edu',
+            'personal_id' => '782003804',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -4367,6 +5813,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '782003804')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Amanda Willey  ',
+            'email' => 'awilley  @pulaskitech.edu',
+            'personal_id' => '785005475',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -4377,6 +5826,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
         ]);
 
         DB::table('training_registrations')->insert([
+            'name' => 'James Hunt',
+            'email' => 'jhunt@pulaskitech.edu',
+            'personal_id' => '788005486',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -4386,6 +5838,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '788005486')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Greg Drzazgowski',
+            'email' => 'gdrzazgowski@pulaskitech.edu',
+            'personal_id' => '791004703',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -4395,6 +5850,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '791004703')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Karen Trevino',
+            'email' => 'ktrevino@pulaskitech.edu',
+            'personal_id' => '791007446',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -4404,6 +5862,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '791007446')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Kami Wentz',
+            'email' => 'kwentz@pulaskitech.edu',
+            'personal_id' => '794004927',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -4413,6 +5874,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '794004927')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Julia Gibbins',
+            'email' => 'jgibbins@pulaskitech.edu',
+            'personal_id' => '794007468',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -4422,6 +5886,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '794007468')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Robert Musser',
+            'email' => 'rmusser@pulaskitech.edu',
+            'personal_id' => '795009119',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -4431,6 +5898,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '795009119')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Michelle Herrera',
+            'email' => 'mherrera@pulaskitech.edu',
+            'personal_id' => '796000965',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -4440,6 +5910,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '796000965')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Caron Bowen',
+            'email' => 'cbowen@pulaskitech.edu',
+            'personal_id' => '796008056',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -4449,6 +5922,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '796008056')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Anna  Ortiz',
+            'email' => 'aortiz@pulaskitech.edu',
+            'personal_id' => '799008766',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -4458,6 +5934,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '799008766')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Karen Jensen',
+            'email' => 'kjensen@pulaskitech.edu',
+            'personal_id' => '801001151',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -4467,6 +5946,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '801001151')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Mike Leach',
+            'email' => 'mleach@pulaskitech.edu',
+            'personal_id' => '801002557',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -4476,6 +5958,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '801002557')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Deborah Ahring',
+            'email' => 'dahring@pulaskitech.edu',
+            'personal_id' => '801008278',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -4485,6 +5970,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '801008278')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Jeffrey Fischer',
+            'email' => 'jfischer@pulaskitech.edu',
+            'personal_id' => '803003934',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -4494,6 +5982,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '803003934')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Phillipe Ducrot',
+            'email' => 'pducrot@pulaskitech.edu',
+            'personal_id' => '803007613',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -4503,6 +5994,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '803007613')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Jomeka Mosby',
+            'email' => 'jmosby@pulaskitech.edu',
+            'personal_id' => '805003823',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -4512,6 +6006,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '805003823')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'J Robyn Spence',
+            'email' => 'jspence@pulaskitech.edu',
+            'personal_id' => '808005565',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -4521,6 +6018,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '808005565')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Bernica Tackett',
+            'email' => 'btackett@pulaskitech.edu',
+            'personal_id' => '814007697',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -4530,6 +6030,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '814007697')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Lekita Pounds',
+            'email' => 'lpounds@pulaskitech.edu',
+            'personal_id' => '816005499',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -4539,6 +6042,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '816005499')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Brian Hight',
+            'email' => 'bhight@pulaskitech.edu',
+            'personal_id' => '823000277',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -4548,6 +6054,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '823000277')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'James (Jim) Pearson',
+            'email' => 'jpearson@pulaskitech.edu',
+            'personal_id' => '824006033',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -4557,6 +6066,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '824006033')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Jayne Pyle',
+            'email' => 'jpyle@pulaskitech.edu',
+            'personal_id' => '825000977',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -4566,6 +6078,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '825000977')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Andy Turner',
+            'email' => 'aturner@pulaskitech.edu',
+            'personal_id' => '825002201',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -4575,6 +6090,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '825002201')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Leslie Omalley',
+            'email' => 'lomalley@pulaskitech.edu',
+            'personal_id' => '826003461',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -4584,6 +6102,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '826003461')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Melody Berning',
+            'email' => 'mberning@pulaskitech.edu',
+            'personal_id' => '827006565',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -4593,6 +6114,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '827006565')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Anna Tanner',
+            'email' => 'atanner@pulaskitech.edu',
+            'personal_id' => '828000334',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -4602,6 +6126,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '828000334')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Sherelle Lee',
+            'email' => 'slee@pulaskitech.edu',
+            'personal_id' => '828006010',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -4611,6 +6138,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '828006010')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Jim Porter',
+            'email' => 'jporter@pulaskitech.edu',
+            'personal_id' => '830003066',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -4620,6 +6150,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '830003066')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Bruce Schulte',
+            'email' => 'bschulte@pulaskitech.edu',
+            'personal_id' => '831009198',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -4629,6 +6162,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '831009198')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Renee Smith',
+            'email' => 'rsmith@pulaskitech.edu',
+            'personal_id' => '833005405',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -4638,6 +6174,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '833005405')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Mrghan Cantlon',
+            'email' => 'mcantlon@pulaskitech.edu',
+            'personal_id' => '836005496',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -4647,6 +6186,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '836005496')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Stephanie Phillips',
+            'email' => 'sphillips@pulaskitech.edu',
+            'personal_id' => '837006898',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -4656,6 +6198,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '837006898')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Jason Martin',
+            'email' => 'jmartin@pulaskitech.edu',
+            'personal_id' => '838006634',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -4665,6 +6210,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '838006634')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Berna Love',
+            'email' => 'blove@pulaskitech.edu',
+            'personal_id' => '841007550',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -4674,6 +6222,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '841007550')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Jack Wood',
+            'email' => 'jwood@pulaskitech.edu',
+            'personal_id' => '842005659',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -4683,6 +6234,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '842005659')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Jeff Dixon',
+            'email' => 'jdixon@pulaskitech.edu',
+            'personal_id' => '843000928',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -4692,6 +6246,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '843000928')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Joe Guy',
+            'email' => 'jguy@pulaskitech.edu',
+            'personal_id' => '845003182',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -4701,6 +6258,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '845003182')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'J. Don Keller',
+            'email' => 'jkeller@pulaskitech.edu',
+            'personal_id' => '847002004',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -4710,6 +6270,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '847002004')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Jessica Martin',
+            'email' => 'jmartin@pulaskitech.edu',
+            'personal_id' => '847008000',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -4719,6 +6282,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '847008000')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Tressa Ashberry',
+            'email' => 'tashberry@pulaskitech.edu',
+            'personal_id' => '847008922',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -4728,6 +6294,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '847008922')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Michael Mills',
+            'email' => 'mmills@pulaskitech.edu',
+            'personal_id' => '848003937',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -4737,6 +6306,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '848003937')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Michael Harris',
+            'email' => 'mharris@pulaskitech.edu',
+            'personal_id' => '848004726',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -4746,6 +6318,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '848004726')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Antonia Garcia',
+            'email' => 'agarcia@pulaskitech.edu',
+            'personal_id' => '851003569',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -4755,6 +6330,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '851003569')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'LaTasha Ursery',
+            'email' => 'lursery@pulaskitech.edu',
+            'personal_id' => '853007221',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -4764,6 +6342,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '853007221')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Anna Pagan',
+            'email' => 'apagan@pulaskitech.edu',
+            'personal_id' => '855000744',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -4773,6 +6354,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '855000744')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Suzanne Campbell',
+            'email' => 'scampbell@pulaskitech.edu',
+            'personal_id' => '855009316',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -4782,6 +6366,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '855009316')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Rachel Miller',
+            'email' => 'rmiller@pulaskitech.edu',
+            'personal_id' => '856005483',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -4791,6 +6378,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '856005483')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Debbie Scharbor',
+            'email' => 'dscharbor@pulaskitech.edu',
+            'personal_id' => '857001431',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -4800,6 +6390,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '857001431')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Steven Eisenberg',
+            'email' => 'seisenberg@pulaskitech.edu',
+            'personal_id' => '857005924',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -4809,6 +6402,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '857005924')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'William Ginocchio',
+            'email' => 'wginocchio@pulaskitech.edu',
+            'personal_id' => '858004108',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -4818,6 +6414,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '858004108')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Frank Opitz',
+            'email' => 'fopitz@pulaskitech.edu',
+            'personal_id' => '859005632',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -4827,6 +6426,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '859005632')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Joshua Johnson',
+            'email' => 'jjohnson@pulaskitech.edu',
+            'personal_id' => '859009670',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -4836,6 +6438,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '859009670')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Christie Sherrill',
+            'email' => 'csherrill@pulaskitech.edu',
+            'personal_id' => '860006751',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -4845,6 +6450,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '860006751')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Dora Bradley',
+            'email' => 'dbradley@pulaskitech.edu',
+            'personal_id' => '865006358',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -4854,6 +6462,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '865006358')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Frank Latimer',
+            'email' => 'flatimer@pulaskitech.edu',
+            'personal_id' => '865007913',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -4863,6 +6474,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '865007913')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Vince Gemmiti',
+            'email' => 'vgemmiti@pulaskitech.edu',
+            'personal_id' => '866001643',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -4872,6 +6486,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '866001643')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Jerri Shertzer',
+            'email' => 'jshertzer@pulaskitech.edu',
+            'personal_id' => '866007131',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -4881,6 +6498,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '866007131')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Martha (MJ) Bennett',
+            'email' => 'mbennett@pulaskitech.edu',
+            'personal_id' => '866009908',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -4890,6 +6510,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '866009908')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Kristi Tucker',
+            'email' => 'ktucker@pulaskitech.edu',
+            'personal_id' => '868005387',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -4899,6 +6522,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '868005387')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Steven Bryan Frazer',
+            'email' => 'sfrazer@pulaskitech.edu',
+            'personal_id' => '870008382',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -4908,6 +6534,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '870008382')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Angel Dorsey',
+            'email' => 'adorsey@pulaskitech.edu',
+            'personal_id' => '872003371',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -4917,6 +6546,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '872003371')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Alicia Boatwright',
+            'email' => 'aboatwright@pulaskitech.edu',
+            'personal_id' => '874002175',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -4926,6 +6558,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '874002175')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Stacey Boone',
+            'email' => 'sboone@pulaskitech.edu',
+            'personal_id' => '878009119',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -4935,6 +6570,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '878009119')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Betty Raper',
+            'email' => 'braper@pulaskitech.edu',
+            'personal_id' => '882005622',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -4944,6 +6582,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '882005622')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'S. Whittington Brown',
+            'email' => 'sbrown@pulaskitech.edu',
+            'personal_id' => '883008368',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -4953,6 +6594,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '883008368')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'April Hearne',
+            'email' => 'ahearne@pulaskitech.edu',
+            'personal_id' => '884009456',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -4962,6 +6606,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '884009456')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Jasmine Greer',
+            'email' => 'jgreer@pulaskitech.edu',
+            'personal_id' => '889004556',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -4971,6 +6618,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '889004556')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Chris Weaver',
+            'email' => 'cweaver@pulaskitech.edu',
+            'personal_id' => '892005536',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -4980,6 +6630,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '892005536')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Shana Wilson',
+            'email' => 'swilson@pulaskitech.edu',
+            'personal_id' => '893001094',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -4989,6 +6642,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '893001094')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Amy Garst',
+            'email' => 'agarst@pulaskitech.edu',
+            'personal_id' => '893005947',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -4998,6 +6654,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '893005947')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Deborly Wade',
+            'email' => 'dwade@pulaskitech.edu',
+            'personal_id' => '893006539',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -5007,6 +6666,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '893006539')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Carol Gale',
+            'email' => 'cgale@pulaskitech.edu',
+            'personal_id' => '894006935',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -5016,6 +6678,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '894006935')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Reba Treece',
+            'email' => 'rtreece@pulaskitech.edu',
+            'personal_id' => '896002180',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -5025,6 +6690,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '896002180')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Jesse Hall',
+            'email' => 'jhall@pulaskitech.edu',
+            'personal_id' => '899001692',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
@@ -5034,6 +6702,9 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '899001692')->get()->first()->id,
         ]);
         DB::table('training_registrations')->insert([
+            'name' => 'Jan Lewandowski',
+            'email' => 'jlewandowski@pulaskitech.edu',
+            'personal_id' => '899006421',
             'courses_taught' => 'N/A',
             'course_type' => 'basic',
             'training_session_id' => '1',
