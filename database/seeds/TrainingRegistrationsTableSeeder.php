@@ -62,7 +62,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '101005354')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '101005354')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Martha Carle',
@@ -74,7 +74,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '102006013')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '102006013')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Shirley Powell',
@@ -86,7 +86,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '104007643')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '104007643')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Lisa Smithee',
@@ -98,7 +98,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '105000754')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '105000754')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Paul Woods',
@@ -110,7 +110,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '105003809')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '105003809')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Oscar DeLong',
@@ -122,7 +122,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '108001365')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '108001365')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Shirley Yaw',
@@ -134,7 +134,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '109004464')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '109004464')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Shannon Avra',
@@ -146,7 +146,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '110004936')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '110004936')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Cheryl Chapman',
@@ -158,7 +158,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '112009045')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '112009045')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Abigail Perrine',
@@ -170,7 +170,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '113007767')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '113007767')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Barry McVinney',
@@ -182,7 +182,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '114001209')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '114001209')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Alex Chalupka',
@@ -194,7 +194,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '117002251')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '117002251')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Sharrone Cox',
@@ -206,7 +206,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '119003725')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '119003725')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Julia Ramey',
@@ -218,7 +218,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '119007354')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '119007354')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Jesse Poff',
@@ -230,7 +230,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '121006792')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '121006792')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Ben Rains',
@@ -242,7 +242,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '121007865')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '121007865')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Casson Brock',
@@ -254,7 +254,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '122008412')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '122008412')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Jane Doe',
@@ -266,7 +266,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '123001234')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '123001234')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Tamisha Doublin',
@@ -278,7 +278,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '126004481')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '126004481')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Chris Paradis',
@@ -290,7 +290,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '127004109')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '127004109')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Carla  J. Moody',
@@ -302,7 +302,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '129007389')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '129007389')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Nicolette Smith',
@@ -314,7 +314,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '133007962')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '133007962')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'David Durr',
@@ -326,7 +326,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '133007995')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '133007995')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Neil Mitchell',
@@ -338,7 +338,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '135002802')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '135002802')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Leslie Lovenstein',
@@ -350,7 +350,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '135008665')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '135008665')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Sherry Bowman',
@@ -362,7 +362,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '136000170')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '136000170')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Caroline Elmore',
@@ -374,7 +374,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '136004717')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '136004717')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Natalie Rollins',
@@ -386,7 +386,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '137006175')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '137006175')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Paul Bennett',
@@ -398,7 +398,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '139007397')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '139007397')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Larhonda Jackson',
@@ -410,7 +410,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '143005563')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '143005563')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Patricia Martinez',
@@ -422,7 +422,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '144006035')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '144006035')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Clayton Ruff',
@@ -434,7 +434,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '143008980')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '143008980')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Lynn Strong',
@@ -446,7 +446,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '149003360')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '149003360')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Larry Taylor',
@@ -458,7 +458,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '149003684')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '149003684')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Martha Kubin',
@@ -470,7 +470,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '151003894')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '151003894')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Dennis Welch',
@@ -482,7 +482,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '151006519')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '151006519')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Rebecca Nelson',
@@ -494,7 +494,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '152004114')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '152004114')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Cheryl Reinhart',
@@ -506,7 +506,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '152008238')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '152008238')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Dioneedra Irvin',
@@ -518,7 +518,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '153000665')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '153000665')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Jeffrey Walker',
@@ -530,7 +530,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '154000886')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '154000886')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Cynthia Randolph',
@@ -542,7 +542,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '156008167')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '156008167')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Elizabeth Clyburn',
@@ -554,7 +554,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '156008453')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '156008453')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Leslie Cloer',
@@ -566,7 +566,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '159006869')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '159006869')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Osmonetta McRae',
@@ -578,7 +578,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '160007624')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '160007624')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'George T. Davis ',
@@ -590,7 +590,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '160005617')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '160005617')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Joanna Ewing',
@@ -602,7 +602,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '160009826')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '160009826')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Cheri Courtright',
@@ -614,7 +614,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '161005514')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '161005514')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Jayson Malik',
@@ -626,7 +626,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '162002971')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '162002971')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Roy Minton',
@@ -638,7 +638,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '162003773')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '162003773')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Mischel Elliott',
@@ -650,7 +650,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '165001026')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '165001026')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Randall Robertson',
@@ -662,7 +662,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '166001702')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '166001702')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Alan Pogue',
@@ -674,7 +674,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '166002708')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '166002708')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Terence Cox',
@@ -686,7 +686,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '167005242')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '167005242')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Starlett Mack',
@@ -698,7 +698,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '169004248')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '169004248')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Nykela Jackson',
@@ -710,7 +710,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '171006446')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '171006446')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Tiffany Smith',
@@ -722,7 +722,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '173002226')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '173002226')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Ernesto Velazquez',
@@ -734,7 +734,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '179000476')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '179000476')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Kenneth Lipsmeyer',
@@ -746,7 +746,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '180006454')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '180006454')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Kelley Cowley',
@@ -758,7 +758,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '184001853')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '184001853')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'William Wyngaard',
@@ -770,7 +770,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '184007212')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '184007212')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Shelley Oberste-Hanson',
@@ -782,7 +782,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '185004988')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '185004988')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Logan Oliver',
@@ -794,7 +794,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '187005687')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '187005687')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Don Kuonen',
@@ -806,7 +806,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '189008266')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '189008266')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Lindsay Ratliff-Kullenberg',
@@ -818,7 +818,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '190003477')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '190003477')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Michael Milligan',
@@ -830,7 +830,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '190008645')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '190008645')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Jimmy Brooks',
@@ -842,7 +842,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '190008938')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '190008938')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Emily Norman',
@@ -854,7 +854,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '194003650')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '194003650')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Mary Olm',
@@ -866,7 +866,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '196004149')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '196004149')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Laura Govia',
@@ -878,7 +878,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '196008422')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '196008422')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Amy Baldwin',
@@ -890,7 +890,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '198009979')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '198009979')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Jonathan Purkiss',
@@ -902,7 +902,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '199001576')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '199001576')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Francine Leon',
@@ -914,7 +914,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '205004420')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '205004420')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Karin HodginJones',
@@ -926,7 +926,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '206006464')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '206006464')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Nancy Reedy',
@@ -938,7 +938,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '208006810')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '208006810')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Deana Nall',
@@ -950,7 +950,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '209002691')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '209002691')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Elivia Wafford',
@@ -962,7 +962,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '210003589')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '210003589')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Constance Meadors',
@@ -974,7 +974,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '210006647')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '210006647')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Karren Lee',
@@ -986,7 +986,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '211002028')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '211002028')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Shirley Kelley',
@@ -998,7 +998,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '212009158')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '212009158')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'James Becker',
@@ -1010,7 +1010,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '213009954')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '213009954')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Ruth Reavis',
@@ -1022,7 +1022,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '214008372')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '214008372')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Shannon Vaughn',
@@ -1034,7 +1034,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '215003842')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '215003842')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Christopher Phillips',
@@ -1046,7 +1046,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '216007542')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '216007542')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Julianne Nelson',
@@ -1058,7 +1058,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '217001351')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '217001351')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'George Lauster',
@@ -1070,7 +1070,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '218004419')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '218004419')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Jeanne E. Williams',
@@ -1082,7 +1082,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '219004498')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '219004498')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Dale Harris',
@@ -1094,7 +1094,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '220004314')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '220004314')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Marcus Montgomery',
@@ -1106,7 +1106,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '220007929')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '220007929')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Bill Peery',
@@ -1118,7 +1118,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '221003501')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '221003501')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Carlton Coleman',
@@ -1130,7 +1130,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '221007264')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '221007264')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Lydia Hart',
@@ -1142,7 +1142,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '223004965')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '223004965')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Heather Solano',
@@ -1154,7 +1154,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '223005584')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '223005584')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Sabrina Waters',
@@ -1166,7 +1166,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '226005530')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '226005530')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Paula Long',
@@ -1178,7 +1178,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '226005815')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '226005815')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Laura Iverson',
@@ -1190,7 +1190,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '226009531')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '226009531')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Joan Dudley',
@@ -1202,7 +1202,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '229007082')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '229007082')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Brenda Bradley',
@@ -1214,7 +1214,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '231006655')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '231006655')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Mary Bishop',
@@ -1226,7 +1226,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '233005717')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '233005717')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Dianne McKinney',
@@ -1238,7 +1238,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '235000382')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '235000382')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Maribeth Anders',
@@ -1250,7 +1250,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '235000427')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '235000427')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'K. Aurora Adney',
@@ -1262,7 +1262,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '235003770')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '235003770')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Scott Warrior',
@@ -1274,7 +1274,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '236001904')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '236001904')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Sarah Clements',
@@ -1286,7 +1286,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '237000874')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '237000874')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Michelle Harris',
@@ -1298,7 +1298,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '240006061')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '240006061')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Chad Smith',
@@ -1310,7 +1310,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '241001300')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '241001300')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Mike Dahly',
@@ -1322,7 +1322,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '241002377')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '241002377')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Christal GravettCarrington',
@@ -1334,7 +1334,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '242007840')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '242007840')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Dorothy Martin',
@@ -1346,7 +1346,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '244008285')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '244008285')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Ruth Goff',
@@ -1358,7 +1358,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '245006568')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '245006568')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Howard Nesmith',
@@ -1370,7 +1370,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '246005158')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '246005158')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Yolanda Mitchell',
@@ -1382,7 +1382,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '248004109')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '248004109')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Tarlease Jones',
@@ -1394,7 +1394,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '248008859')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '248008859')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'William (Jay) Adkins',
@@ -1406,7 +1406,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '249003878')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '249003878')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Cynthia Fehrenbach',
@@ -1418,7 +1418,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '249003980')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '249003980')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Mary Kate  Terrell',
@@ -1430,7 +1430,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '249008291')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '249008291')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Laura Goadrich',
@@ -1442,7 +1442,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '250008690')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '250008690')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Terry Brown',
@@ -1454,7 +1454,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '252008069')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '252008069')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Meenakshi Budhraja',
@@ -1466,7 +1466,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '255001700')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '255001700')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Mike McMillan',
@@ -1478,7 +1478,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '255002080')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '255002080')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Paula Morell',
@@ -1490,7 +1490,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '255009824')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '255009824')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Shannon Wilcox',
@@ -1502,7 +1502,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '256006000')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '256006000')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Jason Bass',
@@ -1514,7 +1514,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '258008355')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '258008355')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Michael Loya',
@@ -1526,7 +1526,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '261009750')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '261009750')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Pat Pierce',
@@ -1538,7 +1538,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '267003845')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '267003845')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Don Gundolf',
@@ -1550,7 +1550,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '269008542')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '269008542')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Robert Moritz',
@@ -1562,7 +1562,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '275004097')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '275004097')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Robert Habimana',
@@ -1574,7 +1574,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '275005308')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '275005308')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Deborah Desjardin',
@@ -1586,7 +1586,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '277006400')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '277006400')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Vondra Armstrong',
@@ -1598,7 +1598,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '277007345')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '277007345')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Renee Bennett',
@@ -1610,7 +1610,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '278008077')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '278008077')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Amanda Bishop',
@@ -1622,7 +1622,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '279004746')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '279004746')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Matthew Chase',
@@ -1634,7 +1634,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '280007461')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '280007461')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Gary Winkler',
@@ -1646,7 +1646,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '284009395')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '284009395')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Ginny Wood',
@@ -1658,7 +1658,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '285000374')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '285000374')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Jesse Gatewood',
@@ -1670,7 +1670,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '285009052')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '285009052')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Staci Hufhines-McHenry',
@@ -1682,7 +1682,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '285009142')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '285009142')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'John Morgan',
@@ -1694,7 +1694,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '286003791')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '286003791')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'David Carpenter',
@@ -1706,7 +1706,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '287006833')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '287006833')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Rebecca Hobby',
@@ -1718,7 +1718,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '288001433')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '288001433')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Jason  Choate',
@@ -1730,7 +1730,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '289006774')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '289006774')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Tammy Richardson',
@@ -1742,7 +1742,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '291002387')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '291002387')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Beata Lovelace',
@@ -1754,7 +1754,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '291006232')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '291006232')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Susan Dollar',
@@ -1766,7 +1766,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '293005978')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '293005978')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Angela Langston',
@@ -1778,7 +1778,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '296009718')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '296009718')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Kathryn Young',
@@ -1790,7 +1790,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '303004394')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '303004394')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Joe Jansen',
@@ -1802,7 +1802,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '308007100')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '308007100')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Debra Mcindoe',
@@ -1814,7 +1814,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '311000390')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '311000390')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Doris Pierce',
@@ -1826,7 +1826,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '311004765')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '311004765')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'H. Oscar Hirby',
@@ -1838,7 +1838,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '312007629')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '312007629')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Sofia Gonzalez',
@@ -1850,7 +1850,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '312007700')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '312007700')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Valerie Duckery',
@@ -1862,7 +1862,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '314005149')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '314005149')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Derek Moore',
@@ -1874,7 +1874,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '315004204')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '315004204')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Richard Moss',
@@ -1886,7 +1886,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '318003799')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '318003799')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Robert Clark',
@@ -1898,7 +1898,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '319003169')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '319003169')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Valerie JohnsonFranks',
@@ -1910,7 +1910,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '320009364')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '320009364')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'James Johnson',
@@ -1922,7 +1922,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '322007946')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '322007946')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Tammy Whitfield',
@@ -1934,7 +1934,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '324007905')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '324007905')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Jolie Mosley',
@@ -1946,7 +1946,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '325002233')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '325002233')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Billy Parchman',
@@ -1958,7 +1958,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '326003387')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '326003387')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Charles Cole',
@@ -1970,7 +1970,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '327001267')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '327001267')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Brad Pierce',
@@ -1982,7 +1982,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '328001189')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '328001189')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Meredith Lemons',
@@ -1994,7 +1994,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '328004744')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '328004744')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Robert  D. Coates',
@@ -2006,7 +2006,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '328008338')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '328008338')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Susan Gernenz-Taylor',
@@ -2018,7 +2018,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '329002288')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '329002288')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Roni Bowman',
@@ -2030,7 +2030,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '329005414')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '329005414')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Michael Slater',
@@ -2042,7 +2042,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '330006482')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '330006482')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Wendy Davis',
@@ -2054,7 +2054,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '333001803')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '333001803')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Bob Glidewell',
@@ -2066,7 +2066,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '336001719')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '336001719')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Daniel Egbe',
@@ -2078,7 +2078,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '336005034')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '336005034')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Carl Mike Daily',
@@ -2090,7 +2090,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '336008868')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '336008868')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Timothy Bennett',
@@ -2102,7 +2102,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '338008316')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '338008316')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Pam Cicirello',
@@ -2114,7 +2114,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '338009780')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '338009780')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Nicole Holcomb',
@@ -2126,7 +2126,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '340009216')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '340009216')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Christin Hankins',
@@ -2138,7 +2138,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '341009085')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '341009085')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'John Farrell',
@@ -2150,7 +2150,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '341009489')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '341009489')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Lindsey Maestri',
@@ -2162,7 +2162,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '342009376')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '342009376')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'William Strigel',
@@ -2174,7 +2174,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '347007208')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '347007208')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Jennifer Boccarossa',
@@ -2186,7 +2186,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '348002404')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '348002404')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Cynthia  East-Malik',
@@ -2198,7 +2198,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '350009538')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '350009538')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Jacqueline Griffin',
@@ -2210,7 +2210,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '351005486')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '351005486')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Casey Griffith',
@@ -2222,7 +2222,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '352002877')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '352002877')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Macaiah Tillman',
@@ -2234,7 +2234,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '352009058')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '352009058')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Olivia Powers',
@@ -2246,7 +2246,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '353001581')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '353001581')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Julia Crow',
@@ -2258,7 +2258,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '353003365')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '353003365')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Neil Furqueron',
@@ -2270,7 +2270,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '361000978')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '361000978')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Ron Skidgel',
@@ -2282,7 +2282,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '363006805')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '363006805')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Benjamin Pecock',
@@ -2294,7 +2294,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '365009380')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '365009380')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Lori Jones',
@@ -2306,7 +2306,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '367009719')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '367009719')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Darrellyn Williams',
@@ -2318,7 +2318,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '369004470')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '369004470')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Benjamin AndersonBauer',
@@ -2330,7 +2330,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '371006397')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '371006397')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Andre Robinson',
@@ -2342,7 +2342,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '373005417')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '373005417')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Wayne Floyd',
@@ -2354,7 +2354,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '374004521')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '374004521')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'James Layton',
@@ -2366,7 +2366,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '378003215')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '378003215')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Sandra Harrington',
@@ -2378,7 +2378,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '378008796')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '378008796')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Cynthia Beck',
@@ -2390,7 +2390,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '379003381')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '379003381')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Moluwa Matute',
@@ -2402,7 +2402,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '379006754')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '379006754')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Jeffrey Skrdlant',
@@ -2414,7 +2414,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '380003734')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '380003734')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Deborah Germany',
@@ -2426,7 +2426,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '381001431')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '381001431')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Alex Carraway',
@@ -2438,7 +2438,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '381002349')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '381002349')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Barbara Williams',
@@ -2450,7 +2450,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '382002650')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '382002650')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Jennifer Ingram',
@@ -2462,7 +2462,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '382009527')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '382009527')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Jordan Oroark',
@@ -2474,7 +2474,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '385006827')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '385006827')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Veronica Stewart',
@@ -2486,7 +2486,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '385007501')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '385007501')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Matthew McKay',
@@ -2498,7 +2498,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '386009607')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '386009607')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Ebony Conley',
@@ -2510,7 +2510,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '387002090')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '387002090')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Deena Martin',
@@ -2522,7 +2522,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '388001873')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '388001873')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Karen Tate',
@@ -2534,7 +2534,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '389002852')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '389002852')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Gloria Maddox-Powell',
@@ -2546,7 +2546,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '391009899')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '391009899')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Norma (Jean) Vowell',
@@ -2558,7 +2558,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '395001150')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '395001150')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Jessica Walker',
@@ -2570,7 +2570,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '397003066')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '397003066')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Erika Martin',
@@ -2582,7 +2582,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '397004212')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '397004212')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Sherry Clay',
@@ -2594,7 +2594,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '398001340')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '398001340')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Christina Oberste',
@@ -2606,7 +2606,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '401004897')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '401004897')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Meredith McMillan',
@@ -2618,7 +2618,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '401007671')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '401007671')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Meghan MacKrell',
@@ -2630,7 +2630,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '403001456')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '403001456')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Sherlyn Harris',
@@ -2642,7 +2642,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '404006456')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '404006456')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Danny Martin',
@@ -2654,7 +2654,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '405000455')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '405000455')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Phyllis Felton',
@@ -2666,7 +2666,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '405003210')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '405003210')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Stephen Mackey',
@@ -2678,7 +2678,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '406003356')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '406003356')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Colby Gunter',
@@ -2690,7 +2690,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '406003404')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '406003404')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Mohamad Nawaz',
@@ -2702,7 +2702,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '409003500')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '409003500')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Kimberly Gilbert',
@@ -2714,7 +2714,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '411007029')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '411007029')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Elizabeth Sims',
@@ -2726,7 +2726,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '411007687')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '411007687')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Jennifer Aunspaugh',
@@ -2738,7 +2738,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '411009566')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '411009566')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Jason Walker',
@@ -2750,7 +2750,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '412002873')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '412002873')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Anne Virden',
@@ -2762,7 +2762,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '414004966')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '414004966')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Candace Pierce',
@@ -2774,7 +2774,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '414008210')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '414008210')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Alisa Williams',
@@ -2786,7 +2786,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '415001155')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '415001155')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'M. Paige Redd',
@@ -2798,7 +2798,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '416007347')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '416007347')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Kellye Mashburn',
@@ -2810,7 +2810,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '417002792')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '417002792')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Sheila Glasscock',
@@ -2822,7 +2822,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '418007123')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '418007123')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Stephen Paul',
@@ -2834,7 +2834,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '418008254')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '418008254')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Stacy Fortney',
@@ -2846,7 +2846,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '420007231')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '420007231')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Jacqueline Wright',
@@ -2858,7 +2858,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '423005923')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '423005923')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Casey Rockwell',
@@ -2870,7 +2870,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '425003026')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '425003026')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Sandy Longhorn',
@@ -2882,7 +2882,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '427001556')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '427001556')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'James Pasley',
@@ -2894,7 +2894,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '428002605')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '428002605')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'A. Elizabeth Reves',
@@ -2906,7 +2906,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '428003640')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '428003640')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Jana Porter',
@@ -2918,7 +2918,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '428006908')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '428006908')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Aaron Baldwin',
@@ -2930,7 +2930,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '429007391')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '429007391')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Janine Tiner',
@@ -2942,7 +2942,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '429009489')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '429009489')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Austin Lovenstein',
@@ -2954,7 +2954,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '430006194')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '430006194')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'J. Michelle Palmer',
@@ -2966,7 +2966,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '431004487')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '431004487')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Geoff Thiers',
@@ -2978,7 +2978,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '432007801')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '432007801')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Mandie Smith',
@@ -2990,7 +2990,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '433000355')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '433000355')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Letrishe Hence',
@@ -3002,7 +3002,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '434004080')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '434004080')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Werner Trieschmann',
@@ -3014,7 +3014,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '437004924')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '437004924')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Jason Jewell',
@@ -3026,7 +3026,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '437007434')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '437007434')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Gloria Reyes',
@@ -3038,7 +3038,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '441008120')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '441008120')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Robert Best',
@@ -3050,7 +3050,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '441008889')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '441008889')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Harold Daigle',
@@ -3062,7 +3062,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '443005497')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '443005497')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Tracie Rushing',
@@ -3074,7 +3074,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '444004137')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '444004137')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Aubrey Pangle',
@@ -3086,7 +3086,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '447003876')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '447003876')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'David Warren',
@@ -3098,7 +3098,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '449008400')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '449008400')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Paula Watson',
@@ -3110,7 +3110,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '449009347')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '449009347')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Terry Allmon',
@@ -3122,7 +3122,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '451006015')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '451006015')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Jennifer Martslolf',
@@ -3134,7 +3134,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '452003910')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '452003910')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Susanne Ashby',
@@ -3146,7 +3146,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '452007483')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '452007483')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Natalie Molineaux',
@@ -3158,7 +3158,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '455001221')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '455001221')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Dana Curry',
@@ -3170,7 +3170,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '458002441')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '458002441')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Ashley Embry',
@@ -3182,7 +3182,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '459003626')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '459003626')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Devin McKnight',
@@ -3194,7 +3194,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '459003875')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '459003875')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Amanda Armstrong',
@@ -3206,7 +3206,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '459008292')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '459008292')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Dalana Nugent',
@@ -3218,7 +3218,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '459008700')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '459008700')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Allen Loibner',
@@ -3230,7 +3230,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '460002978')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '460002978')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Michael Hostetler',
@@ -3242,7 +3242,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '461003088')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '461003088')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Donna Jean Rausch',
@@ -3254,7 +3254,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '465003535')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '465003535')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Michele Alice French',
@@ -3266,7 +3266,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '466006426')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '466006426')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Sonya Russ',
@@ -3278,7 +3278,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '467003413')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '467003413')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Gary Gaines',
@@ -3290,7 +3290,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '471004513')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '471004513')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Rick Babic',
@@ -3302,7 +3302,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '474003797')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '474003797')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Sarah Nixon',
@@ -3314,7 +3314,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '481009263')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '481009263')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'John Galbraith',
@@ -3326,7 +3326,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '482000879')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '482000879')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Jessica Scharbor',
@@ -3338,7 +3338,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '482003917')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '482003917')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Jason Hancock',
@@ -3350,7 +3350,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '483007242')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '483007242')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Kristen Holloway',
@@ -3362,7 +3362,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '484008428')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '484008428')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Jason K. Green',
@@ -3374,7 +3374,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '485004685')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '485004685')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Jasmine Williams',
@@ -3386,7 +3386,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '485007588')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '485007588')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Laura Campbell',
@@ -3398,7 +3398,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '486004916')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '486004916')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Ashia Muhammad',
@@ -3410,7 +3410,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '487001905')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '487001905')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Amie Csege',
@@ -3422,7 +3422,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '489001986')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '489001986')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'William Stoval',
@@ -3434,7 +3434,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '492004991')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '492004991')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Susan Williamson',
@@ -3446,7 +3446,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '497007673')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '497007673')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Kenneth (Kent) Douglas',
@@ -3458,7 +3458,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '498006833')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '498006833')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Kathryn Evans',
@@ -3470,7 +3470,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '501009803')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '501009803')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Angela Peace',
@@ -3482,7 +3482,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '505008055')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '505008055')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Trude Puckett',
@@ -3494,7 +3494,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '508005076')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '508005076')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Mayo Johnson',
@@ -3506,7 +3506,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '509003889')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '509003889')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Terry Mercing',
@@ -3518,7 +3518,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '512007290')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '512007290')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Stephanie Williams',
@@ -3530,7 +3530,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '516002301')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '516002301')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Alisa Brown',
@@ -3542,7 +3542,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '518006218')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '518006218')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Beverly Smith',
@@ -3554,7 +3554,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '519009007')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '519009007')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Mindy Hodges',
@@ -3566,7 +3566,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '520003466')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '520003466')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Teri Cox',
@@ -3578,7 +3578,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '521007106')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '521007106')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Jimmy Davis',
@@ -3590,7 +3590,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '522001344')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '522001344')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Samantha White',
@@ -3602,7 +3602,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '523000700')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '523000700')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Bonnie Faupel',
@@ -3614,7 +3614,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '525000115')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '525000115')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Beth Miller',
@@ -3626,7 +3626,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '529006429')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '529006429')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Zachary Perrine',
@@ -3638,7 +3638,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '529008311')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '529008311')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Melissa Douglas',
@@ -3650,7 +3650,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '531002765')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '531002765')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Phillip Harris',
@@ -3662,7 +3662,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '531007939')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '531007939')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Cheryl Moody',
@@ -3674,7 +3674,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '535009547')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '535009547')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Julie Wright-Locke',
@@ -3686,7 +3686,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '539006314')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '539006314')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Kimberly Kwee',
@@ -3698,7 +3698,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '541002650')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '541002650')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Carmen Scanlon',
@@ -3710,7 +3710,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '541003679')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '541003679')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Samuel Gregory',
@@ -3722,7 +3722,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '541006430')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '541006430')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Jerry Armstrong',
@@ -3734,7 +3734,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '544000692')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '544000692')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Lara Crane',
@@ -3746,7 +3746,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '548006156')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '548006156')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Samantha Staggs',
@@ -3758,7 +3758,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '549006674')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '549006674')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Ashlyn Dugan',
@@ -3770,7 +3770,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '549006859')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '549006859')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Tracy Pennington',
@@ -3782,7 +3782,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '554000538')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '554000538')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Annie  D. Robinson',
@@ -3794,7 +3794,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '554007486')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '554007486')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Nicole Smith',
@@ -3806,7 +3806,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '554008661')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '554008661')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Thomas Price',
@@ -3818,7 +3818,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '555009273')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '555009273')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Tommy Bennett',
@@ -3830,7 +3830,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '558003626')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '558003626')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'DeAnna Davis',
@@ -3842,7 +3842,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '561007513')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '561007513')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Laura Austin',
@@ -3854,7 +3854,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '562001405')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '562001405')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Marilyn Harris',
@@ -3866,7 +3866,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '564006220')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '564006220')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Primo Voisin',
@@ -3878,7 +3878,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '569003891')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '569003891')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Kristin Wagner',
@@ -3890,7 +3890,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '569008954')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '569008954')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Karen Shaw',
@@ -3902,7 +3902,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '570007673')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '570007673')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'James Mcafee',
@@ -3914,7 +3914,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '574008779')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '574008779')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Heather Barnett',
@@ -3926,7 +3926,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '577005139')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '577005139')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Weeda Jones',
@@ -3938,7 +3938,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '577006173')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '577006173')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Amanda Linn',
@@ -3950,7 +3950,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '577007513')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '577007513')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Melisa Quesenberry',
@@ -3962,7 +3962,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '578006417')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '578006417')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Shannon Clowney',
@@ -3974,7 +3974,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '578008384')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '578008384')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Rebecca Stone',
@@ -3986,7 +3986,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '579000371')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '579000371')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Jennifer Gilley',
@@ -3998,7 +3998,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '579008433')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '579008433')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Joe McAfee',
@@ -4010,7 +4010,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '581005203')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '581005203')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Jennifer Kilmore',
@@ -4022,7 +4022,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '584002107')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '584002107')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Rachael Rice',
@@ -4034,7 +4034,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '584007572')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '584007572')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Madhu Reniguntala',
@@ -4046,7 +4046,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '588009451')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '588009451')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Faysal Ahmed',
@@ -4058,7 +4058,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '592006311')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '592006311')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'David Cullipher',
@@ -4070,7 +4070,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '596000194')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '596000194')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Jacob Standley',
@@ -4082,7 +4082,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '597007455')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '597007455')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Neal Farris',
@@ -4094,7 +4094,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '602000956')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '602000956')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Ian Thomas',
@@ -4106,7 +4106,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '602001620')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '602001620')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Anna Mitchell',
@@ -4118,7 +4118,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '606001567')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '606001567')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Don Spitler',
@@ -4130,7 +4130,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '608004323')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '608004323')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Angie Macri',
@@ -4142,7 +4142,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '608008354')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '608008354')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Paul Wiltz',
@@ -4154,7 +4154,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '610001420')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '610001420')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Josh Weaver',
@@ -4166,7 +4166,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '610001674')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '610001674')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Amanda Doyle',
@@ -4178,7 +4178,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '610009236')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '610009236')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Kevin Baer',
@@ -4190,7 +4190,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '611001587')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '611001587')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Heather Murski',
@@ -4202,7 +4202,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '613004012')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '613004012')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'William Roark',
@@ -4214,7 +4214,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '614007511')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '614007511')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Sandra Kirkpatrick',
@@ -4226,7 +4226,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '615001683')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '615001683')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Deborah Huber',
@@ -4238,7 +4238,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '615002567')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '615002567')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'J. Allan Holloway',
@@ -4250,7 +4250,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '616009117')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '616009117')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Patricia Covington',
@@ -4262,7 +4262,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '617009030')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '617009030')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Todd Gold',
@@ -4274,7 +4274,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '618002384')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '618002384')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Lisa Fisher',
@@ -4286,7 +4286,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '620003509')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '620003509')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Nicki Feldman',
@@ -4298,7 +4298,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '620006903')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '620006903')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Stephanie Pierce',
@@ -4310,7 +4310,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '621009962')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '621009962')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Terry Ballard',
@@ -4322,7 +4322,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '622000365')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '622000365')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Ralph Schultz',
@@ -4334,7 +4334,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '623002742')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '623002742')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Daryl Swinson',
@@ -4346,7 +4346,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '623008819')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '623008819')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Matt Bradke',
@@ -4358,7 +4358,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '629005445')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '629005445')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Erin Dail',
@@ -4370,7 +4370,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '631002998')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '631002998')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Raymond Williams',
@@ -4382,7 +4382,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '631006916')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '631006916')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Amber Strain',
@@ -4394,7 +4394,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '632000313')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '632000313')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Patricia M. Reid',
@@ -4406,7 +4406,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '632004627')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '632004627')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Holly Bass',
@@ -4418,7 +4418,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '632004943')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '632004943')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Sarah Johnson',
@@ -4430,7 +4430,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '635001325')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '635001325')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'William Byrd',
@@ -4442,7 +4442,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '635002560')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '635002560')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Aiwei Borengasser',
@@ -4454,7 +4454,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '637006811')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '637006811')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Barbara  Wilborn',
@@ -4466,7 +4466,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '638002974')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '638002974')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Teresa Upshaw Wallent',
@@ -4478,7 +4478,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '639006732')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '639006732')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Chelsey Moore',
@@ -4490,7 +4490,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '640004314')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '640004314')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Janet Bayless',
@@ -4502,7 +4502,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '641001578')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '641001578')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Constance Hurd',
@@ -4514,7 +4514,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '642001802')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '642001802')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Michael Julian',
@@ -4526,7 +4526,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '644008794')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '644008794')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Johnnie Green',
@@ -4538,7 +4538,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '645001124')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '645001124')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'John Price',
@@ -4550,7 +4550,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '645002774')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '645002774')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Terry Johnson',
@@ -4562,7 +4562,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '646001139')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '646001139')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Terrill Beckerman',
@@ -4574,7 +4574,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '646003951')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '646003951')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Carolyn Jennings',
@@ -4586,7 +4586,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '647009109')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '647009109')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Floyd Ross',
@@ -4598,7 +4598,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '648005455')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '648005455')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'L. Crecy Ragan',
@@ -4610,7 +4610,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '649003446')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '649003446')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Mark Barnes',
@@ -4622,7 +4622,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '650006754')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '650006754')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Jonathan Childs',
@@ -4634,7 +4634,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '651008784')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '651008784')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Joanna Newkirk',
@@ -4646,7 +4646,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '652008431')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '652008431')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'LaShundra Watson',
@@ -4658,7 +4658,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '652008438')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '652008438')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Jamie Ables',
@@ -4670,7 +4670,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '655004158')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '655004158')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Darin Archer',
@@ -4682,7 +4682,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '656009435')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '656009435')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Cynthia Fletcher',
@@ -4694,7 +4694,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '659005162')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '659005162')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'M. Katie Davis',
@@ -4706,7 +4706,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '664001468')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '664001468')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Debbie Schlesinger',
@@ -4718,7 +4718,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '665007163')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '665007163')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Amy Ballard',
@@ -4730,7 +4730,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '669000216')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '669000216')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'DeAndre Smith',
@@ -4742,7 +4742,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '669002045')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '669002045')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Nick Reeves',
@@ -4754,7 +4754,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '669005078')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '669005078')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Tasha Ward-Henderson',
@@ -4766,7 +4766,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '672008103')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '672008103')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Jesse Holcomb',
@@ -4778,7 +4778,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '673001613')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '673001613')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Jeseph Elliott',
@@ -4790,7 +4790,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '675005518')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '675005518')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Cindy Beckett',
@@ -4802,7 +4802,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '676004245')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '676004245')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Jessica Otto',
@@ -4814,7 +4814,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '679007700')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '679007700')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Jessica Sahene',
@@ -4826,7 +4826,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '680001492')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '680001492')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Martha Eschleman',
@@ -4838,7 +4838,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '680007336')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '680007336')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Joe Schneider',
@@ -4850,7 +4850,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '682002850')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '682002850')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'John E. Marshall',
@@ -4862,7 +4862,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '682007464')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '682007464')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Rebecca Sterling',
@@ -4874,7 +4874,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '683009509')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '683009509')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Bonnie Kenney',
@@ -4886,7 +4886,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '685004891')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '685004891')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Cynthia Beckett',
@@ -4898,7 +4898,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '686005687')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '686005687')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Kirsten Heintz',
@@ -4910,7 +4910,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '689001967')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '689001967')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Monty Self',
@@ -4922,7 +4922,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '690006195')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '690006195')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Jennifer Stewart',
@@ -4934,7 +4934,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '696003148')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '696003148')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Edward Hale',
@@ -4946,7 +4946,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '698003578')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '698003578')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Sherrie Ray-Trevino',
@@ -4958,7 +4958,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '703006801')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '703006801')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Carol Parker',
@@ -4970,7 +4970,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '704006973')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '704006973')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Janine Armstrong',
@@ -4982,7 +4982,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '705001866')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '705001866')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'William Lindsey',
@@ -4994,7 +4994,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '705003835')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '705003835')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Melissa Potter',
@@ -5006,7 +5006,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '707001321')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '707001321')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Margery Wage',
@@ -5018,7 +5018,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '708004088')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '708004088')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Joseph John',
@@ -5030,7 +5030,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '709008772')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '709008772')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Siobhan Bartley',
@@ -5042,7 +5042,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '709009906')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '709009906')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Thomas Russell',
@@ -5054,7 +5054,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '714004486')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '714004486')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Robert Dixon',
@@ -5066,7 +5066,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '714006004')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '714006004')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Kay Shuttleworth',
@@ -5078,7 +5078,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '718005154')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '718005154')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Jennifer Knetig',
@@ -5090,7 +5090,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '718009713')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '718009713')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Dieterick Govan',
@@ -5102,7 +5102,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '719002104')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '719002104')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Ashley Wyatt',
@@ -5114,7 +5114,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '720004027')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '720004027')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Keith Hearnsberger',
@@ -5126,7 +5126,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '721006513')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '721006513')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Sonjia Michaels',
@@ -5138,7 +5138,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '721006981')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '721006981')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Rebecca Chism',
@@ -5150,7 +5150,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '722004904')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '722004904')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Keiona Middleton',
@@ -5162,7 +5162,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '723000846')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '723000846')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Joey Cole',
@@ -5174,7 +5174,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '723006559')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '723006559')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Mary Walla',
@@ -5186,7 +5186,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '724002800')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '724002800')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Cathy Underwood',
@@ -5198,7 +5198,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '724005283')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '724005283')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Marilyn Barlow',
@@ -5210,7 +5210,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '728002370')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '728002370')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Tom Hunt',
@@ -5222,7 +5222,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '729001373')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '729001373')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Robert Rands',
@@ -5234,7 +5234,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '729002034')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '729002034')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Rhonda Carroll',
@@ -5246,7 +5246,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '729007370')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '729007370')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Courtney Dycus',
@@ -5258,7 +5258,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '729007801')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '729007801')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Jamie Ryan',
@@ -5270,7 +5270,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '730002635')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '730002635')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Tatiana Ryckman',
@@ -5282,7 +5282,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '732006443')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '732006443')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'George Balogh',
@@ -5294,7 +5294,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '732009017')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '732009017')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Linda Ducrot',
@@ -5306,7 +5306,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '733001383')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '733001383')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Earl Davis',
@@ -5318,7 +5318,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '735007044')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '735007044')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Alandrea Kilpatrick',
@@ -5330,7 +5330,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '736003203')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '736003203')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Adrian Correa',
@@ -5342,7 +5342,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '736006138')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '736006138')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'James Vinson',
@@ -5354,7 +5354,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '737000653')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '737000653')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Brenda Aycock',
@@ -5366,7 +5366,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '738004251')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '738004251')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Anissa Ford',
@@ -5378,7 +5378,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '738005234')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '738005234')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Craig Jones',
@@ -5390,7 +5390,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '739000581')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '739000581')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Miriam Karanja',
@@ -5402,7 +5402,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '740001267')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '740001267')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Shelley Farmer ',
@@ -5414,7 +5414,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '741004797')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '741004797')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Regena Bishop',
@@ -5426,7 +5426,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '742000627')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '742000627')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Tammie Deaton',
@@ -5438,7 +5438,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '742008883')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '742008883')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Gabrielle Haulmark',
@@ -5450,7 +5450,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '743000886')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '743000886')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Lisa Lamoureux',
@@ -5462,7 +5462,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '743002901')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '743002901')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Tachelle Nettles',
@@ -5474,7 +5474,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '744007723')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '744007723')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Mike Pridmore',
@@ -5486,7 +5486,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '745008024')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '745008024')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Jean Swillum',
@@ -5498,7 +5498,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '746006808')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '746006808')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Jay Sprigg',
@@ -5510,7 +5510,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '747009097')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '747009097')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'George Simonof',
@@ -5522,7 +5522,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '748004893')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '748004893')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Gregory Heintz',
@@ -5534,7 +5534,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '748005457')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '748005457')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Dustin Johnson',
@@ -5546,7 +5546,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '748000839')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '748000839')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Daniel Hoskins',
@@ -5558,7 +5558,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '749002201')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '749002201')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Lisa TwillieWoodruff',
@@ -5570,7 +5570,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '750003862')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '750003862')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Rhonda Troillett',
@@ -5582,7 +5582,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '750004487')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '750004487')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Helen Snyder',
@@ -5594,7 +5594,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '751002538')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '751002538')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Lacee Werdehausen',
@@ -5606,7 +5606,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '755008775')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '755008775')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Matthew Franks',
@@ -5618,7 +5618,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '756004452')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '756004452')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Theresa Allred',
@@ -5630,7 +5630,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '757008237')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '757008237')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Stella Bowers',
@@ -5642,7 +5642,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '761003395')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '761003395')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Brannon Runions',
@@ -5654,7 +5654,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '762005847')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '762005847')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Suzanne Reed',
@@ -5666,7 +5666,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '766002715')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '766002715')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Jaafar Alazzawi',
@@ -5678,7 +5678,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '766004952')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '766004952')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Doug Ford',
@@ -5690,7 +5690,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '767003155')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '767003155')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Tyrrell Schneider',
@@ -5702,7 +5702,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '768007135')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '768007135')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Terry Hunkapiller',
@@ -5714,7 +5714,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '771006452')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '771006452')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Allan Lemmon',
@@ -5726,7 +5726,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '773000377')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '773000377')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Stephanie Sheppard',
@@ -5738,7 +5738,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '773007057')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '773007057')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Traci Johnston',
@@ -5750,7 +5750,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '774002757')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '774002757')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Sarah Buford',
@@ -5762,7 +5762,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '774004561')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '774004561')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Denise Hammett',
@@ -5774,7 +5774,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '778000844')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '778000844')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Denies Matlock',
@@ -5786,7 +5786,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '779002781')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '779002781')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Calvin White',
@@ -5798,7 +5798,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '781002203')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '781002203')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Eugene Rathfon',
@@ -5810,7 +5810,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '782003804')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '782003804')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Amanda Willey  ',
@@ -5822,7 +5822,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '785005475')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '785005475')->first()->id,
         ]);
 
         DB::table('training_registrations')->insert([
@@ -5835,7 +5835,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '788005486')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '788005486')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Greg Drzazgowski',
@@ -5847,7 +5847,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '791004703')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '791004703')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Karen Trevino',
@@ -5859,7 +5859,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '791007446')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '791007446')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Kami Wentz',
@@ -5871,7 +5871,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '794004927')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '794004927')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Julia Gibbins',
@@ -5883,7 +5883,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '794007468')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '794007468')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Robert Musser',
@@ -5895,7 +5895,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '795009119')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '795009119')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Michelle Herrera',
@@ -5907,7 +5907,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '796000965')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '796000965')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Caron Bowen',
@@ -5919,7 +5919,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '796008056')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '796008056')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Anna  Ortiz',
@@ -5931,7 +5931,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '799008766')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '799008766')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Karen Jensen',
@@ -5943,7 +5943,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '801001151')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '801001151')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Mike Leach',
@@ -5955,7 +5955,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '801002557')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '801002557')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Deborah Ahring',
@@ -5967,7 +5967,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '801008278')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '801008278')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Jeffrey Fischer',
@@ -5979,7 +5979,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '803003934')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '803003934')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Phillipe Ducrot',
@@ -5991,7 +5991,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '803007613')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '803007613')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Jomeka Mosby',
@@ -6003,7 +6003,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '805003823')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '805003823')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'J Robyn Spence',
@@ -6015,7 +6015,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '808005565')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '808005565')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Bernica Tackett',
@@ -6027,7 +6027,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '814007697')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '814007697')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Lekita Pounds',
@@ -6039,7 +6039,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '816005499')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '816005499')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Brian Hight',
@@ -6051,7 +6051,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '823000277')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '823000277')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'James (Jim) Pearson',
@@ -6063,7 +6063,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '824006033')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '824006033')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Jayne Pyle',
@@ -6075,7 +6075,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '825000977')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '825000977')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Andy Turner',
@@ -6087,7 +6087,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '825002201')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '825002201')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Leslie Omalley',
@@ -6099,7 +6099,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '826003461')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '826003461')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Melody Berning',
@@ -6111,7 +6111,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '827006565')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '827006565')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Anna Tanner',
@@ -6123,7 +6123,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '828000334')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '828000334')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Sherelle Lee',
@@ -6135,7 +6135,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '828006010')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '828006010')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Jim Porter',
@@ -6147,7 +6147,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '830003066')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '830003066')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Bruce Schulte',
@@ -6159,7 +6159,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '831009198')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '831009198')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Renee Smith',
@@ -6171,7 +6171,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '833005405')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '833005405')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Mrghan Cantlon',
@@ -6183,7 +6183,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '836005496')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '836005496')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Stephanie Phillips',
@@ -6195,7 +6195,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '837006898')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '837006898')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Jason Martin',
@@ -6207,7 +6207,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '838006634')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '838006634')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Berna Love',
@@ -6219,7 +6219,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '841007550')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '841007550')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Jack Wood',
@@ -6231,7 +6231,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '842005659')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '842005659')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Jeff Dixon',
@@ -6243,7 +6243,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '843000928')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '843000928')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Joe Guy',
@@ -6255,7 +6255,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '845003182')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '845003182')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'J. Don Keller',
@@ -6267,7 +6267,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '847002004')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '847002004')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Jessica Martin',
@@ -6279,7 +6279,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '847008000')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '847008000')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Tressa Ashberry',
@@ -6291,7 +6291,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '847008922')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '847008922')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Michael Mills',
@@ -6303,7 +6303,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '848003937')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '848003937')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Michael Harris',
@@ -6315,7 +6315,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '848004726')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '848004726')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Antonia Garcia',
@@ -6327,7 +6327,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '851003569')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '851003569')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'LaTasha Ursery',
@@ -6339,7 +6339,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '853007221')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '853007221')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Anna Pagan',
@@ -6351,7 +6351,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '855000744')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '855000744')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Suzanne Campbell',
@@ -6363,7 +6363,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '855009316')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '855009316')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Rachel Miller',
@@ -6375,7 +6375,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '856005483')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '856005483')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Debbie Scharbor',
@@ -6387,7 +6387,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '857001431')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '857001431')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Steven Eisenberg',
@@ -6399,7 +6399,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '857005924')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '857005924')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'William Ginocchio',
@@ -6411,7 +6411,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '858004108')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '858004108')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Frank Opitz',
@@ -6423,7 +6423,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '859005632')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '859005632')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Joshua Johnson',
@@ -6435,7 +6435,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '859009670')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '859009670')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Christie Sherrill',
@@ -6447,7 +6447,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '860006751')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '860006751')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Dora Bradley',
@@ -6459,7 +6459,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '865006358')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '865006358')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Frank Latimer',
@@ -6471,7 +6471,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '865007913')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '865007913')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Vince Gemmiti',
@@ -6483,7 +6483,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '866001643')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '866001643')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Jerri Shertzer',
@@ -6495,7 +6495,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '866007131')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '866007131')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Martha (MJ) Bennett',
@@ -6507,7 +6507,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '866009908')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '866009908')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Kristi Tucker',
@@ -6519,7 +6519,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '868005387')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '868005387')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Steven Bryan Frazer',
@@ -6531,7 +6531,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '870008382')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '870008382')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Angel Dorsey',
@@ -6543,7 +6543,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '872003371')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '872003371')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Alicia Boatwright',
@@ -6555,7 +6555,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '874002175')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '874002175')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Stacey Boone',
@@ -6567,7 +6567,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '878009119')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '878009119')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Betty Raper',
@@ -6579,7 +6579,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '882005622')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '882005622')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'S. Whittington Brown',
@@ -6591,7 +6591,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '883008368')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '883008368')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'April Hearne',
@@ -6603,7 +6603,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '884009456')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '884009456')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Jasmine Greer',
@@ -6615,7 +6615,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '889004556')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '889004556')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Chris Weaver',
@@ -6627,7 +6627,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '892005536')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '892005536')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Shana Wilson',
@@ -6639,7 +6639,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '893001094')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '893001094')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Amy Garst',
@@ -6651,7 +6651,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '893005947')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '893005947')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Deborly Wade',
@@ -6663,7 +6663,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '893006539')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '893006539')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Carol Gale',
@@ -6675,7 +6675,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '894006935')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '894006935')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Reba Treece',
@@ -6687,7 +6687,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '896002180')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '896002180')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Jesse Hall',
@@ -6699,7 +6699,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '899001692')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '899001692')->first()->id,
         ]);
         DB::table('training_registrations')->insert([
             'name' => 'Jan Lewandowski',
@@ -6711,7 +6711,7 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'attended_first' => '1',
             'attended_second' => '1',
             'completed_certification' => '1',
-            'registered_user_id' => DB::table('users')->where('personal_id', '=', '899006421')->get()->first()->id,
+            'registered_user_id' => DB::table('users')->where('personal_id', '=', '899006421')->first()->id,
         ]);
 
 
