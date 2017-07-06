@@ -50,8 +50,9 @@ class PermissionManagerServiceProvider extends ServiceProvider
      */
     public function setupRoutes(Router $router)
     {
+        //'middleware' => ['admin', 'role:SuperAdmin,AddSessions'],
         $router->group(['namespace' => 'Backpack\PermissionManager\app\Http\Controllers'], function ($router) {
-            \Route::group(['prefix' => config('backpack.base.route_prefix', 'admin'), 'middleware' => ['web', 'admin']], function () {
+            \Route::group(['prefix' => config('backpack.base.route_prefix', 'admin'), 'middleware' => ['web', 'admin', 'role:SuperAdmin,EditRolesPerms']], function () {
                 \CRUD::resource('permission', 'PermissionCrudController');
                 \CRUD::resource('role', 'RoleCrudController');
                 \CRUD::resource('user', 'UserCrudController');
