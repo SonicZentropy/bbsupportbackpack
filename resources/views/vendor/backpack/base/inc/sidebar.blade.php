@@ -19,10 +19,22 @@
           <!-- ================================================ -->
           <!-- ==== Recommended place for admin menu items ==== -->
           <!-- ================================================ -->
+            @role('Admin', 'SuperAdmin')
           <li><a href="{{ url(config('backpack.base.route_prefix', 'admin').'/dashboard') }}"><i class="fa fa-dashboard"></i> <span>{{ trans('backpack::base.dashboard') }}</span></a></li>
             <li><a href="{{ url('admin/session') }}"><i class="fa fa-tag"></i> <span>Manage Sessions</span></a></li>
             <li><a href="{{ url('admin/user') }}"><i class="fa fa-tag"></i> <span>Manage Users</span></a></li>
             <li><a href="{{ url('admin/registrations') }}"><i class="fa fa-tag"></i> <span>Manage Registrations</span></a></li>
+            @endrole
+            @role('SuperAdmin')
+            <li class="treeview">
+                <a href="#"><i class="fa fa-group"></i> <span>Roles And Permissions</span> <i class="fa fa-angle-left pull-right"></i></a>
+                <ul class="treeview-menu">
+                    <li><a href="{{ url(config('backpack.base.route_prefix', 'admin') . '/role') }}"><i class="fa fa-group"></i> <span>Roles</span></a></li>
+                    <li><a href="{{ url(config('backpack.base.route_prefix', 'admin') . '/permission') }}"><i class="fa fa-key"></i> <span>Permissions</span></a></li>
+                    <li><a href="{{ url(config('backpack.base.route_prefix', 'admin') . '/userroles') }}"><i class="fa fa-user"></i> <span>User Roles</span></a></li>
+                </ul>
+            </li>
+            @endrole
 
           <!-- ======================================= -->
           <li class="header">{{ trans('backpack::base.user') }}</li>

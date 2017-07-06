@@ -15,8 +15,8 @@ class ComposerStaticInitfc16fed7a180b15dd9a2159c6449d94f
         'a0edc8309cc5e1d60e3047b5df6b7052' => __DIR__ . '/..' . '/guzzlehttp/psr7/src/functions_include.php',
         'f0906e6318348a765ffb6eb24e0d0938' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Foundation/helpers.php',
         '58571171fd5812e6e447dce228f52f4d' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Support/helpers.php',
-        'e7223560d890eab89cda23685e711e2c' => __DIR__ . '/..' . '/psy/psysh/src/Psy/functions.php',
         'f18cc91337d49233e5754e93f3ed9ec3' => __DIR__ . '/..' . '/laravelcollective/html/src/helpers.php',
+        'e7223560d890eab89cda23685e711e2c' => __DIR__ . '/..' . '/psy/psysh/src/Psy/functions.php',
         'e803af0597ea9e5b518c7d090fb85601' => __DIR__ . '/..' . '/arcanedev/support/constants.php',
         '5323a5cb5bb1bab9b2f24566beed262a' => __DIR__ . '/..' . '/arcanedev/support/helpers.php',
         '4a1f389d6ce373bda9e57857d3b61c84' => __DIR__ . '/..' . '/barryvdh/laravel-debugbar/src/helpers.php',
@@ -63,6 +63,7 @@ class ComposerStaticInitfc16fed7a180b15dd9a2159c6449d94f
             'Symfony\\Component\\CssSelector\\' => 30,
             'Symfony\\Component\\Console\\' => 26,
             'Symfony\\Component\\ClassLoader\\' => 30,
+            'Spatie\\Permission\\' => 18,
         ),
         'R' => 
         array (
@@ -127,6 +128,7 @@ class ComposerStaticInitfc16fed7a180b15dd9a2159c6449d94f
             'Barryvdh\\LaravelIdeHelper\\' => 26,
             'Barryvdh\\Elfinder\\' => 18,
             'Barryvdh\\Debugbar\\' => 18,
+            'Backpack\\PermissionManager\\' => 27,
             'Backpack\\Generators\\' => 20,
             'Backpack\\CRUD\\' => 14,
             'Backpack\\Base\\' => 14,
@@ -221,6 +223,10 @@ class ComposerStaticInitfc16fed7a180b15dd9a2159c6449d94f
         'Symfony\\Component\\ClassLoader\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/class-loader',
+        ),
+        'Spatie\\Permission\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/spatie/laravel-permission/src',
         ),
         'Ramsey\\Uuid\\' => 
         array (
@@ -346,6 +352,10 @@ class ComposerStaticInitfc16fed7a180b15dd9a2159c6449d94f
         array (
             0 => __DIR__ . '/..' . '/barryvdh/laravel-debugbar/src',
         ),
+        'Backpack\\PermissionManager\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/backpack/permissionmanager/src',
+        ),
         'Backpack\\Generators\\' => 
         array (
             0 => __DIR__ . '/..' . '/backpack/generators/src',
@@ -447,6 +457,7 @@ class ComposerStaticInitfc16fed7a180b15dd9a2159c6449d94f
     public static $classMap = array (
         'App\\Console\\Kernel' => __DIR__ . '/../..' . '/app/Console/Kernel.php',
         'App\\Exceptions\\Handler' => __DIR__ . '/../..' . '/app/Exceptions/Handler.php',
+        'App\\Http\\Controllers\\Admin\\RolesPermissionsCrudController' => __DIR__ . '/../..' . '/app/Http/Controllers/Admin/RolesPermissionsCrudController.php',
         'App\\Http\\Controllers\\Admin\\TrainingRegistrationCrudController' => __DIR__ . '/../..' . '/app/Http/Controllers/Admin/TrainingRegistrationCrudController.php',
         'App\\Http\\Controllers\\Admin\\TrainingSessionCrudController' => __DIR__ . '/../..' . '/app/Http/Controllers/Admin/TrainingSessionCrudController.php',
         'App\\Http\\Controllers\\Admin\\UserCrudController' => __DIR__ . '/../..' . '/app/Http/Controllers/Admin/UserCrudController.php',
@@ -455,12 +466,14 @@ class ComposerStaticInitfc16fed7a180b15dd9a2159c6449d94f
         'App\\Http\\Controllers\\Auth\\RegisterController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/RegisterController.php',
         'App\\Http\\Controllers\\Auth\\ResetPasswordController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/ResetPasswordController.php',
         'App\\Http\\Controllers\\Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/Controller.php',
+        'App\\Http\\Controllers\\LearningContextController' => __DIR__ . '/../..' . '/app/Http/Controllers/LearningContextController.php',
         'App\\Http\\Controllers\\TrainingRegistrationController' => __DIR__ . '/../..' . '/app/Http/Controllers/TrainingRegistrationController.php',
         'App\\Http\\Kernel' => __DIR__ . '/../..' . '/app/Http/Kernel.php',
         'App\\Http\\Middleware\\EncryptCookies' => __DIR__ . '/../..' . '/app/Http/Middleware/EncryptCookies.php',
         'App\\Http\\Middleware\\RedirectIfAuthenticated' => __DIR__ . '/../..' . '/app/Http/Middleware/RedirectIfAuthenticated.php',
         'App\\Http\\Middleware\\TrimStrings' => __DIR__ . '/../..' . '/app/Http/Middleware/TrimStrings.php',
         'App\\Http\\Middleware\\VerifyCsrfToken' => __DIR__ . '/../..' . '/app/Http/Middleware/VerifyCsrfToken.php',
+        'App\\Http\\Requests\\RolesPermissionsCrudRequest' => __DIR__ . '/../..' . '/app/Http/Requests/RolesPermissionsCrudRequest.php',
         'App\\Http\\Requests\\TrainingRegistrationRequest' => __DIR__ . '/../..' . '/app/Http/Requests/TrainingRegistrationRequest.php',
         'App\\Http\\Requests\\TrainingSessionCrudRequest' => __DIR__ . '/../..' . '/app/Http/Requests/TrainingSessionCrudRequest.php',
         'App\\Http\\Requests\\UserRequest' => __DIR__ . '/../..' . '/app/Http/Requests/UserRequest.php',
@@ -468,6 +481,7 @@ class ComposerStaticInitfc16fed7a180b15dd9a2159c6449d94f
         'App\\Mail\\ExampleMail' => __DIR__ . '/../..' . '/app/Mail/ExampleMail.php',
         'App\\Mail\\OnlineRegistrationConfirmation' => __DIR__ . '/../..' . '/app/Mail/OnlineRegistrationConfirmation.php',
         'App\\Mail\\RegistrationConfirmation' => __DIR__ . '/../..' . '/app/Mail/RegistrationConfirmation.php',
+        'App\\Models\\LearningContext' => __DIR__ . '/../..' . '/app/Models/LearningContext.php',
         'App\\Models\\TrainingCompletions' => __DIR__ . '/../..' . '/app/Models/TrainingCompletions.php',
         'App\\Models\\TrainingRegistration' => __DIR__ . '/../..' . '/app/Models/TrainingRegistration.php',
         'App\\Models\\TrainingSession' => __DIR__ . '/../..' . '/app/Models/TrainingSession.php',
@@ -606,6 +620,16 @@ class ComposerStaticInitfc16fed7a180b15dd9a2159c6449d94f
         'Backpack\\Generators\\Console\\Commands\\RequestBackpackCommand' => __DIR__ . '/..' . '/backpack/generators/src/Console/Commands/RequestBackpackCommand.php',
         'Backpack\\Generators\\Console\\Commands\\ViewBackpackCommand' => __DIR__ . '/..' . '/backpack/generators/src/Console/Commands/ViewBackpackCommand.php',
         'Backpack\\Generators\\GeneratorsServiceProvider' => __DIR__ . '/..' . '/backpack/generators/src/GeneratorsServiceProvider.php',
+        'Backpack\\PermissionManager\\PermissionManagerServiceProvider' => __DIR__ . '/..' . '/backpack/permissionmanager/src/PermissionManagerServiceProvider.php',
+        'Backpack\\PermissionManager\\app\\Http\\Controllers\\PermissionCrudController' => __DIR__ . '/..' . '/backpack/permissionmanager/src/app/Http/Controllers/PermissionCrudController.php',
+        'Backpack\\PermissionManager\\app\\Http\\Controllers\\RoleCrudController' => __DIR__ . '/..' . '/backpack/permissionmanager/src/app/Http/Controllers/RoleCrudController.php',
+        'Backpack\\PermissionManager\\app\\Http\\Controllers\\UserCrudController' => __DIR__ . '/..' . '/backpack/permissionmanager/src/app/Http/Controllers/UserCrudController.php',
+        'Backpack\\PermissionManager\\app\\Http\\Requests\\PermissionCrudRequest' => __DIR__ . '/..' . '/backpack/permissionmanager/src/app/Http/Requests/PermissionCrudRequest.php',
+        'Backpack\\PermissionManager\\app\\Http\\Requests\\RoleCrudRequest' => __DIR__ . '/..' . '/backpack/permissionmanager/src/app/Http/Requests/RoleCrudRequest.php',
+        'Backpack\\PermissionManager\\app\\Http\\Requests\\UserStoreCrudRequest' => __DIR__ . '/..' . '/backpack/permissionmanager/src/app/Http/Requests/UserStoreCrudRequest.php',
+        'Backpack\\PermissionManager\\app\\Http\\Requests\\UserUpdateCrudRequest' => __DIR__ . '/..' . '/backpack/permissionmanager/src/app/Http/Requests/UserUpdateCrudRequest.php',
+        'Backpack\\PermissionManager\\app\\Models\\Permission' => __DIR__ . '/..' . '/backpack/permissionmanager/src/app/Models/Permission.php',
+        'Backpack\\PermissionManager\\app\\Models\\Role' => __DIR__ . '/..' . '/backpack/permissionmanager/src/app/Models/Role.php',
         'Barryvdh\\Debugbar\\Console\\ClearCommand' => __DIR__ . '/..' . '/barryvdh/laravel-debugbar/src/Console/ClearCommand.php',
         'Barryvdh\\Debugbar\\Console\\PublishCommand' => __DIR__ . '/..' . '/barryvdh/laravel-debugbar/src/Console/PublishCommand.php',
         'Barryvdh\\Debugbar\\Controllers\\AssetController' => __DIR__ . '/..' . '/barryvdh/laravel-debugbar/src/Controllers/AssetController.php',
@@ -693,6 +717,7 @@ class ComposerStaticInitfc16fed7a180b15dd9a2159c6449d94f
         'Collective\\Html\\HtmlFacade' => __DIR__ . '/..' . '/laravelcollective/html/src/HtmlFacade.php',
         'Collective\\Html\\HtmlServiceProvider' => __DIR__ . '/..' . '/laravelcollective/html/src/HtmlServiceProvider.php',
         'CreatePasswordResetsTable' => __DIR__ . '/../..' . '/database/migrations/2014_10_12_100000_create_password_resets_table.php',
+        'CreatePermissionTables' => __DIR__ . '/../..' . '/database/migrations/2016_05_10_130540_create_permission_tables.php',
         'CreateRevisionsTable' => __DIR__ . '/..' . '/venturecraft/revisionable/src/migrations/2013_04_09_062329_create_revisions_table.php',
         'CreateTrainingCompletionsTable' => __DIR__ . '/../..' . '/database/migrations/2017_06_26_144545_create_training_completions_table.php',
         'CreateTrainingRegistrationsTable' => __DIR__ . '/../..' . '/database/migrations/2017_06_26_141838_create_training_registrations_table.php',
@@ -3632,6 +3657,18 @@ class ComposerStaticInitfc16fed7a180b15dd9a2159c6449d94f
         'SebastianBergmann\\RecursionContext\\InvalidArgumentException' => __DIR__ . '/..' . '/sebastian/recursion-context/src/InvalidArgumentException.php',
         'SebastianBergmann\\ResourceOperations\\ResourceOperations' => __DIR__ . '/..' . '/sebastian/resource-operations/src/ResourceOperations.php',
         'SebastianBergmann\\Version' => __DIR__ . '/..' . '/sebastian/version/src/Version.php',
+        'Spatie\\Permission\\Contracts\\Permission' => __DIR__ . '/..' . '/spatie/laravel-permission/src/Contracts/Permission.php',
+        'Spatie\\Permission\\Contracts\\Role' => __DIR__ . '/..' . '/spatie/laravel-permission/src/Contracts/Role.php',
+        'Spatie\\Permission\\Exceptions\\PermissionDoesNotExist' => __DIR__ . '/..' . '/spatie/laravel-permission/src/Exceptions/PermissionDoesNotExist.php',
+        'Spatie\\Permission\\Exceptions\\PermissionMustNotBeEmpty' => __DIR__ . '/..' . '/spatie/laravel-permission/src/Exceptions/PermissionMustNotBeEmpty.php',
+        'Spatie\\Permission\\Exceptions\\RoleDoesNotExist' => __DIR__ . '/..' . '/spatie/laravel-permission/src/Exceptions/RoleDoesNotExist.php',
+        'Spatie\\Permission\\Models\\Permission' => __DIR__ . '/..' . '/spatie/laravel-permission/src/Models/Permission.php',
+        'Spatie\\Permission\\Models\\Role' => __DIR__ . '/..' . '/spatie/laravel-permission/src/Models/Role.php',
+        'Spatie\\Permission\\PermissionRegistrar' => __DIR__ . '/..' . '/spatie/laravel-permission/src/PermissionRegistrar.php',
+        'Spatie\\Permission\\PermissionServiceProvider' => __DIR__ . '/..' . '/spatie/laravel-permission/src/PermissionServiceProvider.php',
+        'Spatie\\Permission\\Traits\\HasPermissions' => __DIR__ . '/..' . '/spatie/laravel-permission/src/Traits/HasPermissions.php',
+        'Spatie\\Permission\\Traits\\HasRoles' => __DIR__ . '/..' . '/spatie/laravel-permission/src/Traits/HasRoles.php',
+        'Spatie\\Permission\\Traits\\RefreshesPermissionCache' => __DIR__ . '/..' . '/spatie/laravel-permission/src/Traits/RefreshesPermissionCache.php',
         'Symfony\\Component\\ClassLoader\\ApcClassLoader' => __DIR__ . '/..' . '/symfony/class-loader/ApcClassLoader.php',
         'Symfony\\Component\\ClassLoader\\ClassCollectionLoader' => __DIR__ . '/..' . '/symfony/class-loader/ClassCollectionLoader.php',
         'Symfony\\Component\\ClassLoader\\ClassLoader' => __DIR__ . '/..' . '/symfony/class-loader/ClassLoader.php',

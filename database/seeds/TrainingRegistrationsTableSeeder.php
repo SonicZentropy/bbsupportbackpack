@@ -4,6 +4,7 @@ use Illuminate\Database\Seeder;
 
 class TrainingRegistrationsTableSeeder extends Seeder
 {
+    private $ShouldFullSeed = false;
     /**
      * Run the database seeds.
      *
@@ -88,6 +89,11 @@ class TrainingRegistrationsTableSeeder extends Seeder
             'completed_certification' => '1',
             'registered_user_id' => DB::table('users')->where('personal_id', '=', '104007643')->first()->id,
         ]);
+
+        if (!$this->ShouldFullSeed)
+            return;
+
+
         DB::table('training_registrations')->insert([
             'name' => 'Lisa Smithee',
             'email' => 'lsmithee@pulaskitech.edu',

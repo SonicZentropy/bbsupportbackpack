@@ -4,6 +4,7 @@ use Illuminate\Database\Seeder;
 
 class UsersTableSeeder extends Seeder
 {
+    private $ShouldFullSeed = false;
     /**
      * Run the database seeds.
      *
@@ -69,6 +70,10 @@ class UsersTableSeeder extends Seeder
             'isAdmin' => 0,
             'personal_id' => '104007643',
         ]);
+
+        if (!$this->ShouldFullSeed)
+            return;
+
         DB::table('users')->insert([
             'name' => 'Lisa Smithee',
             'email' => 'lsmithee@pulaskitech.edu',

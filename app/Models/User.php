@@ -6,11 +6,13 @@ use Backpack\CRUD\CrudTrait;
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Backpack\Base\app\Notifications\ResetPasswordNotification as ResetPasswordNotification;
+use Spatie\Permission\Traits\HasRoles;
 
 class User extends Authenticatable
 {
     use Notifiable;
     use CrudTrait;
+    use HasRoles;
     /**
      * The attributes that are mass assignable.
      *
@@ -48,5 +50,7 @@ class User extends Authenticatable
     public function trainings() {
         return $this->belongsToMany(TrainingSession::class, 'trainings_users', 'user_id', 'training_id');
     }
+
+
 
 }

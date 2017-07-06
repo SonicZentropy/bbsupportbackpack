@@ -10,7 +10,7 @@ Route::group([
     CRUD::resource('session', 'TrainingSessionCrudController');
     CRUD::resource('user', 'UserCrudController');
     CRUD::resource('registrations', 'TrainingRegistrationCrudController');
-
+    CRUD::resource('userroles', 'RolesPermissionsCrudController');
 
 
 });
