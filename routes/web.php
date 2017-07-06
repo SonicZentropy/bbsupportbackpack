@@ -11,11 +11,11 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+//Route::get('/', function () {
+//    return view('welcome');
+//});
 
-//Route::get('/', 'TrainingRegistrationController@index');
+Route::get('/', 'TrainingRegistrationController@index');
 
 Route::group(['middleware' => ['web'], 'prefix' => 'training'], function()
 //Route::middleware(['web']

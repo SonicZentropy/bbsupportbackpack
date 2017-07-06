@@ -10,11 +10,18 @@ Route::group([
     CRUD::resource('session', 'TrainingSessionCrudController');
     CRUD::resource('user', 'UserCrudController');
     CRUD::resource('registrations', 'TrainingRegistrationCrudController');
-
+    CRUD::resource('viewcertifications', 'ViewCertificationsController');
 
 
 });
 
+Route::group([
+    'middleware' => ['admin', 'role:Viewer,ViewCompletions'],
+], function() {
+    CRUD::resource('viewcertifications', 'ViewCertificationsController');
+
+
+});
 
 Route::group([
     //'prefix' => config('backpack.base.route_prefix', ''),

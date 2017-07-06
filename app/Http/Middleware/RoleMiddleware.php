@@ -20,13 +20,13 @@ class RoleMiddleware
             return redirect('/login');
         }
 
-        if (! $request->user()->hasRole($role)) {
+        if ((! $request->user()->hasRole($role)) && (! $request->user()->hasPermissionTo($permission))) {
             abort(403);
         }
 
-        if (! $request->user()->hasPermissionTo($permission)) {
-            abort(403);
-        }
+        //if (! $request->user()->hasPermissionTo($permission)) {
+        //    abort(403);
+        //}
 
         return $next($request);
     }
