@@ -72,6 +72,12 @@ class UserCrudController extends CrudController
             'type' => 'checkbox'
         ]);
 
+        $this->crud->addField([
+            'name' => 'password',
+            'label' => 'Password',
+            'type' => 'password'
+        ]);
+
         // ------ CRUD FIELDS
         // $this->crud->addField($options, 'update/create/both');
         // $this->crud->addFields($array_of_arrays, 'update/create/both');
