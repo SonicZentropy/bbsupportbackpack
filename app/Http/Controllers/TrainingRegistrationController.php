@@ -116,7 +116,7 @@ class TrainingRegistrationController extends Controller
 
     private function ProcessOrCreateUser(Request $request) {
         $user = User::where('personal_id', '=', $request->personal_id)->first();
-        if ($user === null) {
+        if (is_null($user)) {
             $newuser = new User();
             $newuser->name = $request->name;
             $newuser->email = $request->email;
