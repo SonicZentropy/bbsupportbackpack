@@ -4,7 +4,7 @@ use Illuminate\Database\Seeder;
 
 class UsersTableSeeder extends Seeder
 {
-    private $ShouldFullSeed = false;
+    private $ShouldFullSeed = true;
     /**
      * Run the database seeds.
      *
@@ -4483,6 +4483,8 @@ class UsersTableSeeder extends Seeder
             'isAdmin' => 0,
             'personal_id' => '899006421',
         ]);
+
+
 
     }
 }

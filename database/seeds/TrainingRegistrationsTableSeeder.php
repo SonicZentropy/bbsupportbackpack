@@ -4,7 +4,7 @@ use Illuminate\Database\Seeder;
 
 class TrainingRegistrationsTableSeeder extends Seeder
 {
-    private $ShouldFullSeed = false;
+    private $ShouldFullSeed = true;
     /**
      * Run the database seeds.
      *
