@@ -27,8 +27,7 @@
                     </div>
                     <div class="col-sm-11 row-m-t-ten">
                         <input type="text" name="name" id="training_registration-name" class="form-control"
-                               placeholder="Full Name"
-                               value="Casey">
+                               placeholder="Full Name">
                     </div>
                 </div>
 
@@ -39,7 +38,7 @@
                     <div class="col-sm-11 row-m-t-ten">
                         <input type="number" name="personal_id" id="training_registration-personal_id"
                                placeholder="Student/Faculty ID Number"
-                               class="form-control" value="123456789">
+                               class="form-control">
                     </div>
                 </div>
 
@@ -48,8 +47,7 @@
                 </div>
                 <div class="col-sm-11 row-m-t-ten">
                     <input type="email" name="email" id="training_registration-email" class="form-control"
-                           placeholder="Email Address"
-                           value="cbailey@pulaskitech.edu">
+                           placeholder="Email Address">
                 </div>
 
                 <div class="col-sm-1 formiconimg row-m-t-ten">
@@ -58,7 +56,7 @@
                 <div class="col-sm-11 row-m-t-ten">
                     <input type="text" name="institution" id="training_registration-institution"
                            placeholder="Institution"
-                           class="form-control" value="PTC">
+                           class="form-control">
                 </div>
 
 
@@ -66,7 +64,7 @@
                     <div class="boldtext">What courses have you taught or will be teaching (within 1 year)?
                     </div>
                     <input type="text" name="courses_taught" id="training_registration-courses_taught"
-                           class="form-control" value="Basic">
+                           class="form-control" >
                 </div>
 
                 <div class="col-sm-12 allmargins-ten">
