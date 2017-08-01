@@ -73,6 +73,7 @@ class ComposerStaticInitfc16fed7a180b15dd9a2159c6449d94f
             'Psr\\Cache\\' => 10,
             'Prologue\\Alerts\\' => 16,
             'PhpParser\\' => 10,
+            'Pelago\\' => 7,
         ),
         'M' => 
         array (
@@ -248,6 +249,10 @@ class ComposerStaticInitfc16fed7a180b15dd9a2159c6449d94f
         array (
             0 => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser',
         ),
+        'Pelago\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/pelago/emogrifier/Classes',
+        ),
         'Monolog\\' => 
         array (
             0 => __DIR__ . '/..' . '/monolog/monolog/src/Monolog',
@@ -380,6 +385,13 @@ class ComposerStaticInitfc16fed7a180b15dd9a2159c6449d94f
             'Venturecraft\\Revisionable' => 
             array (
                 0 => __DIR__ . '/..' . '/venturecraft/revisionable/src',
+            ),
+        ),
+        'S' => 
+        array (
+            'Snowfire\\Beautymail\\' => 
+            array (
+                0 => __DIR__ . '/..' . '/snowfire/beautymail/src',
             ),
         ),
         'P' => 
@@ -3087,6 +3099,7 @@ class ComposerStaticInitfc16fed7a180b15dd9a2159c6449d94f
         'PHP_Token_YIELD_FROM' => __DIR__ . '/..' . '/phpunit/php-token-stream/src/Token.php',
         'Parsedown' => __DIR__ . '/..' . '/erusev/parsedown/Parsedown.php',
         'ParsedownTest' => __DIR__ . '/..' . '/erusev/parsedown/test/ParsedownTest.php',
+        'Pelago\\Emogrifier' => __DIR__ . '/..' . '/pelago/emogrifier/Classes/Emogrifier.php',
         'PhpParser\\Autoloader' => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser/Autoloader.php',
         'PhpParser\\Builder' => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser/Builder.php',
         'PhpParser\\BuilderAbstract' => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser/BuilderAbstract.php',
@@ -3652,6 +3665,10 @@ class ComposerStaticInitfc16fed7a180b15dd9a2159c6449d94f
         'SebastianBergmann\\RecursionContext\\InvalidArgumentException' => __DIR__ . '/..' . '/sebastian/recursion-context/src/InvalidArgumentException.php',
         'SebastianBergmann\\ResourceOperations\\ResourceOperations' => __DIR__ . '/..' . '/sebastian/resource-operations/src/ResourceOperations.php',
         'SebastianBergmann\\Version' => __DIR__ . '/..' . '/sebastian/version/src/Version.php',
+        'Snowfire\\Beautymail\\Beautymail' => __DIR__ . '/..' . '/snowfire/beautymail/src/Snowfire/Beautymail/Beautymail.php',
+        'Snowfire\\Beautymail\\BeautymailFacade' => __DIR__ . '/..' . '/snowfire/beautymail/src/Snowfire/Beautymail/BeautymailFacade.php',
+        'Snowfire\\Beautymail\\BeautymailServiceProvider' => __DIR__ . '/..' . '/snowfire/beautymail/src/Snowfire/Beautymail/BeautymailServiceProvider.php',
+        'Snowfire\\Beautymail\\CssInlinerPlugin' => __DIR__ . '/..' . '/snowfire/beautymail/src/Snowfire/Beautymail/CssInlinerPlugin.php',
         'Spatie\\Permission\\Contracts\\Permission' => __DIR__ . '/..' . '/spatie/laravel-permission/src/Contracts/Permission.php',
         'Spatie\\Permission\\Contracts\\Role' => __DIR__ . '/..' . '/spatie/laravel-permission/src/Contracts/Role.php',
         'Spatie\\Permission\\Exceptions\\PermissionDoesNotExist' => __DIR__ . '/..' . '/spatie/laravel-permission/src/Exceptions/PermissionDoesNotExist.php',

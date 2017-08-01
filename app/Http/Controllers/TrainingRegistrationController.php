@@ -16,6 +16,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 use \Log;
 
+use Snowfire\Beautymail\Beautymail;
 //use app\UtilsPHP\PTChelpers;
 
 
@@ -23,11 +24,13 @@ class TrainingRegistrationController extends Controller
 {
     public $registrations;
     public $trainingSessions;
+    private $bmail;
 
     public function __construct(TrainingRegistrationRepository $regs, TrainingSessionRepository $ses)
     {
         $this->registrations = $regs;
         $this->trainingSessions = $ses;
+        $this->bmail = app(Beautymail::class);
     }
 
     /**
@@ -148,7 +151,12 @@ class TrainingRegistrationController extends Controller
     private function SendOnlineVerificationEmail($reg, $user)
     {
         Log::debug("In sending ONLINE verification email to " . $user->email);
-        Mail::to($user->email)->send(new OnlineRegistrationConfirmation($reg, $user));
+        //Mail::to($user->email)->send(new OnlineRegistrationConfirmation($reg, $user));
+        $this->bmail->send('mails.onlineRegConfirmMail', [], function($message) use ($user) {
+            $message->from('ofs@pulaskitech.edu')
+                    ->to($user->email)
+                    ->subject("Online Registration Confirmation");
+        });
     }
 
     //public function destroy(Request $request, TrainingRegistrationModel $trainingReg) {

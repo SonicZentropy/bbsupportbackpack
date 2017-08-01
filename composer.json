@@ -14,7 +14,8 @@
         "doctrine/dbal": "^2.5",
         "laravel/framework": "5.4.*",
         "laravel/tinker": "~1.0",
-        "laravelcollective/html": "^5.4"
+        "laravelcollective/html": "^5.4",
+        "snowfire/beautymail": "dev-master"
     },
     "require-dev": {
         "backpack/generators": "^1.1",

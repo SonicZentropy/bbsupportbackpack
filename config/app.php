@@ -194,6 +194,9 @@ return [
         //HTML
         Collective\Html\HtmlServiceProvider::class,
 
+        //Beautymail
+        Snowfire\Beautymail\BeautymailServiceProvider::class,
+
 
     ],
 
