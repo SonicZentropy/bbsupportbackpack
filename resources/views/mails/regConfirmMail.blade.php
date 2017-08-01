@@ -13,7 +13,7 @@
     </tr>
     <tr>
         <td class="subtitlecentered">
-            Training Certificate Registration
+            Training Registration
         </td>
     </tr>
 
