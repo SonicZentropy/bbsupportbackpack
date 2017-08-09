@@ -16,8 +16,17 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 use \Log;
 
+use App\REST\Rest;
+
 use Snowfire\Beautymail\Beautymail;
-//use app\UtilsPHP\PTChelpers;
+
+use App\REST\DTO\Course;
+use App\REST\DTO\Availability;
+
+
+require_once 'HTTP/Request2.php';
+//require_once 'App/Utils/classes/Rest.class.php';
+//include(app_path() . '/Utils/classes/Rest.class.php');
 
 
 class TrainingRegistrationController extends Controller
@@ -26,6 +35,7 @@ class TrainingRegistrationController extends Controller
     public $trainingSessions;
     private $bmail;
 
+
     public function __construct(TrainingRegistrationRepository $regs, TrainingSessionRepository $ses)
     {
         $this->registrations = $regs;
@@ -33,13 +43,36 @@ class TrainingRegistrationController extends Controller
         $this->bmail = app(Beautymail::class);
     }
 
+
+
     /**
-     * @param Request $request
+     * @param Request $req
      * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
      */
-    public function index(Request $request)
+    public function index(Request $req)
     {
-        Log::info("In Training Registration Controller");
+        $rest = new Rest();
+        $token = $rest->authenticateREST();
+
+        $access_token = $token->access_token;
+
+        $rest->createDatasource($access_token, 'restsource', 'rest source');
+
+        $ds = $rest->GetAllDatasources($access_token);
+        $id = 1;
+        foreach($ds->results as $result) {
+            if ($result->externalId == 'restsource') {
+                $id = $result->id;
+            }
+        }
+        if ($id != 1) {
+            $rest->deleteDatasource($access_token, $id);
+        }
+
+        $courses = $rest->getCourses($access_token);
+
+        Log::debug("In Training Registration Controller");
+
         //\Debugbar::addMessage('Another message');
         return view('registration', [
             'registrations' => $this->registrations->getTrainingRegistrations(),
@@ -74,9 +107,12 @@ class TrainingRegistrationController extends Controller
 
         $reg = $this->CreateRegistration($request);
 
-        //#TODO: Send email to jas when number enrolled is 15
+        $isOnline = $request->training_session_id == "1"; //Is online training, this is fragile imo
 
-        if($request->training_session_id == "1") { //Is online training, this is fragile imo
+        //#TODO: Send email to jas when number enrolled is 15
+        $this->SetupBlackboard($user, $reg, $isOnline);
+
+        if($isOnline) { //Is online training, this is fragile imo
             $this->SendOnlineVerificationEmail($reg, $user);
             return view('onlineRegConfirmation');
         }
@@ -89,9 +125,53 @@ class TrainingRegistrationController extends Controller
             $this->SendFullCourseAlertEmail($selectedTraining);
         }
 
+
         return view('regConfirmation')
             ->with('first_date', $selectedTraining->first_session)
             ->with('second_date', $selectedTraining->second_session);
+    }
+
+    private function SetupBlackboard($user, $reg, $isOnline) {
+        $rest = new Rest();
+        $user_id = "userName:" . $user->personal_id;
+
+
+        $access = $rest->authenticateREST();
+        $access_token = $access->access_token;
+        $dsk_id = $rest->GetDataSourceKeyIDFromName($access_token, "BBTRAINING");
+
+        /////////////////// ENROLL USER IN BBTRAIN COURSE AS STUDENT
+
+        if ($isOnline)
+            $course_id = "courseId:BBTRAIN.BASICS.ONLINE";
+        else
+            $course_id = "courseId:BBTRAIN.BASICS.001"
+        $course = $rest->readCourse($access_token, $course_id);
+
+        $user = $rest->readUser($access_token, $user_id);
+
+
+        $rest->createMembership($access_token, "_2_1", $course->id,  $user->id, 'Student');
+
+//CREATE COURSE FOR USER
+        $course = new Course();
+
+        $course->dataSourceId = $dsk_id;
+        $course->termId = '_22_1'; // For BBTraining Term
+        $course->availability = 'yes';
+        $course->courseId = 'BBTRAIN.DEV.FINAL.' . $user->userName;
+        $course->externalId = $course->courseId;
+        $course->description = "BB Training Development shell";
+        //BBTRAIN.O.2017.MM.00# - Your.Name
+        $course->name = 'BBTRAIN.DEV.FINAL.' . $user->name->given . $user->name->family;
+        //$course->name = $course->courseId;
+        $course->uuid = uniqid("", true);
+        //print "Creating course from object";
+        $newcourse = $rest->createCourseFromObject($access_token, $course);
+
+// ENROLL USER IN OWN COURSE AS INSTRUCTOR
+        $rest->createMembership($access_token, "_2_1", $newcourse->id, $user->id, 'Instructor');
+
     }
 
     private function CreateRegistration(Request $request) {

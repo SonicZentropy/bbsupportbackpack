@@ -18,8 +18,10 @@ return array(
     'e7223560d890eab89cda23685e711e2c' => $vendorDir . '/psy/psysh/src/Psy/functions.php',
     'e803af0597ea9e5b518c7d090fb85601' => $vendorDir . '/arcanedev/support/constants.php',
     '5323a5cb5bb1bab9b2f24566beed262a' => $vendorDir . '/arcanedev/support/helpers.php',
+    'c964ee0ededf28c96ebd9db5099ef910' => $vendorDir . '/guzzlehttp/promises/src/functions_include.php',
     '4a1f389d6ce373bda9e57857d3b61c84' => $vendorDir . '/barryvdh/laravel-debugbar/src/helpers.php',
     'd04e9322f14ab3e66b5b68c6d1e15433' => $vendorDir . '/arcanedev/log-viewer/constants.php',
     '24be6d98d7c305f36699ba4e34b6df3c' => $vendorDir . '/arcanedev/log-viewer/helpers.php',
+    '37a3dc5111fe8f707ab4c132ef1dbc62' => $vendorDir . '/guzzlehttp/guzzle/src/functions_include.php',
     '4d8792cc4be764809126554e6b34e95c' => $baseDir . '/app/Utils/PTCHelpers.php',
 );
