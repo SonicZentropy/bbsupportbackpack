@@ -105,6 +105,7 @@ class TrainingRegistrationController extends Controller
 
         $user = $this->ProcessOrCreateUser($request);
 
+
         $reg = $this->CreateRegistration($request);
 
         $isOnline = $request->training_session_id == "1"; //Is online training, this is fragile imo
@@ -145,13 +146,19 @@ class TrainingRegistrationController extends Controller
         if ($isOnline)
             $course_id = "courseId:BBTRAIN.BASICS.ONLINE";
         else
-            $course_id = "courseId:BBTRAIN.BASICS.001"
+            $course_id = "courseId:BBTRAIN.BASICS.001";
         $course = $rest->readCourse($access_token, $course_id);
 
-        $user = $rest->readUser($access_token, $user_id);
+        $userBB = $rest->readUser($access_token, $user_id);
 
+        //if user isn't already in BB, add them
 
-        $rest->createMembership($access_token, "_2_1", $course->id,  $user->id, 'Student');
+        if ($userBB->id === "") {
+            Log::debug("Need to create new user");
+            $userBB = $rest->createUserFromModel($access_token, $dsk_id, $user);
+        }
+
+        $membership = $rest->createMembership($access_token, "_2_1", $course->id,  $userBB->id, 'Student');
 
 //CREATE COURSE FOR USER
         $course = new Course();
@@ -159,18 +166,21 @@ class TrainingRegistrationController extends Controller
         $course->dataSourceId = $dsk_id;
         $course->termId = '_22_1'; // For BBTraining Term
         $course->availability = 'yes';
-        $course->courseId = 'BBTRAIN.DEV.FINAL.' . $user->userName;
+        $course->courseId = 'BBTRAIN.DEV.FINAL.' . $user->getAttribute("personal_id");
+        $newcourseid = "courseId:" . $course->courseId;
         $course->externalId = $course->courseId;
         $course->description = "BB Training Development shell";
         //BBTRAIN.O.2017.MM.00# - Your.Name
-        $course->name = 'BBTRAIN.DEV.FINAL.' . $user->name->given . $user->name->family;
+        $course->name = 'BBTRAIN.DEV.FINAL.' . $userBB->name->given . $userBB->name->family;
         //$course->name = $course->courseId;
         $course->uuid = uniqid("", true);
         //print "Creating course from object";
         $newcourse = $rest->createCourseFromObject($access_token, $course);
 
+        //$insCourse = $rest->readCourse($access_token, $newcourseid);
+
 // ENROLL USER IN OWN COURSE AS INSTRUCTOR
-        $rest->createMembership($access_token, "_2_1", $newcourse->id, $user->id, 'Instructor');
+        $instructor = $rest->createMembership($access_token, "_2_1", $newcourse->id, $userBB->id, 'Instructor');
 
     }
 

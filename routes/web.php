@@ -11,18 +11,18 @@
 |
 */
 
-//Route::get('/', 'TrainingRegistrationController@index');
-Route::get('/', function() {
-  return redirect('/osticket/scp');
-});
+Route::get('/', 'TrainingRegistrationController@index');
+//Route::get('/', function() {
+//  return redirect('/osticket/scp');
+//});
 
 Route::group(['middleware' => ['web'], 'prefix' => 'training'], function()
 //Route::middleware(['web']
     {
-        //Route::get('/', 'TrainingRegistrationController@index');
-	Route::get('/', function() {
-		return redirect('https://docs.google.com/forms/d/e/1FAIpQLSdwlF4yqxk3dZD5WQmZXlX-Dr0xNmHXs95kilkgKuIOfnitjw/viewform');
-	});
+        Route::get('/', 'TrainingRegistrationController@index');
+	//Route::get('/', function() {
+	//	return redirect('https://docs.google.com/forms/d/e/1FAIpQLSdwlF4yqxk3dZD5WQmZXlX-Dr0xNmHXs95kilkgKuIOfnitjw/viewform');
+	//});
 	
 	Route::get('/test', 'TrainingRegistrationController@index');
 

@@ -4484,6 +4484,410 @@ class UsersTableSeeder extends Seeder
             'personal_id' => '899006421',
         ]);
 
+        DB::table('users')->insert([
+            'name' => 'Joyce Person',
+            'email' => 'jperson@pulaskitech.edu',
+            'password' => bcrypt('Letmein123'),
+            'certified' => 1,
+            'isAdmin' => 0,
+            'personal_id' => '858006337',
+        ]);
+
+        DB::table('users')->insert([
+            'name' => 'Yong Park',
+            'email' => 'ypark@pulaskitech.edu',
+            'password' => bcrypt('Letmein123'),
+            'certified' => 1,
+            'isAdmin' => 0,
+            'personal_id' => '482003521',
+        ]);
+
+        DB::table('users')->insert([
+            'name' => 'Ashley Steele',
+            'email' => 'asteele@pulaskitech.edu',
+            'password' => bcrypt('Letmein123'),
+            'certified' => 1,
+            'isAdmin' => 0,
+            'personal_id' => '549003203',
+        ]);
+
+        DB::table('users')->insert([
+            'name' => 'Somerly Mustin',
+            'email' => 'smustin@pulaskitech.edu',
+            'password' => bcrypt('Letmein123'),
+            'certified' => 1,
+            'isAdmin' => 0,
+            'personal_id' => '337001624',
+        ]);
+        DB::table('users')->insert([
+            'name' => 'Shanda Winkowski-Thornton',
+            'email' => 'swinkowski-thornton@pulaskitech.edu',
+            'password' => bcrypt('Letmein123'),
+            'certified' => 1,
+            'isAdmin' => 0,
+            'personal_id' => '161006585',
+        ]);
+        DB::table('users')->insert([
+            'name' => 'Karen Johnson',
+            'email' => 'kjohnson@pulaskitech.edu',
+            'password' => bcrypt('Letmein123'),
+            'certified' => 1,
+            'isAdmin' => 0,
+            'personal_id' => '419007640',
+        ]);
+        DB::table('users')->insert([
+            'name' => 'Sharee Young',
+            'email' => 'syoung@pulaskitech.edu',
+            'password' => bcrypt('Letmein123'),
+            'certified' => 1,
+            'isAdmin' => 0,
+            'personal_id' => '602008678',
+        ]);
+
+        DB::table('users')->insert([
+            'name' => 'Rachel Caruthers',
+            'email' => 'rcaruthers@pulaskitech.edu',
+            'password' => bcrypt('Letmein123'),
+            'certified' => 1,
+            'isAdmin' => 0,
+            'personal_id' => '552001540',
+        ]);
+
+        DB::table('users')->insert([
+            'name' => 'Randall Aragon',
+            'email' => 'raragon@pulaskitech.edu',
+            'password' => bcrypt('Letmein123'),
+            'certified' => 1,
+            'isAdmin' => 0,
+            'personal_id' => '369007188',
+        ]);
+
+        DB::table('users')->insert([
+            'name' => 'Connelly Weeks',
+            'email' => 'cweeks@pulaskitech.edu',
+            'password' => bcrypt('Letmein123'),
+            'certified' => 1,
+            'isAdmin' => 0,
+            'personal_id' => '160005517',
+        ]);
+
+        DB::table('users')->insert([
+            'name' => 'Susan James',
+            'email' => 'sjames@pulaskitech.edu',
+            'password' => bcrypt('Letmein123'),
+            'certified' => 1,
+            'isAdmin' => 0,
+            'personal_id' => '613007700',
+        ]);
+
+        DB::table('users')->insert([
+            'name' => 'James McAfee',
+            'email' => 'jmcafee@pulaskitech.edu',
+            'password' => bcrypt('Letmein123'),
+            'certified' => 1,
+            'isAdmin' => 0,
+            'personal_id' => '845004540',
+        ]);
+
+        DB::table('users')->insert([
+            'name' => 'Cathy Kincaid',
+            'email' => 'ckincaid@pulaskitech.edu',
+            'password' => bcrypt('Letmein123'),
+            'certified' => 1,
+            'isAdmin' => 0,
+            'personal_id' => '610006657',
+        ]);
+
+        DB::table('users')->insert([
+            'name' => 'Shaun Everest',
+            'email' => 'severest@pulaskitech.edu',
+            'password' => bcrypt('Letmein123'),
+            'certified' => 1,
+            'isAdmin' => 0,
+            'personal_id' => '608001104',
+        ]);
+        DB::table('users')->insert([
+            'name' => 'Wendy Schay',
+            'email' => 'wschay@pulaskitech.edu',
+            'password' => bcrypt('Letmein123'),
+            'certified' => 1,
+            'isAdmin' => 0,
+            'personal_id' => '442007533',
+        ]);
+        DB::table('users')->insert([
+            'name' => 'Stephen Edds',
+            'email' => 'sedds@pulaskitech.edu',
+            'password' => bcrypt('Letmein123'),
+            'certified' => 1,
+            'isAdmin' => 0,
+            'personal_id' => '692008098',
+        ]);
+        DB::table('users')->insert([
+            'name' => 'Gary Garner',
+            'email' => 'ggarner@pulaskitech.edu',
+            'password' => bcrypt('Letmein123'),
+            'certified' => 1,
+            'isAdmin' => 0,
+            'personal_id' => '785008303',
+        ]);
+        DB::table('users')->insert([
+            'name' => 'Richard Kron',
+            'email' => 'rkron@pulaskitech.edu',
+            'password' => bcrypt('Letmein123'),
+            'certified' => 1,
+            'isAdmin' => 0,
+            'personal_id' => '501001870',
+        ]);
+
+        DB::table('users')->insert([
+            'name' => 'Patty McCormack',
+            'email' => 'pmccormack@pulaskitech.edu',
+            'password' => bcrypt('Letmein123'),
+            'certified' => 1,
+            'isAdmin' => 0,
+            'personal_id' => '360009296',
+        ]);
+        DB::table('users')->insert([
+            'name' => 'Mitchell Berlin',
+            'email' => 'mberlin@pulaskitech.edu',
+            'password' => bcrypt('Letmein123'),
+            'certified' => 1,
+            'isAdmin' => 0,
+            'personal_id' => '169001136',
+        ]);
+        DB::table('users')->insert([
+            'name' => 'Jinnings Burress',
+            'email' => 'jburress@pulaskitech.edu',
+            'password' => bcrypt('Letmein123'),
+            'certified' => 1,
+            'isAdmin' => 0,
+            'personal_id' => '397002719',
+        ]);
+        DB::table('users')->insert([
+            'name' => 'Jacqueline Smith',
+            'email' => 'jsmith@pulaskitech.edu',
+            'password' => bcrypt('Letmein123'),
+            'certified' => 1,
+            'isAdmin' => 0,
+            'personal_id' => '232006591',
+        ]);
+        DB::table('users')->insert([
+            'name' => 'William Allen',
+            'email' => 'wallen@pulaskitech.edu',
+            'password' => bcrypt('Letmein123'),
+            'certified' => 1,
+            'isAdmin' => 0,
+            'personal_id' => '586009398',
+        ]);
+
+
+
+
+
+        DB::table('users')->insert([
+            'name' => 'Marsha Norwood',
+            'email' => 'mnorwood@pulaskitech.edu',
+            'password' => bcrypt('Letmein123'),
+            'certified' => 1,
+            'isAdmin' => 0,
+            'personal_id' => '203001039',
+        ]);
+
+
+        DB::table('users')->insert([
+            'name' => 'Jonathan Russ',
+            'email' => 'jruss@pulaskitech.edu',
+            'password' => bcrypt('Letmein123'),
+            'certified' => 1,
+            'isAdmin' => 0,
+            'personal_id' => '209004613',
+        ]);
+        DB::table('users')->insert([
+            'name' => 'Justin Sangster',
+            'email' => 'jsangster@pulaskitech.edu',
+            'password' => bcrypt('Letmein123'),
+            'certified' => 1,
+            'isAdmin' => 0,
+            'personal_id' => '530008272',
+        ]);
+        DB::table('users')->insert([
+            'name' => 'Jeffery Shaw',
+            'email' => 'jshaw@pulaskitech.edu',
+            'password' => bcrypt('Letmein123'),
+            'certified' => 1,
+            'isAdmin' => 0,
+            'personal_id' => '853001032',
+        ]);
+
+        DB::table('users')->insert([
+            'name' => 'Lana Riding',
+            'email' => 'lriding@pulaskitech.edu',
+            'password' => bcrypt('Letmein123'),
+            'certified' => 1,
+            'isAdmin' => 0,
+            'personal_id' => '633008214',
+        ]);
+        DB::table('users')->insert([
+            'name' => 'Robin Reed',
+            'email' => 'rreed@pulaskitech.edu',
+            'password' => bcrypt('Letmein123'),
+            'certified' => 1,
+            'isAdmin' => 0,
+            'personal_id' => '706009266',
+        ]);
+        DB::table('users')->insert([
+            'name' => 'Ann Fellinger',
+            'email' => 'afellinger@pulaskitech.edu',
+            'password' => bcrypt('Letmein123'),
+            'certified' => 1,
+            'isAdmin' => 0,
+            'personal_id' => '753007367',
+        ]);
+        DB::table('users')->insert([
+            'name' => 'Carlos Miller',
+            'email' => 'cmiller@pulaskitech.edu',
+            'password' => bcrypt('Letmein123'),
+            'certified' => 1,
+            'isAdmin' => 0,
+            'personal_id' => '447007543',
+        ]);
+        DB::table('users')->insert([
+            'name' => 'Jill McDonald',
+            'email' => 'jmcdonald@pulaskitech.edu',
+            'password' => bcrypt('Letmein123'),
+            'certified' => 1,
+            'isAdmin' => 0,
+            'personal_id' => '356005257',
+        ]);
+        DB::table('users')->insert([
+            'name' => 'Mimi Mcafee',
+            'email' => 'mmcafee@pulaskitech.edu',
+            'password' => bcrypt('Letmein123'),
+            'certified' => 1,
+            'isAdmin' => 0,
+            'personal_id' => '351007087',
+        ]);
+        DB::table('users')->insert([
+            'name' => 'Robert Hall',
+            'email' => 'rhall@pulaskitech.edu',
+            'password' => bcrypt('Letmein123'),
+            'certified' => 1,
+            'isAdmin' => 0,
+            'personal_id' => '431005106',
+        ]);
+        DB::table('users')->insert([
+            'name' => 'Jerry Elliot',
+            'email' => 'jelliot@pulaskitech.edu',
+            'password' => bcrypt('Letmein123'),
+            'certified' => 1,
+            'isAdmin' => 0,
+            'personal_id' => '403009250',
+        ]);
+        DB::table('users')->insert([
+            'name' => 'Shana Graves',
+            'email' => 'sgraves@pulaskitech.edu',
+            'password' => bcrypt('Letmein123'),
+            'certified' => 1,
+            'isAdmin' => 0,
+            'personal_id' => '871008762',
+        ]);
+        DB::table('users')->insert([
+            'name' => 'Carita Alexander',
+            'email' => 'calexander@pulaskitech.edu',
+            'password' => bcrypt('Letmein123'),
+            'certified' => 1,
+            'isAdmin' => 0,
+            'personal_id' => '233001777',
+        ]);
+
+        DB::table('users')->insert([
+            'name' => 'Anthony Giglia',
+            'email' => 'agiglia@pulaskitech.edu',
+            'password' => bcrypt('Letmein123'),
+            'certified' => 1,
+            'isAdmin' => 0,
+            'personal_id' => '360008974',
+        ]);
+        DB::table('users')->insert([
+            'name' => 'Charlotte Lewallen',
+            'email' => 'clewallen@pulaskitech.edu',
+            'password' => bcrypt('Letmein123'),
+            'certified' => 1,
+            'isAdmin' => 0,
+            'personal_id' => '801002997',
+        ]);
+        DB::table('users')->insert([
+            'name' => 'Jason McFadden',
+            'email' => 'jmcfadden@pulaskitech.edu',
+            'password' => bcrypt('Letmein123'),
+            'certified' => 1,
+            'isAdmin' => 0,
+            'personal_id' => '802000439',
+        ]);
+        DB::table('users')->insert([
+            'name' => 'Lyndi Mullinax',
+            'email' => 'lmullinax@pulaskitech.edu',
+            'password' => bcrypt('Letmein123'),
+            'certified' => 1,
+            'isAdmin' => 0,
+            'personal_id' => '853002785',
+        ]);
+        DB::table('users')->insert([
+            'name' => 'Kevin Cummings',
+            'email' => 'kcummings@pulaskitech.edu',
+            'password' => bcrypt('Letmein123'),
+            'certified' => 1,
+            'isAdmin' => 0,
+            'personal_id' => '671007096',
+        ]);
+        DB::table('users')->insert([
+            'name' => 'Cynthia Booker',
+            'email' => 'cbooker@pulaskitech.edu',
+            'password' => bcrypt('Letmein123'),
+            'certified' => 1,
+            'isAdmin' => 0,
+            'personal_id' => '771002393',
+        ]);
+        DB::table('users')->insert([
+            'name' => 'Regina Howard',
+            'email' => 'rhoward@pulaskitech.edu',
+            'password' => bcrypt('Letmein123'),
+            'certified' => 1,
+            'isAdmin' => 0,
+            'personal_id' => '560006650',
+        ]);
+        DB::table('users')->insert([
+            'name' => 'Katie Carr',
+            'email' => 'kcarr@pulaskitech.edu',
+            'password' => bcrypt('Letmein123'),
+            'certified' => 1,
+            'isAdmin' => 0,
+            'personal_id' => '290001103',
+        ]);
+        DB::table('users')->insert([
+            'name' => 'Felicia Russell-Wilson',
+            'email' => 'frussell-wilson@pulaskitech.edu',
+            'password' => bcrypt('Letmein123'),
+            'certified' => 1,
+            'isAdmin' => 0,
+            'personal_id' => '309000341',
+        ]);
+        DB::table('users')->insert([
+            'name' => 'Marsha Garrett',
+            'email' => 'mgarrett@pulaskitech.edu',
+            'password' => bcrypt('Letmein123'),
+            'certified' => 1,
+            'isAdmin' => 0,
+            'personal_id' => '715007556',
+        ]);
+        DB::table('users')->insert([
+            'name' => 'Bobby Myers',
+            'email' => 'bmyers@pulaskitech.edu',
+            'password' => bcrypt('Letmein123'),
+            'certified' => 1,
+            'isAdmin' => 0,
+            'personal_id' => '162009209',
+        ]);
 
 
     }

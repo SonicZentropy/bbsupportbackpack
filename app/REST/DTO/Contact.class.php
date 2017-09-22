@@ -6,15 +6,15 @@ namespace App\REST\DTO;
 
 class Contact
 {
-	public $homePhone = '2025551212';
+	public $homePhone = '';
 
-	public $mobilePhone = '2025551213';
+	public $mobilePhone = '';
 
-	public $businessPhone = '2025551214';
+	public $businessPhone = '';
 
-	public $businessFax = '2025551215';
+	public $businessFax = '';
 
-	public $email = 'developers@blackboard.com';
+	public $email = 'ofs@uaptc.edu';
 
-	public $webPage = 'https://community.blackboard.com/community/developers/rest';
+	public $webPage = 'https://bbsupport.uaptc.edu';
 }

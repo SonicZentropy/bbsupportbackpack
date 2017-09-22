@@ -8,15 +8,15 @@ class User
 
 		public $uuid = '';
 
-		public $externalId = 'bbdnrestdemophpuser';
+		public $externalId = '';
 
 		public $dataSourceId = '';
 
-		public $userName = 'restphpuser';
+		public $userName = '';
 
-        public $password = 'Bl@ckb0ard!';
+        public $password = 'Letmein123';
 
-		public $studentId = 'restphpuser';
+		public $studentId = '';
 
 		public $birthDate = '';
 
