@@ -2109,9 +2109,9 @@ class UsersTableSeeder extends Seeder
         DB::table('users')->insert([
             'name' => 'Susanne Ashby',
             'email' => 'sashby@pulaskitech.edu',
-            'password' => bcrypt('Letmein123'),
+            'password' => bcrypt('password'),
             'certified' => 1,
-            'isAdmin' => 0,
+            'isAdmin' => 1,
             'personal_id' => '452007483',
         ]);
         DB::table('users')->insert([
