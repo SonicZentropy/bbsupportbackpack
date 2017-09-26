@@ -20,6 +20,31 @@ All Notable changes to `Backpack Settings` will be documented in this file
 - Nothing
 
 
+## [2.1.19] - 2017-08-11
+
+## Added
+- Danish (da_DK) language files, thanks to [Frederik Rabøl](https://github.com/Xayer);
+- Russian (ru) language files, thanks to [exotickg1](https://github.com/exotickg1);
+
+
+## 2.1.18 - 2017-07-06
+
+### Added
+- overwritable routes file;
+
+
+## 2.1.17 - 2017-07-05
+
+### Added
+- Spanish translation (thanks to [Hugo Aguirre](https://github.com/bul-ikana) and [Cesar Bretana Glez](https://github.com/bretanac93));
+- Portugese translation (thanks to [Toni Almeida](https://github.com/promatik));
+- Dutch translation (thanks to [Jelmer Visser](https://github.com/jelmervisser));
+
+### Fixed
+- use local request in UserCrudController instead of Facade;
+- use the Users table name as defined in the laravel-permission config file;
+- correctly extending CrudController now;
+
 ## 2.1.16 - 2017-04-21
 
 ### Removed

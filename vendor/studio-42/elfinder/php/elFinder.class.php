@@ -14,9 +14,24 @@ class elFinder {
 	/**
 	 * API version number
 	 *
+	 * @var float
+	 **/
+	protected static $ApiVersion = 2.1;
+	
+	/**
+	 * API version number
+	 *
+	 * @deprecated
 	 * @var string
 	 **/
-	protected $version = '2.1';
+	protected $version;
+	
+	/**
+	 * API revision that this connector supports all functions
+	 * 
+	 * @var integer
+	 */
+	protected static $ApiRevision = 28;
 	
 	/**
 	 * Storages (root dirs)
@@ -376,6 +391,24 @@ class elFinder {
 	 * @author Dmitry (dio) Levashov
 	 */
 	public function __construct($opts) {
+		// define accept constant of server commands path
+		! defined('ELFINDER_TAR_PATH')      && define('ELFINDER_TAR_PATH',      'tar');
+		! defined('ELFINDER_GZIP_PATH')     && define('ELFINDER_GZIP_PATH',     'gzip');
+		! defined('ELFINDER_BZIP2_PATH')    && define('ELFINDER_BZIP2_PATH',    'bzip2');
+		! defined('ELFINDER_XZ_PATH')       && define('ELFINDER_XZ_PATH',       'xz');
+		! defined('ELFINDER_ZIP_PATH')      && define('ELFINDER_ZIP_PATH',      'zip');
+		! defined('ELFINDER_UNZIP_PATH')    && define('ELFINDER_UNZIP_PATH',    'unzip');
+		! defined('ELFINDER_RAR_PATH')      && define('ELFINDER_RAR_PATH',      'rar');
+		! defined('ELFINDER_UNRAR_PATH')    && define('ELFINDER_UNRAR_PATH',    'unrar');
+		! defined('ELFINDER_7Z_PATH')       && define('ELFINDER_7Z_PATH', (substr(PHP_OS, 0, 3) === 'WIN')? '7z' : '7za');
+		! defined('ELFINDER_CONVERT_PATH')  && define('ELFINDER_CONVERT_PATH',  'convert');
+		! defined('ELFINDER_EXIFTRAN_PATH') && define('ELFINDER_EXIFTRAN_PATH', 'exiftran');
+		! defined('ELFINDER_JPEGTRAN_PATH') && define('ELFINDER_JPEGTRAN_PATH', 'jpegtran');
+		! defined('ELFINDER_FFMPEG_PATH')   && define('ELFINDER_FFMPEG_PATH',   'ffmpeg');
+		
+		// for backward compat
+		$this->version = (string)self::$ApiVersion;
+		
 		// set error handler of WARNING, NOTICE
 		$errLevel = E_WARNING | E_NOTICE | E_USER_WARNING | E_USER_NOTICE | E_STRICT | E_RECOVERABLE_ERROR;
 		if (defined('E_DEPRECATED')) {
@@ -620,7 +653,17 @@ class elFinder {
 	 * @author Dmitry (dio) Levashov
 	 **/
 	public function version() {
-		return $this->version;
+		return self::$ApiVersion;
+	}
+	
+	/**
+	 * Return revision (api) number
+	 *
+	 * @return string
+	 * @author Naoki Sawada
+	 **/
+	public function revision() {
+		return self::$ApiRevision;
 	}
 	
 	/**
@@ -1256,7 +1299,7 @@ class elFinder {
 		}
 		
 		if (!empty($args['init'])) {
-			$result['api'] = $this->version;
+			$result['api'] = sprintf('%.1F%03d', self::$ApiVersion, self::$ApiRevision);
 			$result['uplMaxSize'] = ini_get('upload_max_filesize');
 			$result['uplMaxFile'] = ini_get('max_file_uploads');
 			$result['netDrivers'] = array_keys(self::$netDrivers);
@@ -1509,6 +1552,30 @@ class elFinder {
 				'Connection: close'
 			)
 		);
+		
+		// check 'xsendfile'
+		$xsendfile = $volume->getOption('xsendfile');
+		$path = null;
+		if ($xsendfile) {
+			$info = stream_get_meta_data($fp);
+			if ($path = empty($info['uri'])? null : $info['uri']) {
+				$basePath = rtrim($volume->getOption('xsendfilePath'), DIRECTORY_SEPARATOR);
+				if ($basePath) {
+					$root = rtrim($volume->getRootPath(), DIRECTORY_SEPARATOR);
+					if (strpos($path, $root) === 0) {
+						$path = $basePath . substr($path, strlen($root));
+					} else {
+						$path = null;
+					}
+				}
+			}
+		}
+		if ($path) {
+			$result['header'][] = $xsendfile . ': ' . $path;
+			$result['info']['xsendfile'] = $xsendfile;
+		}
+		
+		// add "Content-Location" if file has url data
 		if (isset($file['url']) && $file['url'] && $file['url'] != 1) {
 			$result['header'][] = 'Content-Location: '.$file['url'];
 		}
@@ -2630,6 +2697,10 @@ class elFinder {
 				$result['warning'] = array_merge($result['warning'], $this->error($dstVolume->error()));
 				continue;
 			}
+			
+			if ($error = $dstVolume->error()) {
+				$result['warning'] = array_merge($result['warning'], $this->error($error));
+			}
 
 			$dirChange = ! empty($file['dirChange']);
 			unset($file['dirChange']);
@@ -2644,6 +2715,8 @@ class elFinder {
 		}
 		if (count($result['warning']) < 1) {
 			unset($result['warning']);
+		} else {
+			$result['sync'] = true;
 		}
 		
 		return $result;
@@ -3384,6 +3457,15 @@ class elFinder {
 	/***************************************************************************/
 	
 	/**
+	 * Return full version of API that this connector supports all functions
+	 * 
+	 * @return string
+	 */
+	public static function getApiFullVersion() {
+		return (string)self::$ApiVersion . '.' . (string)self::$ApiRevision;
+	}
+	
+	/**
 	 * Return Is Animation Gif
 	 * 
 	 * @param  string $path server local path of target image
@@ -3562,6 +3644,7 @@ class elFinder {
 		}
 		$val = trim($val, "bB \t\n\r\0\x0B");
 		$last = strtolower($val[strlen($val) - 1]);
+		$val = (int)$val;
 		switch($last) {
 			case 't':
 				$val *= 1024;
@@ -3572,7 +3655,7 @@ class elFinder {
 			case 'k':
 				$val *= 1024;
 		}
-		return (int)$val;
+		return $val;
 	}
 
 	/**
