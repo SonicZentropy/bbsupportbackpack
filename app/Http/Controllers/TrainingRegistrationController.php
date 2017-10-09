@@ -51,7 +51,7 @@ class TrainingRegistrationController extends Controller
      */
     public function index(Request $req)
     {
-        $rest = new Rest();
+        /*$rest = new Rest();
         $token = $rest->authenticateREST();
 
         $access_token = $token->access_token;
@@ -70,7 +70,7 @@ class TrainingRegistrationController extends Controller
         }
 
         $courses = $rest->getCourses($access_token);
-
+	*/
         Log::debug("In Training Registration Controller");
 
         //\Debugbar::addMessage('Another message');

@@ -98,7 +98,7 @@ class UserCrudController extends CrudController
         $wascert = $thisentry->getOriginal("certified");
         $changeto = $update_request->request->get("certified");
         if ($wascert == 0 && $changeto == 1) {
-            Mail::to("cbailey@pulaskitech.edu")->send(new CompletionNoticeToIT($thisentry->getOriginal("name"), $thisentry->getOriginal("personal_id")));
+            Mail::to("jcwilliams@pulaskitech.edu")->send(new CompletionNoticeToIT($thisentry->getOriginal("name"), $thisentry->getOriginal("personal_id")));
             Log::debug("Send Cert Email");
         }
         $redirect_location = parent::updateCrud();

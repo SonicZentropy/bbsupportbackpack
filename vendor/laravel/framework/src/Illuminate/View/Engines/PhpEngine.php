@@ -41,10 +41,6 @@ class PhpEngine implements EngineInterface
         try {
             include $__path;
         } catch (Exception $e) {
-            //$this->handleViewException($e, $obLevel);
-            error_log("Exception ".$e->getMessage());
-            error_log(" File ".$e->getFile()." Line ".$e->getLine());
-            error_log(" Trace ".$e->getTraceAsString()." Line ".$e->getLine());
             $this->handleViewException($e, $obLevel);
         } catch (Throwable $e) {
             $this->handleViewException(new FatalThrowableError($e), $obLevel);

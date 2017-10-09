@@ -475,8 +475,8 @@ return false;">
             }
             if ($search && !$status)
                 unset($queue_columns['priority']);
-            else
-                unset($queue_columns['status']);
+            
+                
 
             // Query string
             unset($args['sort'], $args['dir'], $args['_pjax']);
@@ -579,18 +579,24 @@ return false;">
                         echo Format::htmlchars($un);
                     ?></span></div></td>
                 <?php
-                if($search && !$status){
-                    $displaystatus=TicketStatus::getLocalById($T['status_id'], 'value', $T['status__name']);
-                    if(!strcasecmp($T['status__state'],'open'))
-                        $displaystatus="<b>$displaystatus</b>";
-                    echo "<td>$displaystatus</td>";
-                } else { ?>
-                <td class="nohover" align="center"
-                    style="background-color:<?php echo $T['cdata__:priority__priority_color']; ?>;">
-                    <?php echo $T['cdata__:priority__priority_desc']; ?></td>
-                <?php
-                }
-                ?>
+		$displaystatus=TicketStatus::getLocalById($T['status_id'], 'value', $T['status__name']);
+if($search && !$status){
+  if(!strcasecmp($T['status__state'],'open'))
+    $displaystatus="<b>$displaystatus</b>";
+  }
+  if(strcasecmp($status,'closed'))
+    echo "<td>$displaystatus</td>";
+?>
+<td class="nohover" align="center"
+  style="background-color:<?php echo $T['cdata__:priority__priority_color']; ?>;">
+  <?php echo $T['cdata__:priority__priority_desc']; ?></td>                
+
+
+
+
+
+
+
                 <td nowrap><span class="truncate" style="max-width: 169px"><?php
                     echo Format::htmlchars($lc); ?></span></td>
             </tr>
@@ -602,7 +608,7 @@ return false;">
     </tbody>
     <tfoot>
      <tr>
-        <td colspan="7">
+        <td colspan="8">
             <?php if($total && $thisstaff->canManageTickets()){ ?>
             <?php echo __('Select');?>:&nbsp;
             <a id="selectAll" href="#ckb"><?php echo __('All');?></a>&nbsp;&nbsp;

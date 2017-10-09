@@ -8,7 +8,7 @@
 [![Style CI](https://styleci.io/repos/58740020/shield)](https://styleci.io/repos/58740020)
 [![Total Downloads][ico-downloads]][link-downloads]
 
-An admin interface to easily add/edit/remove users, roles and permissions, using [Laravel Backpack](laravelbackpack.com). As opposed to some other packages:
+An admin interface to easily add/edit/remove users, roles and permissions, using [Laravel Backpack](https://laravelbackpack.com). As opposed to some other packages:
 - a user can have multiple roles;
 - a user can have extra permissions, in addition to the permissions on the roles he has;
 
@@ -185,6 +185,13 @@ Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recen
 ``` bash
 // TODO
 ```
+
+## Overwriting functionality
+
+If you need to modify how this works in a project: 
+- create a ```routes/backpack/permissionmanager.php``` file; the package will see that, and load _your_ routes file, instead of the one in the package; 
+- create controllers/models that extend the ones in the package, and use those in your new routes file;
+- modify anything you'd like in the new controllers/models;
 
 ## Contributing
 

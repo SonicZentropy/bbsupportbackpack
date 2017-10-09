@@ -128,9 +128,7 @@ trait HasRoles
     public function hasRole($roles)
     {
         if (is_string($roles)) {
-            $ur = $this->roles;
-            $has = $this->roles->contains('name', $roles);
-            return $has;
+            return $this->roles->contains('name', $roles);
         }
 
         if ($roles instanceof Role) {
