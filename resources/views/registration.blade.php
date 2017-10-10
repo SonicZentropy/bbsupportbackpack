@@ -102,6 +102,9 @@
                         <div>SELECT ONE</div>
                     </th>
                     <th class="table-text">
+                        <div>TITLE</div>
+                    </th>
+                    <th class="table-text">
                         <div>TRAINING TYPE</div>
                     </th>
                     <th class="table-text">
@@ -121,6 +124,9 @@
                             <div>{{Form::radio('training_session_id', 1, true)}}</div>
                         </td>
                         <td class="table-text">
+                            <div>Blackboard Basics</div>
+                        </td>
+                        <td class="table-text">
                             <div>ONLINE</div>
                         </td>
                         <td class="table-text">
@@ -138,6 +144,9 @@
                             <!-- Task Name -->
                             <td class="table-text">
                                 <div>{{ Form::radio('training_session_id', $session->id)}}</div>
+                            </td>
+                            <td class="table-text">
+                                <div>{{ $session->title }}</div>
                             </td>
                             <td class="table-text">
                                 <div>{{ $session->training_type }}</div>
