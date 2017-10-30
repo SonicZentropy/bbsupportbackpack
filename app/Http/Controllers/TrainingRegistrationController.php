@@ -122,6 +122,8 @@ class TrainingRegistrationController extends Controller
         $selectedTraining = TrainingSession::where('id', $reg->training_session_id)->first();
         $this->SendRegularVerificationEmail($reg, $selectedTraining, $user);
 
+        $this->SendNewRegNotificationEmail($reg, $selectedTraining, $user);
+
         if ($selectedTraining->number_enrolled >= 15) {
             $this->SendFullCourseAlertEmail($selectedTraining);
         }
@@ -239,6 +241,23 @@ class TrainingRegistrationController extends Controller
                     ->to($user->email)
                     ->subject("Online Registration Confirmation");
         });
+    }
+
+    private function SendNewRegNotificationEmail(TrainingRegistration $reg, TrainingSession $selectedTraining, $user) {
+        Log::debug("In sending notification verification email to jcwilliams@uaptc.edu" );
+        //Mail::to($user->email)->send(new RegistrationConfirmation($reg, $user));
+
+        $this->bmail->send('mails.NewRegNotificationMail', [
+            'username' => $user->name,
+            'userid' => $user->personal_id,
+            'user_email' => $user->email,
+            'first_date' => prettydate($selectedTraining->first_session),
+            'second_date' => prettydate($selectedTraining->second_session)],
+            function($message) use ($user) {
+                $message->from('ofs@pulaskitech.edu')
+                    ->to('mrthedevious@gmail.com')
+                    ->subject("New Blackboard Registration Submitted");
+            });
     }
 
     public function destroy(Request $request, $trainingId) {

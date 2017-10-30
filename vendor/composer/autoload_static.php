@@ -485,6 +485,7 @@ class ComposerStaticInitfc16fed7a180b15dd9a2159c6449d94f
     public static $classMap = array (
         'App\\Console\\Kernel' => __DIR__ . '/../..' . '/app/Console/Kernel.php',
         'App\\Exceptions\\Handler' => __DIR__ . '/../..' . '/app/Exceptions/Handler.php',
+        'App\\Http\\Controllers\\Admin\\BBRestCRUDController' => __DIR__ . '/../..' . '/app/Http/Controllers/Admin/BBRestController.php',
         'App\\Http\\Controllers\\Admin\\RolesPermissionsCrudController' => __DIR__ . '/../..' . '/app/Http/Controllers/Admin/RolesPermissionsCrudController.php',
         'App\\Http\\Controllers\\Admin\\TrainingRegistrationCrudController' => __DIR__ . '/../..' . '/app/Http/Controllers/Admin/TrainingRegistrationCrudController.php',
         'App\\Http\\Controllers\\Admin\\TrainingSessionCrudController' => __DIR__ . '/../..' . '/app/Http/Controllers/Admin/TrainingSessionCrudController.php',
@@ -512,6 +513,7 @@ class ComposerStaticInitfc16fed7a180b15dd9a2159c6449d94f
         'App\\Mail\\ExampleMail' => __DIR__ . '/../..' . '/app/Mail/ExampleMail.php',
         'App\\Mail\\OnlineRegistrationConfirmation' => __DIR__ . '/../..' . '/app/Mail/OnlineRegistrationConfirmation.php',
         'App\\Mail\\RegistrationConfirmation' => __DIR__ . '/../..' . '/app/Mail/RegistrationConfirmation.php',
+        'App\\Models\\BBRestModel' => __DIR__ . '/../..' . '/app/Models/BBRestModel.php',
         'App\\Models\\LearningContext' => __DIR__ . '/../..' . '/app/Models/LearningContext.php',
         'App\\Models\\TrainingCompletions' => __DIR__ . '/../..' . '/app/Models/TrainingCompletions.php',
         'App\\Models\\TrainingRegistration' => __DIR__ . '/../..' . '/app/Models/TrainingRegistration.php',
@@ -765,6 +767,7 @@ class ComposerStaticInitfc16fed7a180b15dd9a2159c6449d94f
         'Collective\\Html\\HtmlBuilder' => __DIR__ . '/..' . '/laravelcollective/html/src/HtmlBuilder.php',
         'Collective\\Html\\HtmlFacade' => __DIR__ . '/..' . '/laravelcollective/html/src/HtmlFacade.php',
         'Collective\\Html\\HtmlServiceProvider' => __DIR__ . '/..' . '/laravelcollective/html/src/HtmlServiceProvider.php',
+        'CreateBbrestTable' => __DIR__ . '/../..' . '/database/migrations/2017_10_16_181327_create_bbrest_table.php',
         'CreatePasswordResetsTable' => __DIR__ . '/../..' . '/database/migrations/2014_10_12_100000_create_password_resets_table.php',
         'CreatePermissionTables' => __DIR__ . '/../..' . '/database/migrations/2016_05_10_130540_create_permission_tables.php',
         'CreateRevisionsTable' => __DIR__ . '/..' . '/venturecraft/revisionable/src/migrations/2013_04_09_062329_create_revisions_table.php',

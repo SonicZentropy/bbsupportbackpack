@@ -30,7 +30,8 @@ Route::group([
 ], function() {
 
     CRUD::resource('userroles', 'RolesPermissionsCrudController');
-
+    CRUD::resource('bbrestcrud', "BBRestCRUDController");
+    CRUD::resource('bbrest', "BBRestController");
 
 });
 

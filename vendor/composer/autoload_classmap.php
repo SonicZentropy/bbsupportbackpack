@@ -8,6 +8,7 @@ $baseDir = dirname($vendorDir);
 return array(
     'App\\Console\\Kernel' => $baseDir . '/app/Console/Kernel.php',
     'App\\Exceptions\\Handler' => $baseDir . '/app/Exceptions/Handler.php',
+    'App\\Http\\Controllers\\Admin\\BBRestCRUDController' => $baseDir . '/app/Http/Controllers/Admin/BBRestController.php',
     'App\\Http\\Controllers\\Admin\\RolesPermissionsCrudController' => $baseDir . '/app/Http/Controllers/Admin/RolesPermissionsCrudController.php',
     'App\\Http\\Controllers\\Admin\\TrainingRegistrationCrudController' => $baseDir . '/app/Http/Controllers/Admin/TrainingRegistrationCrudController.php',
     'App\\Http\\Controllers\\Admin\\TrainingSessionCrudController' => $baseDir . '/app/Http/Controllers/Admin/TrainingSessionCrudController.php',
@@ -35,6 +36,7 @@ return array(
     'App\\Mail\\ExampleMail' => $baseDir . '/app/Mail/ExampleMail.php',
     'App\\Mail\\OnlineRegistrationConfirmation' => $baseDir . '/app/Mail/OnlineRegistrationConfirmation.php',
     'App\\Mail\\RegistrationConfirmation' => $baseDir . '/app/Mail/RegistrationConfirmation.php',
+    'App\\Models\\BBRestModel' => $baseDir . '/app/Models/BBRestModel.php',
     'App\\Models\\LearningContext' => $baseDir . '/app/Models/LearningContext.php',
     'App\\Models\\TrainingCompletions' => $baseDir . '/app/Models/TrainingCompletions.php',
     'App\\Models\\TrainingRegistration' => $baseDir . '/app/Models/TrainingRegistration.php',
@@ -288,6 +290,7 @@ return array(
     'Collective\\Html\\HtmlBuilder' => $vendorDir . '/laravelcollective/html/src/HtmlBuilder.php',
     'Collective\\Html\\HtmlFacade' => $vendorDir . '/laravelcollective/html/src/HtmlFacade.php',
     'Collective\\Html\\HtmlServiceProvider' => $vendorDir . '/laravelcollective/html/src/HtmlServiceProvider.php',
+    'CreateBbrestTable' => $baseDir . '/database/migrations/2017_10_16_181327_create_bbrest_table.php',
     'CreatePasswordResetsTable' => $baseDir . '/database/migrations/2014_10_12_100000_create_password_resets_table.php',
     'CreatePermissionTables' => $baseDir . '/database/migrations/2016_05_10_130540_create_permission_tables.php',
     'CreateRevisionsTable' => $vendorDir . '/venturecraft/revisionable/src/migrations/2013_04_09_062329_create_revisions_table.php',
