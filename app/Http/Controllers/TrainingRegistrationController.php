@@ -115,6 +115,7 @@ class TrainingRegistrationController extends Controller
 
         if($isOnline) { //Is online training, this is fragile imo
             $this->SendOnlineVerificationEmail($reg, $user);
+            $this->SendNewRegNotificationEmail($reg, $selectedTraining, $user);
             return view('onlineRegConfirmation');
         }
 
