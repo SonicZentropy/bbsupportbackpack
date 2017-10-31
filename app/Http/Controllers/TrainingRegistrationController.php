@@ -255,7 +255,7 @@ class TrainingRegistrationController extends Controller
             'second_date' => prettydate($selectedTraining->second_session)],
             function($message) use ($user) {
                 $message->from('ofs@pulaskitech.edu')
-                    ->to('mrthedevious@gmail.com')
+                    ->to('cbailey@pulaskitech.edu')
                     ->subject("New Blackboard Registration Submitted");
             });
     }
