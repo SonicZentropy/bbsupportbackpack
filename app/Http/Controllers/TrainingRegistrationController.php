@@ -113,6 +113,7 @@ class TrainingRegistrationController extends Controller
         //#TODO: Send email to jas when number enrolled is 15
         $this->SetupBlackboard($user, $reg, $isOnline);
 
+        $selectedTraining = TrainingSession::where('id', $reg->training_session_id)->first();
         if($isOnline) { //Is online training, this is fragile imo
             $this->SendOnlineVerificationEmail($reg, $user);
             $this->SendNewRegNotificationEmail($reg, $selectedTraining, $user);
@@ -120,7 +121,6 @@ class TrainingRegistrationController extends Controller
         }
 
 
-        $selectedTraining = TrainingSession::where('id', $reg->training_session_id)->first();
         $this->SendRegularVerificationEmail($reg, $selectedTraining, $user);
 
         $this->SendNewRegNotificationEmail($reg, $selectedTraining, $user);
