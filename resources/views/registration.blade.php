@@ -127,7 +127,7 @@
                             <div>Blackboard Basics</div>
                         </td>
                         <td class="table-text">
-                            <div>ONLINE</div>
+                            <div>Online</div>
                         </td>
                         <td class="table-text">
                             <div>ANY</div>

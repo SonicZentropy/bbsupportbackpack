@@ -54,11 +54,7 @@
 
     <tr>
         <td class="paragraph">
-                The Blackboard training takes places in a Blackboard training server. This will be different from the typical way
-                you may access Blackboard using MyPTCPortal. You will need to visit training.pulaskitech.blackboard.com.
-                You will log in using your UA-PTC employee ID and the password Letmein123. All of your training will take place
-                in this server. Once logged in, you will find a course syllabus containing all of the information
-                that you need to succeed in this course. Below you will find the essentials to get you started.
+                This training takes place within Blackboard.  In order to get started, you will log into Blackboard in the usual manner, via the MyPTC portal.  You will now see two new Blackboard courses you've been enrolled in.  Below you will find the essentials to get you started.
         </td>
     </tr>
 
@@ -78,7 +74,7 @@
 
     <tr>
         <td class="paragraph">
-            Once logged into the training server, you should have access to two courses. The first course
+            Once logged into the Blackboard server, you should have access to two courses. The first course
             titled BBTRAIN.BASICS.ONLINE is the course you be taking as a student. You will walk through
             all of the content in this course. The second course titled BBTRAIN.O.2017.MM.00# - Your.Name is
             the course you will be building as an instructor. This course is you development shell (dev shell).
@@ -157,16 +153,12 @@
     <br/>
     <div class="centered boldtext">Blackboard Training Server</div>
     <div class="p">
-        The Blackboard training takes places in a Blackboard training server. This will be different from the typical way
-        you may access Blackboard using MyPTCPortal. You will need to visit training.pulaskitech.blackboard.com.
-        You will log in using your UA-PTC employee ID and the password Letmein123. All of your training will take places
-        in this server. Once logged in, you will find a course syllabus containing all of the information
-        that you need to succeed in this course. Below you will find the essentials to get you started.
+        The Blackboard training takes places in Blackboard courses.  You will log into Blackboard in the usual way, via the MyPTC portal.  Once logged in, you will find two new courses. Below you will find the essentials to get you started.
     </div>
 
     <br/>
     <div class="centered boldtext">Course Shells</div>
-    Once logged into the training server, you should have access to two courses. The first course
+    Once logged into the Blackboard server, you should have access to two courses. The first course
     titled BBTRAIN.BASICS.ONLINE is the course you be taking as a student. You will walk through
     all of the content in this course. The second course titled BBTRAIN.O.2017.MM.00# - Your.Name is
     the course you will be building as an instructor. This course is you development shell (dev shell).
