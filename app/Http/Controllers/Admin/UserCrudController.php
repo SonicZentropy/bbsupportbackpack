@@ -69,6 +69,11 @@ class UserCrudController extends CrudController
             'label' => 'Email'
         ]);
 
+	$this->crud->addField([
+		'name' => 'password',
+		'type' => 'password'
+	]);
+
         $this->crud->addField([
             'name' => 'certified',
             'label' => 'Certified',
