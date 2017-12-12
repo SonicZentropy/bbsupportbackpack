@@ -438,10 +438,10 @@ class Rest
             }
         } catch (ClientException $e) {
             Log::error('Error: ' . $e->getMessage() . ' Failed to create course with Id ' . $course->courseId);
-            Mail::raw('Could not create course properly', function ($message) {
-                $message->to(Constants::ADMIN_EMAIL);
-                $message->subject('Error in BB Registration REST API');
-            });
+            //Mail::raw('Could not create course properly', function ($message) {
+            //    $message->to(Constants::ADMIN_EMAIL);
+            //    $message->subject('Error in BB Registration REST API');
+            //});
         }
 
         return $course;
@@ -691,7 +691,9 @@ class Rest
     public function readUser($access_token, $user_id)
     {
 
+        $path = Constants::HOSTNAME . Constants::USER_PATH . '/' . $user_id;
         $user = new User();
+
 
         try {
             $response = $this->client->request('GET', Constants::HOSTNAME . Constants::USER_PATH . '/' . $user_id, [
@@ -781,13 +783,16 @@ class Rest
     public function createMembership($access_token, $dsk_id, $course_id, $user_id, $courseRoleId)
     {
 
+        $path = Constants::HOSTNAME . CONSTANTS::COURSE_PATH . '/externalId:' . $course_id . '/users/externalId:' . $user_id;
         $membership = new Membership();
 
         $membership->dataSourceId = $dsk_id;
         $membership->availability = new Availability();
+        $membership->availability->available = "Yes";
         $membership->userId = $user_id;
         $membership->courseId = $course_id;
         $membership->courseRoleId = $courseRoleId;
+        //$membership->created = "2017-12-04T22:06:56:592Z";
 
 
         //$request = new HTTP_Request2(Constants::HOSTNAME . Constants::COURSE_PATH . '/' . $course_id . '/users/' . $user_id, HTTP_Request2::METHOD_PUT);
@@ -795,8 +800,10 @@ class Rest
         //$request->setHeader('Content-Type', 'application/json');
         //$request->setBody(json_encode($membership));
 
+
         try {
             $response = $this->client->request('PUT', Constants::HOSTNAME . CONSTANTS::COURSE_PATH . '/' . $course_id . '/users/' . $user_id, [
+            //$response = $this->client->request('PUT', $path, [
                 'body' => json_encode($membership),
                 'headers' => [
                     'Authorization' => 'Bearer ' . $access_token,
@@ -814,10 +821,10 @@ class Rest
             }
         } catch (ClientException $e) {
             Log::error('Error: ' . $e->getMessage());
-            Mail::raw('Could not create membership in ' . $membership->courseId . ' For ' . $user_id, function ($message) {
-                $message->to(Constants::ADMIN_EMAIL);
-                $message->subject('Error in BB Registration REST API');
-            });
+            //Mail::raw('Could not create membership in ' . $membership->courseId . ' For ' . $user_id, function ($message) {
+            //    $message->to(Constants::ADMIN_EMAIL);
+            //    $message->subject('Error in BB Registration REST API');
+            //});
         }
 
         return $membership;

@@ -53,6 +53,10 @@
     line-height:80%;
 }
 
+.courseid {
+    text-align:center;
+}
+
 .formiconimg {
     height: auto;
     width: auto;

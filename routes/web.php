@@ -16,6 +16,9 @@ Route::get('/', 'TrainingRegistrationController@index');
 //  return redirect('/osticket/scp');
 //});
 
+Route::get('/devshellrequest', 'DevShellRequestController@index');
+Route::post('/devshellrequest', 'DevShellRequestController@store');
+
 Route::group(['middleware' => ['web'], 'prefix' => 'training'], function()
 //Route::middleware(['web']
     {
@@ -27,6 +30,8 @@ Route::group(['middleware' => ['web'], 'prefix' => 'training'], function()
 	Route::get('/test', 'TrainingRegistrationController@index');
 
         Route::post('/registration', 'TrainingRegistrationController@store');
+
+
     }
 );
 

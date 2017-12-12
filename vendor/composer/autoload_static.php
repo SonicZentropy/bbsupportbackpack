@@ -516,6 +516,7 @@ class ComposerStaticInitfc16fed7a180b15dd9a2159c6449d94f
         'App\\Http\\Controllers\\Auth\\RegisterController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/RegisterController.php',
         'App\\Http\\Controllers\\Auth\\ResetPasswordController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/ResetPasswordController.php',
         'App\\Http\\Controllers\\Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/Controller.php',
+        'App\\Http\\Controllers\\DevShellRequestController' => __DIR__ . '/../..' . '/app/Http/Controllers/DevShellRequestController.php',
         'App\\Http\\Controllers\\LearningContextController' => __DIR__ . '/../..' . '/app/Http/Controllers/LearningContextController.php',
         'App\\Http\\Controllers\\TrainingRegistrationController' => __DIR__ . '/../..' . '/app/Http/Controllers/TrainingRegistrationController.php',
         'App\\Http\\Kernel' => __DIR__ . '/../..' . '/app/Http/Kernel.php',
