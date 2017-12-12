@@ -51,7 +51,7 @@
                 </div>
 
                 <div class="row">
-                    <div class="col-sm-12 courseid row-m-t-ten">
+                    <div class="col-sm-12 centered row-m-t-ten">
                     Course ID For Shell:
                     </div>
                 </div>
