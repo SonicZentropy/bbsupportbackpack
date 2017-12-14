@@ -53,12 +53,19 @@ class DevShellRequestController extends Controller
     }
 
     public function store(Request $req) {
-        Log::debug("In store");
+        $this->validate($req, [
+            'name' => 'required|max:255',
+            'personal_id' => 'required',
+            'email' => 'required',
+            'courseid' => 'required|min:6|max:8',
+            //'g-recaptcha-response' => 'required|captcha'
+        ]);
         $name = $req->request->get("name");
         $id = $req->request->get("personal_id");
         $email = $req->request->get('email');
         $courseid = $req->request->get('courseid');
-	$courseid = preg_replace("/[^A-Za-z0-9]/", '', $courseid);
+        $id = preg_replace("/[^A-Za-z0-9]/", '', $id);
+	    $courseid = preg_replace("/[^A-Za-z0-9]/", '', $courseid);
 
         $course = new Course();
         $course->dataSourceId = '_444_1';
