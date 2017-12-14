@@ -58,6 +58,7 @@ class DevShellRequestController extends Controller
         $id = $req->request->get("personal_id");
         $email = $req->request->get('email');
         $courseid = $req->request->get('courseid');
+	$courseid = preg_replace("/[^A-Za-z0-9]/", '', $courseid);
 
         $course = new Course();
         $course->dataSourceId = '_444_1';

@@ -27,7 +27,7 @@
                     </div>
                     <div class="col-sm-11 row-m-t-ten">
                         <input type="text" name="name" id="training_registration-name" class="form-control"
-                               placeholder="Full Name">
+                               placeholder="First and Last Name">
                     </div>
                 </div>
 
@@ -36,7 +36,7 @@
                         {{HTML::image('img/EmployeeIDIcon.png', 'ID Icon', array('class' => 'formiconimg'))}}
                     </div>
                     <div class="col-sm-11 row-m-t-ten">
-                        <input type="number" name="personal_id" id="training_registration-personal_id"
+                        <input type="text" name="personal_id" id="training_registration-personal_id"
                                placeholder="Faculty ID Number"
                                class="form-control">
                     </div>
@@ -47,12 +47,12 @@
                 </div>
                 <div class="col-sm-11 row-m-t-ten">
                     <input type="email" name="email" id="training_registration-email" class="form-control"
-                           placeholder="Email Address">
+                           placeholder="UA-PTC Email Address">
                 </div>
 
                 <div class="row">
                     <div class="col-sm-12 centered row-m-t-ten">
-                    Course ID For Shell:
+                    Course ID For Shell (One course input per request, NO section number):
                     </div>
                 </div>
                 <div class="row">
