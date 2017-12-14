@@ -96,6 +96,7 @@ class DevShellRequestController extends Controller
                 $message->to(Constants::ADMIN_EMAIL);
                 $message->subject('successful dev shell request');
             });
+            return view('devshellrequestconfirm');
         }
         else {
             //failed to add membership
@@ -103,9 +104,9 @@ class DevShellRequestController extends Controller
                 $message->to(Constants::ADMIN_EMAIL);
                 $message->subject('FAILED DEV SHELL REQUEST');
             });
+            return view('devshellrequestfailed');
         }
 
-        return view('devshellrequestconfirm');
     }
 
     /* $course = new Course();
