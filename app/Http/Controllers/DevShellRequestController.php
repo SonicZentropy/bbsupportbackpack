@@ -104,6 +104,9 @@ class DevShellRequestController extends Controller
                 $message->to(Constants::ADMIN_EMAIL);
                 $message->subject('FAILED DEV SHELL REQUEST');
             });
+            if ($courseFound->courseId != "") {
+                $rest->deleteCourse($access_token, $courseFound->id);
+            }
             return view('devshellrequestfailed');
         }
 
