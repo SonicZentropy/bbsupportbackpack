@@ -62,6 +62,7 @@ return array(
     'App\\REST\\DTO\\Job' => $baseDir . '/app/REST/DTO/Job.class.php',
     'App\\REST\\DTO\\Locale' => $baseDir . '/app/REST/DTO/Locale.class.php',
     'App\\REST\\DTO\\Membership' => $baseDir . '/app/REST/DTO/Membership.class.php',
+    'App\\REST\\DTO\\MembershipForCreation' => $baseDir . '/app/REST/DTO/Membership.class.php',
     'App\\REST\\DTO\\Name' => $baseDir . '/app/REST/DTO/Name.class.php',
     'App\\REST\\DTO\\Term' => $baseDir . '/app/REST/DTO/Term.class.php',
     'App\\REST\\DTO\\Token' => $baseDir . '/app/REST/DTO/Token.php',

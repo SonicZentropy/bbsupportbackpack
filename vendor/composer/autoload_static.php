@@ -558,6 +558,7 @@ class ComposerStaticInitfc16fed7a180b15dd9a2159c6449d94f
         'App\\REST\\DTO\\Job' => __DIR__ . '/../..' . '/app/REST/DTO/Job.class.php',
         'App\\REST\\DTO\\Locale' => __DIR__ . '/../..' . '/app/REST/DTO/Locale.class.php',
         'App\\REST\\DTO\\Membership' => __DIR__ . '/../..' . '/app/REST/DTO/Membership.class.php',
+        'App\\REST\\DTO\\MembershipForCreation' => __DIR__ . '/../..' . '/app/REST/DTO/Membership.class.php',
         'App\\REST\\DTO\\Name' => __DIR__ . '/../..' . '/app/REST/DTO/Name.class.php',
         'App\\REST\\DTO\\Term' => __DIR__ . '/../..' . '/app/REST/DTO/Term.class.php',
         'App\\REST\\DTO\\Token' => __DIR__ . '/../..' . '/app/REST/DTO/Token.php',

@@ -4,6 +4,7 @@
 namespace App\REST;
 
 use App\REST\DTO\CourseForCreation;
+use App\REST\DTO\DatasourceForCreation;
 use App\REST\DTO\MembershipForCreation;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
@@ -25,17 +26,25 @@ use App\REST\DTO\User;
 class Rest
 {
     private $client;
+    private $hostname;
 
-    public function __construct()
+    public function __construct(bool $UseDevMode = false)
     {
-        $this->client = new Client();
+
+        if ($UseDevMode) {
+            $this->hostname = Constants::DEVHOSTNAME;
+            $this->client = new Client([ 'verify' => false ]);
+        } else {
+            $this->hostname = Constants::HOSTNAME;
+            $this->client = new Client();
+        }
     }
 
     public function authenticateREST()
     {
         $token = new Token();
 
-        $response = $this->client->request('POST', Constants::HOSTNAME . CONSTANTS::AUTH_PATH, [
+        $response = $this->client->request('POST', $this->hostname . CONSTANTS::AUTH_PATH, [
             'auth' => [Constants::KEY, Constants::SECRET],
             'body' => 'grant_type=client_credentials',
             'headers' => ['Content-Type' => 'application/x-www-form-urlencoded'],
@@ -74,9 +83,12 @@ class Rest
         $datasource->externalId = $external_id;
         $datasource->description = $description;
 
+        $ds = new DatasourceForCreation();
+        $ds->setFromDatasource($datasource);
+
         try {
-            $response = $this->client->request('POST', Constants::HOSTNAME . CONSTANTS::DSK_PATH, [
-                'json' => $datasource,
+            $response = $this->client->request('POST', $this->hostname . CONSTANTS::DSK_PATH, [
+                'json' => $ds,
                 'headers' => ['Authorization' => 'Bearer ' . $access_token],
                 'synchronous' => true
             ]);
@@ -90,6 +102,7 @@ class Rest
                     $response->getReasonPhrase());
                 $BbRestException = json_decode($response->getBody());
                 var_dump($BbRestException);
+                return -1;
             }
         } catch (ClientException $e) {
             Log::error('Error Creating Datasource with external id: ' . $external_id . ' :' . $e->getMessage());
@@ -99,6 +112,7 @@ class Rest
                 $message->to(Constants::ADMIN_EMAIL);
                 $message->subject('Error in BB Registration REST API');
             });
+            return -1;
         }
 
         return $datasource;
@@ -121,12 +135,12 @@ class Rest
     public function GetAllDatasources($access_token)
     {
 
-        //$request = new HTTP_Request2(Constants::HOSTNAME . "/learn/api/public/v1/dataSources", HTTP_Request2::METHOD_GET);
+        //$request = new HTTP_Request2($this->hostname . "/learn/api/public/v1/dataSources", HTTP_Request2::METHOD_GET);
         //$request->setHeader('Authorization', 'Bearer ' . $access_token);
         $datasource = new Datasource();
 
         try {
-            $response = $this->client->request('GET', Constants::HOSTNAME . CONSTANTS::DSK_PATH, [
+            $response = $this->client->request('GET', $this->hostname . CONSTANTS::DSK_PATH, [
 
                 'headers' => ['Authorization' => 'Bearer ' . $access_token]
             ]);
@@ -140,9 +154,11 @@ class Rest
                     $response->getReasonPhrase());
                 $BbRestException = json_decode($response->getBody());
                 var_dump($BbRestException);
+                return -1;
             }
         } catch (ClientException $e) {
             Log::error('Error: ' . $e->getMessage());
+            return -1;
         }
 
         return $datasource;
@@ -154,7 +170,7 @@ class Rest
         $datasource = new Datasource();
 
         try {
-            $response = $this->client->request('GET', Constants::HOSTNAME . Constants::DSK_PATH . '/' . $dsk_id, [
+            $response = $this->client->request('GET', $this->hostname . Constants::DSK_PATH . '/' . $dsk_id, [
 
                 'headers' => ['Authorization' => 'Bearer ' . $access_token]
             ]);
@@ -168,6 +184,7 @@ class Rest
                     $response->getReasonPhrase());
                 $BbRestException = json_decode($response->getBody());
                 var_dump($BbRestException);
+                return -1;
             }
         } catch (ClientException $e) {
             Log::error('Error reading datasource: ' . $e->getMessage());
@@ -177,6 +194,7 @@ class Rest
                 $message->to(Constants::ADMIN_EMAIL);
                 $message->subject('Error in BB Registration REST API');
             });
+            return -1;
         }
 
         return $datasource;
@@ -190,7 +208,7 @@ class Rest
         $datasource->id = $dsk_id;
         try {
 
-            $response = $this->client->request('POST', Constants::HOSTNAME . Constants::DSK_PATH . '/' . $dsk_id, [
+            $response = $this->client->request('POST', $this->hostname . Constants::DSK_PATH . '/' . $dsk_id, [
                 'body' => json_encode($datasource),
                 'headers' => [
                     'Authorization' => 'Bearer ' . $access_token,
@@ -206,6 +224,7 @@ class Rest
                     $response->getReasonPhrase());
                 $BbRestException = json_decode($response->getBody());
                 var_dump($BbRestException);
+                return -1;
             }
         } catch (ClientException $e) {
             Log::error('Error updating datasource: ' . $dsk_id . '  ' . $e->getMessage());
@@ -215,6 +234,7 @@ class Rest
                 $message->to(Constants::ADMIN_EMAIL);
                 $message->subject('Error in BB Registration REST API');
             });
+            return -1;
         }
 
         return $datasource;
@@ -225,7 +245,7 @@ class Rest
 
         try {
 
-            $response = $this->client->request('DELETE', Constants::HOSTNAME . CONSTANTS::DSK_PATH . '/' . $dsk_id, [
+            $response = $this->client->request('DELETE', $this->hostname . CONSTANTS::DSK_PATH . '/' . $dsk_id, [
                 'headers' => [
                     'Authorization' => 'Bearer ' . $access_token,
                     'Content-Type' => 'application/json'],
@@ -262,7 +282,7 @@ class Rest
         $term->availability = new Availability();
 
         try {
-            $response = $this->client->request('POST', Constants::HOSTNAME . CONSTANTS::TERM_PATH, [
+            $response = $this->client->request('POST', $this->hostname . CONSTANTS::TERM_PATH, [
                 'json' => $term,
                 'headers' => [
                     'Authorization' => 'Bearer ' . $access_token]
@@ -277,6 +297,7 @@ class Rest
                     $response->getReasonPhrase());
                 $BbRestException = json_decode($response->getBody());
                 var_dump($BbRestException);
+                return -1;
             }
         } catch (ClientException $e) {
             Log::error('Error creating term: ' . $dsk_id . $e->getMessage());
@@ -284,6 +305,7 @@ class Rest
                 $message->to(Constants::ADMIN_EMAIL);
                 $message->subject('Error in BB Registration REST API');
             });
+            return -1;
         }
 
         return $term;
@@ -295,7 +317,7 @@ class Rest
         $term = new Term();
 
         try {
-            $response = $this->client->request('GET', Constants::HOSTNAME . '/learn/api/public/v1/terms', [
+            $response = $this->client->request('GET', $this->hostname . '/learn/api/public/v1/terms', [
                 'headers' => [
                     'Authorization' => 'Bearer ' . $access_token]
             ]);
@@ -309,6 +331,7 @@ class Rest
                     $response->getReasonPhrase());
                 $BbRestException = json_decode($response->getBody());
                 var_dump($BbRestException);
+                return -1;
             }
         } catch (ClientException $e) {
             Log::error('Error getting all terms: ' . $e->getMessage());
@@ -316,6 +339,7 @@ class Rest
             //    $message->to(Constants::ADMIN_EMAIL);
             //    $message->subject('Error in BB Registration REST API');
             //});
+            return -1;
         }
 
         return $term;
@@ -327,7 +351,7 @@ class Rest
         $term = new Term();
 
         try {
-            $response = $this->client->request('GET', Constants::HOSTNAME . Constants::TERM_PATH . '/' . $term_id, [
+            $response = $this->client->request('GET', $this->hostname . Constants::TERM_PATH . '/' . $term_id, [
 
                 'headers' => ['Authorization' => 'Bearer ' . $access_token]
             ]);
@@ -340,9 +364,11 @@ class Rest
                     $response->getReasonPhrase());
                 $BbRestException = json_decode($response->getBody());
                 var_dump($BbRestException);
+                return -1;
             }
         } catch (ClientException $e) {
             Log::error('Error: ' . $e->getMessage());
+            return -1;
         }
 
         return $term;
@@ -357,7 +383,7 @@ class Rest
         $term->dataSourceId = $dsk_id;
 
         try {
-            $response = $this->client->request('POST', Constants::HOSTNAME . Constants::TERM_PATH . '/' . $term_id, [
+            $response = $this->client->request('POST', $this->hostname . Constants::TERM_PATH . '/' . $term_id, [
                 'body' => json_encode($term),
                 'headers' => [
                     'Authorization' => 'Bearer ' . $access_token,
@@ -373,6 +399,7 @@ class Rest
                     $response->getReasonPhrase());
                 $BbRestException = json_decode($response->getBody());
                 var_dump($BbRestException);
+                return -1;
             }
         } catch (ClientException $e) {
             Log::error('Error updating term: ' . $dsk_id . $e->getMessage());
@@ -380,6 +407,7 @@ class Rest
                 $message->to(Constants::ADMIN_EMAIL);
                 $message->subject('Error in BB Registration REST API');
             });
+            return -1;
         }
 
         return $term;
@@ -389,7 +417,7 @@ class Rest
     {
 
         try {
-            $response = $this->client->request('DELETE', Constants::HOSTNAME . Constants::TERM_PATH . '/' . $term_id, [
+            $response = $this->client->request('DELETE', $this->hostname . Constants::TERM_PATH . '/' . $term_id, [
                 'headers' => [
                     'Authorization' => 'Bearer ' . $access_token,
                     'Content-Type' => 'application/json'],
@@ -411,6 +439,7 @@ class Rest
                 $message->to(Constants::ADMIN_EMAIL);
                 $message->subject('Error in BB Registration REST API');
             });
+            return FALSE;
         }
 
         return TRUE;
@@ -423,7 +452,7 @@ class Rest
         $courseForCreation->SetFromCourse($course);
 
         try {
-            $response = $this->client->request('POST', Constants::HOSTNAME . Constants::COURSE_PATH, [
+            $response = $this->client->request('POST', $this->hostname . Constants::COURSE_PATH, [
                 'body' => json_encode($courseForCreation),
                 'headers' => [
                     'Authorization' => 'Bearer ' . $access_token,
@@ -440,6 +469,7 @@ class Rest
                     $response->getReasonPhrase());
                 $BbRestException = json_decode($response->getBody());
                 var_dump($BbRestException);
+                return -1;
             }
         } catch (ClientException $e) {
             Log::error('Error: ' . $e->getMessage() . ' Failed to create course with Id ' . $course->courseId);
@@ -447,6 +477,7 @@ class Rest
             //    $message->to(Constants::ADMIN_EMAIL);
             //    $message->subject('Error in BB Registration REST API');
             //});
+            return -1;
         }
 
         return $course;
@@ -463,7 +494,7 @@ class Rest
 
 
         try {
-            $response = $this->client->request('POST', Constants::HOSTNAME . CONSTANTS::COURSE_PATH, [
+            $response = $this->client->request('POST', $this->hostname . CONSTANTS::COURSE_PATH, [
                 'body' => json_encode($course),
                 'headers' => [
                     'Authorization' => 'Bearer ' . $access_token,
@@ -478,6 +509,7 @@ class Rest
                     $response->getReasonPhrase());
                 $BbRestException = json_decode($response->getBody());
                 var_dump($BbRestException);
+                return -1;
             }
         } catch (ClientException $e) {
             Log::error('Error: ' . $e->getMessage() . ' Failed to create course with Id ' . $course->courseId);
@@ -485,6 +517,7 @@ class Rest
                 $message->to(Constants::ADMIN_EMAIL);
                 $message->subject('Error in BB Registration REST API');
             });
+            return -1;
         }
 
         return $course;
@@ -496,7 +529,7 @@ class Rest
         $course = 1;
 
         try {
-            $response = $this->client->request('GET', Constants::HOSTNAME . Constants::COURSE_PATH, [
+            $response = $this->client->request('GET', $this->hostname . Constants::COURSE_PATH, [
                 'headers' => [
                     'Authorization' => 'Bearer ' . $access_token]
 
@@ -510,9 +543,11 @@ class Rest
                     $response->getReasonPhrase());
                 $BbRestException = json_decode($response->getBody());
                 var_dump($BbRestException);
+                return -1;
             }
         } catch (ClientException $e) {
             Log::error('Error Getting All Courses: ' . $e->getMessage());
+            return -1;
         }
 
         return $course;
@@ -524,7 +559,7 @@ class Rest
         $course = new Course();
 
         try {
-            $response = $this->client->request('GET', Constants::HOSTNAME . Constants::COURSE_PATH . '/' . $course_id, [
+            $response = $this->client->request('GET', $this->hostname . Constants::COURSE_PATH . '/' . $course_id, [
                 'headers' => ['Authorization' => 'Bearer ' . $access_token]
             ]);
 
@@ -537,9 +572,11 @@ class Rest
                     $response->getReasonPhrase());
                 $BbRestException = json_decode($response->getBody());
                 var_dump($BbRestException);
+                return -1;
             }
         } catch (ClientException $e) {
             Log::error('Error Getting Course: ' . $e->getMessage());
+            return -1;
         }
 
         return $course;
@@ -557,7 +594,7 @@ class Rest
         $course->termId = $termId;
 
         try {
-            $response = $this->client->request('PATCH', Constants::HOSTNAME . Constants::COURSE_PATH . '/' . $course_id, [
+            $response = $this->client->request('PATCH', $this->hostname . Constants::COURSE_PATH . '/' . $course_id, [
                 'json' => $course,
                 'headers' => ['Authorization' => 'Bearer ' . $access_token],
                 'synchronous' => true
@@ -572,6 +609,7 @@ class Rest
                     $response->getReasonPhrase());
                 $BbRestException = json_decode($response->getBody());
                 var_dump($BbRestException);
+                return -1;
             }
         } catch (ClientException $e) {
             Log::error('Error updating course:' .  $e->getMessage());
@@ -579,6 +617,7 @@ class Rest
                 $message->to(Constants::ADMIN_EMAIL);
                 $message->subject('Error in BB Registration REST API');
             });
+            return -1;
         }
 
         return $course;
@@ -588,7 +627,7 @@ class Rest
     {
 
         try {
-            $response = $this->client->request('DELETE', Constants::HOSTNAME . Constants::COURSE_PATH . '/' . $course_id, [
+            $response = $this->client->request('DELETE', $this->hostname . Constants::COURSE_PATH . '/' . $course_id, [
                 'headers' => [
                     'Authorization' => 'Bearer ' . $access_token,
                     'Content-Type' => 'application/json'],
@@ -623,7 +662,7 @@ class Rest
         $user->contact = new Contact();
 
         try {
-            $response = $this->client->request('POST', Constants::HOSTNAME . CONSTANTS::USER_PATH, [
+            $response = $this->client->request('POST', $this->hostname . CONSTANTS::USER_PATH, [
                 'body' => json_encode($user),
                 'headers' => [
                     'Authorization' => 'Bearer ' . $access_token,
@@ -639,9 +678,11 @@ class Rest
                     $response->getReasonPhrase());
                 $BbRestException = json_decode($response->getBody());
                 var_dump($BbRestException);
+                return -1;
             }
         } catch (ClientException $e) {
             print 'Error: ' . $e->getMessage();
+            return -1;
         }
 
         return $user;
@@ -669,7 +710,7 @@ class Rest
 
 
         try {
-            $response = $this->client->request('POST', Constants::HOSTNAME . CONSTANTS::USER_PATH, [
+            $response = $this->client->request('POST', $this->hostname . CONSTANTS::USER_PATH, [
                 'body' => json_encode($user),
                 'headers' => [
                     'Authorization' => 'Bearer ' . $access_token,
@@ -685,9 +726,11 @@ class Rest
                     $response->getReasonPhrase());
                 $BbRestException = json_decode($response->getBody());
                 var_dump($BbRestException);
+                return -1;
             }
         } catch (ClientException $e) {
             print 'Error: ' . $e->getMessage();
+            return -1;
         }
 
         return $user;
@@ -696,12 +739,12 @@ class Rest
     public function readUser($access_token, $user_id)
     {
 
-        $path = Constants::HOSTNAME . Constants::USER_PATH . '/' . $user_id;
+        $path = $this->hostname . Constants::USER_PATH . '/' . $user_id;
         $user = new User();
 
 
         try {
-            $response = $this->client->request('GET', Constants::HOSTNAME . Constants::USER_PATH . '/' . $user_id, [
+            $response = $this->client->request('GET', $this->hostname . Constants::USER_PATH . '/' . $user_id, [
                 'headers' => ['Authorization' => 'Bearer ' . $access_token]
             ]);
 
@@ -714,9 +757,11 @@ class Rest
                     $response->getReasonPhrase());
                 $BbRestException = json_decode($response->getBody());
                 var_dump($BbRestException);
+                return -1;
             }
         } catch (ClientException $e) {
             Log::warning('Error: ' . $e->getMessage());
+            return -1;
         }
 
         return $user;
@@ -733,7 +778,7 @@ class Rest
         $user->dataSourceId = $dsk_id;
 
         try {
-            $response = $this->client->request('PATCH', Constants::HOSTNAME . Constants::USER_PATH . '/' . $user_id, [
+            $response = $this->client->request('PATCH', $this->hostname . Constants::USER_PATH . '/' . $user_id, [
                 'json' => $user,
                 'headers' => ['Authorization' => 'Bearer ' . $access_token],
                 'synchronous' => true
@@ -748,9 +793,11 @@ class Rest
                     $response->getReasonPhrase());
                 $BbRestException = json_decode($response->getBody());
                 var_dump($BbRestException);
+                return -1;
             }
         } catch (ClientException $e) {
             print 'Error: ' . $e->getMessage();
+            return -1;
         }
 
         return $user;
@@ -760,7 +807,7 @@ class Rest
     {
 
         try {
-            $response = $this->client->request('DELETE', Constants::HOSTNAME . Constants::USER_PATH . '/' . $user_id, [
+            $response = $this->client->request('DELETE', $this->hostname . Constants::USER_PATH . '/' . $user_id, [
                 'headers' => [
                     'Authorization' => 'Bearer ' . $access_token,
                     'Content-Type' => 'application/json'],
@@ -788,7 +835,7 @@ class Rest
     public function createMembership($access_token, $dsk_id, $course_id, $user_id, $courseRoleId)
     {
 
-        $path = Constants::HOSTNAME . CONSTANTS::COURSE_PATH . '/externalId:' . $course_id . '/users/externalId:' . $user_id;
+        $path = $this->hostname . CONSTANTS::COURSE_PATH . '/externalId:' . $course_id . '/users/externalId:' . $user_id;
         $membership = new Membership();
 
         $membership->dataSourceId = $dsk_id;
@@ -801,14 +848,14 @@ class Rest
         $mem = new MembershipForCreation();
         $mem->SetFromMembership($membership);
 
-        //$request = new HTTP_Request2(Constants::HOSTNAME . Constants::COURSE_PATH . '/' . $course_id . '/users/' . $user_id, HTTP_Request2::METHOD_PUT);
+        //$request = new HTTP_Request2($this->hostname . Constants::COURSE_PATH . '/' . $course_id . '/users/' . $user_id, HTTP_Request2::METHOD_PUT);
         //$request->setHeader('Authorization', 'Bearer ' . $access_token);
         //$request->setHeader('Content-Type', 'application/json');
         //$request->setBody(json_encode($membership));
 
 
         try {
-            $response = $this->client->request('PUT', Constants::HOSTNAME . CONSTANTS::COURSE_PATH . '/' . $course_id . '/users/' . $user_id, [
+            $response = $this->client->request('PUT', $this->hostname . CONSTANTS::COURSE_PATH . '/' . $course_id . '/users/' . $user_id, [
             //$response = $this->client->request('PUT', $path, [
                 'body' => json_encode($mem),
                 'headers' => [
@@ -824,6 +871,7 @@ class Rest
                     $response->getReasonPhrase());
                 $BbRestException = json_decode($response->getBody());
                 var_dump($BbRestException);
+                return -1;
             }
         } catch (ClientException $e) {
             Log::error('Error: ' . $e->getMessage());
@@ -831,6 +879,7 @@ class Rest
             //    $message->to(Constants::ADMIN_EMAIL);
             //    $message->subject('Error in BB Registration REST API');
             //});
+            return -1;
         }
 
         return $membership;
@@ -842,7 +891,7 @@ class Rest
         $membership = new Membership();
 
         try {
-            $response = $this->client->request('GET', Constants::HOSTNAME . Constants::COURSE_PATH . '/' . $course_id . '/users/' . $user_id, [
+            $response = $this->client->request('GET', $this->hostname . Constants::COURSE_PATH . '/' . $course_id . '/users/' . $user_id, [
                 'headers' => ['Authorization' => 'Bearer ' . $access_token]
             ]);
 
@@ -855,9 +904,11 @@ class Rest
                     $response->getReasonPhrase());
                 $BbRestException = json_decode($response->getBody());
                 var_dump($BbRestException);
+                return -1;
             }
         } catch (ClientException $e) {
             print 'Error: ' . $e->getMessage();
+            return -1;
         }
 
         return $membership;
@@ -874,7 +925,7 @@ class Rest
         $membership->created = $membership_created;
 
         try {
-            $response = $this->client->request('PATCH', Constants::HOSTNAME . Constants::COURSE_PATH . '/' . $course_id . '/users/' . $user_id, [
+            $response = $this->client->request('PATCH', $this->hostname . Constants::COURSE_PATH . '/' . $course_id . '/users/' . $user_id, [
                 'json' => $membership,
                 'headers' => ['Authorization' => 'Bearer ' . $access_token],
                 'synchronous' => true
@@ -889,9 +940,11 @@ class Rest
                     $response->getReasonPhrase());
                 $BbRestException = json_decode($response->getBody());
                 var_dump($BbRestException);
+                return -1;
             }
         } catch (ClientException $e) {
             print 'Error: ' . $e->getMessage();
+            return -1;
         }
 
         return $membership;
@@ -901,7 +954,7 @@ class Rest
     {
 
         try {
-            $response = $this->client->request('DELETE', Constants::HOSTNAME . Constants::COURSE_PATH . '/' . $course_id . '/users/' . $user_id, [
+            $response = $this->client->request('DELETE', $this->hostname . Constants::COURSE_PATH . '/' . $course_id . '/users/' . $user_id, [
                 'headers' => [
                     'Authorization' => 'Bearer ' . $access_token,
                     'Content-Type' => 'application/json'],
@@ -937,7 +990,7 @@ class Rest
         $membership->courseId = $course_id;
 
         try {
-            $response = $this->client->request('PUT', Constants::HOSTNAME . Constants::COURSE_PATH . '/' . $course_id . '/users/' . $user_id, [
+            $response = $this->client->request('PUT', $this->hostname . Constants::COURSE_PATH . '/' . $course_id . '/users/' . $user_id, [
                 'body' => json_encode($membership),
                 'headers' => [
                     'Authorization' => 'Bearer ' . $access_token,
@@ -953,9 +1006,11 @@ class Rest
                     $response->getReasonPhrase());
                 $BbRestException = json_decode($response->getBody());
                 var_dump($BbRestException);
+                return -1;
             }
         } catch (ClientException $e) {
             print 'Error: ' . $e->getMessage();
+            return -1;
         }
 
         return $membership;
@@ -967,7 +1022,7 @@ class Rest
         $membership = new Membership();
 
         try {
-            $response = $this->client->request('GET', Constants::HOSTNAME . Constants::COURSE_PATH . '/' . $course_id . '/users/' . $user_id, [
+            $response = $this->client->request('GET', $this->hostname . Constants::COURSE_PATH . '/' . $course_id . '/users/' . $user_id, [
                 'headers' => ['Authorization' => 'Bearer ' . $access_token]
             ]);
 
@@ -980,9 +1035,11 @@ class Rest
                     $response->getReasonPhrase());
                 $BbRestException = json_decode($response->getBody());
                 var_dump($BbRestException);
+                return -1;
             }
         } catch (ClientException $e) {
             print 'Error: ' . $e->getMessage();
+            return -1;
         }
 
         return $membership;
@@ -999,7 +1056,7 @@ class Rest
         $membership->created = $membership_created;
 
         try {
-            $response = $this->client->request('PATCH', Constants::HOSTNAME . Constants::COURSE_PATH . '/' . $course_id . '/users/' . $user_id, [
+            $response = $this->client->request('PATCH', $this->hostname . Constants::COURSE_PATH . '/' . $course_id . '/users/' . $user_id, [
                 'json' => $membership,
                 'headers' => ['Authorization' => 'Bearer ' . $access_token],
                 'synchronous' => true
@@ -1014,9 +1071,11 @@ class Rest
                     $response->getReasonPhrase());
                 $BbRestException = json_decode($response->getBody());
                 var_dump($BbRestException);
+                return -1;
             }
         } catch (ClientException $e) {
             print 'Error: ' . $e->getMessage();
+            return -1;
         }
 
         return $membership;
@@ -1026,7 +1085,7 @@ class Rest
     {
 
         try {
-            $response = $this->client->request('DELETE', Constants::HOSTNAME . Constants::COURSE_PATH . '/' . $course_id . '/users/' . $user_id, [
+            $response = $this->client->request('DELETE', $this->hostname . Constants::COURSE_PATH . '/' . $course_id . '/users/' . $user_id, [
                 'headers' => [
                     'Authorization' => 'Bearer ' . $access_token,
                     'Content-Type' => 'application/json'],
