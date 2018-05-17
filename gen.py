@@ -567,14 +567,14 @@ for line in strarray:
 
     #print 'DB::table(\'users\')->insert([\n\
     #            \'name\' => \'' + first + " " + last + '\',\n\
-    #            \'email\' => \'' + first[0].lower() + last.lower() + '@pulaskitech.edu\',\n\
+    #            \'email\' => \'' + first[0].lower() + last.lower() + '@uaptc.edu\',\n\
     #            \'password\' => bcrypt(\'Letmein123\'),\n\
     #            \'isAdmin\' => 0,\n\
     #            \'personal_id\' => \'' + id  + '\',\n\
     #        ]);'
     print 'DB::table(\'training_registrations\')->insert([\n\
                       \'name\' => \'' + first + " " + last + '\',\n\
-                      \'email\' => \'' + first[0].lower() + last.lower() + '@pulaskitech.edu\',\n\
+                      \'email\' => \'' + first[0].lower() + last.lower() + '@uaptc.edu\',\n\
                       \'personal_id\' => \'' + id  + '\',\n\
                       \'courses_taught\' => \'N/A\',\n\
                       \'course_type\' => \'basic\',\n\

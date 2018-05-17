@@ -37,7 +37,7 @@ class OnlineRegistrationConfirmation extends Mailable
      */
     public function build()
     {
-        return $this->from('ofs@pulaskitech.edu')
+        return $this->from('ofs@uaptc.edu')
             ->subject('Blackboard Online Training Registration Confirmation')
             ->with([
                 'name' => $this->user->name,

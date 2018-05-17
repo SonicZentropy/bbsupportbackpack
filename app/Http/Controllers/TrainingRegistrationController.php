@@ -228,7 +228,7 @@ class TrainingRegistrationController extends Controller
 
     private function SendFullCourseAlertEmail(TrainingSession $selectedTraining) {
         Log::debug("Course is full, emailing jasmine");
-        Mail::to("jcwilliams@pulaskitech.edu")->send(new CourseFullWarningMail($selectedTraining));
+        Mail::to("jcwilliams@uaptc.edu")->send(new CourseFullWarningMail($selectedTraining));
     }
 
     private function SendRegularVerificationEmail(TrainingRegistration $reg, TrainingSession $selectedTraining, $user) {
@@ -238,7 +238,7 @@ class TrainingRegistrationController extends Controller
             'first_date' => prettydate($selectedTraining->first_session),
             'second_date' => prettydate($selectedTraining->second_session)],
             function($message) use ($user) {
-                $message->from('ofs@pulaskitech.edu')
+                $message->from('ofs@uaptc.edu')
                     ->to($user->email)
                     ->subject("Online Registration Confirmation");
         });
@@ -255,8 +255,8 @@ class TrainingRegistrationController extends Controller
             'first_date' => prettydate($selectedTraining->first_session),
             'second_date' => prettydate($selectedTraining->second_session)],
             function($message) use ($user) {
-                $message->from('ofs@pulaskitech.edu')
-                    ->to('jcwilliams@pulaskitech.edu')
+                $message->from('ofs@uaptc.edu')
+                    ->to('jcwilliams@uaptc.edu')
                     ->subject("New Blackboard Registration Submitted");
             });
     }
@@ -271,7 +271,7 @@ class TrainingRegistrationController extends Controller
         Log::debug("In sending ONLINE verification email to " . $user->email);
         //Mail::to($user->email)->send(new OnlineRegistrationConfirmation($reg, $user));
         $this->bmail->send('mails.onlineRegConfirmMail', [], function($message) use ($user) {
-            $message->from('ofs@pulaskitech.edu')
+            $message->from('ofs@uaptc.edu')
                     ->to($user->email)
                     ->subject("Online Registration Confirmation");
         });

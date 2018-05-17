@@ -55,6 +55,7 @@ return array(
     'App\\REST\\DTO\\Availability' => $baseDir . '/app/REST/DTO/Availability.class.php',
     'App\\REST\\DTO\\Contact' => $baseDir . '/app/REST/DTO/Contact.class.php',
     'App\\REST\\DTO\\Course' => $baseDir . '/app/REST/DTO/Course.class.php',
+    'App\\REST\\DTO\\CourseForCreation' => $baseDir . '/app/REST/DTO/Course.class.php',
     'App\\REST\\DTO\\Datasource' => $baseDir . '/app/REST/DTO/Datasource.class.php',
     'App\\REST\\DTO\\Duration' => $baseDir . '/app/REST/DTO/Duration.class.php',
     'App\\REST\\DTO\\Enrollment' => $baseDir . '/app/REST/DTO/Enrollment.class.php',

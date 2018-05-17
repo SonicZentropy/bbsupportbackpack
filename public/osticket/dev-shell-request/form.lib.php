@@ -7,7 +7,7 @@
 
 define( 'PAYPAL_ID' , '' ); // Put donation ID here to disable the bottom backlink
 
-define( 'PHPFMG_TO' , 'tpatterson@pulaskitech.edu' );
+define( 'PHPFMG_TO' , 'cbailey@uaptc.edu' );
 define( 'PHPFMG_REDIRECT', '' );
 
 define( 'PHPFMG_ID' , '20170418-69fd' );

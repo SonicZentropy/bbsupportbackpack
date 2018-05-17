@@ -15,6 +15,6 @@ class Constants
     const COURSE_PATH = '/learn/api/public/v1/courses';
     const USER_PATH = '/learn/api/public/v1/users';
 
-    const ADMIN_EMAIL = 'cbailey@pulaskitech.edu';
+    const ADMIN_EMAIL = 'cbailey@uaptc.edu';
 
 }

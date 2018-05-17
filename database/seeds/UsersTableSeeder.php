@@ -14,7 +14,7 @@ class UsersTableSeeder extends Seeder
     {
         DB::table('users')->insert([
             'name' => 'Casey Bailey',
-            'email' => 'cbailey@pulaskitech.edu',
+            'email' => 'cbailey@uaptc.edu',
             'password' => bcrypt('kckckc'),
             'certified' => 1,
             'isAdmin' => 1,
@@ -23,7 +23,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Terry Patterson',
-            'email' => 'tpatterson@pulaskitech.edu',
+            'email' => 'tpatterson@uaptc.edu',
             'password' => bcrypt('password'),
             'certified' => 1,
             'isAdmin' => 1,
@@ -31,7 +31,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Jasmine Williams',
-            'email' => 'jcwilliams@pulaskitech.edu',
+            'email' => 'jcwilliams@uaptc.edu',
             'password' => bcrypt('password'),
             'certified' => 1,
             'isAdmin' => 1,
@@ -40,7 +40,7 @@ class UsersTableSeeder extends Seeder
 
         DB::table('users')->insert([
             'name' => 'Test User',
-            'email' => 'ofs@pulaskitech.edu',
+            'email' => 'ofs@uaptc.edu',
             'password' => bcrypt('kc'),
             'certified' => 0,
             'personal_id' => '123456789',
@@ -48,7 +48,7 @@ class UsersTableSeeder extends Seeder
 
         DB::table('users')->insert([
             'name' => 'Robin Macagni',
-            'email' => 'rmacagni@pulaskitech.edu',
+            'email' => 'rmacagni@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -56,7 +56,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Martha Carle',
-            'email' => 'mcarle@pulaskitech.edu',
+            'email' => 'mcarle@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -64,7 +64,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Shirley Powell',
-            'email' => 'spowell@pulaskitech.edu',
+            'email' => 'spowell@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -76,7 +76,7 @@ class UsersTableSeeder extends Seeder
 
         DB::table('users')->insert([
             'name' => 'Lisa Smithee',
-            'email' => 'lsmithee@pulaskitech.edu',
+            'email' => 'lsmithee@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -84,7 +84,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Paul Woods',
-            'email' => 'pwoods@pulaskitech.edu',
+            'email' => 'pwoods@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -92,7 +92,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Oscar DeLong',
-            'email' => 'odelong@pulaskitech.edu',
+            'email' => 'odelong@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -100,7 +100,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Shirley Yaw',
-            'email' => 'syaw@pulaskitech.edu',
+            'email' => 'syaw@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -108,7 +108,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Shannon Avra',
-            'email' => 'savra@pulaskitech.edu',
+            'email' => 'savra@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -116,7 +116,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Cheryl Chapman',
-            'email' => 'cchapman@pulaskitech.edu',
+            'email' => 'cchapman@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -124,7 +124,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Abigail Perrine',
-            'email' => 'aperrine@pulaskitech.edu',
+            'email' => 'aperrine@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -132,7 +132,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Barry McVinney',
-            'email' => 'bmcvinney@pulaskitech.edu',
+            'email' => 'bmcvinney@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -140,7 +140,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Alex Chalupka',
-            'email' => 'achalupka@pulaskitech.edu',
+            'email' => 'achalupka@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -148,7 +148,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Sharrone Cox',
-            'email' => 'scox@pulaskitech.edu',
+            'email' => 'scox@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -156,7 +156,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Julia Ramey',
-            'email' => 'jramey@pulaskitech.edu',
+            'email' => 'jramey@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -164,7 +164,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Jesse Poff',
-            'email' => 'jpoff@pulaskitech.edu',
+            'email' => 'jpoff@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -172,7 +172,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Ben Rains',
-            'email' => 'brains@pulaskitech.edu',
+            'email' => 'brains@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -180,7 +180,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Casson Brock',
-            'email' => 'cbrock@pulaskitech.edu',
+            'email' => 'cbrock@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -188,7 +188,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Jane Doe',
-            'email' => 'jdoe@pulaskitech.edu',
+            'email' => 'jdoe@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -196,7 +196,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Tamisha Doublin',
-            'email' => 'tdoublin@pulaskitech.edu',
+            'email' => 'tdoublin@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -204,7 +204,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Chris Paradis',
-            'email' => 'cparadis@pulaskitech.edu',
+            'email' => 'cparadis@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -212,7 +212,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Carla  J. Moody',
-            'email' => 'cmoody@pulaskitech.edu',
+            'email' => 'cmoody@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -220,7 +220,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Nicolette Smith',
-            'email' => 'nsmith@pulaskitech.edu',
+            'email' => 'nsmith@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -228,7 +228,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'David Durr',
-            'email' => 'ddurr@pulaskitech.edu',
+            'email' => 'ddurr@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -236,7 +236,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Neil Mitchell',
-            'email' => 'nmitchell@pulaskitech.edu',
+            'email' => 'nmitchell@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -244,7 +244,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Leslie Lovenstein',
-            'email' => 'llovenstein@pulaskitech.edu',
+            'email' => 'llovenstein@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -252,7 +252,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Sherry Bowman',
-            'email' => 'sbowman@pulaskitech.edu',
+            'email' => 'sbowman@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -260,7 +260,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Caroline Elmore',
-            'email' => 'celmore@pulaskitech.edu',
+            'email' => 'celmore@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -268,7 +268,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Natalie Rollins',
-            'email' => 'nrollins@pulaskitech.edu',
+            'email' => 'nrollins@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -276,7 +276,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Paul Bennett',
-            'email' => 'pbennett@pulaskitech.edu',
+            'email' => 'pbennett@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -284,7 +284,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Larhonda Jackson',
-            'email' => 'ljackson@pulaskitech.edu',
+            'email' => 'ljackson@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -292,7 +292,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Patricia Martinez',
-            'email' => 'pmartinez@pulaskitech.edu',
+            'email' => 'pmartinez@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -300,7 +300,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Clayton Ruff',
-            'email' => 'cruff@pulaskitech.edu',
+            'email' => 'cruff@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -308,7 +308,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Lynn Strong',
-            'email' => 'lstrong@pulaskitech.edu',
+            'email' => 'lstrong@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -316,7 +316,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Larry Taylor',
-            'email' => 'ltaylor@pulaskitech.edu',
+            'email' => 'ltaylor@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -324,7 +324,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Martha Kubin',
-            'email' => 'mkubin@pulaskitech.edu',
+            'email' => 'mkubin@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -332,7 +332,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Dennis Welch',
-            'email' => 'dwelch@pulaskitech.edu',
+            'email' => 'dwelch@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -340,7 +340,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Rebecca Nelson',
-            'email' => 'rnelson@pulaskitech.edu',
+            'email' => 'rnelson@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -348,7 +348,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Cheryl Reinhart',
-            'email' => 'creinhart@pulaskitech.edu',
+            'email' => 'creinhart@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -356,7 +356,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Dioneedra Irvin',
-            'email' => 'dirvin@pulaskitech.edu',
+            'email' => 'dirvin@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -364,7 +364,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Jeffrey Walker',
-            'email' => 'jwalker@pulaskitech.edu',
+            'email' => 'jwalker@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -372,7 +372,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Cynthia Randolph',
-            'email' => 'crandolph@pulaskitech.edu',
+            'email' => 'crandolph@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -380,7 +380,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Elizabeth Clyburn',
-            'email' => 'eclyburn@pulaskitech.edu',
+            'email' => 'eclyburn@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -388,7 +388,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Leslie Cloer',
-            'email' => 'lcloer@pulaskitech.edu',
+            'email' => 'lcloer@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -396,7 +396,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Osmonetta McRae',
-            'email' => 'omcrae@pulaskitech.edu',
+            'email' => 'omcrae@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -404,7 +404,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'George T. Davis ',
-            'email' => 'gdavis @pulaskitech.edu',
+            'email' => 'gdavis @uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -412,7 +412,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Joanna Ewing',
-            'email' => 'jewing@pulaskitech.edu',
+            'email' => 'jewing@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -420,7 +420,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Cheri Courtright',
-            'email' => 'ccourtright@pulaskitech.edu',
+            'email' => 'ccourtright@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -428,7 +428,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Jayson Malik',
-            'email' => 'jmalik@pulaskitech.edu',
+            'email' => 'jmalik@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -436,7 +436,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Roy Minton',
-            'email' => 'rminton@pulaskitech.edu',
+            'email' => 'rminton@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -444,7 +444,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Mischel Elliott',
-            'email' => 'melliott@pulaskitech.edu',
+            'email' => 'melliott@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -452,7 +452,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Randall Robertson',
-            'email' => 'rrobertson@pulaskitech.edu',
+            'email' => 'rrobertson@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -460,7 +460,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Alan Pogue',
-            'email' => 'apogue@pulaskitech.edu',
+            'email' => 'apogue@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -468,7 +468,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Terence Cox',
-            'email' => 'tcox@pulaskitech.edu',
+            'email' => 'tcox@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -476,7 +476,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Starlett Mack',
-            'email' => 'smack@pulaskitech.edu',
+            'email' => 'smack@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -484,7 +484,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Nykela Jackson',
-            'email' => 'njackson@pulaskitech.edu',
+            'email' => 'njackson@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -492,7 +492,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Tiffany Smith',
-            'email' => 'tsmith@pulaskitech.edu',
+            'email' => 'tsmith@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -500,7 +500,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Ernesto Velazquez',
-            'email' => 'evelazquez@pulaskitech.edu',
+            'email' => 'evelazquez@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -508,7 +508,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Kenneth Lipsmeyer',
-            'email' => 'klipsmeyer@pulaskitech.edu',
+            'email' => 'klipsmeyer@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -516,7 +516,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Kelley Cowley',
-            'email' => 'kcowley@pulaskitech.edu',
+            'email' => 'kcowley@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -524,7 +524,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'William Wyngaard',
-            'email' => 'wwyngaard@pulaskitech.edu',
+            'email' => 'wwyngaard@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -532,7 +532,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Shelley Oberste-Hanson',
-            'email' => 'soberste-hanson@pulaskitech.edu',
+            'email' => 'soberste-hanson@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -540,7 +540,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Logan Oliver',
-            'email' => 'loliver@pulaskitech.edu',
+            'email' => 'loliver@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -548,7 +548,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Don Kuonen',
-            'email' => 'dkuonen@pulaskitech.edu',
+            'email' => 'dkuonen@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -556,7 +556,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Lindsay Ratliff-Kullenberg',
-            'email' => 'lratliff-kullenberg@pulaskitech.edu',
+            'email' => 'lratliff-kullenberg@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -564,7 +564,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Michael Milligan',
-            'email' => 'mmilligan@pulaskitech.edu',
+            'email' => 'mmilligan@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -572,7 +572,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Jimmy Brooks',
-            'email' => 'jbrooks@pulaskitech.edu',
+            'email' => 'jbrooks@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -580,7 +580,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Emily Norman',
-            'email' => 'enorman@pulaskitech.edu',
+            'email' => 'enorman@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -588,7 +588,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Mary Olm',
-            'email' => 'molm@pulaskitech.edu',
+            'email' => 'molm@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -596,7 +596,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Laura Govia',
-            'email' => 'lgovia@pulaskitech.edu',
+            'email' => 'lgovia@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -604,7 +604,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Amy Baldwin',
-            'email' => 'abaldwin@pulaskitech.edu',
+            'email' => 'abaldwin@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -612,7 +612,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Jonathan Purkiss',
-            'email' => 'jpurkiss@pulaskitech.edu',
+            'email' => 'jpurkiss@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -620,7 +620,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Francine Leon',
-            'email' => 'fleon@pulaskitech.edu',
+            'email' => 'fleon@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -628,7 +628,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Karin HodginJones',
-            'email' => 'khodginjones@pulaskitech.edu',
+            'email' => 'khodginjones@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -636,7 +636,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Nancy Reedy',
-            'email' => 'nreedy@pulaskitech.edu',
+            'email' => 'nreedy@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -644,7 +644,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Deana Nall',
-            'email' => 'dnall@pulaskitech.edu',
+            'email' => 'dnall@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -652,7 +652,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Elivia Wafford',
-            'email' => 'ewafford@pulaskitech.edu',
+            'email' => 'ewafford@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -660,7 +660,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Constance Meadors',
-            'email' => 'cmeadors@pulaskitech.edu',
+            'email' => 'cmeadors@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -668,7 +668,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Karren Lee',
-            'email' => 'klee@pulaskitech.edu',
+            'email' => 'klee@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -676,7 +676,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Shirley Kelley',
-            'email' => 'skelley@pulaskitech.edu',
+            'email' => 'skelley@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -684,7 +684,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'James Becker',
-            'email' => 'jbecker@pulaskitech.edu',
+            'email' => 'jbecker@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -692,7 +692,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Ruth Reavis',
-            'email' => 'rreavis@pulaskitech.edu',
+            'email' => 'rreavis@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -700,7 +700,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Shannon Vaughn',
-            'email' => 'svaughn@pulaskitech.edu',
+            'email' => 'svaughn@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -708,7 +708,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Christopher Phillips',
-            'email' => 'cphillips@pulaskitech.edu',
+            'email' => 'cphillips@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -716,7 +716,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Julianne Nelson',
-            'email' => 'jnelson@pulaskitech.edu',
+            'email' => 'jnelson@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -724,7 +724,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'George Lauster',
-            'email' => 'glauster@pulaskitech.edu',
+            'email' => 'glauster@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -732,7 +732,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Jeanne E. Williams',
-            'email' => 'jwilliams@pulaskitech.edu',
+            'email' => 'jwilliams@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -740,7 +740,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Dale Harris',
-            'email' => 'dharris@pulaskitech.edu',
+            'email' => 'dharris@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -748,7 +748,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Marcus Montgomery',
-            'email' => 'mmontgomery@pulaskitech.edu',
+            'email' => 'mmontgomery@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -756,7 +756,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Bill Peery',
-            'email' => 'bpeery@pulaskitech.edu',
+            'email' => 'bpeery@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -764,7 +764,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Carlton Coleman',
-            'email' => 'ccoleman@pulaskitech.edu',
+            'email' => 'ccoleman@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -772,7 +772,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Lydia Hart',
-            'email' => 'lhart@pulaskitech.edu',
+            'email' => 'lhart@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -780,7 +780,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Heather Solano',
-            'email' => 'hsolano@pulaskitech.edu',
+            'email' => 'hsolano@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -788,7 +788,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Sabrina Waters',
-            'email' => 'swaters@pulaskitech.edu',
+            'email' => 'swaters@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -796,7 +796,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Paula Long',
-            'email' => 'plong@pulaskitech.edu',
+            'email' => 'plong@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -804,7 +804,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Laura Iverson',
-            'email' => 'liverson@pulaskitech.edu',
+            'email' => 'liverson@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -812,7 +812,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Joan Dudley',
-            'email' => 'jdudley@pulaskitech.edu',
+            'email' => 'jdudley@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -820,7 +820,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Brenda Bradley',
-            'email' => 'bbradley@pulaskitech.edu',
+            'email' => 'bbradley@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -828,7 +828,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Mary Bishop',
-            'email' => 'mbishop@pulaskitech.edu',
+            'email' => 'mbishop@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -836,7 +836,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Dianne McKinney',
-            'email' => 'dmckinney@pulaskitech.edu',
+            'email' => 'dmckinney@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -844,7 +844,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Maribeth Anders',
-            'email' => 'manders@pulaskitech.edu',
+            'email' => 'manders@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -852,7 +852,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'K. Aurora Adney',
-            'email' => 'kadney@pulaskitech.edu',
+            'email' => 'kadney@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -860,7 +860,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Scott Warrior',
-            'email' => 'swarrior@pulaskitech.edu',
+            'email' => 'swarrior@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -868,7 +868,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Sarah Clements',
-            'email' => 'sclements@pulaskitech.edu',
+            'email' => 'sclements@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -876,7 +876,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Michelle Harris',
-            'email' => 'mharris@pulaskitech.edu',
+            'email' => 'mharris@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -884,7 +884,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Chad Smith',
-            'email' => 'csmith@pulaskitech.edu',
+            'email' => 'csmith@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -892,7 +892,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Mike Dahly',
-            'email' => 'mdahly@pulaskitech.edu',
+            'email' => 'mdahly@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -900,7 +900,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Christal GravettCarrington',
-            'email' => 'cgravettcarrington@pulaskitech.edu',
+            'email' => 'cgravettcarrington@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -908,7 +908,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Dorothy Martin',
-            'email' => 'dmartin@pulaskitech.edu',
+            'email' => 'dmartin@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -916,7 +916,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Ruth Goff',
-            'email' => 'rgoff@pulaskitech.edu',
+            'email' => 'rgoff@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -924,7 +924,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Howard Nesmith',
-            'email' => 'hnesmith@pulaskitech.edu',
+            'email' => 'hnesmith@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -932,7 +932,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Yolanda Mitchell',
-            'email' => 'ymitchell@pulaskitech.edu',
+            'email' => 'ymitchell@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -940,7 +940,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Tarlease Jones',
-            'email' => 'tjones@pulaskitech.edu',
+            'email' => 'tjones@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -948,7 +948,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'William (Jay) Adkins',
-            'email' => 'wadkins@pulaskitech.edu',
+            'email' => 'wadkins@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -956,7 +956,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Cynthia Fehrenbach',
-            'email' => 'cfehrenbach@pulaskitech.edu',
+            'email' => 'cfehrenbach@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -964,7 +964,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Mary Kate  Terrell',
-            'email' => 'm terrell@pulaskitech.edu',
+            'email' => 'm terrell@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -972,7 +972,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Laura Goadrich',
-            'email' => 'lgoadrich@pulaskitech.edu',
+            'email' => 'lgoadrich@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -980,7 +980,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Terry Brown',
-            'email' => 'tbrown@pulaskitech.edu',
+            'email' => 'tbrown@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -988,7 +988,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Meenakshi Budhraja',
-            'email' => 'mbudhraja@pulaskitech.edu',
+            'email' => 'mbudhraja@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -996,7 +996,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Mike McMillan',
-            'email' => 'mmcmillan@pulaskitech.edu',
+            'email' => 'mmcmillan@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1004,7 +1004,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Paula Morell',
-            'email' => 'pmorell@pulaskitech.edu',
+            'email' => 'pmorell@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1012,7 +1012,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Shannon Wilcox',
-            'email' => 'swilcox@pulaskitech.edu',
+            'email' => 'swilcox@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1020,7 +1020,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Jason Bass',
-            'email' => 'jbass@pulaskitech.edu',
+            'email' => 'jbass@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1028,7 +1028,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Michael Loya',
-            'email' => 'mloya@pulaskitech.edu',
+            'email' => 'mloya@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1036,7 +1036,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Pat Pierce',
-            'email' => 'ppierce@pulaskitech.edu',
+            'email' => 'ppierce@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1044,7 +1044,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Don Gundolf',
-            'email' => 'dgundolf@pulaskitech.edu',
+            'email' => 'dgundolf@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1052,7 +1052,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Robert Moritz',
-            'email' => 'rmoritz@pulaskitech.edu',
+            'email' => 'rmoritz@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1060,7 +1060,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Robert Habimana',
-            'email' => 'rhabimana@pulaskitech.edu',
+            'email' => 'rhabimana@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1068,7 +1068,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Deborah Desjardin',
-            'email' => 'ddesjardin@pulaskitech.edu',
+            'email' => 'ddesjardin@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1076,7 +1076,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Vondra Armstrong',
-            'email' => 'varmstrong@pulaskitech.edu',
+            'email' => 'varmstrong@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1084,7 +1084,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Renee Bennett',
-            'email' => 'rbennett@pulaskitech.edu',
+            'email' => 'rbennett@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1092,7 +1092,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Amanda Bishop',
-            'email' => 'abishop@pulaskitech.edu',
+            'email' => 'abishop@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1100,7 +1100,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Matthew Chase',
-            'email' => 'mchase@pulaskitech.edu',
+            'email' => 'mchase@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1108,7 +1108,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Gary Winkler',
-            'email' => 'gwinkler@pulaskitech.edu',
+            'email' => 'gwinkler@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1116,7 +1116,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Ginny Wood',
-            'email' => 'gwood@pulaskitech.edu',
+            'email' => 'gwood@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1124,7 +1124,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Jesse Gatewood',
-            'email' => 'jgatewood@pulaskitech.edu',
+            'email' => 'jgatewood@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1132,7 +1132,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Staci Hufhines-McHenry',
-            'email' => 'shufhines-mchenry@pulaskitech.edu',
+            'email' => 'shufhines-mchenry@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1140,7 +1140,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'John Morgan',
-            'email' => 'jmorgan@pulaskitech.edu',
+            'email' => 'jmorgan@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1148,7 +1148,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'David Carpenter',
-            'email' => 'dcarpenter@pulaskitech.edu',
+            'email' => 'dcarpenter@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1156,7 +1156,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Rebecca Hobby',
-            'email' => 'rhobby@pulaskitech.edu',
+            'email' => 'rhobby@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1164,7 +1164,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Jason  Choate',
-            'email' => 'j choate@pulaskitech.edu',
+            'email' => 'j choate@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1172,7 +1172,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Tammy Richardson',
-            'email' => 'trichardson@pulaskitech.edu',
+            'email' => 'trichardson@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1180,7 +1180,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Beata Lovelace',
-            'email' => 'blovelace@pulaskitech.edu',
+            'email' => 'blovelace@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1188,7 +1188,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Susan Dollar',
-            'email' => 'sdollar@pulaskitech.edu',
+            'email' => 'sdollar@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1196,7 +1196,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Angela Langston',
-            'email' => 'alangston@pulaskitech.edu',
+            'email' => 'alangston@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1204,7 +1204,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Kathryn Young',
-            'email' => 'kyoung@pulaskitech.edu',
+            'email' => 'kyoung@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1212,7 +1212,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Joe Jansen',
-            'email' => 'jjansen@pulaskitech.edu',
+            'email' => 'jjansen@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1220,7 +1220,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Debra Mcindoe',
-            'email' => 'dmcindoe@pulaskitech.edu',
+            'email' => 'dmcindoe@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1228,7 +1228,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Doris Pierce',
-            'email' => 'dpierce@pulaskitech.edu',
+            'email' => 'dpierce@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1236,7 +1236,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'H. Oscar Hirby',
-            'email' => 'hhirby@pulaskitech.edu',
+            'email' => 'hhirby@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1244,7 +1244,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Sofia Gonzalez',
-            'email' => 'sgonzalez@pulaskitech.edu',
+            'email' => 'sgonzalez@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1252,7 +1252,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Valerie Duckery',
-            'email' => 'vduckery@pulaskitech.edu',
+            'email' => 'vduckery@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1260,7 +1260,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Derek Moore',
-            'email' => 'dmoore@pulaskitech.edu',
+            'email' => 'dmoore@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1268,7 +1268,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Richard Moss',
-            'email' => 'rmoss@pulaskitech.edu',
+            'email' => 'rmoss@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1276,7 +1276,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Robert Clark',
-            'email' => 'rclark@pulaskitech.edu',
+            'email' => 'rclark@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1284,7 +1284,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Valerie JohnsonFranks',
-            'email' => 'vjohnsonfranks@pulaskitech.edu',
+            'email' => 'vjohnsonfranks@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1292,7 +1292,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'James Johnson',
-            'email' => 'jjohnson@pulaskitech.edu',
+            'email' => 'jjohnson@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1300,7 +1300,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Tammy Whitfield',
-            'email' => 'twhitfield@pulaskitech.edu',
+            'email' => 'twhitfield@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1308,7 +1308,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Jolie Mosley',
-            'email' => 'jmosley@pulaskitech.edu',
+            'email' => 'jmosley@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1316,7 +1316,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Billy Parchman',
-            'email' => 'bparchman@pulaskitech.edu',
+            'email' => 'bparchman@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1324,7 +1324,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Charles Cole',
-            'email' => 'ccole@pulaskitech.edu',
+            'email' => 'ccole@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1332,7 +1332,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Brad Pierce',
-            'email' => 'bpierce@pulaskitech.edu',
+            'email' => 'bpierce@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1340,7 +1340,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Meredith Lemons',
-            'email' => 'mlemons@pulaskitech.edu',
+            'email' => 'mlemons@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1348,7 +1348,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Robert  D. Coates',
-            'email' => 'rcoates@pulaskitech.edu',
+            'email' => 'rcoates@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1356,7 +1356,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Susan Gernenz-Taylor',
-            'email' => 'sgernenz-taylor@pulaskitech.edu',
+            'email' => 'sgernenz-taylor@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1364,7 +1364,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Roni Bowman',
-            'email' => 'rbowman@pulaskitech.edu',
+            'email' => 'rbowman@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1372,7 +1372,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Michael Slater',
-            'email' => 'mslater@pulaskitech.edu',
+            'email' => 'mslater@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1380,7 +1380,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Wendy Davis',
-            'email' => 'wdavis@pulaskitech.edu',
+            'email' => 'wdavis@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1388,7 +1388,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Bob Glidewell',
-            'email' => 'bglidewell@pulaskitech.edu',
+            'email' => 'bglidewell@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1396,7 +1396,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Daniel Egbe',
-            'email' => 'degbe@pulaskitech.edu',
+            'email' => 'degbe@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1404,7 +1404,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Carl Mike Daily',
-            'email' => 'cdaily@pulaskitech.edu',
+            'email' => 'cdaily@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1412,7 +1412,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Timothy Bennett',
-            'email' => 'tbennett@pulaskitech.edu',
+            'email' => 'tbennett@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1420,7 +1420,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Pam Cicirello',
-            'email' => 'pcicirello@pulaskitech.edu',
+            'email' => 'pcicirello@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1428,7 +1428,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Nicole Holcomb',
-            'email' => 'nholcomb@pulaskitech.edu',
+            'email' => 'nholcomb@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1436,7 +1436,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Christin Hankins',
-            'email' => 'chankins@pulaskitech.edu',
+            'email' => 'chankins@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1444,7 +1444,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'John Farrell',
-            'email' => 'jfarrell@pulaskitech.edu',
+            'email' => 'jfarrell@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1452,7 +1452,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Lindsey Maestri',
-            'email' => 'lmaestri@pulaskitech.edu',
+            'email' => 'lmaestri@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1460,7 +1460,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'William Strigel',
-            'email' => 'wstrigel@pulaskitech.edu',
+            'email' => 'wstrigel@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1468,7 +1468,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Jennifer Boccarossa',
-            'email' => 'jboccarossa@pulaskitech.edu',
+            'email' => 'jboccarossa@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1476,7 +1476,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Cynthia  East-Malik',
-            'email' => 'ceast-malik@pulaskitech.edu',
+            'email' => 'ceast-malik@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1484,7 +1484,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Jacqueline Griffin',
-            'email' => 'jgriffin@pulaskitech.edu',
+            'email' => 'jgriffin@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1492,7 +1492,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Casey Griffith',
-            'email' => 'cgriffith@pulaskitech.edu',
+            'email' => 'cgriffith@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1500,7 +1500,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Macaiah Tillman',
-            'email' => 'mtillman@pulaskitech.edu',
+            'email' => 'mtillman@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1508,7 +1508,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Olivia Powers',
-            'email' => 'opowers@pulaskitech.edu',
+            'email' => 'opowers@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1516,7 +1516,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Julia Crow',
-            'email' => 'jcrow@pulaskitech.edu',
+            'email' => 'jcrow@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1524,7 +1524,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Neil Furqueron',
-            'email' => 'nfurqueron@pulaskitech.edu',
+            'email' => 'nfurqueron@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1532,7 +1532,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Ron Skidgel',
-            'email' => 'rskidgel@pulaskitech.edu',
+            'email' => 'rskidgel@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1540,7 +1540,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Benjamin Pecock',
-            'email' => 'bpecock@pulaskitech.edu',
+            'email' => 'bpecock@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1548,7 +1548,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Lori Jones',
-            'email' => 'ljones@pulaskitech.edu',
+            'email' => 'ljones@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1556,7 +1556,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Darrellyn Williams',
-            'email' => 'dwilliams@pulaskitech.edu',
+            'email' => 'dwilliams@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1564,7 +1564,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Benjamin AndersonBauer',
-            'email' => 'bandersonbauer@pulaskitech.edu',
+            'email' => 'bandersonbauer@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1572,7 +1572,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Andre Robinson',
-            'email' => 'arobinson@pulaskitech.edu',
+            'email' => 'arobinson@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1580,7 +1580,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Wayne Floyd',
-            'email' => 'wfloyd@pulaskitech.edu',
+            'email' => 'wfloyd@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1588,7 +1588,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'James Layton',
-            'email' => 'jlayton@pulaskitech.edu',
+            'email' => 'jlayton@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1596,7 +1596,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Sandra Harrington',
-            'email' => 'sharrington@pulaskitech.edu',
+            'email' => 'sharrington@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1604,7 +1604,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Cynthia Beck',
-            'email' => 'cbeck@pulaskitech.edu',
+            'email' => 'cbeck@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1612,7 +1612,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Moluwa Matute',
-            'email' => 'mmatute@pulaskitech.edu',
+            'email' => 'mmatute@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1620,7 +1620,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Jeffrey Skrdlant',
-            'email' => 'jskrdlant@pulaskitech.edu',
+            'email' => 'jskrdlant@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1628,7 +1628,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Deborah Germany',
-            'email' => 'dgermany@pulaskitech.edu',
+            'email' => 'dgermany@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1636,7 +1636,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Alex Carraway',
-            'email' => 'acarraway@pulaskitech.edu',
+            'email' => 'acarraway@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1644,7 +1644,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Barbara Williams',
-            'email' => 'bwilliams@pulaskitech.edu',
+            'email' => 'bwilliams@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1652,7 +1652,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Jennifer Ingram',
-            'email' => 'jingram@pulaskitech.edu',
+            'email' => 'jingram@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1660,7 +1660,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Jordan Oroark',
-            'email' => 'joroark@pulaskitech.edu',
+            'email' => 'joroark@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1668,7 +1668,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Veronica Stewart',
-            'email' => 'vstewart@pulaskitech.edu',
+            'email' => 'vstewart@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1676,7 +1676,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Matthew McKay',
-            'email' => 'mmckay@pulaskitech.edu',
+            'email' => 'mmckay@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1684,7 +1684,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Ebony Conley',
-            'email' => 'econley@pulaskitech.edu',
+            'email' => 'econley@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1692,7 +1692,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Deena Martin',
-            'email' => 'dmartin@pulaskitech.edu',
+            'email' => 'dmartin@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1700,7 +1700,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Karen Tate',
-            'email' => 'ktate@pulaskitech.edu',
+            'email' => 'ktate@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1708,7 +1708,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Gloria Maddox-Powell',
-            'email' => 'gmaddox-powell@pulaskitech.edu',
+            'email' => 'gmaddox-powell@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1716,7 +1716,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Norma (Jean) Vowell',
-            'email' => 'nvowell@pulaskitech.edu',
+            'email' => 'nvowell@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1724,7 +1724,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Jessica Walker',
-            'email' => 'jwalker@pulaskitech.edu',
+            'email' => 'jwalker@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1732,7 +1732,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Erika Martin',
-            'email' => 'emartin@pulaskitech.edu',
+            'email' => 'emartin@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1740,7 +1740,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Sherry Clay',
-            'email' => 'sclay@pulaskitech.edu',
+            'email' => 'sclay@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1748,7 +1748,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Christina Oberste',
-            'email' => 'coberste@pulaskitech.edu',
+            'email' => 'coberste@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1756,7 +1756,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Meredith McMillan',
-            'email' => 'mmcmillan@pulaskitech.edu',
+            'email' => 'mmcmillan@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1764,7 +1764,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Meghan MacKrell',
-            'email' => 'mmackrell@pulaskitech.edu',
+            'email' => 'mmackrell@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1772,7 +1772,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Sherlyn Harris',
-            'email' => 'sharris@pulaskitech.edu',
+            'email' => 'sharris@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1780,7 +1780,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Danny Martin',
-            'email' => 'dmartin@pulaskitech.edu',
+            'email' => 'dmartin@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1788,7 +1788,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Phyllis Felton',
-            'email' => 'pfelton@pulaskitech.edu',
+            'email' => 'pfelton@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1796,7 +1796,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Stephen Mackey',
-            'email' => 'smackey@pulaskitech.edu',
+            'email' => 'smackey@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1804,7 +1804,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Colby Gunter',
-            'email' => 'cgunter@pulaskitech.edu',
+            'email' => 'cgunter@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1812,7 +1812,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Mohamad Nawaz',
-            'email' => 'mnawaz@pulaskitech.edu',
+            'email' => 'mnawaz@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1820,7 +1820,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Kimberly Gilbert',
-            'email' => 'kgilbert@pulaskitech.edu',
+            'email' => 'kgilbert@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1828,7 +1828,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Elizabeth Sims',
-            'email' => 'esims@pulaskitech.edu',
+            'email' => 'esims@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1836,7 +1836,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Jennifer Aunspaugh',
-            'email' => 'jaunspaugh@pulaskitech.edu',
+            'email' => 'jaunspaugh@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1844,7 +1844,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Jason Walker',
-            'email' => 'jwalker@pulaskitech.edu',
+            'email' => 'jwalker@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1852,7 +1852,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Anne Virden',
-            'email' => 'avirden@pulaskitech.edu',
+            'email' => 'avirden@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1860,7 +1860,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Candace Pierce',
-            'email' => 'cpierce@pulaskitech.edu',
+            'email' => 'cpierce@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1868,7 +1868,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Alisa Williams',
-            'email' => 'awilliams@pulaskitech.edu',
+            'email' => 'awilliams@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1876,7 +1876,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'M. Paige Redd',
-            'email' => 'mredd@pulaskitech.edu',
+            'email' => 'mredd@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1884,7 +1884,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Kellye Mashburn',
-            'email' => 'kmashburn@pulaskitech.edu',
+            'email' => 'kmashburn@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1892,7 +1892,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Sheila Glasscock',
-            'email' => 'sglasscock@pulaskitech.edu',
+            'email' => 'sglasscock@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1900,7 +1900,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Stephen Paul',
-            'email' => 'spaul@pulaskitech.edu',
+            'email' => 'spaul@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1908,7 +1908,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Stacy Fortney',
-            'email' => 'sfortney@pulaskitech.edu',
+            'email' => 'sfortney@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1916,7 +1916,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Jacqueline Wright',
-            'email' => 'jwright@pulaskitech.edu',
+            'email' => 'jwright@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1924,7 +1924,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Casey Rockwell',
-            'email' => 'crockwell@pulaskitech.edu',
+            'email' => 'crockwell@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1932,7 +1932,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Sandy Longhorn',
-            'email' => 'slonghorn@pulaskitech.edu',
+            'email' => 'slonghorn@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1940,7 +1940,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'James Pasley',
-            'email' => 'jpasley@pulaskitech.edu',
+            'email' => 'jpasley@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1948,7 +1948,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'A. Elizabeth Reves',
-            'email' => 'areves@pulaskitech.edu',
+            'email' => 'areves@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1956,7 +1956,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Jana Porter',
-            'email' => 'jporter@pulaskitech.edu',
+            'email' => 'jporter@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1964,7 +1964,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Aaron Baldwin',
-            'email' => 'abaldwin@pulaskitech.edu',
+            'email' => 'abaldwin@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1972,7 +1972,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Janine Tiner',
-            'email' => 'jtiner@pulaskitech.edu',
+            'email' => 'jtiner@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1980,7 +1980,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Austin Lovenstein',
-            'email' => 'alovenstein@pulaskitech.edu',
+            'email' => 'alovenstein@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1988,7 +1988,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'J. Michelle Palmer',
-            'email' => 'jpalmer@pulaskitech.edu',
+            'email' => 'jpalmer@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -1996,7 +1996,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Geoff Thiers',
-            'email' => 'gthiers@pulaskitech.edu',
+            'email' => 'gthiers@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2004,7 +2004,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Mandie Smith',
-            'email' => 'msmith@pulaskitech.edu',
+            'email' => 'msmith@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2012,7 +2012,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Letrishe Hence',
-            'email' => 'lhence@pulaskitech.edu',
+            'email' => 'lhence@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2020,7 +2020,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Werner Trieschmann',
-            'email' => 'wtrieschmann@pulaskitech.edu',
+            'email' => 'wtrieschmann@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2028,7 +2028,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Jason Jewell',
-            'email' => 'jjewell@pulaskitech.edu',
+            'email' => 'jjewell@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2036,7 +2036,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Gloria Reyes',
-            'email' => 'greyes@pulaskitech.edu',
+            'email' => 'greyes@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2044,7 +2044,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Robert Best',
-            'email' => 'rbest@pulaskitech.edu',
+            'email' => 'rbest@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2052,7 +2052,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Harold Daigle',
-            'email' => 'hdaigle@pulaskitech.edu',
+            'email' => 'hdaigle@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2060,7 +2060,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Tracie Rushing',
-            'email' => 'trushing@pulaskitech.edu',
+            'email' => 'trushing@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2068,7 +2068,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Aubrey Pangle',
-            'email' => 'apangle@pulaskitech.edu',
+            'email' => 'apangle@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2076,7 +2076,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'David Warren',
-            'email' => 'dwarren@pulaskitech.edu',
+            'email' => 'dwarren@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2084,7 +2084,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Paula Watson',
-            'email' => 'pwatson@pulaskitech.edu',
+            'email' => 'pwatson@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2092,7 +2092,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Terry Allmon',
-            'email' => 'tallmon@pulaskitech.edu',
+            'email' => 'tallmon@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2100,7 +2100,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Jennifer Martslolf',
-            'email' => 'jmartslolf@pulaskitech.edu',
+            'email' => 'jmartslolf@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2108,7 +2108,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Susanne Ashby',
-            'email' => 'sashby@pulaskitech.edu',
+            'email' => 'sashby@uaptc.edu',
             'password' => bcrypt('password'),
             'certified' => 1,
             'isAdmin' => 1,
@@ -2116,7 +2116,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Natalie Molineaux',
-            'email' => 'nmolineaux@pulaskitech.edu',
+            'email' => 'nmolineaux@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2124,7 +2124,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Dana Curry',
-            'email' => 'dcurry@pulaskitech.edu',
+            'email' => 'dcurry@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2132,7 +2132,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Ashley Embry',
-            'email' => 'aembry@pulaskitech.edu',
+            'email' => 'aembry@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2140,7 +2140,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Devin McKnight',
-            'email' => 'dmcknight@pulaskitech.edu',
+            'email' => 'dmcknight@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2148,7 +2148,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Amanda Armstrong',
-            'email' => 'aarmstrong@pulaskitech.edu',
+            'email' => 'aarmstrong@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2156,7 +2156,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Dalana Nugent',
-            'email' => 'dnugent@pulaskitech.edu',
+            'email' => 'dnugent@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2164,7 +2164,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Allen Loibner',
-            'email' => 'aloibner@pulaskitech.edu',
+            'email' => 'aloibner@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2172,7 +2172,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Michael Hostetler',
-            'email' => 'mhostetler@pulaskitech.edu',
+            'email' => 'mhostetler@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2180,7 +2180,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Donna Jean Rausch',
-            'email' => 'drausch@pulaskitech.edu',
+            'email' => 'drausch@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2188,7 +2188,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Michele Alice French',
-            'email' => 'mfrench@pulaskitech.edu',
+            'email' => 'mfrench@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2196,7 +2196,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Sonya Russ',
-            'email' => 'sruss@pulaskitech.edu',
+            'email' => 'sruss@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2204,7 +2204,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Gary Gaines',
-            'email' => 'ggaines@pulaskitech.edu',
+            'email' => 'ggaines@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2212,7 +2212,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Rick Babic',
-            'email' => 'rbabic@pulaskitech.edu',
+            'email' => 'rbabic@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2220,7 +2220,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Sarah Nixon',
-            'email' => 'snixon@pulaskitech.edu',
+            'email' => 'snixon@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2228,7 +2228,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'John Galbraith',
-            'email' => 'jgalbraith@pulaskitech.edu',
+            'email' => 'jgalbraith@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2236,7 +2236,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Jessica Scharbor',
-            'email' => 'jscharbor@pulaskitech.edu',
+            'email' => 'jscharbor@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2244,7 +2244,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Jason Hancock',
-            'email' => 'jhancock@pulaskitech.edu',
+            'email' => 'jhancock@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2252,7 +2252,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Kristen Holloway',
-            'email' => 'kholloway@pulaskitech.edu',
+            'email' => 'kholloway@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2260,7 +2260,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Jason K. Green',
-            'email' => 'jgreen@pulaskitech.edu',
+            'email' => 'jgreen@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2269,7 +2269,7 @@ class UsersTableSeeder extends Seeder
 
         DB::table('users')->insert([
             'name' => 'Laura Campbell',
-            'email' => 'lcampbell@pulaskitech.edu',
+            'email' => 'lcampbell@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2277,7 +2277,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Ashia Muhammad',
-            'email' => 'amuhammad@pulaskitech.edu',
+            'email' => 'amuhammad@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2285,7 +2285,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Amie Csege',
-            'email' => 'acsege@pulaskitech.edu',
+            'email' => 'acsege@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2293,7 +2293,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'William Stoval',
-            'email' => 'wstoval@pulaskitech.edu',
+            'email' => 'wstoval@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2301,7 +2301,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Susan Williamson',
-            'email' => 'swilliamson@pulaskitech.edu',
+            'email' => 'swilliamson@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2309,7 +2309,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Kenneth (Kent) Douglas',
-            'email' => 'kdouglas@pulaskitech.edu',
+            'email' => 'kdouglas@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2317,7 +2317,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Kathryn Evans',
-            'email' => 'kevans@pulaskitech.edu',
+            'email' => 'kevans@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2325,7 +2325,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Angela Peace',
-            'email' => 'apeace@pulaskitech.edu',
+            'email' => 'apeace@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2333,7 +2333,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Trude Puckett',
-            'email' => 'tpuckett@pulaskitech.edu',
+            'email' => 'tpuckett@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2341,7 +2341,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Mayo Johnson',
-            'email' => 'mjohnson@pulaskitech.edu',
+            'email' => 'mjohnson@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2349,7 +2349,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Terry Mercing',
-            'email' => 'tmercing@pulaskitech.edu',
+            'email' => 'tmercing@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2357,7 +2357,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Stephanie Williams',
-            'email' => 'swilliams@pulaskitech.edu',
+            'email' => 'swilliams@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2365,7 +2365,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Alisa Brown',
-            'email' => 'abrown@pulaskitech.edu',
+            'email' => 'abrown@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2373,7 +2373,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Beverly Smith',
-            'email' => 'bsmith@pulaskitech.edu',
+            'email' => 'bsmith@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2381,7 +2381,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Mindy Hodges',
-            'email' => 'mhodges@pulaskitech.edu',
+            'email' => 'mhodges@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2389,7 +2389,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Teri Cox',
-            'email' => 'tcox@pulaskitech.edu',
+            'email' => 'tcox@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2397,7 +2397,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Jimmy Davis',
-            'email' => 'jdavis@pulaskitech.edu',
+            'email' => 'jdavis@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2405,7 +2405,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Samantha White',
-            'email' => 'swhite@pulaskitech.edu',
+            'email' => 'swhite@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2413,7 +2413,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Bonnie Faupel',
-            'email' => 'bfaupel@pulaskitech.edu',
+            'email' => 'bfaupel@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2421,7 +2421,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Beth Miller',
-            'email' => 'bmiller@pulaskitech.edu',
+            'email' => 'bmiller@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2429,7 +2429,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Zachary Perrine',
-            'email' => 'zperrine@pulaskitech.edu',
+            'email' => 'zperrine@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2437,7 +2437,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Melissa Douglas',
-            'email' => 'mdouglas@pulaskitech.edu',
+            'email' => 'mdouglas@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2445,7 +2445,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Phillip Harris',
-            'email' => 'pharris@pulaskitech.edu',
+            'email' => 'pharris@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2453,7 +2453,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Cheryl Moody',
-            'email' => 'cmoody@pulaskitech.edu',
+            'email' => 'cmoody@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2461,7 +2461,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Julie Wright-Locke',
-            'email' => 'jwright-locke@pulaskitech.edu',
+            'email' => 'jwright-locke@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2469,7 +2469,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Kimberly Kwee',
-            'email' => 'kkwee@pulaskitech.edu',
+            'email' => 'kkwee@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2477,7 +2477,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Carmen Scanlon',
-            'email' => 'cscanlon@pulaskitech.edu',
+            'email' => 'cscanlon@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2485,7 +2485,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Samuel Gregory',
-            'email' => 'sgregory@pulaskitech.edu',
+            'email' => 'sgregory@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2493,7 +2493,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Jerry Armstrong',
-            'email' => 'jarmstrong@pulaskitech.edu',
+            'email' => 'jarmstrong@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2501,7 +2501,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Lara Crane',
-            'email' => 'lcrane@pulaskitech.edu',
+            'email' => 'lcrane@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2509,7 +2509,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Samantha Staggs',
-            'email' => 'sstaggs@pulaskitech.edu',
+            'email' => 'sstaggs@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2517,7 +2517,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Ashlyn Dugan',
-            'email' => 'adugan@pulaskitech.edu',
+            'email' => 'adugan@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2525,7 +2525,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Tracy Pennington',
-            'email' => 'tpennington@pulaskitech.edu',
+            'email' => 'tpennington@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2533,7 +2533,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Annie  D. Robinson',
-            'email' => 'arobinson@pulaskitech.edu',
+            'email' => 'arobinson@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2541,7 +2541,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Nicole Smith',
-            'email' => 'nsmith@pulaskitech.edu',
+            'email' => 'nsmith@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2549,7 +2549,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Thomas Price',
-            'email' => 'tprice@pulaskitech.edu',
+            'email' => 'tprice@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2557,7 +2557,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Tommy Bennett',
-            'email' => 'tbennett@pulaskitech.edu',
+            'email' => 'tbennett@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2565,7 +2565,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'DeAnna Davis',
-            'email' => 'ddavis@pulaskitech.edu',
+            'email' => 'ddavis@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2573,7 +2573,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Laura Austin',
-            'email' => 'laustin@pulaskitech.edu',
+            'email' => 'laustin@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2581,7 +2581,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Marilyn Harris',
-            'email' => 'mharris@pulaskitech.edu',
+            'email' => 'mharris@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2589,7 +2589,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Primo Voisin',
-            'email' => 'pvoisin@pulaskitech.edu',
+            'email' => 'pvoisin@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2597,7 +2597,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Kristin Wagner',
-            'email' => 'kwagner@pulaskitech.edu',
+            'email' => 'kwagner@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2605,7 +2605,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Karen Shaw',
-            'email' => 'kshaw@pulaskitech.edu',
+            'email' => 'kshaw@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2613,7 +2613,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'James Mcafee',
-            'email' => 'jmcafee@pulaskitech.edu',
+            'email' => 'jmcafee@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2621,7 +2621,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Heather Barnett',
-            'email' => 'hbarnett@pulaskitech.edu',
+            'email' => 'hbarnett@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2629,7 +2629,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Weeda Jones',
-            'email' => 'wjones@pulaskitech.edu',
+            'email' => 'wjones@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2637,7 +2637,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Amanda Linn',
-            'email' => 'alinn@pulaskitech.edu',
+            'email' => 'alinn@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2645,7 +2645,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Melisa Quesenberry',
-            'email' => 'mquesenberry@pulaskitech.edu',
+            'email' => 'mquesenberry@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2653,7 +2653,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Shannon Clowney',
-            'email' => 'sclowney@pulaskitech.edu',
+            'email' => 'sclowney@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2661,7 +2661,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Rebecca Stone',
-            'email' => 'rstone@pulaskitech.edu',
+            'email' => 'rstone@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2669,7 +2669,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Jennifer Gilley',
-            'email' => 'jgilley@pulaskitech.edu',
+            'email' => 'jgilley@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2677,7 +2677,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Joe McAfee',
-            'email' => 'jmcafee@pulaskitech.edu',
+            'email' => 'jmcafee@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2685,7 +2685,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Jennifer Kilmore',
-            'email' => 'jkilmore@pulaskitech.edu',
+            'email' => 'jkilmore@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2693,7 +2693,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Rachael Rice',
-            'email' => 'rrice@pulaskitech.edu',
+            'email' => 'rrice@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2701,7 +2701,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Madhu Reniguntala',
-            'email' => 'mreniguntala@pulaskitech.edu',
+            'email' => 'mreniguntala@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2709,7 +2709,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Faysal Ahmed',
-            'email' => 'fahmed@pulaskitech.edu',
+            'email' => 'fahmed@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2717,7 +2717,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'David Cullipher',
-            'email' => 'dcullipher@pulaskitech.edu',
+            'email' => 'dcullipher@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2725,7 +2725,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Jacob Standley',
-            'email' => 'jstandley@pulaskitech.edu',
+            'email' => 'jstandley@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2733,7 +2733,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Neal Farris',
-            'email' => 'nfarris@pulaskitech.edu',
+            'email' => 'nfarris@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2741,7 +2741,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Ian Thomas',
-            'email' => 'ithomas@pulaskitech.edu',
+            'email' => 'ithomas@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2749,7 +2749,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Anna Mitchell',
-            'email' => 'amitchell@pulaskitech.edu',
+            'email' => 'amitchell@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2757,7 +2757,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Don Spitler',
-            'email' => 'dspitler@pulaskitech.edu',
+            'email' => 'dspitler@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2765,7 +2765,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Angie Macri',
-            'email' => 'amacri@pulaskitech.edu',
+            'email' => 'amacri@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2773,7 +2773,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Paul Wiltz',
-            'email' => 'pwiltz@pulaskitech.edu',
+            'email' => 'pwiltz@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2781,7 +2781,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Josh Weaver',
-            'email' => 'jweaver@pulaskitech.edu',
+            'email' => 'jweaver@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2789,7 +2789,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Amanda Doyle',
-            'email' => 'adoyle@pulaskitech.edu',
+            'email' => 'adoyle@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2797,7 +2797,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Kevin Baer',
-            'email' => 'kbaer@pulaskitech.edu',
+            'email' => 'kbaer@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2805,7 +2805,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Heather Murski',
-            'email' => 'hmurski@pulaskitech.edu',
+            'email' => 'hmurski@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2813,7 +2813,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'William Roark',
-            'email' => 'wroark@pulaskitech.edu',
+            'email' => 'wroark@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2821,7 +2821,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Sandra Kirkpatrick',
-            'email' => 'skirkpatrick@pulaskitech.edu',
+            'email' => 'skirkpatrick@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2829,7 +2829,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Deborah Huber',
-            'email' => 'dhuber@pulaskitech.edu',
+            'email' => 'dhuber@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2837,7 +2837,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'J. Allan Holloway',
-            'email' => 'jholloway@pulaskitech.edu',
+            'email' => 'jholloway@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2845,7 +2845,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Patricia Covington',
-            'email' => 'pcovington@pulaskitech.edu',
+            'email' => 'pcovington@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2853,7 +2853,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Todd Gold',
-            'email' => 'tgold@pulaskitech.edu',
+            'email' => 'tgold@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2861,7 +2861,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Lisa Fisher',
-            'email' => 'lfisher@pulaskitech.edu',
+            'email' => 'lfisher@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2869,7 +2869,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Nicki Feldman',
-            'email' => 'nfeldman@pulaskitech.edu',
+            'email' => 'nfeldman@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2877,7 +2877,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Stephanie Pierce',
-            'email' => 'spierce@pulaskitech.edu',
+            'email' => 'spierce@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2885,7 +2885,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Terry Ballard',
-            'email' => 'tballard@pulaskitech.edu',
+            'email' => 'tballard@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2893,7 +2893,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Ralph Schultz',
-            'email' => 'rschultz@pulaskitech.edu',
+            'email' => 'rschultz@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2901,7 +2901,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Daryl Swinson',
-            'email' => 'dswinson@pulaskitech.edu',
+            'email' => 'dswinson@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2909,7 +2909,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Matt Bradke',
-            'email' => 'mbradke@pulaskitech.edu',
+            'email' => 'mbradke@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2917,7 +2917,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Erin Dail',
-            'email' => 'edail@pulaskitech.edu',
+            'email' => 'edail@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2925,7 +2925,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Raymond Williams',
-            'email' => 'rwilliams@pulaskitech.edu',
+            'email' => 'rwilliams@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2933,7 +2933,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Amber Strain',
-            'email' => 'astrain@pulaskitech.edu',
+            'email' => 'astrain@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2941,7 +2941,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Patricia M. Reid',
-            'email' => 'preid@pulaskitech.edu',
+            'email' => 'preid@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2949,7 +2949,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Holly Bass',
-            'email' => 'hbass@pulaskitech.edu',
+            'email' => 'hbass@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2957,7 +2957,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Sarah Johnson',
-            'email' => 'sjohnson@pulaskitech.edu',
+            'email' => 'sjohnson@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2965,7 +2965,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'William Byrd',
-            'email' => 'wbyrd@pulaskitech.edu',
+            'email' => 'wbyrd@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2973,7 +2973,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Aiwei Borengasser',
-            'email' => 'aborengasser@pulaskitech.edu',
+            'email' => 'aborengasser@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2981,7 +2981,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Barbara  Wilborn',
-            'email' => 'bwilborn@pulaskitech.edu',
+            'email' => 'bwilborn@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2989,7 +2989,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Teresa Upshaw Wallent',
-            'email' => 'tupshaw wallent@pulaskitech.edu',
+            'email' => 'tupshaw wallent@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -2997,7 +2997,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Chelsey Moore',
-            'email' => 'cmoore@pulaskitech.edu',
+            'email' => 'cmoore@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3005,7 +3005,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Janet Bayless',
-            'email' => 'jbayless@pulaskitech.edu',
+            'email' => 'jbayless@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3013,7 +3013,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Constance Hurd',
-            'email' => 'churd@pulaskitech.edu',
+            'email' => 'churd@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3021,7 +3021,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Michael Julian',
-            'email' => 'mjulian@pulaskitech.edu',
+            'email' => 'mjulian@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3029,7 +3029,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Johnnie Green',
-            'email' => 'jgreen@pulaskitech.edu',
+            'email' => 'jgreen@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3037,7 +3037,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'John Price',
-            'email' => 'jprice@pulaskitech.edu',
+            'email' => 'jprice@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3045,7 +3045,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Terry Johnson',
-            'email' => 'tjohnson@pulaskitech.edu',
+            'email' => 'tjohnson@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3053,7 +3053,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Terrill Beckerman',
-            'email' => 'tbeckerman@pulaskitech.edu',
+            'email' => 'tbeckerman@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3061,7 +3061,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Carolyn Jennings',
-            'email' => 'cjennings@pulaskitech.edu',
+            'email' => 'cjennings@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3069,7 +3069,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Floyd Ross',
-            'email' => 'fross@pulaskitech.edu',
+            'email' => 'fross@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3077,7 +3077,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'L. Crecy Ragan',
-            'email' => 'lragan@pulaskitech.edu',
+            'email' => 'lragan@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3085,7 +3085,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Mark Barnes',
-            'email' => 'mbarnes@pulaskitech.edu',
+            'email' => 'mbarnes@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3093,7 +3093,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Jonathan Childs',
-            'email' => 'jchilds@pulaskitech.edu',
+            'email' => 'jchilds@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3101,7 +3101,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Joanna Newkirk',
-            'email' => 'jnewkirk@pulaskitech.edu',
+            'email' => 'jnewkirk@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3109,7 +3109,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'LaShundra Watson',
-            'email' => 'lwatson@pulaskitech.edu',
+            'email' => 'lwatson@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3117,7 +3117,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Jamie Ables',
-            'email' => 'jables@pulaskitech.edu',
+            'email' => 'jables@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3125,7 +3125,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Darin Archer',
-            'email' => 'darcher@pulaskitech.edu',
+            'email' => 'darcher@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3133,7 +3133,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Cynthia Fletcher',
-            'email' => 'cfletcher@pulaskitech.edu',
+            'email' => 'cfletcher@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3141,7 +3141,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'M. Katie Davis',
-            'email' => 'mdavis@pulaskitech.edu',
+            'email' => 'mdavis@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3149,7 +3149,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Debbie Schlesinger',
-            'email' => 'dschlesinger@pulaskitech.edu',
+            'email' => 'dschlesinger@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3157,7 +3157,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Amy Ballard',
-            'email' => 'aballard@pulaskitech.edu',
+            'email' => 'aballard@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3165,7 +3165,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'DeAndre Smith',
-            'email' => 'dsmith@pulaskitech.edu',
+            'email' => 'dsmith@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3173,7 +3173,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Nick Reeves',
-            'email' => 'nreeves@pulaskitech.edu',
+            'email' => 'nreeves@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3181,7 +3181,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Tasha Ward-Henderson',
-            'email' => 'tward-henderson@pulaskitech.edu',
+            'email' => 'tward-henderson@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3189,7 +3189,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Jesse Holcomb',
-            'email' => 'jholcomb@pulaskitech.edu',
+            'email' => 'jholcomb@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3197,7 +3197,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Jeseph Elliott',
-            'email' => 'jelliott@pulaskitech.edu',
+            'email' => 'jelliott@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3205,7 +3205,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Cindy Beckett',
-            'email' => 'cbeckett@pulaskitech.edu',
+            'email' => 'cbeckett@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3213,7 +3213,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Jessica Otto',
-            'email' => 'jotto@pulaskitech.edu',
+            'email' => 'jotto@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3221,7 +3221,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Jessica Sahene',
-            'email' => 'jsahene@pulaskitech.edu',
+            'email' => 'jsahene@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3229,7 +3229,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Martha Eschleman',
-            'email' => 'meschleman@pulaskitech.edu',
+            'email' => 'meschleman@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3237,7 +3237,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Joe Schneider',
-            'email' => 'jschneider@pulaskitech.edu',
+            'email' => 'jschneider@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3245,7 +3245,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'John E. Marshall',
-            'email' => 'jmarshall@pulaskitech.edu',
+            'email' => 'jmarshall@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3253,7 +3253,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Rebecca Sterling',
-            'email' => 'rsterling@pulaskitech.edu',
+            'email' => 'rsterling@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3261,7 +3261,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Bonnie Kenney',
-            'email' => 'bkenney@pulaskitech.edu',
+            'email' => 'bkenney@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3269,7 +3269,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Cynthia Beckett',
-            'email' => 'cbeckett@pulaskitech.edu',
+            'email' => 'cbeckett@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3277,7 +3277,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Kirsten Heintz',
-            'email' => 'kheintz@pulaskitech.edu',
+            'email' => 'kheintz@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3285,7 +3285,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Monty Self',
-            'email' => 'mself@pulaskitech.edu',
+            'email' => 'mself@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3293,7 +3293,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Jennifer Stewart',
-            'email' => 'jstewart@pulaskitech.edu',
+            'email' => 'jstewart@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3301,7 +3301,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Edward Hale',
-            'email' => 'ehale@pulaskitech.edu',
+            'email' => 'ehale@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3309,7 +3309,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Sherrie Ray-Trevino',
-            'email' => 'sray-trevino@pulaskitech.edu',
+            'email' => 'sray-trevino@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3317,7 +3317,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Carol Parker',
-            'email' => 'cparker@pulaskitech.edu',
+            'email' => 'cparker@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3325,7 +3325,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Janine Armstrong',
-            'email' => 'jarmstrong@pulaskitech.edu',
+            'email' => 'jarmstrong@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3333,7 +3333,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'William Lindsey',
-            'email' => 'wlindsey@pulaskitech.edu',
+            'email' => 'wlindsey@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3341,7 +3341,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Melissa Potter',
-            'email' => 'mpotter@pulaskitech.edu',
+            'email' => 'mpotter@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3349,7 +3349,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Margery Wage',
-            'email' => 'mwage@pulaskitech.edu',
+            'email' => 'mwage@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3357,7 +3357,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Joseph John',
-            'email' => 'jjohn@pulaskitech.edu',
+            'email' => 'jjohn@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3365,7 +3365,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Siobhan Bartley',
-            'email' => 'sbartley@pulaskitech.edu',
+            'email' => 'sbartley@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3373,7 +3373,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Thomas Russell',
-            'email' => 'trussell@pulaskitech.edu',
+            'email' => 'trussell@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3381,7 +3381,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Robert Dixon',
-            'email' => 'rdixon@pulaskitech.edu',
+            'email' => 'rdixon@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3389,7 +3389,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Kay Shuttleworth',
-            'email' => 'kshuttleworth@pulaskitech.edu',
+            'email' => 'kshuttleworth@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3397,7 +3397,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Jennifer Knetig',
-            'email' => 'jknetig@pulaskitech.edu',
+            'email' => 'jknetig@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3405,7 +3405,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Dieterick Govan',
-            'email' => 'dgovan@pulaskitech.edu',
+            'email' => 'dgovan@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3413,7 +3413,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Ashley Wyatt',
-            'email' => 'awyatt@pulaskitech.edu',
+            'email' => 'awyatt@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3421,7 +3421,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Keith Hearnsberger',
-            'email' => 'khearnsberger@pulaskitech.edu',
+            'email' => 'khearnsberger@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3429,7 +3429,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Sonjia Michaels',
-            'email' => 'smichaels@pulaskitech.edu',
+            'email' => 'smichaels@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3437,7 +3437,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Rebecca Chism',
-            'email' => 'rchism@pulaskitech.edu',
+            'email' => 'rchism@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3445,7 +3445,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Keiona Middleton',
-            'email' => 'kmiddleton@pulaskitech.edu',
+            'email' => 'kmiddleton@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3453,7 +3453,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Joey Cole',
-            'email' => 'jcole@pulaskitech.edu',
+            'email' => 'jcole@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3461,7 +3461,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Mary Walla',
-            'email' => 'mwalla@pulaskitech.edu',
+            'email' => 'mwalla@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3469,7 +3469,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Cathy Underwood',
-            'email' => 'cunderwood@pulaskitech.edu',
+            'email' => 'cunderwood@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3477,7 +3477,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Marilyn Barlow',
-            'email' => 'mbarlow@pulaskitech.edu',
+            'email' => 'mbarlow@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3485,7 +3485,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Tom Hunt',
-            'email' => 'thunt@pulaskitech.edu',
+            'email' => 'thunt@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3493,7 +3493,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Robert Rands',
-            'email' => 'rrands@pulaskitech.edu',
+            'email' => 'rrands@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3501,7 +3501,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Rhonda Carroll',
-            'email' => 'rcarroll@pulaskitech.edu',
+            'email' => 'rcarroll@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3509,7 +3509,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Courtney Dycus',
-            'email' => 'cdycus@pulaskitech.edu',
+            'email' => 'cdycus@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3517,7 +3517,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Jamie Ryan',
-            'email' => 'jryan@pulaskitech.edu',
+            'email' => 'jryan@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3525,7 +3525,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Tatiana Ryckman',
-            'email' => 'tryckman@pulaskitech.edu',
+            'email' => 'tryckman@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3533,7 +3533,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'George Balogh',
-            'email' => 'gbalogh@pulaskitech.edu',
+            'email' => 'gbalogh@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3541,7 +3541,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Linda Ducrot',
-            'email' => 'lducrot@pulaskitech.edu',
+            'email' => 'lducrot@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3549,7 +3549,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Earl Davis',
-            'email' => 'edavis@pulaskitech.edu',
+            'email' => 'edavis@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3557,7 +3557,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Alandrea Kilpatrick',
-            'email' => 'akilpatrick@pulaskitech.edu',
+            'email' => 'akilpatrick@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3565,7 +3565,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Adrian Correa',
-            'email' => 'acorrea@pulaskitech.edu',
+            'email' => 'acorrea@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3573,7 +3573,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'James Vinson',
-            'email' => 'jvinson@pulaskitech.edu',
+            'email' => 'jvinson@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3581,7 +3581,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Brenda Aycock',
-            'email' => 'baycock@pulaskitech.edu',
+            'email' => 'baycock@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3589,7 +3589,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Anissa Ford',
-            'email' => 'aford@pulaskitech.edu',
+            'email' => 'aford@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3597,7 +3597,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Craig Jones',
-            'email' => 'cjones@pulaskitech.edu',
+            'email' => 'cjones@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3605,7 +3605,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Miriam Karanja',
-            'email' => 'mkaranja@pulaskitech.edu',
+            'email' => 'mkaranja@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3613,7 +3613,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Shelley Farmer ',
-            'email' => 'sfarmer @pulaskitech.edu',
+            'email' => 'sfarmer @uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3621,7 +3621,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Regena Bishop',
-            'email' => 'rbishop@pulaskitech.edu',
+            'email' => 'rbishop@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3629,7 +3629,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Tammie Deaton',
-            'email' => 'tdeaton@pulaskitech.edu',
+            'email' => 'tdeaton@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3637,7 +3637,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Gabrielle Haulmark',
-            'email' => 'ghaulmark@pulaskitech.edu',
+            'email' => 'ghaulmark@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3645,7 +3645,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Lisa Lamoureux',
-            'email' => 'llamoureux@pulaskitech.edu',
+            'email' => 'llamoureux@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3653,7 +3653,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Tachelle Nettles',
-            'email' => 'tnettles@pulaskitech.edu',
+            'email' => 'tnettles@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3661,7 +3661,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Mike Pridmore',
-            'email' => 'mpridmore@pulaskitech.edu',
+            'email' => 'mpridmore@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3669,7 +3669,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Jean Swillum',
-            'email' => 'jswillum@pulaskitech.edu',
+            'email' => 'jswillum@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3677,7 +3677,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Jay Sprigg',
-            'email' => 'jsprigg@pulaskitech.edu',
+            'email' => 'jsprigg@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3685,7 +3685,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'George Simonof',
-            'email' => 'gsimonof@pulaskitech.edu',
+            'email' => 'gsimonof@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3693,7 +3693,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Gregory Heintz',
-            'email' => 'gheintz@pulaskitech.edu',
+            'email' => 'gheintz@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3701,7 +3701,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Dustin Johnson',
-            'email' => 'djohnson@pulaskitech.edu',
+            'email' => 'djohnson@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3709,7 +3709,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Daniel Hoskins',
-            'email' => 'dhoskins@pulaskitech.edu',
+            'email' => 'dhoskins@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3717,7 +3717,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Lisa TwillieWoodruff',
-            'email' => 'ltwilliewoodruff@pulaskitech.edu',
+            'email' => 'ltwilliewoodruff@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3725,7 +3725,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Rhonda Troillett',
-            'email' => 'rtroillett@pulaskitech.edu',
+            'email' => 'rtroillett@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3733,7 +3733,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Helen Snyder',
-            'email' => 'hsnyder@pulaskitech.edu',
+            'email' => 'hsnyder@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3741,7 +3741,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Lacee Werdehausen',
-            'email' => 'lwerdehausen@pulaskitech.edu',
+            'email' => 'lwerdehausen@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3749,7 +3749,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Matthew Franks',
-            'email' => 'mfranks@pulaskitech.edu',
+            'email' => 'mfranks@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3757,7 +3757,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Theresa Allred',
-            'email' => 'tallred@pulaskitech.edu',
+            'email' => 'tallred@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3765,7 +3765,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Stella Bowers',
-            'email' => 'sbowers@pulaskitech.edu',
+            'email' => 'sbowers@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3773,7 +3773,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Brannon Runions',
-            'email' => 'brunions@pulaskitech.edu',
+            'email' => 'brunions@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3781,7 +3781,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Suzanne Reed',
-            'email' => 'sreed@pulaskitech.edu',
+            'email' => 'sreed@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3789,7 +3789,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Jaafar Alazzawi',
-            'email' => 'jalazzawi@pulaskitech.edu',
+            'email' => 'jalazzawi@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3797,7 +3797,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Doug Ford',
-            'email' => 'dford@pulaskitech.edu',
+            'email' => 'dford@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3805,7 +3805,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Tyrrell Schneider',
-            'email' => 'tschneider@pulaskitech.edu',
+            'email' => 'tschneider@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3813,7 +3813,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Terry Hunkapiller',
-            'email' => 'thunkapiller@pulaskitech.edu',
+            'email' => 'thunkapiller@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3821,7 +3821,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Allan Lemmon',
-            'email' => 'alemmon@pulaskitech.edu',
+            'email' => 'alemmon@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3829,7 +3829,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Stephanie Sheppard',
-            'email' => 'ssheppard@pulaskitech.edu',
+            'email' => 'ssheppard@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3837,7 +3837,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Traci Johnston',
-            'email' => 'tjohnston@pulaskitech.edu',
+            'email' => 'tjohnston@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3845,7 +3845,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Sarah Buford',
-            'email' => 'sbuford@pulaskitech.edu',
+            'email' => 'sbuford@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3853,7 +3853,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Denise Hammett',
-            'email' => 'dhammett@pulaskitech.edu',
+            'email' => 'dhammett@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3861,7 +3861,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Denies Matlock',
-            'email' => 'dmatlock@pulaskitech.edu',
+            'email' => 'dmatlock@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3869,7 +3869,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Calvin White',
-            'email' => 'cwhite@pulaskitech.edu',
+            'email' => 'cwhite@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3877,7 +3877,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Eugene Rathfon',
-            'email' => 'erathfon@pulaskitech.edu',
+            'email' => 'erathfon@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3885,7 +3885,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Amanda Willey  ',
-            'email' => 'awilley  @pulaskitech.edu',
+            'email' => 'awilley  @uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3893,7 +3893,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'James Hunt',
-            'email' => 'jhunt@pulaskitech.edu',
+            'email' => 'jhunt@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3901,7 +3901,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Greg Drzazgowski',
-            'email' => 'gdrzazgowski@pulaskitech.edu',
+            'email' => 'gdrzazgowski@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3909,7 +3909,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Karen Trevino',
-            'email' => 'ktrevino@pulaskitech.edu',
+            'email' => 'ktrevino@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3917,7 +3917,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Kami Wentz',
-            'email' => 'kwentz@pulaskitech.edu',
+            'email' => 'kwentz@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3925,7 +3925,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Julia Gibbins',
-            'email' => 'jgibbins@pulaskitech.edu',
+            'email' => 'jgibbins@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3933,7 +3933,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Robert Musser',
-            'email' => 'rmusser@pulaskitech.edu',
+            'email' => 'rmusser@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3941,7 +3941,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Michelle Herrera',
-            'email' => 'mherrera@pulaskitech.edu',
+            'email' => 'mherrera@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3949,7 +3949,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Caron Bowen',
-            'email' => 'cbowen@pulaskitech.edu',
+            'email' => 'cbowen@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3957,7 +3957,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Anna  Ortiz',
-            'email' => 'aortiz@pulaskitech.edu',
+            'email' => 'aortiz@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3965,7 +3965,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Karen Jensen',
-            'email' => 'kjensen@pulaskitech.edu',
+            'email' => 'kjensen@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3973,7 +3973,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Mike Leach',
-            'email' => 'mleach@pulaskitech.edu',
+            'email' => 'mleach@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3981,7 +3981,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Deborah Ahring',
-            'email' => 'dahring@pulaskitech.edu',
+            'email' => 'dahring@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3989,7 +3989,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Jeffrey Fischer',
-            'email' => 'jfischer@pulaskitech.edu',
+            'email' => 'jfischer@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -3997,7 +3997,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Phillipe Ducrot',
-            'email' => 'pducrot@pulaskitech.edu',
+            'email' => 'pducrot@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -4005,7 +4005,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Jomeka Mosby',
-            'email' => 'jmosby@pulaskitech.edu',
+            'email' => 'jmosby@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -4013,7 +4013,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'J Robyn Spence',
-            'email' => 'jspence@pulaskitech.edu',
+            'email' => 'jspence@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -4021,7 +4021,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Bernica Tackett',
-            'email' => 'btackett@pulaskitech.edu',
+            'email' => 'btackett@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -4029,7 +4029,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Lekita Pounds',
-            'email' => 'lpounds@pulaskitech.edu',
+            'email' => 'lpounds@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -4037,7 +4037,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Brian Hight',
-            'email' => 'bhight@pulaskitech.edu',
+            'email' => 'bhight@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -4045,7 +4045,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'James (Jim) Pearson',
-            'email' => 'jpearson@pulaskitech.edu',
+            'email' => 'jpearson@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -4053,7 +4053,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Jayne Pyle',
-            'email' => 'jpyle@pulaskitech.edu',
+            'email' => 'jpyle@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -4061,7 +4061,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Andy Turner',
-            'email' => 'aturner@pulaskitech.edu',
+            'email' => 'aturner@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -4069,7 +4069,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Leslie Omalley',
-            'email' => 'lomalley@pulaskitech.edu',
+            'email' => 'lomalley@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -4077,7 +4077,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Melody Berning',
-            'email' => 'mberning@pulaskitech.edu',
+            'email' => 'mberning@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -4085,7 +4085,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Anna Tanner',
-            'email' => 'atanner@pulaskitech.edu',
+            'email' => 'atanner@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -4093,7 +4093,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Sherelle Lee',
-            'email' => 'slee@pulaskitech.edu',
+            'email' => 'slee@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -4101,7 +4101,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Jim Porter',
-            'email' => 'jporter@pulaskitech.edu',
+            'email' => 'jporter@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -4109,7 +4109,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Bruce Schulte',
-            'email' => 'bschulte@pulaskitech.edu',
+            'email' => 'bschulte@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -4117,7 +4117,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Renee Smith',
-            'email' => 'rsmith@pulaskitech.edu',
+            'email' => 'rsmith@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -4125,7 +4125,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Mrghan Cantlon',
-            'email' => 'mcantlon@pulaskitech.edu',
+            'email' => 'mcantlon@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -4133,7 +4133,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Stephanie Phillips',
-            'email' => 'sphillips@pulaskitech.edu',
+            'email' => 'sphillips@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -4141,7 +4141,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Jason Martin',
-            'email' => 'jmartin@pulaskitech.edu',
+            'email' => 'jmartin@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -4149,7 +4149,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Berna Love',
-            'email' => 'blove@pulaskitech.edu',
+            'email' => 'blove@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -4157,7 +4157,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Jack Wood',
-            'email' => 'jwood@pulaskitech.edu',
+            'email' => 'jwood@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -4165,7 +4165,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Jeff Dixon',
-            'email' => 'jdixon@pulaskitech.edu',
+            'email' => 'jdixon@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -4173,7 +4173,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Joe Guy',
-            'email' => 'jguy@pulaskitech.edu',
+            'email' => 'jguy@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -4181,7 +4181,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'J. Don Keller',
-            'email' => 'jkeller@pulaskitech.edu',
+            'email' => 'jkeller@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -4189,7 +4189,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Jessica Martin',
-            'email' => 'jmartin@pulaskitech.edu',
+            'email' => 'jmartin@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -4197,7 +4197,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Tressa Ashberry',
-            'email' => 'tashberry@pulaskitech.edu',
+            'email' => 'tashberry@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -4205,7 +4205,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Michael Mills',
-            'email' => 'mmills@pulaskitech.edu',
+            'email' => 'mmills@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -4213,7 +4213,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Michael Harris',
-            'email' => 'mharris@pulaskitech.edu',
+            'email' => 'mharris@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -4221,7 +4221,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Antonia Garcia',
-            'email' => 'agarcia@pulaskitech.edu',
+            'email' => 'agarcia@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -4229,7 +4229,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'LaTasha Ursery',
-            'email' => 'lursery@pulaskitech.edu',
+            'email' => 'lursery@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -4237,7 +4237,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Anna Pagan',
-            'email' => 'apagan@pulaskitech.edu',
+            'email' => 'apagan@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -4245,7 +4245,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Suzanne Campbell',
-            'email' => 'scampbell@pulaskitech.edu',
+            'email' => 'scampbell@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -4253,7 +4253,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Rachel Miller',
-            'email' => 'rmiller@pulaskitech.edu',
+            'email' => 'rmiller@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -4261,7 +4261,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Debbie Scharbor',
-            'email' => 'dscharbor@pulaskitech.edu',
+            'email' => 'dscharbor@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -4269,7 +4269,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Steven Eisenberg',
-            'email' => 'seisenberg@pulaskitech.edu',
+            'email' => 'seisenberg@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -4277,7 +4277,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'William Ginocchio',
-            'email' => 'wginocchio@pulaskitech.edu',
+            'email' => 'wginocchio@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -4285,7 +4285,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Frank Opitz',
-            'email' => 'fopitz@pulaskitech.edu',
+            'email' => 'fopitz@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -4293,7 +4293,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Joshua Johnson',
-            'email' => 'jjohnson@pulaskitech.edu',
+            'email' => 'jjohnson@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -4301,7 +4301,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Christie Sherrill',
-            'email' => 'csherrill@pulaskitech.edu',
+            'email' => 'csherrill@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -4309,7 +4309,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Dora Bradley',
-            'email' => 'dbradley@pulaskitech.edu',
+            'email' => 'dbradley@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -4317,7 +4317,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Frank Latimer',
-            'email' => 'flatimer@pulaskitech.edu',
+            'email' => 'flatimer@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -4325,7 +4325,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Vince Gemmiti',
-            'email' => 'vgemmiti@pulaskitech.edu',
+            'email' => 'vgemmiti@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -4333,7 +4333,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Jerri Shertzer',
-            'email' => 'jshertzer@pulaskitech.edu',
+            'email' => 'jshertzer@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -4341,7 +4341,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Martha (MJ) Bennett',
-            'email' => 'mbennett@pulaskitech.edu',
+            'email' => 'mbennett@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -4349,7 +4349,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Kristi Tucker',
-            'email' => 'ktucker@pulaskitech.edu',
+            'email' => 'ktucker@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -4357,7 +4357,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Steven Bryan Frazer',
-            'email' => 'sfrazer@pulaskitech.edu',
+            'email' => 'sfrazer@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -4365,7 +4365,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Angel Dorsey',
-            'email' => 'adorsey@pulaskitech.edu',
+            'email' => 'adorsey@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -4373,7 +4373,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Alicia Boatwright',
-            'email' => 'aboatwright@pulaskitech.edu',
+            'email' => 'aboatwright@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -4381,7 +4381,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Stacey Boone',
-            'email' => 'sboone@pulaskitech.edu',
+            'email' => 'sboone@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -4389,7 +4389,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Betty Raper',
-            'email' => 'braper@pulaskitech.edu',
+            'email' => 'braper@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -4397,7 +4397,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'S. Whittington Brown',
-            'email' => 'sbrown@pulaskitech.edu',
+            'email' => 'sbrown@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -4405,7 +4405,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'April Hearne',
-            'email' => 'ahearne@pulaskitech.edu',
+            'email' => 'ahearne@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -4413,7 +4413,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Jasmine Greer',
-            'email' => 'jgreer@pulaskitech.edu',
+            'email' => 'jgreer@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -4421,7 +4421,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Chris Weaver',
-            'email' => 'cweaver@pulaskitech.edu',
+            'email' => 'cweaver@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -4429,7 +4429,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Shana Wilson',
-            'email' => 'swilson@pulaskitech.edu',
+            'email' => 'swilson@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -4437,7 +4437,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Amy Garst',
-            'email' => 'agarst@pulaskitech.edu',
+            'email' => 'agarst@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -4445,7 +4445,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Deborly Wade',
-            'email' => 'dwade@pulaskitech.edu',
+            'email' => 'dwade@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -4453,7 +4453,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Carol Gale',
-            'email' => 'cgale@pulaskitech.edu',
+            'email' => 'cgale@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -4461,7 +4461,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Reba Treece',
-            'email' => 'rtreece@pulaskitech.edu',
+            'email' => 'rtreece@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -4469,7 +4469,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Jesse Hall',
-            'email' => 'jhall@pulaskitech.edu',
+            'email' => 'jhall@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -4477,7 +4477,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Jan Lewandowski',
-            'email' => 'jlewandowski@pulaskitech.edu',
+            'email' => 'jlewandowski@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -4486,7 +4486,7 @@ class UsersTableSeeder extends Seeder
 
         DB::table('users')->insert([
             'name' => 'Joyce Person',
-            'email' => 'jperson@pulaskitech.edu',
+            'email' => 'jperson@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -4495,7 +4495,7 @@ class UsersTableSeeder extends Seeder
 
         DB::table('users')->insert([
             'name' => 'Yong Park',
-            'email' => 'ypark@pulaskitech.edu',
+            'email' => 'ypark@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -4504,7 +4504,7 @@ class UsersTableSeeder extends Seeder
 
         DB::table('users')->insert([
             'name' => 'Ashley Steele',
-            'email' => 'asteele@pulaskitech.edu',
+            'email' => 'asteele@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -4513,7 +4513,7 @@ class UsersTableSeeder extends Seeder
 
         DB::table('users')->insert([
             'name' => 'Somerly Mustin',
-            'email' => 'smustin@pulaskitech.edu',
+            'email' => 'smustin@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -4521,7 +4521,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Shanda Winkowski-Thornton',
-            'email' => 'swinkowski-thornton@pulaskitech.edu',
+            'email' => 'swinkowski-thornton@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -4529,7 +4529,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Karen Johnson',
-            'email' => 'kjohnson@pulaskitech.edu',
+            'email' => 'kjohnson@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -4537,7 +4537,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Sharee Young',
-            'email' => 'syoung@pulaskitech.edu',
+            'email' => 'syoung@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -4546,7 +4546,7 @@ class UsersTableSeeder extends Seeder
 
         DB::table('users')->insert([
             'name' => 'Rachel Caruthers',
-            'email' => 'rcaruthers@pulaskitech.edu',
+            'email' => 'rcaruthers@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -4555,7 +4555,7 @@ class UsersTableSeeder extends Seeder
 
         DB::table('users')->insert([
             'name' => 'Randall Aragon',
-            'email' => 'raragon@pulaskitech.edu',
+            'email' => 'raragon@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -4564,7 +4564,7 @@ class UsersTableSeeder extends Seeder
 
         DB::table('users')->insert([
             'name' => 'Connelly Weeks',
-            'email' => 'cweeks@pulaskitech.edu',
+            'email' => 'cweeks@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -4573,7 +4573,7 @@ class UsersTableSeeder extends Seeder
 
         DB::table('users')->insert([
             'name' => 'Susan James',
-            'email' => 'sjames@pulaskitech.edu',
+            'email' => 'sjames@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -4582,7 +4582,7 @@ class UsersTableSeeder extends Seeder
 
         DB::table('users')->insert([
             'name' => 'James McAfee',
-            'email' => 'jmcafee@pulaskitech.edu',
+            'email' => 'jmcafee@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -4591,7 +4591,7 @@ class UsersTableSeeder extends Seeder
 
         DB::table('users')->insert([
             'name' => 'Cathy Kincaid',
-            'email' => 'ckincaid@pulaskitech.edu',
+            'email' => 'ckincaid@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -4600,7 +4600,7 @@ class UsersTableSeeder extends Seeder
 
         DB::table('users')->insert([
             'name' => 'Shaun Everest',
-            'email' => 'severest@pulaskitech.edu',
+            'email' => 'severest@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -4608,7 +4608,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Wendy Schay',
-            'email' => 'wschay@pulaskitech.edu',
+            'email' => 'wschay@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -4616,7 +4616,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Stephen Edds',
-            'email' => 'sedds@pulaskitech.edu',
+            'email' => 'sedds@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -4624,7 +4624,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Gary Garner',
-            'email' => 'ggarner@pulaskitech.edu',
+            'email' => 'ggarner@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -4632,7 +4632,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Richard Kron',
-            'email' => 'rkron@pulaskitech.edu',
+            'email' => 'rkron@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -4641,7 +4641,7 @@ class UsersTableSeeder extends Seeder
 
         DB::table('users')->insert([
             'name' => 'Patty McCormack',
-            'email' => 'pmccormack@pulaskitech.edu',
+            'email' => 'pmccormack@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -4649,7 +4649,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Mitchell Berlin',
-            'email' => 'mberlin@pulaskitech.edu',
+            'email' => 'mberlin@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -4657,7 +4657,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Jinnings Burress',
-            'email' => 'jburress@pulaskitech.edu',
+            'email' => 'jburress@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -4665,7 +4665,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Jacqueline Smith',
-            'email' => 'jsmith@pulaskitech.edu',
+            'email' => 'jsmith@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -4673,7 +4673,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'William Allen',
-            'email' => 'wallen@pulaskitech.edu',
+            'email' => 'wallen@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -4686,7 +4686,7 @@ class UsersTableSeeder extends Seeder
 
         DB::table('users')->insert([
             'name' => 'Marsha Norwood',
-            'email' => 'mnorwood@pulaskitech.edu',
+            'email' => 'mnorwood@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -4696,7 +4696,7 @@ class UsersTableSeeder extends Seeder
 
         DB::table('users')->insert([
             'name' => 'Jonathan Russ',
-            'email' => 'jruss@pulaskitech.edu',
+            'email' => 'jruss@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -4704,7 +4704,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Justin Sangster',
-            'email' => 'jsangster@pulaskitech.edu',
+            'email' => 'jsangster@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -4712,7 +4712,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Jeffery Shaw',
-            'email' => 'jshaw@pulaskitech.edu',
+            'email' => 'jshaw@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -4721,7 +4721,7 @@ class UsersTableSeeder extends Seeder
 
         DB::table('users')->insert([
             'name' => 'Lana Riding',
-            'email' => 'lriding@pulaskitech.edu',
+            'email' => 'lriding@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -4729,7 +4729,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Robin Reed',
-            'email' => 'rreed@pulaskitech.edu',
+            'email' => 'rreed@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -4737,7 +4737,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Ann Fellinger',
-            'email' => 'afellinger@pulaskitech.edu',
+            'email' => 'afellinger@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -4745,7 +4745,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Carlos Miller',
-            'email' => 'cmiller@pulaskitech.edu',
+            'email' => 'cmiller@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -4753,7 +4753,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Jill McDonald',
-            'email' => 'jmcdonald@pulaskitech.edu',
+            'email' => 'jmcdonald@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -4761,7 +4761,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Mimi Mcafee',
-            'email' => 'mmcafee@pulaskitech.edu',
+            'email' => 'mmcafee@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -4769,7 +4769,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Robert Hall',
-            'email' => 'rhall@pulaskitech.edu',
+            'email' => 'rhall@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -4777,7 +4777,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Jerry Elliot',
-            'email' => 'jelliot@pulaskitech.edu',
+            'email' => 'jelliot@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -4785,7 +4785,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Shana Graves',
-            'email' => 'sgraves@pulaskitech.edu',
+            'email' => 'sgraves@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -4793,7 +4793,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Carita Alexander',
-            'email' => 'calexander@pulaskitech.edu',
+            'email' => 'calexander@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -4802,7 +4802,7 @@ class UsersTableSeeder extends Seeder
 
         DB::table('users')->insert([
             'name' => 'Anthony Giglia',
-            'email' => 'agiglia@pulaskitech.edu',
+            'email' => 'agiglia@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -4810,7 +4810,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Charlotte Lewallen',
-            'email' => 'clewallen@pulaskitech.edu',
+            'email' => 'clewallen@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -4818,7 +4818,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Jason McFadden',
-            'email' => 'jmcfadden@pulaskitech.edu',
+            'email' => 'jmcfadden@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -4826,7 +4826,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Lyndi Mullinax',
-            'email' => 'lmullinax@pulaskitech.edu',
+            'email' => 'lmullinax@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -4834,7 +4834,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Kevin Cummings',
-            'email' => 'kcummings@pulaskitech.edu',
+            'email' => 'kcummings@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -4842,7 +4842,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Cynthia Booker',
-            'email' => 'cbooker@pulaskitech.edu',
+            'email' => 'cbooker@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -4850,7 +4850,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Regina Howard',
-            'email' => 'rhoward@pulaskitech.edu',
+            'email' => 'rhoward@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -4858,7 +4858,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Katie Carr',
-            'email' => 'kcarr@pulaskitech.edu',
+            'email' => 'kcarr@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -4866,7 +4866,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Felicia Russell-Wilson',
-            'email' => 'frussell-wilson@pulaskitech.edu',
+            'email' => 'frussell-wilson@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -4874,7 +4874,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Marsha Garrett',
-            'email' => 'mgarrett@pulaskitech.edu',
+            'email' => 'mgarrett@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,
@@ -4882,7 +4882,7 @@ class UsersTableSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'name' => 'Bobby Myers',
-            'email' => 'bmyers@pulaskitech.edu',
+            'email' => 'bmyers@uaptc.edu',
             'password' => bcrypt('Letmein123'),
             'certified' => 1,
             'isAdmin' => 0,

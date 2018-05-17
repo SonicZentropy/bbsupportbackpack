@@ -34,14 +34,14 @@
 
     <br/><br/>
     <div class="centered boldtext">Final</div>
-    Once you have completed ALL course assignments, you will need to email OFS@pulaskitech.edu to
+    Once you have completed ALL course assignments, you will need to email OFS@uaptc.edu to
     request a "BB training course final dev shell." Be sure to mention Blackboard training in your
     request as we receive various requests through this email address. You will receive a confirmation
     email that your request has been received, and a second email once your final dev shell has been created.
 
     <br/><br/>
     <div class="centered boldtext">Help</div>
-    If you have any trouble logging into the system or accessing your course shells, please email OFS@pulaskitech.edu.
+    If you have any trouble logging into the system or accessing your course shells, please email OFS@uaptc.edu.
     You will be notified if, for any reason, it is expected that either Blackboard server will be done.
     Please understand there will be no deadline extensions allowed.
     <br/><br/>

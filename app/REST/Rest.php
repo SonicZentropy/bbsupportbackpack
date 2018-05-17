@@ -3,6 +3,8 @@
 
 namespace App\REST;
 
+use App\REST\DTO\CourseForCreation;
+use App\REST\DTO\MembershipForCreation;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
 
@@ -416,10 +418,13 @@ class Rest
 
     public function createCourseFromObject($access_token, Course $course)
     {
+        $jsonbody = json_encode($course);
+        $courseForCreation = new CourseForCreation();
+        $courseForCreation->SetFromCourse($course);
 
         try {
             $response = $this->client->request('POST', Constants::HOSTNAME . Constants::COURSE_PATH, [
-                'body' => json_encode($course),
+                'body' => json_encode($courseForCreation),
                 'headers' => [
                     'Authorization' => 'Bearer ' . $access_token,
                     'Content-Type' => 'application/json',
@@ -793,7 +798,8 @@ class Rest
         $membership->courseId = $course_id;
         $membership->courseRoleId = $courseRoleId;
         //$membership->created = "2017-12-04T22:06:56:592Z";
-
+        $mem = new MembershipForCreation();
+        $mem->SetFromMembership($membership);
 
         //$request = new HTTP_Request2(Constants::HOSTNAME . Constants::COURSE_PATH . '/' . $course_id . '/users/' . $user_id, HTTP_Request2::METHOD_PUT);
         //$request->setHeader('Authorization', 'Bearer ' . $access_token);
@@ -804,7 +810,7 @@ class Rest
         try {
             $response = $this->client->request('PUT', Constants::HOSTNAME . CONSTANTS::COURSE_PATH . '/' . $course_id . '/users/' . $user_id, [
             //$response = $this->client->request('PUT', $path, [
-                'body' => json_encode($membership),
+                'body' => json_encode($mem),
                 'headers' => [
                     'Authorization' => 'Bearer ' . $access_token,
                     'Content-Type' => 'application/json'],

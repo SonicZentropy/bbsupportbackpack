@@ -25,7 +25,7 @@ if(IsInjected($visitor_email))
     exit;
 }
 
-$email_from = 'no-reply@pulaskitech.edu';//<== update the email address
+$email_from = 'no-reply@uaptc.edu';//<== update the email address
 $email_subject = "Developmental Course Shell Request";
 $email_body = "You have received a request for a new developmental course shell from $name.\n".
     "Name: $name\n"
@@ -35,7 +35,7 @@ $email_body = "You have received a request for a new developmental course shell 
 	"Course Copy From: $coursecopyfrom\n"
 	"Comments: $comments\n";
     
-$to = "ofs@pulaskitech.edu";//<== update the email address
+$to = "ofs@uaptc.edu";//<== update the email address
 $headers = "From: $email_from \r\n";
 $headers .= "Reply-To: $visitor_email \r\n";
 //Send the email!

@@ -38,7 +38,7 @@ class RegistrationConfirmation extends Mailable
         //\Debugbar::addMessage('Sending EMAIL');
 	    $selectedTraining = TrainingSession::where('id', $this->tr->training_session_id)->first();
 
-        return $this->from('ofs@pulaskitech.edu')
+        return $this->from('ofs@uaptc.edu')
                     ->subject('Blackboard Training Registration Confirmation')
 	                ->with([ //2017-04-08 08:10:00
 	                	//'first_date' => $selectedTraining->first_session,

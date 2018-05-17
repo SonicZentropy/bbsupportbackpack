@@ -189,7 +189,7 @@
             </div>
             <div class="col-sm-12 bottommargin-ten">
                 {{Form::checkbox('Policy2Agreement')}}I understand that in order to cancel my registration, I will need
-                to contact OFS@pulaskitech.edu.
+                to contact OFS@uaptc.edu.
 
             </div>
             <div class="col-sm-12 bottommargin-ten">

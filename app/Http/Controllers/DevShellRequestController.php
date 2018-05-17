@@ -71,14 +71,14 @@ class DevShellRequestController extends Controller
         $course->dataSourceId = '_444_1';
         $course->termId = '_7_1';
         $course->availability = 'yes';
-        $course->courseId = 'SP.2018.' . $courseid . '.DEV.' . $id;
+        $course->courseId = $courseid . '.DEV.' . $id;
         $newcourseid = "courseId:" . $course->courseId;
         $course->externalId = $course->courseId;
         $course->description = $id . " Development shell";
         //BBTRAIN.O.2017.MM.00# - Your.Name
         $course->name = $course->courseId;
         //$course->name = $course->courseId;
-        $course->uuid = uniqid("", true);
+        //$course->uuid = uniqid("", true);
         //$course->id = $course->courseId;
         //print "Creating course from object";
         $rest = new Rest();

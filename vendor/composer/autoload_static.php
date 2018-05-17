@@ -551,6 +551,7 @@ class ComposerStaticInitfc16fed7a180b15dd9a2159c6449d94f
         'App\\REST\\DTO\\Availability' => __DIR__ . '/../..' . '/app/REST/DTO/Availability.class.php',
         'App\\REST\\DTO\\Contact' => __DIR__ . '/../..' . '/app/REST/DTO/Contact.class.php',
         'App\\REST\\DTO\\Course' => __DIR__ . '/../..' . '/app/REST/DTO/Course.class.php',
+        'App\\REST\\DTO\\CourseForCreation' => __DIR__ . '/../..' . '/app/REST/DTO/Course.class.php',
         'App\\REST\\DTO\\Datasource' => __DIR__ . '/../..' . '/app/REST/DTO/Datasource.class.php',
         'App\\REST\\DTO\\Duration' => __DIR__ . '/../..' . '/app/REST/DTO/Duration.class.php',
         'App\\REST\\DTO\\Enrollment' => __DIR__ . '/../..' . '/app/REST/DTO/Enrollment.class.php',

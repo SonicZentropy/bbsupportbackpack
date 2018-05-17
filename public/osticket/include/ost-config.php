@@ -33,7 +33,7 @@ if(OSTINSTALLED!=TRUE){
 define('SECRET_SALT','k6Z8gnYv66lPk5nPBhk1X1p0BE3CKIgJ');
 
 #Default admin email. Used only on db connection issues and related alerts.
-define('ADMIN_EMAIL','tpatterson@pulaskitech.edu');
+define('ADMIN_EMAIL','tpatterson@uaptc.edu');
 
 # Database Options
 # ---------------------------------------------------
