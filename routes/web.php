@@ -11,10 +11,10 @@
 |
 */
 
-Route::get('/', 'TrainingRegistrationController@index');
-//Route::get('/', function() {
-//  return redirect('/osticket/scp');
-//});
+//Route::get('/', 'TrainingRegistrationController@index');
+Route::get('/', function() {
+  return redirect('/landing');
+});
 
 Route::get('/devshellrequest', 'DevShellRequestController@index');
 Route::post('/devshellrequest', 'DevShellRequestController@store');

@@ -37,7 +37,7 @@
                     </div>
                     <div class="col-sm-11 row-m-t-ten">
                         <input type="text" name="personal_id" id="training_registration-personal_id"
-                               placeholder="Faculty ID Number"
+                               placeholder="Faculty ID Number (old version)"
                                class="form-control">
                     </div>
                 </div>

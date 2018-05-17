@@ -600,7 +600,7 @@ class Rest
                 return FALSE;
             }
         } catch (ClientException $e) {
-            print 'Error: ' . $e->getMessage();
+            //print 'Error: ' . $e->getMessage();
             return FALSE;
         }
 

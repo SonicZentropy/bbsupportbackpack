@@ -16,7 +16,7 @@ class CreateTrainingSessionsTable extends Migration
         Schema::create('training_sessions', function (Blueprint $table) {
             $table->increments('id');
             $table->dateTime('first_session');
-            $table->dateTime('second_session');
+            $table->dateTime('second_session')->nullable();
             //$table->integer('training_type')->default('0');
             $table->enum('training_type', array('Workshop', 'Online'))->default('Workshop');
             $table->integer('number_enrolled')->default(0);
