@@ -36,9 +36,6 @@
             Training will be in the second floor Library computer lab (Room 200) on:<br><br>
             1) {{ $first_date }}.<br>
 
-            2) {{ $second_date }}.<br><br>
-
-            Each training day will last 3 hours.
         </td>
     </tr>
 

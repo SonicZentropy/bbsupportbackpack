@@ -43,7 +43,6 @@ class RegistrationConfirmation extends Mailable
 	                ->with([ //2017-04-08 08:10:00
 	                	//'first_date' => $selectedTraining->first_session,
                         'first_date' => prettydate($selectedTraining->first_session),
-		                'second_date' => prettydate($selectedTraining->second_session),
 	                ])
                     ->view('mails.regConfirmMail');
     }
