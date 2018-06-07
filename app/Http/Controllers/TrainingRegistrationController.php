@@ -131,8 +131,8 @@ class TrainingRegistrationController extends Controller
 
 
         return view('regConfirmation')
-            ->with('first_date', $selectedTraining->first_session)
-            ->with('second_date', $selectedTraining->second_session);
+            ->with('first_date', $selectedTraining->first_session);
+            //->with('second_date', $selectedTraining->second_session);
     }
 
     private function SetupBlackboard($user, $reg, $isOnline) {
@@ -235,8 +235,8 @@ class TrainingRegistrationController extends Controller
         Log::debug("In sending verification email to " . $user->email);
         //Mail::to($user->email)->send(new RegistrationConfirmation($reg, $user));
         $this->bmail->send('mails.regConfirmMail', [
-            'first_date' => prettydate($selectedTraining->first_session),
-            'second_date' => prettydate($selectedTraining->second_session)],
+            'first_date' => prettydate($selectedTraining->first_session)],
+            //'second_date' => prettydate($selectedTraining->second_session)],
             function($message) use ($user) {
                 $message->from('ofs@uaptc.edu')
                     ->to($user->email)
@@ -252,8 +252,8 @@ class TrainingRegistrationController extends Controller
             'username' => $user->name,
             'userid' => $user->personal_id,
             'user_email' => $user->email,
-            'first_date' => prettydate($selectedTraining->first_session),
-            'second_date' => prettydate($selectedTraining->second_session)],
+            'first_date' => prettydate($selectedTraining->first_session)],
+            //'second_date' => prettydate($selectedTraining->second_session)],
             function($message) use ($user) {
                 $message->from('ofs@uaptc.edu')
                     ->to('jcwilliams@uaptc.edu')

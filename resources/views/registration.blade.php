@@ -146,7 +146,7 @@
                                 <div>{{ $session->training_type }}</div>
                             </td>
                             <td class="table-text">
-                                <div>{{Carbon\Carbon::parse($session->first_session)->format('F j, Y')}}: 9AM-12PM</div>
+                                <div>{{Carbon\Carbon::parse($session->first_session)->format('F j, Y - g:ia')}}</div>
                             </td>
 
 

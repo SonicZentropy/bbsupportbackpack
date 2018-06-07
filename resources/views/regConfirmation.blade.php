@@ -11,12 +11,7 @@
 
     Your Blackboard Training Session Registration is Confirmed!<br/>
     Training will be in the second floor Library computer lab (Room 200) on:<br/><br/>
-    {{Carbon\Carbon::parse($first_date)->format('F j, Y')}} from 9AM to 12PM<br/>
-    and<br/>
-    {{Carbon\Carbon::parse($second_date)->format('F j, Y')}} from 9AM to 12PM<br/><br/>
-
-    Each training day will last 3 hours.
-
+    {{Carbon\Carbon::parse($first_date)->format('F jS, Y - g:ia')}}<br/>
 
 @endsection
 
