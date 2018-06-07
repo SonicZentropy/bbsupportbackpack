@@ -76,7 +76,7 @@ class TrainingRegistrationController extends Controller
         //\Debugbar::addMessage('Another message');
         return view('registration', [
             'registrations' => $this->registrations->getTrainingRegistrations(),
-            'trainingSessions' => $this->trainingSessions->getNextThreeTrainingSessions(),
+            'trainingSessions' => $this->trainingSessions->getAllFutureTrainingSessions(),
         ]);
     }
 

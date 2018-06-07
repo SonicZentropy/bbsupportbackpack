@@ -108,10 +108,7 @@
                         <div>TRAINING TYPE</div>
                     </th>
                     <th class="table-text">
-                        <div>FIRST SESSION DATE</div>
-                    </th>
-                    <th class="table-text">
-                        <div>SECOND SESSION DATE</div>
+                        <div>SESSION DATE</div>
                     </th>
 
                     </thead>
@@ -128,9 +125,6 @@
                         </td>
                         <td class="table-text">
                             <div>Online</div>
-                        </td>
-                        <td class="table-text">
-                            <div>ANY</div>
                         </td>
                         <td class="table-text">
                             <div>ANY</div>
@@ -153,10 +147,6 @@
                             </td>
                             <td class="table-text">
                                 <div>{{Carbon\Carbon::parse($session->first_session)->format('F j, Y')}}: 9AM-12PM</div>
-                            </td>
-                            <td class="table-text">
-                                <div>{{Carbon\Carbon::parse($session->second_session)->format('F j, Y')}}: 9AM-12PM
-                                </div>
                             </td>
 
 
